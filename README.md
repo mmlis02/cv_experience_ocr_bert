@@ -201,7 +201,12 @@ Figures: `output/figures/pred_vs_true.png`, `mae_by_band.png`, `mae_by_occupatio
 | Delete one job | −2.65 | 0 | −1.15 | −1.72 | **−1.79** (right direction in 20/20, corr. with the job's length −0.07) | −2.65 |
 | Shift every date +5 years | 0 | 0 | −0.58 | −0.54 | **−1.45** | 0 |
 
-**What this tells us.** BERT knows that *one job fewer* means less experience, but not *how much less*: its change does not track the deleted job's length. Shifting dates into the future, which a recruiter would ignore, lowers its prediction by almost 1.5 years. It has learned **a mix of absolute-year cues and job counts**: in this data, years close to 2023 signal a recent start. It has not learned date arithmetic. Only the rules read dates the way a recruiter does.
+**What this tells us, model by model:**
+- **Median:** never moves. It reads nothing.
+- **TF-IDF:** moves on deletion (one job line fewer) in 19/20 CVs, but only by −1.15 and with no relation to the job's length (corr. −0.07). It drops 0.58 years when the years shift. It reads **vocabulary**, including year tokens as words, not dates.
+- **Embeddings:** the same pattern (−1.72 on deletion, corr. 0.14; −0.54 on the shift). It reacts to having less text and to what the text is about, not to date arithmetic.
+- **BERT:** right direction on every deletion (20/20), but only about two thirds of the expected change and uncorrelated with the job's length. It drops almost 1.5 years when dates shift into the future, which a recruiter would ignore. It reads dates **partly**: its predictions also lean on absolute-year cues (in this data, years close to 2023 signal a recent start) and on the number of job lines. It has not learned the arithmetic.
+- **Date rules:** move exactly as expected in both edits. Only they **read dates** the way a recruiter does.
 
 **Possible improvements:**
 - give the rules' sum as an input or train BERT on the residual;
@@ -221,10 +226,14 @@ Figures: `output/figures/pred_vs_true.png`, `mae_by_band.png`, `mae_by_occupatio
 | Fine-tuned BERT | 0.251 | 0.258 | −0.007 | [−0.009, −0.004] |
 | Date rules | 0.023 | 0.022 | +0.001 | [0.000, 0.003] |
 
-- **Robustness.** After the date repair, OCR noise costs **less than 0.015 years for every model**: all models are robust here.
-  - Bag-of-words and embedding models do not depend on single characters.
-  - BERT is even 0.007 years *better* on OCR text, because it was trained on OCR text and the reference is slightly out of its distribution (for example, full `2023.01` dates where the image shows `2023.`).
-  - **Without** the repair the cost is real: see Question 3.
+- After the date repair, OCR noise costs **less than 0.015 years for every model**.
+- **Most robust: TF-IDF + Ridge** among the learned models.
+  - Its OCR-vs-reference gap is +0.002 years (not significant).
+  - On the *unrepaired* raw OCR it loses only +0.011 years (Question 3, not significant).
+  - **Why:** its character n-grams are redundant. A misread or missing character changes a handful of n-grams out of hundreds, and the pieces of a glued date (`2020.`, `.11`, `2023`) still match the training vocabulary.
+  - The date rules are equally robust by design, because their regex accepts a missing separator, but they are not a learned model.
+- **Embeddings:** robust to the residual noise (+0.014, not significant), but they lose 0.075 years on raw text.
+- **BERT:** robust once dates are repaired (−0.007 years, slightly *better* on OCR text, which is what it was trained on, for example `2023.` truncations), but it is the **least** robust to unrepaired noise (+0.17 years on raw text). It needs well-separated dates to approximate the arithmetic, so the date repair is what makes BERT robust.
 
 ### Question 3 — Methodological sensitivity
 
@@ -251,11 +260,12 @@ The OCR cleaning choice was tested: each model was trained **and** tested on `ra
 
 Pre-filling a field that the candidate or a recruiter confirms is low risk. **Deciding who gets an interview is not:** a wrong number becomes a silent rejection.
 
-**What an error costs.**
-- **±2 years** hardly matters for a profile field, and every BERT prediction on the test set is within ±2 years. It matters at hard thresholds ("5+ years required"): a 4.5-year candidate predicted at 5.5 passes, and a 5.5-year candidate predicted at 4.5 is filtered out.
-- **±5 years** would misplace a candidate by a whole seniority level (junior vs senior), with mismatched interviews or salary bands. No learned model here makes errors that large, but they would on messier real CVs.
+**What an error costs** (600 test CVs, `output/tables/q4_error_costs.csv`):
+- **±2 years** hardly matters for a profile field. BERT makes **0 errors above 2 years** (max 1.6); TF-IDF makes 35 and embeddings 108.
+- It matters at hard thresholds. At a **"5+ years required"** cut-off, BERT puts **15 CVs (2.5%)** on the wrong side: 13 wrongly passed, 2 wrongly rejected. TF-IDF puts 57 (33 passed, 24 rejected), embeddings 73, and the median 262.
+- **±5 years** misplaces a candidate by a whole seniority level (junior vs senior), with mismatched interviews or salary bands. Here BERT makes 0 such errors, TF-IDF 1, embeddings 9 and the median 128. On messier real CVs they would be more frequent.
 
-**Which error is worse.** In screening, **underestimating** is worse for the candidate: it is invisible, they are rejected without knowing why, and it falls hardest on people with career gaps or non-standard dates. Overestimating mostly costs the employer an unsuitable interview. Any use should therefore show the extracted dates next to the number and let a person correct it.
+**Which error is worse.** In screening, **underestimating** is worse for the candidate: it is invisible, they are rejected without knowing why, and it falls hardest on people with career gaps or non-standard dates. Overestimating mostly costs the employer an unsuitable interview. BERT overestimates 63% of the time, so its threshold mistakes are mostly "wrongly passed", the less harmful kind. Any use should still show the extracted dates next to the number and let a person correct it.
 
 **Fairness check.** Sex and race are never model inputs, and names are removed.
 
@@ -272,7 +282,12 @@ Pre-filling a field that the candidate or a recruiter confirms is low risk. **De
 - The rules show no difference at all.
 - **Likely explanation.** BERT's bias depends on career patterns, which correlate with group membership in this population-based data. Its largest overestimates are careers with a gap after the last job, and men have that pattern more often (19.9% vs 16.7% of test CVs). Mean experience also differs by group (Asian/PI 7.5 years vs White 6.3). So a model can carry group differences without seeing the attribute, and this check must be repeated on real data before any deployment.
 
-**Limitations.** See [§11](#11-limitations-and-business-applications).
+**Limitations, and why it must never decide on hiring.**
+- **Synthetic CVs from a single, single-column template**, where the target is exactly the sum of the listed jobs.
+- Only **5 occupations**, **U.S.** population statistics, **English only**.
+- One training run per model.
+
+Its errors concentrate on non-standard careers (gaps), it can treat groups slightly differently without seeing sex or race, and a candidate cannot see or contest an automatic number. It may pre-fill or route; **a person must make every hiring decision**. More detail in [§11](#11-limitations-and-business-applications).
 
 ## 11. Limitations and business applications
 
