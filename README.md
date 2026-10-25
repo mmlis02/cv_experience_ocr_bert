@@ -1,28 +1,367 @@
 # Predicting Years of Experience from CV Images with PaddleOCR and BERT
 
-End-to-end document-AI system: a CV image is read with PaddleOCR and a fine-tuned BERT-based regressor predicts the candidate's years of work experience (0–20), compared against a median predictor, TF-IDF + Ridge and sentence embeddings + Ridge.
+An end-to-end document-AI system: a CV **image** is read with **PaddleOCR**, the text is put back in reading order and cleaned, and a **fine-tuned DistilBERT regressor** estimates the candidate's **years of work experience (0–20)**. It is compared with a median guess, TF-IDF + Ridge, frozen sentence embeddings + Ridge and, as a bonus, a date-arithmetic rule. Every model uses the same OCR output and the same train / validation / test split.
 
-> Work in progress — this README is completed stage by stage.
+**Headline result (600 test CVs):** BERT is off by **0.25 years** on average (MAE), against 0.84 for TF-IDF and 1.26 for embeddings. That is a significant 70% reduction over the best baseline (95% CI 0.53–0.64 years). But a 30-line regex that adds up the job date ranges is off by only **0.02 years**: in this synthetic dataset, experience *is* the sum of the listed jobs. BERT approximates that arithmetic; it does not compute it.
 
-## Setup
+Contents:
+1. [What it does, and for whom](#1-what-the-project-does-and-for-whom)
+2. [Sampling and target distribution](#2-sampling-and-target-distribution)
+3. [OCR setup and reading order](#3-ocr-paddleocr-model-settings-and-reading-order)
+4. [OCR quality](#4-ocr-quality)
+5. [Cleaning and masking](#5-cleaning-and-masking)
+6. [Split](#6-train--validation--test-split)
+7. [Baselines](#7-baselines)
+8. [BERT](#8-bert-regression)
+9. [Final metrics](#9-final-metrics-and-berts-gain)
+10. [Analytical questions](#10-analytical-questions)
+11. [Limitations and business applications](#11-limitations-and-business-applications)
+12. [How to reproduce](#12-how-to-reproduce)
+13. [How to run the app](#13-how-to-run-the-streamlit-app)
 
-Requires Python 3.11 (macOS Apple Silicon was used for development).
+---
+
+## 1. What the project does, and for whom
+
+Recruiters, job boards and public employment services receive CVs as images or PDFs, and the number of years of experience is rarely written on them. A reader must connect the dates of each job, how many jobs there are, gaps, overlaps and when education ended. This project builds and *measures* a system that does this automatically. It is meant to **pre-fill a candidate profile for a human to confirm**, not to screen people out (see [§11](#11-limitations-and-business-applications)).
+
+## 2. Sampling and target distribution
+
+- **Dataset:** [PopResume](https://huggingface.co/datasets/sumin-yu/PopResume) (Yu, Park & Moon, EMNLP 2026, CC BY 4.0). It has 60,884 synthetic resumes generated from U.S. population statistics, so no real person's data.
+- **Sample:** **800 CVs per occupation × 5 = 4,000 CVs**, only no-photo images (`has_photo == False`).
+  - Each occupation's image shards are streamed and shuffled with **seed 42** (buffer 5,000), and the first 800 are kept (`src/download_data.py`).
+  - Row groups with photos are skipped with a parquet filter, which gives the same sample with half the download.
+  - The sampled IDs are saved in `data/raw/sampled_ids.csv`.
+- **Target:** `exp_year`, a continuous number of years, clipped to **0–20** (20 = "20 or more"); predictions are clipped the same way.
+- **At the cap:** **29 CVs (0.7%) are at ≥ 20 years**, far below the 15% threshold, so the cap stays at 20 for every model.
+
+| Occupation | n | mean | median | at ≥ 20 |
+|---|---|---|---|---|
+| All | 4,000 | 6.5 | 5.6 | 29 (0.7%) |
+| Accountants & auditors | 800 | 7.3 | 6.5 | 7 |
+| Construction laborers | 800 | 5.8 | 4.3 | 9 |
+| Elementary / middle school teachers | 800 | 6.9 | 5.7 | 10 |
+| Registered nurses | 800 | 6.4 | 5.6 | 1 |
+| Software developers | 800 | 6.3 | 5.4 | 2 |
+
+Most CVs have 2–8 years, with a long right tail (`output/figures/exp_year_distribution.png`). Experience bands are gap-free intervals on the continuous target: [0, 3), [3, 6), [6, 11) and [11, 20], i.e. the assignment's 0–2, 3–5, 6–10 and 11–20. They split the data 25% / 29% / 30% / 16%.
+
+## 3. OCR: PaddleOCR model, settings and reading order
+
+- **PaddleOCR 3.7 / PaddlePaddle 3.3.1 on CPU.** Settings: `use_doc_orientation_classify=False`, `use_doc_unwarping=False`, `use_textline_orientation=False`. The models are named explicitly:
+  - detection: **`PP-OCRv5_mobile_det`**;
+  - recognition: **`en_PP-OCRv5_mobile_rec`**, the English model.
+- **Why mobile.** On the same 20 CVs:
+  - mobile takes **5.8 s per CV**; server takes **187 s** and peaks at 5 GB of RAM on the 8 GB Apple M2;
+  - after the date-range repair (§4), mobile's CER is 0.00% vs 0.05% for server.
+
+  Server would have needed 8–9 days for 4,000 CVs (`output/tables/ocr_model_comparison.csv`).
+- **Output:** one JSON per CV in `data/ocr/` with every line's text, confidence and box, plus the time.
+- **Full run:** 4,000 / 4,000 images, **0 failures**, mean line confidence 0.991, about **2.2 h** on an Apple M2 (8 cores, 8 GB). It used 4 processes × 2 threads, which was 2.15× faster than one process with 8 threads (`output/tables/ocr_parallel_test.csv`). Mean latency is 7.3 s per CV per process.
+- **Reading order** (`src/ocr_extraction.reading_order`):
+  - The page is scanned for a vertical gap that few boxes cross, with boxes on both sides that sit side by side. That gap marks two columns.
+  - Full-width boxes (headers) cut the page into horizontal bands.
+  - In each band the **left column is read completely, then the right one**.
+  - Within a column, boxes are grouped into visual lines (≥ 50% vertical overlap), top to bottom and left to right, so a job title stays on the same line as its dates.
+  - All 4,000 PopResume CVs use a single-column template. The two-column logic was checked on a synthetic two-column page (`output/figures/ocr_reading_order_two_column_check.png`).
+
+## 4. OCR quality
+
+OCR and reference text are normalised the same way: lowercase, unified dashes and quotes, no bullet markers, spaced `|`, collapsed whitespace (`src/ocr_quality.py`).
+
+| | CER | WER | Years read correctly, as is | after date repair |
+|---|---|---|---|---|
+| **All 4,000 CVs** | **0.21%** | **1.9%** | **79.8%** | **99.996%** |
+| Software developers | 0.29% | 2.6% | 75.1% | 100% |
+| Registered nurses | 0.25% | 2.2% | 75.4% | 100% |
+| Accountants & auditors | 0.18% | 1.7% | 82.2% | 100% |
+| Construction laborers | 0.17% | 1.6% | 81.2% | 100% |
+| Teachers | 0.15% | 1.3% | 84.6% | 99.98% |
+
+**Where it fails.** 98.5% of all character errors are on the *job title + dates* lines. The OCR drops the en dash in about half of the date ranges (`2020.11–2023.01` → `2020.112023.01`). The digits are right, but the second year becomes invisible to a year regex. Re-inserting the dash (`preprocessing.repair_date_ranges`) fixes 4,939 ranges in 2,861 CVs. The remaining errors are:
+- `i`→`l` in acronyms (`API`→`APl`);
+- a few dates cut off by the CV rendering itself (`2023.` without the month, for long teacher job titles).
+
+## 5. Cleaning and masking
+
+`src/preprocessing.py` builds the model input from the cached OCR:
+
+1. reading order;
+2. date-range repair;
+3. dash and bullet normalisation;
+4. joining of broken lines and hyphenation;
+5. **PII removal**: name, email, phone and `ST, USA` address are removed from all 4,000 CVs;
+6. **masking** of phrases that state total experience, age or date of birth.
+
+Job dates and graduation years are kept: they are the evidence the models must use.
+
+- **Masking: 0 CVs affected.** 50 random OCR texts were read (`output/tables/sample_50_ocr_texts.txt`) and all 4,000 OCR and reference texts were searched: none states total experience, age or date of birth. The regexes are tested on synthetic phrases and are applied anyway.
+- **Low-confidence lines are not dropped.** OCR confidence is uniformly high: min 0.929, mean 0.991. It does *not* predict errors: the lowest-confidence lines (names, short bullets) are read verbatim 99–100% of the time. A 0.97 threshold (≈ mean − 2.5 sd, 2.1% of lines) is used only for the `clean_dropped_lowconf` variant of Question 3.
+- **Text variants** in `data/processed/` (`id, text, exp_year, occupation`):
+  - `raw`: reading order, PII and masking, no repair;
+  - `clean`: the **main input**;
+  - `clean_dropped_lowconf`;
+  - `reference_clean`: the reference text through the same pipeline, **for Question 2 evaluation only, never a model input**.
+- **Length:** the CVs are short, a mean of 97 DistilBERT tokens and a maximum of 162. **No CV exceeds 256 or 512 tokens.**
+
+## 6. Train / validation / test split
+
+70% / 15% / 15% **by CV ID** (2,800 / 600 / 600), stratified by **occupation × experience band**, seed 42 (`src/split.py` → `data/splits/{train,val,test}.csv`). Every model uses this split. All tuning used validation only, and the test set was used once, in the final evaluation. The three splits have the same mean target (≈ 6.5 years) and band shares.
+
+## 7. Baselines
+
+| Model | How it works | Tuned on validation |
+|---|---|---|
+| **Median** | always predicts the training median (5.54 years) | — |
+| **TF-IDF + Ridge** | word 1–2 grams + character 2–5 grams (`char_wb`), sublinear TF, Ridge | features, `keep_numbers`, alpha (0.01–100) → word+char, **keep numbers**, alpha 0.1 |
+| **Embeddings + Ridge** | frozen **`BAAI/bge-small-en-v1.5`** on MPS, mean of line-chunk embeddings (weighted by tokens), L2-normalised, Ridge | encoder (bge-small 1.13 vs all-MiniLM-L6-v2 1.31 val MAE), alpha → 0.032 |
+| **Date rules** (bonus) | regex date ranges (also `Present`/`Current`, glued and truncated dates), merge overlaps, add the months; no training | — |
+
+- **Numbers matter for TF-IDF.** Replacing every digit with `0` raises the validation MAE from 0.80 to 1.62: years are the only real evidence.
+- **Long CVs for the embeddings.** CVs longer than the encoder limit (512) are split into chunks of whole lines and averaged. Here every CV fits in one chunk.
+- Embeddings are cached in `data/processed/embeddings/`.
+
+## 8. BERT regression
+
+- **Model:** `distilbert-base-uncased` with `AutoModelForSequenceClassification(num_labels=1, problem_type="regression")`, fp32 on MPS (`src/train_bert.py`).
+- **Target:** divided by 20 during training; predictions are multiplied back and clipped to 0–20.
+- **Loss:** MSE (Huber is available with `--loss huber`).
+- **Long CVs:** `--strategy head` with `max_len = 256`. No CV exceeds 162 tokens, so nothing is truncated and every date reaches the model; each run logs 0 CVs losing a year. `head_tail` and `chunk_avg` are implemented and were checked with `max_len = 64`, where head truncation loses a year in 405 of 600 validation CVs and `chunk_avg` in none.
+- **Training settings:**
+
+  | Setting | Value |
+  |---|---|
+  | Learning rate | 5e-5 |
+  | Optimiser | AdamW, weight decay 0.01, 10% warmup + linear decay |
+  | Gradient clipping | 1.0 |
+  | Batch size | 8 × gradient accumulation 2 (effective 16) |
+  | Max length | 256 |
+  | Seed | 42 |
+  | Max epochs | 8 |
+  | Early stopping | validation MAE, patience 2 |
+  | Hardware | Apple M2 (MPS) |
+
+| Run | Best epoch / trained | Validation MAE | Training time |
+|---|---|---|---|
+| `bert__clean` (main) | 4 / 6 | 0.240 | 17 min |
+| `bert__raw` (Question 3) | 2 / 4 | 0.402 | 8 min |
+
+## 9. Final metrics and BERT's gain
+
+All models on the same **600 test CVs** (`output/tables/model_comparison.csv`):
+
+| Model | MAE (years) | RMSE (years) | Acc ±1 | Acc ±2 | Acc ±3 | Band accuracy | Band macro-F1 | R² | Training time | Inference time per CV |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Median | 3.50 | 4.54 | 0.19 | 0.34 | 0.52 | 0.29 | 0.11 | −0.05 | < 1 ms | ~0 ms |
+| TF-IDF + Ridge | 0.84 | 1.09 | 0.68 | 0.94 | 0.99 | 0.88 | 0.88 | 0.94 | 1.4 s | 0.9 ms |
+| Embeddings + Ridge | 1.26 | 1.64 | 0.49 | 0.82 | 0.94 | 0.78 | 0.78 | 0.86 | 9.2 s | 11.5 ms |
+| **Fine-tuned BERT** | **0.25** | **0.34** | **0.985** | **1.00** | **1.00** | **0.96** | **0.96** | **0.994** | 17 min | 7.6 ms |
+| *Date rules (bonus)* | *0.02* | *0.03* | *1.00* | *1.00* | *1.00* | *0.99* | *0.99* | *1.000* | *0* | *~0 ms* |
+
+**BERT's MAE reduction** (paired bootstrap, 2,000 resamples, seed 42, 95% CI):
+
+| vs | Reduction | 95% CI | Significant? |
+|---|---|---|---|
+| Median | 3.25 years (93%) | [3.03, 3.47] | yes |
+| TF-IDF + Ridge | **0.59 years (70%)** | **[0.53, 0.64]** | **yes** |
+| Embeddings + Ridge | 1.01 years (80%) | [0.93, 1.09] | yes |
+| Date rules | −0.23 years (BERT worse) | [−0.25, −0.21] | yes, the rules are better |
+
+Figures: `output/figures/pred_vs_true.png`, `mae_by_band.png`, `mae_by_occupation.png`, `band_confusion.png`, `bert_gain.png`.
+
+## 10. Analytical questions
+
+### Question 1 — What does BERT learn that the baselines cannot?
+
+**How much and is it real?** BERT cuts the MAE by 0.59 years vs TF-IDF, 1.01 vs embeddings and 3.25 vs the median. All gains are statistically meaningful: no 95% interval comes near 0.
+
+**Where the gain comes from.** It comes mostly from the **extremes**, where the baselines regress to the middle:
+
+| Band | TF-IDF MAE | BERT MAE |
+|---|---|---|
+| Juniors (0–2) | 0.78 | 0.30 |
+| Mid-career (6–10) | 0.80 | 0.19 |
+| Seniors (11–20) | 1.16 | 0.29 |
+
+- The fitted slope of predicted on true is **0.99 for BERT**, vs 0.92 for TF-IDF and 0.86 for embeddings.
+- Embeddings underestimate seniors by 1.35 years on average; BERT has no compression, only a slight overestimate (+0.2 years for juniors and seniors, ≈0 for 6–10).
+- The gain is uniform across occupations (BERT MAE 0.22–0.29).
+
+**The 10 largest BERT errors** are all overestimates of 1.0–1.6 years, and **all are career gaps**: a gap of 0.8–2.5 years between jobs (6), or a last job that ended about 3 years before the data snapshot (4). The OCR read every date correctly, nothing was truncated, and the rules get all ten right. On the whole test set:
+- a gap after the last job doubles BERT's MAE (0.43 vs 0.21) with a +0.25-year bias;
+- gaps between jobs raise it from 0.22 to 0.30 (`output/tables/error_by_career_pattern.csv`).
+
+**Probe** (20 test CVs; the expected change comes from the date rules):
+
+| Edit | Expected | Median | TF-IDF | Embeddings | BERT | Rules |
+|---|---|---|---|---|---|---|
+| Delete one job | −2.65 | 0 | −1.15 | −1.72 | **−1.79** (right direction in 20/20, corr. with the job's length −0.07) | −2.65 |
+| Shift every date +5 years | 0 | 0 | −0.58 | −0.54 | **−1.45** | 0 |
+
+**What this tells us.** BERT knows that *one job fewer* means less experience, but not *how much less*: its change does not track the deleted job's length. Shifting dates into the future, which a recruiter would ignore, lowers its prediction by almost 1.5 years. It has learned **a mix of absolute-year cues and job counts**: in this data, years close to 2023 signal a recent start. It has not learned date arithmetic. Only the rules read dates the way a recruiter does.
+
+**Possible improvements:**
+- give the rules' sum as an input or train BERT on the residual;
+- represent dates as months per job;
+- oversample CVs with gaps;
+- train with dates randomly shifted (augmentation), so absolute years stop being a shortcut.
+
+### Question 2 — How much does OCR noise cost?
+
+- **OCR quality:** CER 0.21%, WER 1.9%. Only 79.8% of reference years appear as is, and 99.996% after the date repair (§4). It fails on date-range dashes, acronyms (`i`→`l`) and dates cut off in the image.
+- **Cost for the models.** Each clean-trained model was evaluated on the cleaned OCR text and on the cleaned **reference** text of the same test CVs:
+
+| Model | MAE on OCR text | MAE on reference text | Gap | 95% CI |
+|---|---|---|---|---|
+| TF-IDF + Ridge | 0.836 | 0.834 | +0.002 | [−0.001, 0.004] |
+| Embeddings + Ridge | 1.259 | 1.245 | +0.014 | [−0.005, 0.033] |
+| Fine-tuned BERT | 0.251 | 0.258 | −0.007 | [−0.009, −0.004] |
+| Date rules | 0.023 | 0.022 | +0.001 | [0.000, 0.003] |
+
+- **Robustness.** After the date repair, OCR noise costs **less than 0.015 years for every model**: all models are robust here.
+  - Bag-of-words and embedding models do not depend on single characters.
+  - BERT is even 0.007 years *better* on OCR text, because it was trained on OCR text and the reference is slightly out of its distribution (for example, full `2023.01` dates where the image shows `2023.`).
+  - **Without** the repair the cost is real: see Question 3.
+
+### Question 3 — Methodological sensitivity
+
+The OCR cleaning choice was tested: each model was trained **and** tested on `raw` OCR, `clean` OCR, and clean with low-confidence lines (< 0.97) removed.
+
+| Model | raw | clean | low-conf dropped | raw − clean (95% CI) |
+|---|---|---|---|---|
+| TF-IDF + Ridge | 0.847 | 0.836 | 0.861 | +0.011 [−0.014, 0.037], n.s. |
+| Embeddings + Ridge | 1.335 | 1.259 | 1.269 | +0.075 [0.031, 0.120] |
+| **Fine-tuned BERT** | **0.422** | **0.251** | — | **+0.171 [0.143, 0.201]** |
+| Date rules | 0.023 | 0.023 | 0.038 | 0 (the regex also reads glued dates) |
+
+- **BERT is the model most sensitive to cleaning.** On raw text it sees `2020.112023.01` as one long digit sequence, and the date arithmetic becomes much harder.
+- TF-IDF barely changes, because its character n-grams still capture pieces of the glued dates.
+- Dropping low-confidence lines hurts slightly (TF-IDF +0.025, rules +0.015), as predicted: those lines are correct, and 36 of them carry job dates.
+- **Caveat.** The paired bootstrap covers *test-set* noise only. Each BERT variant was trained once, and its validation MAE moved by 0.05–0.2 years between epochs (raw: 0.40 → 0.61 → 0.46). The direction is credible and the mechanism is clear, but the exact size of the gap should be confirmed by retraining with 2–3 seeds.
+
+### Question 4 — Business value, fairness and ethics
+
+**Who could use it, and for what.**
+- Recruiting agencies and job boards could **pre-fill the "years of experience" field** of a profile from an uploaded CV.
+- Public employment services could do the same during registration.
+- HR teams receiving thousands of CVs could **sort or route** them for a human to read.
+
+Pre-filling a field that the candidate or a recruiter confirms is low risk. **Deciding who gets an interview is not:** a wrong number becomes a silent rejection.
+
+**What an error costs.**
+- **±2 years** hardly matters for a profile field, and every BERT prediction on the test set is within ±2 years. It matters at hard thresholds ("5+ years required"): a 4.5-year candidate predicted at 5.5 passes, and a 5.5-year candidate predicted at 4.5 is filtered out.
+- **±5 years** would misplace a candidate by a whole seniority level (junior vs senior), with mismatched interviews or salary bands. No learned model here makes errors that large, but they would on messier real CVs.
+
+**Which error is worse.** In screening, **underestimating** is worse for the candidate: it is invisible, they are rejected without knowing why, and it falls hardest on people with career gaps or non-standard dates. Overestimating mostly costs the employer an unsuitable interview. Any use should therefore show the extracted dates next to the number and let a person correct it.
+
+**Fairness check.** Sex and race are never model inputs, and names are removed.
+
+| Group | n | BERT MAE | BERT mean error (pred − true) [95% CI] | Rules mean error |
+|---|---|---|---|---|
+| Female | 299 | 0.250 | +0.085 [0.049, 0.126] | −0.004 |
+| Male | 301 | 0.251 | +0.135 [0.099, 0.171] | −0.001 |
+| Asian / Pacific Islander | 91 | 0.261 | +0.155 [0.094, 0.221] | +0.002 |
+| Black | 47 | 0.244 | −0.023 [−0.116, 0.073] | +0.003 |
+| White | 462 | 0.249 | +0.115 [0.085, 0.145] | −0.004 |
+
+- **Accuracy (MAE) is the same for every group.** BERT slightly overestimates most groups.
+- The sex intervals overlap. The largest difference, Asian/PI vs Black, is about 0.18 years (≈ 2 months), on only 47 Black candidates.
+- The rules show no difference at all.
+- **Likely explanation.** BERT's bias depends on career patterns, which correlate with group membership in this population-based data. Its largest overestimates are careers with a gap after the last job, and men have that pattern more often (19.9% vs 16.7% of test CVs). Mean experience also differs by group (Asian/PI 7.5 years vs White 6.3). So a model can carry group differences without seeing the attribute, and this check must be repeated on real data before any deployment.
+
+**Limitations.** See [§11](#11-limitations-and-business-applications).
+
+## 11. Limitations and business applications
+
+**Limitations:**
+- **Synthetic resumes from a single template**, all single-column, where the target is exactly the sum of the listed job durations. This is why a regex nearly solves the task, and why every number here is an upper bound for real CVs. Real CVs have free-form dates ("since 2019", "3+ yrs"), part-time and overlapping jobs, multi-column layouts, scans and photos.
+- **Only 5 occupations**, generated from **U.S.** population statistics, **English only**.
+- **One training run** per model and text variant.
+- The 20-year cap folds every longer career into "20 or more".
+
+**Business applications.** Pre-filling profiles on job boards and in public employment services; routing or sorting incoming CVs for human review; auditing what a screening tool would extract. The sensible design is hybrid:
+- deterministic date arithmetic when the CV has clean date ranges (more accurate, instantaneous and explainable);
+- a learned model as a fallback for messy text;
+- the extracted dates always shown to a person.
+
+**Such a system must never decide on its own who is hired or interviewed.** Its errors concentrate on non-standard careers (gaps), and the fairness check shows it can treat groups slightly differently without ever seeing sex or race.
+
+## 12. How to reproduce
+
+Python 3.11 (developed on macOS, Apple M2, 8 GB). Every script runs from the repository root as `python -m src.<name>`, caches its outputs and is resumable.
+
+**What is and is not committed.**
+- **Not committed:** images (`data/raw/`), model weights (`models/`) and cached embeddings.
+- **Committed:** OCR output (`data/ocr/`), processed text (`data/processed/`), splits (`data/splits/`) and all results (`output/`).
+
+So you can start at any step; steps 2–3 (download and OCR, about 2.5 h) are only needed to regenerate the OCR from scratch.
 
 ```bash
-python3.11 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt          # paddlepaddle comes from the PaddlePaddle CPU index
+# 1. Environment (paddlepaddle CPU comes from the PaddlePaddle index listed in requirements.txt)
+python3.11 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
 python -m ipykernel install --user --name cv_experience --display-name cv_experience
-hf auth login                            # PopResume is a gated dataset
+hf auth login            # accept the PopResume access conditions on Hugging Face first
+
+# 2. Sample and download 800 no-photo CVs per occupation (~10 min, ~665 MB)
+python -m src.download_data
+
+# 3. OCR every image with PaddleOCR (~2.2 h on an M2; resumable)
+caffeinate -i python -m src.ocr_extraction           # drop `caffeinate -i` outside macOS
+python -m src.ocr_extraction --benchmark             # optional: mobile vs server + parallel test
+python -m src.ocr_extraction --figures               # reading-order figures
+
+# 4. OCR quality, cleaning and masking, token lengths, split
+python -m src.ocr_quality
+python -m src.preprocessing
+python -m src.preprocessing --token-lengths
+python -m src.split
+
+# 5. Baselines (train on train, tune on val; all three text variants for Question 3)
+for v in clean raw clean_dropped_lowconf; do
+  python -m src.baseline_median --variant $v
+  python -m src.baseline_tfidf --variant $v
+  python -m src.baseline_embeddings --variant $v
+  python -m src.baseline_rules --variant $v
+done
+
+# 6. BERT (~17 min and ~8 min on an M2 with MPS)
+python -m src.train_bert                    # main model, clean text
+python -m src.train_bert --variant raw      # Question 3
+
+# 7. Final evaluation on the test set + all analytical questions
+python -m src.evaluation
 ```
 
-## Repository layout
+The notebooks in `notebooks/` (kernel `cv_experience`) walk through each stage with tables and figures. They only call `src/`; the long jobs run as scripts.
 
-- `src/` — pipeline logic; each stage runs as `python -m src.<module>`
-- `notebooks/` — one notebook per stage that calls `src/` and explores the results
-- `data/` — `raw/` (images, not committed), `ocr/`, `processed/`, `splits/`
-- `models/` — trained baselines and BERT weights (not committed)
-- `output/` — figures, tables and metrics
-- `app.py` — Streamlit app
+| Notebook | Stage |
+|---|---|
+| `01_sampling` | sampling |
+| `02_ocr` | OCR |
+| `03_ocr_quality_preprocessing` | OCR quality and preprocessing |
+| `04_baselines` | baselines |
+| `05_bert` | BERT |
+| `06_evaluation` | evaluation |
 
-Images and model weights are not committed; they are regenerated by the pipeline scripts.
+## 13. How to run the Streamlit app
+
+```bash
+source .venv/bin/activate
+streamlit run app.py
+```
+
+The app has four tabs:
+
+| Tab | Content |
+|---|---|
+| **Problem & Methodology** | objective, data, OCR, models, split, limitations |
+| **OCR & Exploratory Analysis** | target distribution, OCR quality, a CV with its PaddleOCR boxes |
+| **Model Results** | comparison table, predicted vs true, errors by band and occupation, confusion matrices, BERT's gain, Questions 1–4 |
+| **Interactive Estimator** | upload a CV image or PDF; browse test CVs; good and bad predictions |
+
+The app reads results from `output/` and never retrains. Tab 4 needs the trained models in `models/` (step 5–6 above). Tab 2 shows any CV with its boxes if `data/raw/images/` is present, otherwise the saved figures.
+
+---
+
+**Repository layout:** `src/` pipeline code · `notebooks/` one notebook per stage · `data/` raw (not committed), ocr, processed, splits · `models/` baselines and BERT (not committed) · `output/` figures, tables, metrics, predictions · `app.py` Streamlit app · `video/link.txt` presentation video.
