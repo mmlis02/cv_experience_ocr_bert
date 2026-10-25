@@ -1,10 +1,12 @@
 """Shared helpers: global seed, project paths and device selection."""
 
+import json
 import os
 import random
 from pathlib import Path
 
 import numpy as np
+import pandas as pd
 import torch
 
 SEED = 42
@@ -53,6 +55,41 @@ def set_seed(seed: int = SEED) -> None:
     torch.manual_seed(seed)
     if torch.backends.mps.is_available():
         torch.mps.manual_seed(seed)
+
+
+VARIANTS = ("raw", "clean", "clean_dropped_lowconf")
+PREDICTIONS_DIR = OUTPUT_DIR / "predictions"
+
+
+def load_split_texts(split: str, variant: str = "clean") -> pd.DataFrame:
+    """CVs of one split (train / val / test) with the text of one variant: id, text, exp_year, occupation."""
+    if variant not in VARIANTS + ("reference_clean",):
+        raise ValueError(f"unknown variant {variant!r}")
+    ids = pd.read_csv(SPLITS_DIR / f"{split}.csv", dtype={"id": str})[["id"]]
+    texts = pd.read_csv(PROCESSED_DIR / f"{variant}.csv", dtype={"id": str})
+    return ids.merge(texts, on="id", how="left", validate="one_to_one")
+
+
+def clip_years(y) -> np.ndarray:
+    return np.clip(np.asarray(y, dtype=float), 0, EXP_CAP)
+
+
+def save_predictions(model: str, variant: str, split: str, df: pd.DataFrame, y_pred) -> Path:
+    """output/predictions/<split>/<model>__<variant>.csv with id, occupation, y_true, y_pred."""
+    out_dir = PREDICTIONS_DIR / split
+    out_dir.mkdir(parents=True, exist_ok=True)
+    path = out_dir / f"{model}__{variant}.csv"
+    pd.DataFrame({"id": df["id"], "occupation": df["occupation"], "y_true": df["exp_year"],
+                  "y_pred": clip_years(y_pred)}).to_csv(path, index=False)
+    return path
+
+
+def save_metrics(name: str, payload: dict, subdir: str = "baselines") -> Path:
+    out_dir = METRICS_DIR / subdir
+    out_dir.mkdir(parents=True, exist_ok=True)
+    path = out_dir / f"{name}.json"
+    path.write_text(json.dumps(payload, indent=2, default=float))
+    return path
 
 
 def to_band(years) -> np.ndarray:

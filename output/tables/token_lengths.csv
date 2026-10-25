@@ -1,0 +1,4 @@
+variant,tokenizer,mean,median,p95,p99,max,n_over_128,n_over_256,n_over_512
+raw,distilbert-base-uncased,96.5,95.0,143.0,152.0,162,734,0,0
+clean,distilbert-base-uncased,96.7,95.0,143.0,152.0,162,741,0,0
+clean_dropped_lowconf,distilbert-base-uncased,95.2,93.0,141.0,152.0,162,647,0,0

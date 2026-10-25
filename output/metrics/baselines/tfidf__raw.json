@@ -1,0 +1,49 @@
+{
+  "model": "tfidf",
+  "variant": "raw",
+  "best": {
+    "features": "word+char",
+    "keep_numbers": true,
+    "alpha": 0.03162277660168379
+  },
+  "best_val_mae_by_setting": [
+    {
+      "features": "word",
+      "keep_numbers": false,
+      "alpha": 1.0,
+      "val_mae": 1.6388
+    },
+    {
+      "features": "word",
+      "keep_numbers": true,
+      "alpha": 0.1,
+      "val_mae": 0.9983
+    },
+    {
+      "features": "word+char",
+      "keep_numbers": false,
+      "alpha": 1.0,
+      "val_mae": 1.6121
+    },
+    {
+      "features": "word+char",
+      "keep_numbers": true,
+      "alpha": 0.0316,
+      "val_mae": 0.7859
+    }
+  ],
+  "n_features": 28483,
+  "tuning_seconds": 29.997374167025555,
+  "train_seconds": 1.5308941670227796,
+  "inference_seconds_per_cv": 0.00038389347163805116,
+  "val": {
+    "mae": 0.7859100238637122,
+    "rmse": 1.0540574862596017,
+    "acc_1": 0.695,
+    "acc_2": 0.945,
+    "acc_3": 0.985,
+    "band_accuracy": 0.8983333333333333,
+    "band_macro_f1": 0.9044121314393965,
+    "r2": 0.9440453094960164
+  }
+}

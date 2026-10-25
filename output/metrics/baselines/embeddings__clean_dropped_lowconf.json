@@ -1,0 +1,32 @@
+{
+  "model": "embeddings",
+  "variant": "clean_dropped_lowconf",
+  "encoder": "BAAI/bge-small-en-v1.5",
+  "alpha": 0.03162277660168379,
+  "device": "mps",
+  "best_val_mae_by_encoder": [
+    {
+      "encoder": "bge-small",
+      "alpha": 0.0316,
+      "val_mae": 1.1815
+    },
+    {
+      "encoder": "minilm",
+      "alpha": 0.01,
+      "val_mae": 1.325
+    }
+  ],
+  "max_seq_length": 512,
+  "train_seconds": 8.984532499976922,
+  "inference_seconds_per_cv": 0.003335289513343014,
+  "val": {
+    "mae": 1.181489149856382,
+    "rmse": 1.5578433596327819,
+    "acc_1": 0.5383333333333333,
+    "acc_2": 0.8566666666666667,
+    "acc_3": 0.945,
+    "band_accuracy": 0.8133333333333334,
+    "band_macro_f1": 0.8201571539439038,
+    "r2": 0.8777762853978983
+  }
+}
