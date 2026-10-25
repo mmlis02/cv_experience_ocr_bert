@@ -1,0 +1,113 @@
+{
+ "id": "27287",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 4.997,
+ "n_lines": 10,
+ "mean_score": 0.9931,
+ "lines": [
+  {
+   "text": "KARA LYONS",
+   "score": 0.9996,
+   "box": [
+    116,
+    89,
+    339,
+    123
+   ]
+  },
+  {
+   "text": "MI, USA | +1-292-537-8500 | kara.lyons@example.com",
+   "score": 0.9899,
+   "box": [
+    115,
+    149,
+    630,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9995,
+   "box": [
+    116,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Software Developers, Datapath Solutions, 2019.05—2021.09",
+   "score": 0.9938,
+   "box": [
+    114,
+    287,
+    673,
+    315
+   ]
+  },
+  {
+   "text": "- Wrote integration tests",
+   "score": 0.9981,
+   "box": [
+    125,
+    314,
+    352,
+    340
+   ]
+  },
+  {
+   "text": "- Assisted with container setup",
+   "score": 0.9996,
+   "box": [
+    126,
+    339,
+    413,
+    366
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    403,
+    269,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Granite Hill University, 2016",
+   "score": 0.983,
+   "box": [
+    116,
+    447,
+    487,
+    474
+   ]
+  },
+  {
+   "text": "•Studied principles of test-driven development",
+   "score": 0.9912,
+   "box": [
+    129,
+    474,
+    564,
+    498
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of error handling",
+   "score": 0.9765,
+   "box": [
+    130,
+    495,
+    509,
+    526
+   ]
+  }
+ ]
+}

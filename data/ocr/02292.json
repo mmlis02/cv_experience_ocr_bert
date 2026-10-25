@@ -1,0 +1,103 @@
+{
+ "id": "02292",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.765,
+ "n_lines": 9,
+ "mean_score": 0.991,
+ "lines": [
+  {
+   "text": "CALEB HALE",
+   "score": 0.9999,
+   "box": [
+    116,
+    89,
+    334,
+    123
+   ]
+  },
+  {
+   "text": "AR, USA | +1-804-872-6806 | caleb.hale@example.com",
+   "score": 0.984,
+   "box": [
+    116,
+    149,
+    636,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    317,
+    270
+   ]
+  },
+  {
+   "text": "Construction Laborers, EverStrong Construction, 2021.08—2023.01",
+   "score": 0.9859,
+   "box": [
+    115,
+    286,
+    736,
+    317
+   ]
+  },
+  {
+   "text": "- Measured and cut basic building materials",
+   "score": 0.987,
+   "box": [
+    126,
+    314,
+    532,
+    340
+   ]
+  },
+  {
+   "text": "- Assisted with basic electrical conduit placement",
+   "score": 0.9996,
+   "box": [
+    127,
+    339,
+    583,
+    365
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "High school graduate/GED, Construction Equipment Technology, Sunnyside High School, 2022",
+   "score": 0.9916,
+   "box": [
+    114,
+    445,
+    999,
+    476
+   ]
+  },
+  {
+   "text": "• Studied principles of emergency procedures",
+   "score": 0.9712,
+   "box": [
+    131,
+    475,
+    556,
+    499
+   ]
+  }
+ ]
+}

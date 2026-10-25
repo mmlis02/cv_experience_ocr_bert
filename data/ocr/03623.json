@@ -1,0 +1,213 @@
+{
+ "id": "03623",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.204,
+ "n_lines": 20,
+ "mean_score": 0.9875,
+ "lines": [
+  {
+   "text": "JACOB PHAM",
+   "score": 0.9998,
+   "box": [
+    116,
+    91,
+    342,
+    121
+   ]
+  },
+  {
+   "text": "CA, USA | +1-495-558-8553 | jacob.pham@example.com",
+   "score": 0.9841,
+   "box": [
+    116,
+    150,
+    648,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9861,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Software Developers, Skyline Tech, 2019.102023.01",
+   "score": 0.9853,
+   "box": [
+    117,
+    290,
+    614,
+    314
+   ]
+  },
+  {
+   "text": "- Led cross-team technical alignment",
+   "score": 0.984,
+   "box": [
+    128,
+    315,
+    471,
+    341
+   ]
+  },
+  {
+   "text": "- Implemented long-term maintenance plans",
+   "score": 0.9963,
+   "box": [
+    128,
+    339,
+    537,
+    368
+   ]
+  },
+  {
+   "text": "Software Developers, Datapoint Labs, 2016.072019.10",
+   "score": 0.9994,
+   "box": [
+    118,
+    383,
+    636,
+    407
+   ]
+  },
+  {
+   "text": "- Built core libraries",
+   "score": 0.9569,
+   "box": [
+    125,
+    407,
+    309,
+    433
+   ]
+  },
+  {
+   "text": "- Designed data storage strategies",
+   "score": 0.9774,
+   "box": [
+    126,
+    431,
+    449,
+    459
+   ]
+  },
+  {
+   "text": "Software Developers, Brightline Systems, 2013.042016.07",
+   "score": 0.9918,
+   "box": [
+    117,
+    472,
+    670,
+    499
+   ]
+  },
+  {
+   "text": "- Improved system reliability",
+   "score": 0.9787,
+   "box": [
+    125,
+    497,
+    388,
+    526
+   ]
+  },
+  {
+   "text": "- Wrote automated tests",
+   "score": 0.9876,
+   "box": [
+    127,
+    520,
+    352,
+    550
+   ]
+  },
+  {
+   "text": "Software Developers, Codepath Labs, 2010.012013.04",
+   "score": 0.9882,
+   "box": [
+    117,
+    566,
+    637,
+    590
+   ]
+  },
+  {
+   "text": "- Fixed software bugs identified through testing",
+   "score": 0.9891,
+   "box": [
+    125,
+    588,
+    563,
+    618
+   ]
+  },
+  {
+   "text": "- Updated frontend stylesheets",
+   "score": 0.9886,
+   "box": [
+    128,
+    614,
+    415,
+    642
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    680,
+    266,
+    704
+   ]
+  },
+  {
+   "text": "Master's, Greenwood University, 2010",
+   "score": 0.9975,
+   "box": [
+    116,
+    724,
+    472,
+    749
+   ]
+  },
+  {
+   "text": "Bachelor's, Brightfield Ridge University, 2008",
+   "score": 0.9903,
+   "box": [
+    117,
+    750,
+    534,
+    774
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of compiler design",
+   "score": 0.9875,
+   "box": [
+    130,
+    774,
+    525,
+    800
+   ]
+  },
+  {
+   "text": "•Completed coursework in accessibility standards",
+   "score": 0.9807,
+   "box": [
+    132,
+    798,
+    599,
+    828
+   ]
+  }
+ ]
+}

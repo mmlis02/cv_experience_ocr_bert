@@ -1,0 +1,113 @@
+{
+ "id": "47711",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.991,
+ "n_lines": 10,
+ "mean_score": 0.9914,
+ "lines": [
+  {
+   "text": "DANIELLE ANTHONY",
+   "score": 0.9996,
+   "box": [
+    118,
+    91,
+    456,
+    122
+   ]
+  },
+  {
+   "text": "SC, USA | +1-305-254-4282 | danielle.anthony@example.com",
+   "score": 0.9882,
+   "box": [
+    118,
+    152,
+    692,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Registered Nurses, Helping Hands Medical, 2020.03—2023.01",
+   "score": 0.9839,
+   "box": [
+    114,
+    286,
+    690,
+    317
+   ]
+  },
+  {
+   "text": "- Provided post-procedure care",
+   "score": 0.9896,
+   "box": [
+    125,
+    312,
+    419,
+    343
+   ]
+  },
+  {
+   "text": "- Assisted with patient transfers",
+   "score": 0.9788,
+   "box": [
+    127,
+    337,
+    420,
+    368
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Associate's degree, Clinical Studies, Redfield University, 2023",
+   "score": 0.9973,
+   "box": [
+    118,
+    449,
+    689,
+    473
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of vital signs monitoring",
+   "score": 0.9943,
+   "box": [
+    130,
+    473,
+    574,
+    500
+   ]
+  },
+  {
+   "text": "• Completed coursework in documentation standards",
+   "score": 0.9822,
+   "box": [
+    134,
+    499,
+    623,
+    523
+   ]
+  }
+ ]
+}

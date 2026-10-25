@@ -1,0 +1,113 @@
+{
+ "id": "46490",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.145,
+ "n_lines": 10,
+ "mean_score": 0.9887,
+ "lines": [
+  {
+   "text": "ANGELA SANFORD",
+   "score": 0.9997,
+   "box": [
+    118,
+    91,
+    434,
+    122
+   ]
+  },
+  {
+   "text": "PA, USA | +1-791-891-1115 | angela.sanford@example.com",
+   "score": 0.9854,
+   "box": [
+    116,
+    149,
+    677,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9993,
+   "box": [
+    116,
+    243,
+    317,
+    270
+   ]
+  },
+  {
+   "text": "Registered Nurses, SunLife Care Group, 2021.03—2023.01",
+   "score": 0.9781,
+   "box": [
+    114,
+    286,
+    661,
+    317
+   ]
+  },
+  {
+   "text": "- Updated patient medical records",
+   "score": 0.9919,
+   "box": [
+    126,
+    315,
+    442,
+    339
+   ]
+  },
+  {
+   "text": "- Maintained infection control protocols",
+   "score": 0.9851,
+   "box": [
+    126,
+    338,
+    486,
+    366
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Patient Services, Brightfield Ridge University, 2020",
+   "score": 0.9814,
+   "box": [
+    116,
+    447,
+    696,
+    474
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of end-of-life care",
+   "score": 0.9755,
+   "box": [
+    129,
+    473,
+    519,
+    498
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of infusion pump use",
+   "score": 0.9912,
+   "box": [
+    131,
+    498,
+    549,
+    524
+   ]
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "id": "04509",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.745,
+ "n_lines": 16,
+ "mean_score": 0.9897,
+ "lines": [
+  {
+   "text": "ERIN MOLINA",
+   "score": 0.9998,
+   "box": [
+    118,
+    91,
+    339,
+    122
+   ]
+  },
+  {
+   "text": "CA, USA | +1-245-712-8751 | erin.molina@example.com",
+   "score": 0.9808,
+   "box": [
+    118,
+    152,
+    642,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9988,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Discovery Futures School, 2020.06—2023.01",
+   "score": 0.9933,
+   "box": [
+    116,
+    288,
+    875,
+    318
+   ]
+  },
+  {
+   "text": "- Led academic improvement programs",
+   "score": 0.9881,
+   "box": [
+    126,
+    315,
+    493,
+    342
+   ]
+  },
+  {
+   "text": "- Led curriculum transformation initiatives",
+   "score": 0.9753,
+   "box": [
+    127,
+    340,
+    509,
+    366
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Growing Field Academy, 2017.01—2019.09",
+   "score": 0.9899,
+   "box": [
+    117,
+    382,
+    859,
+    409
+   ]
+  },
+  {
+   "text": "- Developed math enrichment lessons",
+   "score": 0.9956,
+   "box": [
+    126,
+    408,
+    479,
+    433
+   ]
+  },
+  {
+   "text": "- Analyzed student performance data",
+   "score": 0.9958,
+   "box": [
+    129,
+    434,
+    471,
+    457
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Growing Stars Academy, 2013.082016.04",
+   "score": 0.9937,
+   "box": [
+    117,
+    472,
+    863,
+    499
+   ]
+  },
+  {
+   "text": "- Scheduled instructional activities",
+   "score": 0.9866,
+   "box": [
+    126,
+    498,
+    444,
+    523
+   ]
+  },
+  {
+   "text": "- Conducted group reading activities",
+   "score": 0.9749,
+   "box": [
+    127,
+    521,
+    463,
+    550
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Bachelor's, Elementary Education Preparation, Pine Valley University, 2002",
+   "score": 0.9904,
+   "box": [
+    117,
+    632,
+    814,
+    658
+   ]
+  },
+  {
+   "text": "• Studied fundamentals of reading comprehension strategies",
+   "score": 0.9868,
+   "box": [
+    128,
+    657,
+    694,
+    685
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of concept-based instruction",
+   "score": 0.9847,
+   "box": [
+    129,
+    680,
+    619,
+    709
+   ]
+  }
+ ]
+}

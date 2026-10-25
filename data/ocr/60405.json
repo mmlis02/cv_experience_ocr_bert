@@ -1,0 +1,143 @@
+{
+ "id": "60405",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.148,
+ "n_lines": 13,
+ "mean_score": 0.9911,
+ "lines": [
+  {
+   "text": "SHAYNA ALVAREZ",
+   "score": 0.9999,
+   "box": [
+    117,
+    91,
+    426,
+    122
+   ]
+  },
+  {
+   "text": "WI, USA | +1-201-574-2530 | shayna.alvarez@example.com",
+   "score": 0.9927,
+   "box": [
+    118,
+    152,
+    676,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Registered Nurses, TrueBridge Nursing, 2019.092022.07",
+   "score": 0.99,
+   "box": [
+    115,
+    287,
+    658,
+    318
+   ]
+  },
+  {
+   "text": "- Implemented care standardization",
+   "score": 0.9811,
+   "box": [
+    125,
+    313,
+    458,
+    342
+   ]
+  },
+  {
+   "text": "- Directed care delivery improvements",
+   "score": 0.9993,
+   "box": [
+    127,
+    338,
+    481,
+    370
+   ]
+  },
+  {
+   "text": "Registered Nurses, Harmony Health Center, 2016.042019.02",
+   "score": 0.9949,
+   "box": [
+    117,
+    382,
+    697,
+    409
+   ]
+  },
+  {
+   "text": "- Assisted with patient positioning",
+   "score": 0.9966,
+   "box": [
+    124,
+    404,
+    439,
+    436
+   ]
+  },
+  {
+   "text": "- Assisted with specimen labeling",
+   "score": 0.968,
+   "box": [
+    127,
+    429,
+    437,
+    461
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    494,
+    268,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Human Biology, Clearhaven University, 2004",
+   "score": 0.9809,
+   "box": [
+    117,
+    542,
+    639,
+    566
+   ]
+  },
+  {
+   "text": "•Completed coursework in patient safety culture",
+   "score": 0.9844,
+   "box": [
+    131,
+    566,
+    581,
+    590
+   ]
+  },
+  {
+   "text": "• Studied principles of teamwork in healthcare",
+   "score": 0.9968,
+   "box": [
+    133,
+    592,
+    557,
+    616
+   ]
+  }
+ ]
+}

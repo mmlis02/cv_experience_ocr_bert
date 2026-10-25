@@ -1,0 +1,173 @@
+{
+ "id": "48406",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.146,
+ "n_lines": 16,
+ "mean_score": 0.9901,
+ "lines": [
+  {
+   "text": "AUBREY WISE",
+   "score": 0.9875,
+   "box": [
+    117,
+    91,
+    352,
+    121
+   ]
+  },
+  {
+   "text": "TN, USA | +1-383-804-9536 | aubrey.wise@example.com",
+   "score": 0.9859,
+   "box": [
+    118,
+    150,
+    650,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.999,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Software Developers, Cloudstone Software, 2020.02—2023.01",
+   "score": 0.9952,
+   "box": [
+    115,
+    288,
+    689,
+    316
+   ]
+  },
+  {
+   "text": "- Led technical roadmap planning",
+   "score": 0.9789,
+   "box": [
+    127,
+    315,
+    438,
+    342
+   ]
+  },
+  {
+   "text": "- Designed scalable services",
+   "score": 0.9914,
+   "box": [
+    128,
+    339,
+    397,
+    368
+   ]
+  },
+  {
+   "text": "Software Developers, Netfield Labs, 2017.032020.02",
+   "score": 0.9999,
+   "box": [
+    116,
+    382,
+    620,
+    409
+   ]
+  },
+  {
+   "text": "- Designed service interfaces",
+   "score": 0.9775,
+   "box": [
+    127,
+    409,
+    399,
+    433
+   ]
+  },
+  {
+   "text": "- Optimized database queries",
+   "score": 0.9825,
+   "box": [
+    129,
+    434,
+    402,
+    457
+   ]
+  },
+  {
+   "text": "Software Developers, Brightsoft Solutions, 2012.092015.09",
+   "score": 0.9866,
+   "box": [
+    116,
+    471,
+    677,
+    499
+   ]
+  },
+  {
+   "text": "- Performed basic performance profiling",
+   "score": 0.9949,
+   "box": [
+    126,
+    498,
+    496,
+    524
+   ]
+  },
+  {
+   "text": "- Assisted with build automation",
+   "score": 0.98,
+   "box": [
+    128,
+    522,
+    424,
+    547
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    118,
+    588,
+    266,
+    612
+   ]
+  },
+  {
+   "text": "Bachelor's, Goldenview University, 2007",
+   "score": 0.9966,
+   "box": [
+    118,
+    633,
+    490,
+    657
+   ]
+  },
+  {
+   "text": "Completed coursework in inversion of control",
+   "score": 0.9965,
+   "box": [
+    131,
+    656,
+    566,
+    684
+   ]
+  },
+  {
+   "text": "Completed coursework in pointer arithmetic basics",
+   "score": 0.9901,
+   "box": [
+    132,
+    680,
+    615,
+    709
+   ]
+  }
+ ]
+}

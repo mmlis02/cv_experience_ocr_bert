@@ -1,0 +1,203 @@
+{
+ "id": "00841",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.788,
+ "n_lines": 19,
+ "mean_score": 0.9896,
+ "lines": [
+  {
+   "text": "KENDRA WILSON",
+   "score": 0.9996,
+   "box": [
+    117,
+    91,
+    404,
+    121
+   ]
+  },
+  {
+   "text": "AL, USA | +1-530-859-8758 | kendra.wilson@example.com",
+   "score": 0.9892,
+   "box": [
+    118,
+    152,
+    664,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Precise Balance Advisors, 2019.10—2023.01",
+   "score": 0.9924,
+   "box": [
+    117,
+    290,
+    735,
+    314
+   ]
+  },
+  {
+   "text": "- Established reporting automation systems",
+   "score": 0.989,
+   "box": [
+    127,
+    316,
+    529,
+    341
+   ]
+  },
+  {
+   "text": "- Designed financial documentation standards",
+   "score": 0.989,
+   "box": [
+    129,
+    342,
+    552,
+    366
+   ]
+  },
+  {
+   "text": "Accountants Auditors, CoreCount Advisors, 2016.072019.10",
+   "score": 0.9866,
+   "box": [
+    118,
+    383,
+    687,
+    407
+   ]
+  },
+  {
+   "text": "- Led accounting transformation projects",
+   "score": 0.9966,
+   "box": [
+    128,
+    409,
+    500,
+    433
+   ]
+  },
+  {
+   "text": "- Directed accounting training programs",
+   "score": 0.9945,
+   "box": [
+    127,
+    432,
+    494,
+    459
+   ]
+  },
+  {
+   "text": "Accountants Auditors, SolidBalance Advisors Group, 2013.042016.07",
+   "score": 0.9862,
+   "box": [
+    117,
+    472,
+    772,
+    499
+   ]
+  },
+  {
+   "text": "- Reviewed financial disclosures",
+   "score": 0.9995,
+   "box": [
+    126,
+    498,
+    428,
+    523
+   ]
+  },
+  {
+   "text": "- Performed revenue recognition analysis",
+   "score": 0.9749,
+   "box": [
+    127,
+    520,
+    510,
+    550
+   ]
+  },
+  {
+   "text": "Accountants Auditors, OpenBooks Advisors, 2007.112011.02",
+   "score": 0.9832,
+   "box": [
+    118,
+    566,
+    696,
+    590
+   ]
+  },
+  {
+   "text": "- Prepared audit confirmations",
+   "score": 0.9862,
+   "box": [
+    127,
+    592,
+    411,
+    616
+   ]
+  },
+  {
+   "text": "- Assisted with monthly close procedures",
+   "score": 0.9824,
+   "box": [
+    128,
+    615,
+    507,
+    642
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Bachelor's, Business Studies, Windridge University, 2004",
+   "score": 0.9824,
+   "box": [
+    117,
+    726,
+    646,
+    749
+   ]
+  },
+  {
+   "text": "Studied fundamentals of substantive testing",
+   "score": 0.9859,
+   "box": [
+    129,
+    747,
+    553,
+    776
+   ]
+  },
+  {
+   "text": "• Studied fundamentals of internal controls",
+   "score": 0.9851,
+   "box": [
+    132,
+    773,
+    526,
+    798
+   ]
+  }
+ ]
+}

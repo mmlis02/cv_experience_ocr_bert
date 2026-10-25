@@ -1,0 +1,103 @@
+{
+ "id": "49223",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.348,
+ "n_lines": 9,
+ "mean_score": 0.9908,
+ "lines": [
+  {
+   "text": "GUSTAVO BRADFORD",
+   "score": 0.9986,
+   "box": [
+    116,
+    87,
+    483,
+    123
+   ]
+  },
+  {
+   "text": "TN, USA | +1-857-850-4816 | gustavo.bradford@example.com",
+   "score": 0.9939,
+   "box": [
+    117,
+    149,
+    697,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    317,
+    270
+   ]
+  },
+  {
+   "text": "Construction Laborers, StrongTrack Construction, 2022.11-2023.01",
+   "score": 0.98,
+   "box": [
+    116,
+    287,
+    744,
+    315
+   ]
+  },
+  {
+   "text": "- Performed basic demolition tasks",
+   "score": 0.9895,
+   "box": [
+    126,
+    314,
+    450,
+    340
+   ]
+  },
+  {
+   "text": "- Assisted with drywall installation",
+   "score": 0.9747,
+   "box": [
+    127,
+    338,
+    440,
+    367
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "High school graduate/GED, Construction Planning, Springfield High School, 2023",
+   "score": 0.9973,
+   "box": [
+    116,
+    447,
+    867,
+    474
+   ]
+  },
+  {
+   "text": "• Studied principles of load-bearing structures",
+   "score": 0.9839,
+   "box": [
+    131,
+    475,
+    556,
+    499
+   ]
+  }
+ ]
+}

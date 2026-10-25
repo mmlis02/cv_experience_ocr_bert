@@ -1,0 +1,103 @@
+{
+ "id": "46376",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.197,
+ "n_lines": 9,
+ "mean_score": 0.9931,
+ "lines": [
+  {
+   "text": "JAMES GAINES",
+   "score": 0.9999,
+   "box": [
+    115,
+    89,
+    371,
+    123
+   ]
+  },
+  {
+   "text": "PA, USA | +1-492-810-2743 | james.gaines@example.com",
+   "score": 0.993,
+   "box": [
+    116,
+    150,
+    663,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    317,
+    270
+   ]
+  },
+  {
+   "text": "Software Developers, Cloudstone Software, 2019.072022.07",
+   "score": 0.9882,
+   "box": [
+    116,
+    289,
+    690,
+    316
+   ]
+  },
+  {
+   "text": "- Handled basic deployment tasks",
+   "score": 0.9957,
+   "box": [
+    125,
+    313,
+    444,
+    342
+   ]
+  },
+  {
+   "text": "- Resolved merge conflicts",
+   "score": 0.9864,
+   "box": [
+    128,
+    340,
+    376,
+    367
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "High school graduate/GED, Willowstone High School, 2017",
+   "score": 0.9991,
+   "box": [
+    117,
+    449,
+    665,
+    473
+   ]
+  },
+  {
+   "text": "• Studied principles of dependency injection",
+   "score": 0.9763,
+   "box": [
+    131,
+    475,
+    538,
+    499
+   ]
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "id": "60688",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.729,
+ "n_lines": 14,
+ "mean_score": 0.9855,
+ "lines": [
+  {
+   "text": "YULISA MORTON",
+   "score": 0.9998,
+   "box": [
+    118,
+    91,
+    398,
+    121
+   ]
+  },
+  {
+   "text": "WI, USA | +1-994-864-7055 | yulisa.morton@example.com",
+   "score": 0.9646,
+   "box": [
+    118,
+    151,
+    660,
+    175
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Registered Nurses, TrueWay Health Group, 2020.12—2023.01",
+   "score": 0.9838,
+   "box": [
+    115,
+    287,
+    690,
+    318
+   ]
+  },
+  {
+   "text": "- Led nursing workflow optimization",
+   "score": 0.9757,
+   "box": [
+    127,
+    314,
+    456,
+    342
+   ]
+  },
+  {
+   "text": "- Implemented care pathway frameworks",
+   "score": 0.9758,
+   "box": [
+    127,
+    339,
+    506,
+    369
+   ]
+  },
+  {
+   "text": "Registered Nurses, TruePath Health Services, 2018.112020.12",
+   "score": 0.9991,
+   "box": [
+    117,
+    382,
+    716,
+    409
+   ]
+  },
+  {
+   "text": "- Prepared treatment rooms",
+   "score": 0.9864,
+   "box": [
+    126,
+    407,
+    387,
+    433
+   ]
+  },
+  {
+   "text": "- Prepared patients for examinations",
+   "score": 0.9825,
+   "box": [
+    127,
+    430,
+    465,
+    459
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Master's, Geriatric Care, Windfield University, 2022",
+   "score": 0.9833,
+   "box": [
+    114,
+    539,
+    591,
+    567
+   ]
+  },
+  {
+   "text": "Bachelor's, Health Services, Woodcrest University, 2020",
+   "score": 0.9798,
+   "box": [
+    117,
+    567,
+    638,
+    591
+   ]
+  },
+  {
+   "text": "Completed coursework in patient counseling",
+   "score": 0.9809,
+   "box": [
+    129,
+    590,
+    559,
+    619
+   ]
+  },
+  {
+   "text": "•Studied principles of infection control",
+   "score": 0.9865,
+   "box": [
+    132,
+    616,
+    490,
+    643
+   ]
+  }
+ ]
+}

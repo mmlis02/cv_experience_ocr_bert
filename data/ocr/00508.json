@@ -1,0 +1,143 @@
+{
+ "id": "00508",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.913,
+ "n_lines": 13,
+ "mean_score": 0.9904,
+ "lines": [
+  {
+   "text": "RHIANA PERRY",
+   "score": 0.9907,
+   "box": [
+    117,
+    89,
+    372,
+    122
+   ]
+  },
+  {
+   "text": "AL, USA | +1-638-981-2225 | rhiana.perry@example.com",
+   "score": 0.9969,
+   "box": [
+    116,
+    149,
+    648,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9998,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Registered Nurses, GentleBridge Health, 2020.08—2022.03",
+   "score": 0.9852,
+   "box": [
+    115,
+    287,
+    665,
+    318
+   ]
+  },
+  {
+   "text": "- Managed clinical compliance programs",
+   "score": 0.9914,
+   "box": [
+    125,
+    313,
+    503,
+    343
+   ]
+  },
+  {
+   "text": "- Led nursing process audits",
+   "score": 0.975,
+   "box": [
+    127,
+    339,
+    392,
+    370
+   ]
+  },
+  {
+   "text": "Registered Nurses, SunWell Nursing Services, 2018.022019.09",
+   "score": 0.9934,
+   "box": [
+    115,
+    379,
+    718,
+    410
+   ]
+  },
+  {
+   "text": "- Administered prescribed medications",
+   "score": 0.9967,
+   "box": [
+    124,
+    406,
+    485,
+    434
+   ]
+  },
+  {
+   "text": "- Monitored patient intake and output",
+   "score": 0.98,
+   "box": [
+    126,
+    431,
+    470,
+    458
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Clinical Health, Riverway University, 2015",
+   "score": 0.9993,
+   "box": [
+    115,
+    539,
+    613,
+    568
+   ]
+  },
+  {
+   "text": "•Studied principles of emergency nursing",
+   "score": 0.9792,
+   "box": [
+    129,
+    566,
+    519,
+    593
+   ]
+  },
+  {
+   "text": "• Studied principles of infection control",
+   "score": 0.9876,
+   "box": [
+    132,
+    592,
+    489,
+    616
+   ]
+  }
+ ]
+}

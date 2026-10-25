@@ -1,0 +1,103 @@
+{
+ "id": "00800",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.148,
+ "n_lines": 9,
+ "mean_score": 0.9955,
+ "lines": [
+  {
+   "text": "SEAN DANIELS",
+   "score": 0.9999,
+   "box": [
+    116,
+    89,
+    366,
+    123
+   ]
+  },
+  {
+   "text": "AL, USA | +1-337-623-4626 | sean.daniels@example.com",
+   "score": 0.9938,
+   "box": [
+    116,
+    149,
+    655,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9993,
+   "box": [
+    116,
+    243,
+    317,
+    270
+   ]
+  },
+  {
+   "text": "Construction Laborers, ClearForm Builders, 2020.01—2022.05",
+   "score": 0.9905,
+   "box": [
+    118,
+    289,
+    688,
+    313
+   ]
+  },
+  {
+   "text": "- Assisted with excavation tasks",
+   "score": 0.993,
+   "box": [
+    125,
+    314,
+    425,
+    339
+   ]
+  },
+  {
+   "text": "- Followed safety procedures on site",
+   "score": 0.9841,
+   "box": [
+    128,
+    340,
+    462,
+    364
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9998,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "High school graduate/GED, Construction Safety, Maple Ridge High School, 2010",
+   "score": 0.9997,
+   "box": [
+    116,
+    447,
+    864,
+    474
+   ]
+  },
+  {
+   "text": "Studied fundamentals of concrete mixing",
+   "score": 0.9998,
+   "box": [
+    128,
+    471,
+    526,
+    501
+   ]
+  }
+ ]
+}

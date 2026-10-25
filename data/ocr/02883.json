@@ -1,0 +1,143 @@
+{
+ "id": "02883",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.587,
+ "n_lines": 13,
+ "mean_score": 0.989,
+ "lines": [
+  {
+   "text": "EBONY LARSON",
+   "score": 0.9988,
+   "box": [
+    118,
+    91,
+    387,
+    121
+   ]
+  },
+  {
+   "text": "CA, USA | +1-331-334-3005 | ebony.larson@example.com",
+   "score": 0.9789,
+   "box": [
+    116,
+    150,
+    660,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Learning Garden Academy, 2020.01—2022.0",
+   "score": 0.9888,
+   "box": [
+    115,
+    287,
+    877,
+    318
+   ]
+  },
+  {
+   "text": "- Directed instructional planning processes",
+   "score": 0.9823,
+   "box": [
+    126,
+    315,
+    522,
+    342
+   ]
+  },
+  {
+   "text": "- Led instructional design reviews",
+   "score": 0.9686,
+   "box": [
+    127,
+    340,
+    438,
+    366
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Future Star Academy, 2016.10—2019.04",
+   "score": 0.9903,
+   "box": [
+    115,
+    379,
+    836,
+    410
+   ]
+  },
+  {
+   "text": "- Prepared daily instructional agendas",
+   "score": 0.993,
+   "box": [
+    125,
+    406,
+    481,
+    434
+   ]
+  },
+  {
+   "text": "- Prepared daily lesson plans aligned with curriculum guidelines",
+   "score": 0.9937,
+   "box": [
+    127,
+    431,
+    716,
+    458
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Foundational Education, Westbrook University, 2013",
+   "score": 0.9924,
+   "box": [
+    115,
+    539,
+    712,
+    567
+   ]
+  },
+  {
+   "text": "• Completed coursework in educational communication",
+   "score": 0.9886,
+   "box": [
+    131,
+    566,
+    642,
+    591
+   ]
+  },
+  {
+   "text": "Studied principles of behavior management",
+   "score": 0.9825,
+   "box": [
+    130,
+    590,
+    552,
+    618
+   ]
+  }
+ ]
+}

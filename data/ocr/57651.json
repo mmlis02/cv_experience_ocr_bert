@@ -1,0 +1,213 @@
+{
+ "id": "57651",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 9.929,
+ "n_lines": 20,
+ "mean_score": 0.9897,
+ "lines": [
+  {
+   "text": "JAIME WOOD",
+   "score": 0.9743,
+   "box": [
+    115,
+    89,
+    337,
+    122
+   ]
+  },
+  {
+   "text": "VA, USA | +1-954-615-7282 | jaime.wood@example.com",
+   "score": 0.9816,
+   "box": [
+    116,
+    150,
+    645,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Kind Field School, 2019.01—2023.01",
+   "score": 0.9862,
+   "box": [
+    117,
+    290,
+    799,
+    317
+   ]
+  },
+  {
+   "text": "- Designed instructional accountability systems",
+   "score": 0.9883,
+   "box": [
+    126,
+    316,
+    562,
+    342
+   ]
+  },
+  {
+   "text": "- Led instructional leadership initiatives",
+   "score": 0.9914,
+   "box": [
+    127,
+    340,
+    488,
+    367
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Bright River Academy, 2015.012019.01",
+   "score": 0.9857,
+   "box": [
+    116,
+    381,
+    839,
+    411
+   ]
+  },
+  {
+   "text": "- Implemented long-term academic plans",
+   "score": 0.999,
+   "box": [
+    126,
+    408,
+    507,
+    433
+   ]
+  },
+  {
+   "text": "- Led instructional technology integration",
+   "score": 0.9837,
+   "box": [
+    127,
+    432,
+    504,
+    458
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Learning Meadow Academy, 2010.12—2015.01",
+   "score": 0.9921,
+   "box": [
+    118,
+    472,
+    895,
+    499
+   ]
+  },
+  {
+   "text": "- Prepared instructional guides",
+   "score": 0.9812,
+   "box": [
+    125,
+    497,
+    415,
+    525
+   ]
+  },
+  {
+   "text": "- Administered standardized assessments",
+   "score": 0.9994,
+   "box": [
+    127,
+    522,
+    516,
+    548
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Harmony Horizons Academy, 2006.112010.12",
+   "score": 0.9923,
+   "box": [
+    117,
+    565,
+    904,
+    592
+   ]
+  },
+  {
+   "text": "- Maintained classroom bulletin boards",
+   "score": 0.9775,
+   "box": [
+    127,
+    592,
+    487,
+    615
+   ]
+  },
+  {
+   "text": "- Tracked student participation",
+   "score": 0.9899,
+   "box": [
+    125,
+    613,
+    411,
+    644
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Master's, Youth Development, Pinefield University, 2005",
+   "score": 0.9911,
+   "box": [
+    117,
+    726,
+    637,
+    749
+   ]
+  },
+  {
+   "text": "Bachelor's, Learning and Development, Brightfield University, 2003",
+   "score": 0.9959,
+   "box": [
+    114,
+    746,
+    738,
+    777
+   ]
+  },
+  {
+   "text": "•Completed coursework in student progress monitoring",
+   "score": 0.9942,
+   "box": [
+    130,
+    774,
+    647,
+    801
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of instructional facilitation",
+   "score": 0.9908,
+   "box": [
+    131,
+    799,
+    589,
+    824
+   ]
+  }
+ ]
+}

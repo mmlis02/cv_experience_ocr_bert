@@ -1,0 +1,173 @@
+{
+ "id": "02394",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.103,
+ "n_lines": 16,
+ "mean_score": 0.9905,
+ "lines": [
+  {
+   "text": "MANUEL NOBLE",
+   "score": 0.9984,
+   "box": [
+    117,
+    91,
+    387,
+    121
+   ]
+  },
+  {
+   "text": "AR, USA | +1-628-883-4424 | manuel.noble@example.com",
+   "score": 0.9778,
+   "box": [
+    118,
+    152,
+    665,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.999,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Registered Nurses, NewWay Care Center, 2019.10—2023.01",
+   "score": 0.9717,
+   "box": [
+    115,
+    287,
+    679,
+    318
+   ]
+  },
+  {
+   "text": "- Managed patient safety reporting systems",
+   "score": 0.982,
+   "box": [
+    125,
+    313,
+    530,
+    344
+   ]
+  },
+  {
+   "text": "- Managed clinical data analysis",
+   "score": 0.989,
+   "box": [
+    126,
+    339,
+    426,
+    369
+   ]
+  },
+  {
+   "text": "Registered Nurses, LifeSpring Medical Services, 2016.062019.10",
+   "score": 0.9952,
+   "box": [
+    117,
+    382,
+    734,
+    409
+   ]
+  },
+  {
+   "text": "- Managed geriatric care plans",
+   "score": 0.9988,
+   "box": [
+    125,
+    406,
+    414,
+    436
+   ]
+  },
+  {
+   "text": "- Coordinated patient discharge planning",
+   "score": 0.9943,
+   "box": [
+    127,
+    430,
+    505,
+    459
+   ]
+  },
+  {
+   "text": "Registered Nurses, KindHands Care Center, 2011.052014.09",
+   "score": 0.9821,
+   "box": [
+    118,
+    473,
+    696,
+    497
+   ]
+  },
+  {
+   "text": "- Monitored intravenous lines",
+   "score": 0.9974,
+   "box": [
+    126,
+    497,
+    399,
+    523
+   ]
+  },
+  {
+   "text": "- Prepared medical equipment for use",
+   "score": 0.9899,
+   "box": [
+    128,
+    520,
+    479,
+    552
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    118,
+    588,
+    266,
+    612
+   ]
+  },
+  {
+   "text": "Bachelor's, Health and Wellness, Harvest University, 2002",
+   "score": 0.9929,
+   "box": [
+    118,
+    632,
+    654,
+    656
+   ]
+  },
+  {
+   "text": "Studied principles of continuity of care",
+   "score": 0.9895,
+   "box": [
+    128,
+    657,
+    501,
+    685
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of respiratory nursing",
+   "score": 0.9896,
+   "box": [
+    129,
+    681,
+    552,
+    710
+   ]
+  }
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "id": "49030",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.744,
+ "n_lines": 18,
+ "mean_score": 0.9893,
+ "lines": [
+  {
+   "text": "KENDRA OLSEN",
+   "score": 0.9994,
+   "box": [
+    117,
+    91,
+    385,
+    121
+   ]
+  },
+  {
+   "text": "TN, USA | +1-967-915-9265 | kendra.olsen@example.com",
+   "score": 0.979,
+   "box": [
+    118,
+    151,
+    659,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9989,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Construction Laborers, SteadyBuild Co., 2020.05—2023.01",
+   "score": 0.9873,
+   "box": [
+    116,
+    288,
+    657,
+    316
+   ]
+  },
+  {
+   "text": "- Reviewed workflow efficiency reports",
+   "score": 0.9946,
+   "box": [
+    126,
+    314,
+    484,
+    341
+   ]
+  },
+  {
+   "text": "- Managed workforce allocation",
+   "score": 0.9956,
+   "box": [
+    126,
+    338,
+    421,
+    368
+   ]
+  },
+  {
+   "text": "Construction Laborers, BuildStone Co., 2017.092020.05",
+   "score": 0.9916,
+   "box": [
+    116,
+    380,
+    649,
+    408
+   ]
+  },
+  {
+   "text": "- Established site layout plans",
+   "score": 0.9862,
+   "box": [
+    125,
+    407,
+    406,
+    433
+   ]
+  },
+  {
+   "text": "- Directed site construction operations",
+   "score": 0.9873,
+   "box": [
+    126,
+    432,
+    479,
+    457
+   ]
+  },
+  {
+   "text": "Construction Laborers, NextBuild Contractors, 2014.05—2017.01",
+   "score": 0.9793,
+   "box": [
+    117,
+    472,
+    710,
+    497
+   ]
+  },
+  {
+   "text": "- Conducted site safety inspections",
+   "score": 0.9847,
+   "box": [
+    128,
+    499,
+    453,
+    523
+   ]
+  },
+  {
+   "text": "- Performed masonry work",
+   "score": 0.9979,
+   "box": [
+    127,
+    521,
+    378,
+    550
+   ]
+  },
+  {
+   "text": "Construction Laborers, Allied Craft Co., 2010.102013.07",
+   "score": 0.9937,
+   "box": [
+    118,
+    566,
+    648,
+    589
+   ]
+  },
+  {
+   "text": "- Dug trenches for utility lines",
+   "score": 0.9714,
+   "box": [
+    127,
+    592,
+    399,
+    616
+   ]
+  },
+  {
+   "text": "- Assisted with framing support",
+   "score": 0.9812,
+   "box": [
+    126,
+    613,
+    417,
+    644
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "High school graduate/GED, General Construction, Silverwood High School, 2003",
+   "score": 0.9975,
+   "box": [
+    116,
+    724,
+    864,
+    750
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of job site inspections",
+   "score": 0.982,
+   "box": [
+    130,
+    748,
+    556,
+    774
+   ]
+  }
+ ]
+}

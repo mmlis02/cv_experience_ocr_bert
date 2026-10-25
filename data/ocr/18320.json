@@ -1,0 +1,113 @@
+{
+ "id": "18320",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.009,
+ "n_lines": 10,
+ "mean_score": 0.9888,
+ "lines": [
+  {
+   "text": "ANGEL BOND",
+   "score": 0.9978,
+   "box": [
+    115,
+    87,
+    343,
+    123
+   ]
+  },
+  {
+   "text": "IL, USA | +1-934-968-2854 | angel.bond@example.com",
+   "score": 0.993,
+   "box": [
+    116,
+    149,
+    633,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9998,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Construction Laborers, CornerLine Contractors, 2020.04—2023.01",
+   "score": 0.9876,
+   "box": [
+    116,
+    287,
+    725,
+    315
+   ]
+  },
+  {
+   "text": "- Prepared surfaces for construction work",
+   "score": 0.9758,
+   "box": [
+    127,
+    315,
+    512,
+    339
+   ]
+  },
+  {
+   "text": "- Performed basic sanding and painting",
+   "score": 0.9826,
+   "box": [
+    126,
+    336,
+    493,
+    369
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Some college (no degree), Surveying Technology, Briarwood University, 2023",
+   "score": 0.9908,
+   "box": [
+    117,
+    447,
+    836,
+    474
+   ]
+  },
+  {
+   "text": "•Studied principles of insulation techniques",
+   "score": 0.9785,
+   "box": [
+    129,
+    474,
+    537,
+    499
+   ]
+  },
+  {
+   "text": "• Studied fundamentals of power tool operation",
+   "score": 0.9821,
+   "box": [
+    132,
+    499,
+    568,
+    523
+   ]
+  }
+ ]
+}

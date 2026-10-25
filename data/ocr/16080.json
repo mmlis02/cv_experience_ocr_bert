@@ -1,0 +1,213 @@
+{
+ "id": "16080",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.564,
+ "n_lines": 20,
+ "mean_score": 0.9909,
+ "lines": [
+  {
+   "text": "RAYMOND SIMMONS",
+   "score": 0.9998,
+   "box": [
+    118,
+    92,
+    458,
+    122
+   ]
+  },
+  {
+   "text": "GA, USA | +1-395-479-3116 | raymond.simmons@example.com",
+   "score": 0.9909,
+   "box": [
+    116,
+    150,
+    712,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9989,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, CoreBalance Advisors, 2019.102023.01",
+   "score": 0.9987,
+   "box": [
+    117,
+    291,
+    704,
+    315
+   ]
+  },
+  {
+   "text": "- Designed financial modeling standards",
+   "score": 0.995,
+   "box": [
+    127,
+    317,
+    500,
+    341
+   ]
+  },
+  {
+   "text": "- Directed budget planning cycles",
+   "score": 0.999,
+   "box": [
+    127,
+    339,
+    439,
+    369
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Balanced Books Group, 2016.072019.10",
+   "score": 0.9855,
+   "box": [
+    117,
+    382,
+    716,
+    409
+   ]
+  },
+  {
+   "text": "- Designed audit methodologies",
+   "score": 0.9973,
+   "box": [
+    125,
+    407,
+    425,
+    435
+   ]
+  },
+  {
+   "text": "- Developed financial performance metrics",
+   "score": 0.991,
+   "box": [
+    128,
+    434,
+    519,
+    457
+   ]
+  },
+  {
+   "text": "Accountants Auditors, CoreCount Group, 2013.04—2016.07",
+   "score": 0.981,
+   "box": [
+    117,
+    472,
+    664,
+    497
+   ]
+  },
+  {
+   "text": "- Reviewed balance sheet accounts",
+   "score": 0.987,
+   "box": [
+    127,
+    499,
+    459,
+    522
+   ]
+  },
+  {
+   "text": "- Reviewed financial disclosures",
+   "score": 0.9993,
+   "box": [
+    127,
+    521,
+    427,
+    548
+   ]
+  },
+  {
+   "text": "Accountants Auditors, OpenBooks Advisors, 2010.012013.04",
+   "score": 0.9961,
+   "box": [
+    116,
+    563,
+    696,
+    592
+   ]
+  },
+  {
+   "text": "- Reviewed ledger postings",
+   "score": 0.9791,
+   "box": [
+    125,
+    589,
+    383,
+    619
+   ]
+  },
+  {
+   "text": "- Updated fixed asset registers",
+   "score": 0.998,
+   "box": [
+    127,
+    614,
+    413,
+    644
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Master's, Taxation, Clearview University, 2009",
+   "score": 0.9877,
+   "box": [
+    115,
+    723,
+    547,
+    750
+   ]
+  },
+  {
+   "text": "Bachelor's, Accounting Practice, Havenwood University, 2007",
+   "score": 0.9854,
+   "box": [
+    115,
+    747,
+    688,
+    775
+   ]
+  },
+  {
+   "text": "•Completed coursework in audit reporting",
+   "score": 0.9628,
+   "box": [
+    129,
+    773,
+    523,
+    802
+   ]
+  },
+  {
+   "text": "•Studied principles of financial planning",
+   "score": 0.985,
+   "box": [
+    131,
+    798,
+    503,
+    827
+   ]
+  }
+ ]
+}

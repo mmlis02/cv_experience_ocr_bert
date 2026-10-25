@@ -1,0 +1,143 @@
+{
+ "id": "16443",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.223,
+ "n_lines": 13,
+ "mean_score": 0.989,
+ "lines": [
+  {
+   "text": "JASMINE RICHARDS",
+   "score": 0.994,
+   "box": [
+    116,
+    91,
+    450,
+    121
+   ]
+  },
+  {
+   "text": "GA, USA | +1-426-674-9936 | jasmine.richards@example.com",
+   "score": 0.969,
+   "box": [
+    118,
+    152,
+    693,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Little Minds School, 2021.042023.01",
+   "score": 0.9931,
+   "box": [
+    117,
+    289,
+    812,
+    316
+   ]
+  },
+  {
+   "text": "- Established academic quality controls",
+   "score": 0.99,
+   "box": [
+    125,
+    314,
+    490,
+    342
+   ]
+  },
+  {
+   "text": "- Developed instructional innovation plans",
+   "score": 0.9783,
+   "box": [
+    126,
+    339,
+    515,
+    367
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, BrightWay School, 2017.122019.10",
+   "score": 0.9922,
+   "box": [
+    115,
+    379,
+    805,
+    411
+   ]
+  },
+  {
+   "text": "- Maintained instructional logs",
+   "score": 0.9808,
+   "box": [
+    124,
+    402,
+    407,
+    435
+   ]
+  },
+  {
+   "text": "- Maintained student folders",
+   "score": 0.9968,
+   "box": [
+    126,
+    430,
+    388,
+    457
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    268,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Education Basics, Forestview University, 2014",
+   "score": 0.9959,
+   "box": [
+    116,
+    540,
+    653,
+    566
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of early math instruction",
+   "score": 0.9822,
+   "box": [
+    129,
+    565,
+    578,
+    591
+   ]
+  },
+  {
+   "text": "Studied fundamentals of language arts education",
+   "score": 0.986,
+   "box": [
+    130,
+    589,
+    602,
+    617
+   ]
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "id": "44292",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.228,
+ "n_lines": 16,
+ "mean_score": 0.9902,
+ "lines": [
+  {
+   "text": "WILLIAM MCMILLAN",
+   "score": 0.9994,
+   "box": [
+    117,
+    90,
+    450,
+    122
+   ]
+  },
+  {
+   "text": "OR, USA | +1-976-729-2780 |william.mcmillan@example.com",
+   "score": 0.979,
+   "box": [
+    118,
+    152,
+    693,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9989,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Construction Laborers, FirmStone Construction, 2021.01—2023.01",
+   "score": 0.9806,
+   "box": [
+    116,
+    288,
+    726,
+    316
+   ]
+  },
+  {
+   "text": "- Developed construction workflows",
+   "score": 0.9784,
+   "box": [
+    127,
+    315,
+    457,
+    341
+   ]
+  },
+  {
+   "text": "- Designed site safety protocols",
+   "score": 0.984,
+   "box": [
+    127,
+    339,
+    422,
+    369
+   ]
+  },
+  {
+   "text": "Construction Laborers, Allied Build Group, 2019.012021.01",
+   "score": 0.9968,
+   "box": [
+    117,
+    382,
+    674,
+    409
+   ]
+  },
+  {
+   "text": "- Prepared site reports",
+   "score": 0.9997,
+   "box": [
+    126,
+    409,
+    338,
+    433
+   ]
+  },
+  {
+   "text": "- Monitored safety compliance",
+   "score": 0.9911,
+   "box": [
+    126,
+    431,
+    408,
+    459
+   ]
+  },
+  {
+   "text": "Construction Laborers, StrongRise Construction, 2014.032016.04",
+   "score": 0.9997,
+   "box": [
+    118,
+    472,
+    736,
+    499
+   ]
+  },
+  {
+   "text": "- Prepared surfaces for construction work",
+   "score": 0.9919,
+   "box": [
+    127,
+    498,
+    513,
+    525
+   ]
+  },
+  {
+   "text": "- Operated hand tools for assembly tasks",
+   "score": 0.9953,
+   "box": [
+    128,
+    521,
+    510,
+    549
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Bachelor's, Construction Design, Meadowfield University, 2013",
+   "score": 0.9829,
+   "box": [
+    117,
+    632,
+    699,
+    659
+   ]
+  },
+  {
+   "text": "•Studied principles of load-bearing structures",
+   "score": 0.972,
+   "box": [
+    130,
+    658,
+    558,
+    685
+   ]
+  },
+  {
+   "text": "Completed coursework in basic painting techniques",
+   "score": 0.9937,
+   "box": [
+    131,
+    681,
+    625,
+    710
+   ]
+  }
+ ]
+}

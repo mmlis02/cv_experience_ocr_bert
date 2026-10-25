@@ -1,0 +1,143 @@
+{
+ "id": "35529",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.284,
+ "n_lines": 13,
+ "mean_score": 0.9912,
+ "lines": [
+  {
+   "text": "YISROEL LAMBERT",
+   "score": 0.9996,
+   "box": [
+    118,
+    91,
+    438,
+    121
+   ]
+  },
+  {
+   "text": "NY, USA | +1-246-720-2281 | yisroel.lambert@example.com",
+   "score": 0.9622,
+   "box": [
+    117,
+    152,
+    676,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, TrustLedger Financial, 2020.112023.01",
+   "score": 0.9885,
+   "box": [
+    115,
+    288,
+    701,
+    316
+   ]
+  },
+  {
+   "text": "- Established compliance monitoring systems",
+   "score": 0.9946,
+   "box": [
+    126,
+    315,
+    546,
+    341
+   ]
+  },
+  {
+   "text": "- Directed budget planning cycles",
+   "score": 0.9814,
+   "box": [
+    127,
+    338,
+    439,
+    369
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Balanced Books Financial, 2018.09—2020.11",
+   "score": 0.9892,
+   "box": [
+    116,
+    380,
+    740,
+    408
+   ]
+  },
+  {
+   "text": "- Compiled audit evidence",
+   "score": 0.9989,
+   "box": [
+    125,
+    407,
+    371,
+    432
+   ]
+  },
+  {
+   "text": "- Assisted with audit fieldwork",
+   "score": 0.9922,
+   "box": [
+    129,
+    433,
+    404,
+    455
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    268,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Financial Planning, Skycrest University, 2019",
+   "score": 0.9882,
+   "box": [
+    115,
+    539,
+    644,
+    567
+   ]
+  },
+  {
+   "text": "• Completed coursework in macroeconomics",
+   "score": 0.9956,
+   "box": [
+    132,
+    566,
+    548,
+    592
+   ]
+  },
+  {
+   "text": "• Completed coursework in accounting information systems",
+   "score": 0.9965,
+   "box": [
+    132,
+    591,
+    680,
+    616
+   ]
+  }
+ ]
+}

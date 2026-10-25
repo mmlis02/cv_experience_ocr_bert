@@ -1,0 +1,173 @@
+{
+ "id": "57173",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.962,
+ "n_lines": 16,
+ "mean_score": 0.9911,
+ "lines": [
+  {
+   "text": "EMERALD BARTLETT",
+   "score": 0.9997,
+   "box": [
+    119,
+    93,
+    467,
+    120
+   ]
+  },
+  {
+   "text": "VA, USA| +1-593-702-6983 | emerald.bartlett@example.com",
+   "score": 0.9765,
+   "box": [
+    118,
+    152,
+    684,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Bright Meadow School, 2019.10—2023.01",
+   "score": 0.9933,
+   "box": [
+    115,
+    287,
+    847,
+    319
+   ]
+  },
+  {
+   "text": "- Implemented long-term academic plans",
+   "score": 0.9989,
+   "box": [
+    126,
+    316,
+    508,
+    341
+   ]
+  },
+  {
+   "text": "- Designed instructional accountability systems",
+   "score": 0.9916,
+   "box": [
+    127,
+    339,
+    562,
+    369
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Inspire Learning School, 2016.062019.10",
+   "score": 0.9941,
+   "box": [
+    116,
+    381,
+    858,
+    411
+   ]
+  },
+  {
+   "text": "- Implemented differentiated instruction strategies",
+   "score": 0.9952,
+   "box": [
+    126,
+    408,
+    586,
+    434
+   ]
+  },
+  {
+   "text": "- Organized instructional schedules",
+   "score": 0.9988,
+   "box": [
+    128,
+    432,
+    455,
+    458
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Sunny Field School, 2013.022016.06",
+   "score": 0.9913,
+   "box": [
+    118,
+    472,
+    818,
+    499
+   ]
+  },
+  {
+   "text": "- Distributed instructional handouts",
+   "score": 0.9688,
+   "box": [
+    126,
+    496,
+    452,
+    525
+   ]
+  },
+  {
+   "text": "- Implemented classroom seating plans",
+   "score": 0.9976,
+   "box": [
+    128,
+    521,
+    493,
+    551
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Bachelor's, Education Studies, Clearhaven University, 2017",
+   "score": 0.9832,
+   "box": [
+    118,
+    633,
+    667,
+    657
+   ]
+  },
+  {
+   "text": "• Studied fundamentals of instructional support",
+   "score": 0.9734,
+   "box": [
+    129,
+    657,
+    568,
+    683
+   ]
+  },
+  {
+   "text": "•Studied foundational learning strategies",
+   "score": 0.9964,
+   "box": [
+    131,
+    681,
+    514,
+    709
+   ]
+  }
+ ]
+}

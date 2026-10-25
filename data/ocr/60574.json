@@ -1,0 +1,163 @@
+{
+ "id": "60574",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.174,
+ "n_lines": 15,
+ "mean_score": 0.9904,
+ "lines": [
+  {
+   "text": "PEYTON KNIGHT",
+   "score": 0.9998,
+   "box": [
+    117,
+    91,
+    392,
+    121
+   ]
+  },
+  {
+   "text": "WI, USA | +1-646-229-9668 | peyton.knight@example.com",
+   "score": 0.9874,
+   "box": [
+    118,
+    152,
+    660,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9992,
+   "box": [
+    118,
+    245,
+    314,
+    269
+   ]
+  },
+  {
+   "text": "Construction Laborers, Clearline Builders, 2020.08—2023.01",
+   "score": 0.9871,
+   "box": [
+    117,
+    289,
+    670,
+    314
+   ]
+  },
+  {
+   "text": "- Reviewed and approved project plans",
+   "score": 0.9982,
+   "box": [
+    126,
+    315,
+    491,
+    341
+   ]
+  },
+  {
+   "text": "- Managed construction schedules",
+   "score": 0.9759,
+   "box": [
+    128,
+    340,
+    448,
+    366
+   ]
+  },
+  {
+   "text": "Construction Laborers, Workforce Construction, 2018.02—2020.08",
+   "score": 0.985,
+   "box": [
+    118,
+    383,
+    726,
+    407
+   ]
+  },
+  {
+   "text": "- Installed electrical wiring supports",
+   "score": 0.9897,
+   "box": [
+    125,
+    407,
+    453,
+    433
+   ]
+  },
+  {
+   "text": "- Operated power tools independently",
+   "score": 0.9978,
+   "box": [
+    128,
+    431,
+    477,
+    459
+   ]
+  },
+  {
+   "text": "Construction Laborers, FirmLine Builders, 2012.12—2015.06",
+   "score": 0.9879,
+   "box": [
+    117,
+    472,
+    670,
+    497
+   ]
+  },
+  {
+   "text": "- Assisted with drywall installation",
+   "score": 0.9969,
+   "box": [
+    129,
+    499,
+    441,
+    523
+   ]
+  },
+  {
+   "text": "- Assisted with roofing material handling",
+   "score": 0.9794,
+   "box": [
+    128,
+    519,
+    498,
+    551
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    118,
+    588,
+    266,
+    612
+   ]
+  },
+  {
+   "text": "High school graduate/GED, Construction Engineering Technology, Westfield High School, 2007",
+   "score": 0.9957,
+   "box": [
+    118,
+    633,
+    997,
+    657
+   ]
+  },
+  {
+   "text": "• Completed coursework in basic structural demolition",
+   "score": 0.9766,
+   "box": [
+    132,
+    657,
+    631,
+    682
+   ]
+  }
+ ]
+}

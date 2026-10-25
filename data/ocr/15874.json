@@ -1,0 +1,173 @@
+{
+ "id": "15874",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.578,
+ "n_lines": 16,
+ "mean_score": 0.9915,
+ "lines": [
+  {
+   "text": "HEATHER WALL",
+   "score": 0.9998,
+   "box": [
+    117,
+    91,
+    386,
+    122
+   ]
+  },
+  {
+   "text": "GA, USA | +1-456-887-4231 | heather.wall@example.com",
+   "score": 0.9927,
+   "box": [
+    116,
+    150,
+    655,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Registered Nurses, TrueLife Care Group, 2020.09—2023.01",
+   "score": 0.9809,
+   "box": [
+    115,
+    287,
+    667,
+    318
+   ]
+  },
+  {
+   "text": "- Led nursing workflow optimization",
+   "score": 0.9857,
+   "box": [
+    126,
+    314,
+    456,
+    342
+   ]
+  },
+  {
+   "text": "- Supervised multidisciplinary care teams",
+   "score": 0.9908,
+   "box": [
+    127,
+    339,
+    509,
+    368
+   ]
+  },
+  {
+   "text": "Registered Nurses, SunWay Care Group, 2018.042020.09",
+   "score": 0.9995,
+   "box": [
+    116,
+    381,
+    669,
+    409
+   ]
+  },
+  {
+   "text": "- Documented clinical care activities",
+   "score": 0.9975,
+   "box": [
+    126,
+    407,
+    461,
+    433
+   ]
+  },
+  {
+   "text": "- Implemented patient education programs",
+   "score": 0.9984,
+   "box": [
+    127,
+    432,
+    522,
+    459
+   ]
+  },
+  {
+   "text": "Registered Nurses, WellPath Medical Group, 2015.112018.04",
+   "score": 0.9925,
+   "box": [
+    118,
+    474,
+    700,
+    498
+   ]
+  },
+  {
+   "text": "- Documented patient observations",
+   "score": 0.9897,
+   "box": [
+    125,
+    496,
+    454,
+    525
+   ]
+  },
+  {
+   "text": "- Recorded patient vital signs",
+   "score": 0.9916,
+   "box": [
+    127,
+    521,
+    400,
+    551
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Bachelor's, Health and Wellness, Clear Spring University, 2013",
+   "score": 0.9891,
+   "box": [
+    118,
+    633,
+    700,
+    657
+   ]
+  },
+  {
+   "text": "•Completed coursework in patient triage",
+   "score": 0.9775,
+   "box": [
+    130,
+    658,
+    509,
+    684
+   ]
+  },
+  {
+   "text": "•Studied principles of telemetry basics",
+   "score": 0.98,
+   "box": [
+    130,
+    681,
+    493,
+    709
+   ]
+  }
+ ]
+}

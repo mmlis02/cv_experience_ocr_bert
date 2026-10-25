@@ -1,0 +1,183 @@
+{
+ "id": "57677",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.571,
+ "n_lines": 17,
+ "mean_score": 0.9918,
+ "lines": [
+  {
+   "text": "ENRIQUE HERMAN",
+   "score": 0.9996,
+   "box": [
+    117,
+    89,
+    426,
+    122
+   ]
+  },
+  {
+   "text": "VA, USA | +1-543-628-8662 | enrique.herman@example.com",
+   "score": 0.9855,
+   "box": [
+    116,
+    150,
+    686,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Kind Steps School, 2020.12—2023.01",
+   "score": 0.9758,
+   "box": [
+    117,
+    290,
+    807,
+    317
+   ]
+  },
+  {
+   "text": "- Developed learning progression models",
+   "score": 0.9948,
+   "box": [
+    127,
+    317,
+    509,
+    341
+   ]
+  },
+  {
+   "text": "- Led curriculum integration projects",
+   "score": 0.999,
+   "box": [
+    127,
+    339,
+    462,
+    369
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Kind Start School, 2018.112020.12",
+   "score": 0.9995,
+   "box": [
+    117,
+    382,
+    800,
+    409
+   ]
+  },
+  {
+   "text": "- Adapted lesson content for diverse learners",
+   "score": 0.9969,
+   "box": [
+    125,
+    408,
+    545,
+    433
+   ]
+  },
+  {
+   "text": "- Planned interdisciplinary lessons",
+   "score": 0.9996,
+   "box": [
+    125,
+    430,
+    446,
+    461
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Growing Bridge Academy, 2016.102018.11",
+   "score": 0.9927,
+   "box": [
+    117,
+    471,
+    873,
+    499
+   ]
+  },
+  {
+   "text": "- Maintained lesson documentation",
+   "score": 0.9979,
+   "box": [
+    126,
+    497,
+    453,
+    523
+   ]
+  },
+  {
+   "text": "- Supervised classroom activities",
+   "score": 0.9803,
+   "box": [
+    127,
+    520,
+    435,
+    551
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Master's, Elementary Education Preparation, Shoreline University, 2019",
+   "score": 0.9873,
+   "box": [
+    115,
+    631,
+    781,
+    659
+   ]
+  },
+  {
+   "text": "Bachelor's, Social Science Studies, Sagewood University, 2017",
+   "score": 0.9888,
+   "box": [
+    117,
+    659,
+    705,
+    683
+   ]
+  },
+  {
+   "text": "•Studied principles of instructional alignment",
+   "score": 0.9769,
+   "box": [
+    130,
+    683,
+    550,
+    707
+   ]
+  },
+  {
+   "text": "•Studied principles of academic scaffolding",
+   "score": 0.9875,
+   "box": [
+    131,
+    706,
+    538,
+    736
+   ]
+  }
+ ]
+}

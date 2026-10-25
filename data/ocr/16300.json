@@ -1,0 +1,203 @@
+{
+ "id": "16300",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.502,
+ "n_lines": 19,
+ "mean_score": 0.9903,
+ "lines": [
+  {
+   "text": "KEVIN REESE",
+   "score": 0.9944,
+   "box": [
+    117,
+    91,
+    343,
+    121
+   ]
+  },
+  {
+   "text": "GA, USA | +1-634-857-4958 | kevin.reese@example.com",
+   "score": 0.9972,
+   "box": [
+    116,
+    150,
+    648,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Balanced Path Accounting, 2020.06—2023.01",
+   "score": 0.9941,
+   "box": [
+    115,
+    287,
+    744,
+    318
+   ]
+  },
+  {
+   "text": "- Designed financial control environments",
+   "score": 0.9882,
+   "box": [
+    128,
+    316,
+    512,
+    341
+   ]
+  },
+  {
+   "text": "- Led audit planning governance",
+   "score": 0.9884,
+   "box": [
+    127,
+    340,
+    429,
+    370
+   ]
+  },
+  {
+   "text": "Accountants Auditors, OpenBalance Financial, 2017.112020.06",
+   "score": 0.9985,
+   "box": [
+    118,
+    383,
+    716,
+    407
+   ]
+  },
+  {
+   "text": "- Directed financial system architecture",
+   "score": 0.9792,
+   "box": [
+    125,
+    408,
+    489,
+    433
+   ]
+  },
+  {
+   "text": "- Directed accounting system implementations",
+   "score": 0.9995,
+   "box": [
+    126,
+    433,
+    556,
+    457
+   ]
+  },
+  {
+   "text": "Accountants Auditors, SolidBalance Financial, 2015.042017.11",
+   "score": 0.9936,
+   "box": [
+    118,
+    474,
+    710,
+    498
+   ]
+  },
+  {
+   "text": "- Reviewed tax provisions",
+   "score": 0.9846,
+   "box": [
+    126,
+    500,
+    367,
+    524
+   ]
+  },
+  {
+   "text": "- Performed revenue recognition analysis",
+   "score": 0.978,
+   "box": [
+    127,
+    521,
+    509,
+    550
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Integrity Count Co., 2012.082015.04",
+   "score": 0.9875,
+   "box": [
+    117,
+    566,
+    674,
+    590
+   ]
+  },
+  {
+   "text": "- Compiled financial schedules",
+   "score": 0.9746,
+   "box": [
+    128,
+    592,
+    414,
+    615
+   ]
+  },
+  {
+   "text": "- Updated accounting policies documentation",
+   "score": 0.9885,
+   "box": [
+    128,
+    614,
+    546,
+    642
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Bachelor's, Corporate Finance, Silverview University, 2012",
+   "score": 0.9922,
+   "box": [
+    117,
+    726,
+    660,
+    749
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of assurance services",
+   "score": 0.9911,
+   "box": [
+    131,
+    749,
+    558,
+    774
+   ]
+  },
+  {
+   "text": "•Completed coursework in cost accounting",
+   "score": 0.9869,
+   "box": [
+    132,
+    772,
+    535,
+    801
+   ]
+  }
+ ]
+}

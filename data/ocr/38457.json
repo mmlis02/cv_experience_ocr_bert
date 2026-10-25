@@ -1,0 +1,113 @@
+{
+ "id": "38457",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.455,
+ "n_lines": 10,
+ "mean_score": 0.9888,
+ "lines": [
+  {
+   "text": "DESTINY POLLARD",
+   "score": 0.9972,
+   "box": [
+    118,
+    90,
+    434,
+    121
+   ]
+  },
+  {
+   "text": "NY, USA | +1-320-563-7215 | destiny.pollard@example.com",
+   "score": 0.9785,
+   "box": [
+    115,
+    149,
+    675,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9994,
+   "box": [
+    116,
+    243,
+    317,
+    270
+   ]
+  },
+  {
+   "text": "Accountants Auditors, CoreBalance Services, 2020.09—2021.09",
+   "score": 0.9952,
+   "box": [
+    116,
+    288,
+    706,
+    313
+   ]
+  },
+  {
+   "text": "- Maintained chart of accounts",
+   "score": 0.9843,
+   "box": [
+    126,
+    314,
+    410,
+    339
+   ]
+  },
+  {
+   "text": "- Assisted with forecasting data",
+   "score": 0.982,
+   "box": [
+    128,
+    339,
+    418,
+    366
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Applied Accounting, Stoneview University, 2015",
+   "score": 0.9892,
+   "box": [
+    115,
+    446,
+    670,
+    476
+   ]
+  },
+  {
+   "text": "Completed coursework in lease accounting",
+   "score": 0.9867,
+   "box": [
+    130,
+    472,
+    546,
+    501
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of financial management",
+   "score": 0.9759,
+   "box": [
+    131,
+    496,
+    585,
+    525
+   ]
+  }
+ ]
+}

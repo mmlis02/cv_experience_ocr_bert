@@ -1,0 +1,173 @@
+{
+ "id": "03356",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.632,
+ "n_lines": 16,
+ "mean_score": 0.9923,
+ "lines": [
+  {
+   "text": "ERICK LI",
+   "score": 0.9996,
+   "box": [
+    116,
+    89,
+    263,
+    123
+   ]
+  },
+  {
+   "text": "CA, USA | +1-241-826-7297 | erick.li@example.com",
+   "score": 0.9696,
+   "box": [
+    118,
+    152,
+    600,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    314,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, SteadyLedger Group, 2020.12—2023.01",
+   "score": 0.9954,
+   "box": [
+    115,
+    288,
+    692,
+    316
+   ]
+  },
+  {
+   "text": "- Developed financial risk models",
+   "score": 0.9799,
+   "box": [
+    127,
+    316,
+    437,
+    339
+   ]
+  },
+  {
+   "text": "- Directed accounting operations planning",
+   "score": 0.9907,
+   "box": [
+    127,
+    339,
+    514,
+    369
+   ]
+  },
+  {
+   "text": "Accountants Auditors, SolidBooks Accounting, 2018.112020.12",
+   "score": 0.9946,
+   "box": [
+    117,
+    382,
+    715,
+    409
+   ]
+  },
+  {
+   "text": "- Developed financial policies",
+   "score": 0.9959,
+   "box": [
+    125,
+    407,
+    400,
+    432
+   ]
+  },
+  {
+   "text": "- Reviewed internal controls",
+   "score": 0.999,
+   "box": [
+    126,
+    430,
+    387,
+    457
+   ]
+  },
+  {
+   "text": "Accountants Auditors, OpenBalance Advisors, 2016.092018.11",
+   "score": 0.9946,
+   "box": [
+    117,
+    473,
+    711,
+    497
+   ]
+  },
+  {
+   "text": "- Compiled financial schedules",
+   "score": 0.9934,
+   "box": [
+    127,
+    499,
+    413,
+    523
+   ]
+  },
+  {
+   "text": "- Reviewed ledger postings",
+   "score": 0.9992,
+   "box": [
+    127,
+    520,
+    382,
+    551
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    118,
+    588,
+    266,
+    612
+   ]
+  },
+  {
+   "text": "Bachelor's, Financial Management, Willowfield University, 2018",
+   "score": 0.9962,
+   "box": [
+    116,
+    630,
+    704,
+    658
+   ]
+  },
+  {
+   "text": "•Completed coursework in financial disclosure",
+   "score": 0.9888,
+   "box": [
+    132,
+    657,
+    566,
+    681
+   ]
+  },
+  {
+   "text": "•Completed coursework in accounting project management",
+   "score": 0.9807,
+   "box": [
+    132,
+    680,
+    688,
+    709
+   ]
+  }
+ ]
+}

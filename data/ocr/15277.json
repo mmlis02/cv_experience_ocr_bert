@@ -1,0 +1,173 @@
+{
+ "id": "15277",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.203,
+ "n_lines": 16,
+ "mean_score": 0.9862,
+ "lines": [
+  {
+   "text": "LUZ MCKAY",
+   "score": 0.9754,
+   "box": [
+    116,
+    89,
+    314,
+    122
+   ]
+  },
+  {
+   "text": "GA, USA | +1-264-921-1824 | luz.mckay@example.com",
+   "score": 0.9947,
+   "box": [
+    116,
+    150,
+    634,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.999,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Open Minds School, 2020.01—2023.01",
+   "score": 0.9834,
+   "box": [
+    116,
+    288,
+    820,
+    318
+   ]
+  },
+  {
+   "text": "- Led strategic curriculum planning",
+   "score": 0.997,
+   "box": [
+    127,
+    316,
+    449,
+    342
+   ]
+  },
+  {
+   "text": "- Designed literacy development programs",
+   "score": 0.9662,
+   "box": [
+    127,
+    340,
+    521,
+    368
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Growing Minds School, 2016.12—2020.01",
+   "score": 0.9881,
+   "box": [
+    117,
+    382,
+    844,
+    409
+   ]
+  },
+  {
+   "text": "- Evaluated instructional effectiveness",
+   "score": 0.9806,
+   "box": [
+    125,
+    407,
+    480,
+    433
+   ]
+  },
+  {
+   "text": "- Designed student support plans",
+   "score": 0.9826,
+   "box": [
+    125,
+    431,
+    436,
+    459
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Learning Start School, 2011.072014.08",
+   "score": 0.9894,
+   "box": [
+    118,
+    472,
+    838,
+    499
+   ]
+  },
+  {
+   "text": "- Reviewed lesson objectives",
+   "score": 0.9885,
+   "box": [
+    126,
+    497,
+    399,
+    524
+   ]
+  },
+  {
+   "text": "- Recorded student feedback",
+   "score": 0.9819,
+   "box": [
+    127,
+    521,
+    398,
+    546
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    118,
+    588,
+    266,
+    612
+   ]
+  },
+  {
+   "text": "Bachelor's, Education Basics, Willowstone University, 2002",
+   "score": 0.9802,
+   "box": [
+    116,
+    630,
+    664,
+    658
+   ]
+  },
+  {
+   "text": "• Completed coursework in educational measurement",
+   "score": 0.9905,
+   "box": [
+    131,
+    659,
+    631,
+    682
+   ]
+  },
+  {
+   "text": "• Studied principles of curriculum standards",
+   "score": 0.9823,
+   "box": [
+    132,
+    682,
+    536,
+    707
+   ]
+  }
+ ]
+}

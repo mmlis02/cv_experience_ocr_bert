@@ -1,0 +1,103 @@
+{
+ "id": "60581",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.417,
+ "n_lines": 9,
+ "mean_score": 0.9924,
+ "lines": [
+  {
+   "text": "JEREMY PITTMAN",
+   "score": 0.9989,
+   "box": [
+    115,
+    89,
+    414,
+    122
+   ]
+  },
+  {
+   "text": "WI, USA | +1-480-599-7966 | jeremy.pittman@example.com",
+   "score": 0.9965,
+   "box": [
+    116,
+    149,
+    674,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9994,
+   "box": [
+    116,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Registered Nurses, SunPath Nursing, 2021.122022.06",
+   "score": 0.9937,
+   "box": [
+    116,
+    289,
+    634,
+    316
+   ]
+  },
+  {
+   "text": "- Monitored patient recovery",
+   "score": 0.9844,
+   "box": [
+    124,
+    312,
+    391,
+    343
+   ]
+  },
+  {
+   "text": "- Recorded nursing notes",
+   "score": 0.9788,
+   "box": [
+    125,
+    338,
+    366,
+    368
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "High school graduate/GED, Health Support Services, Hillside High School, 2015",
+   "score": 0.9881,
+   "box": [
+    115,
+    446,
+    859,
+    475
+   ]
+  },
+  {
+   "text": "Studied fundamentals of skin integrity maintenance",
+   "score": 0.9923,
+   "box": [
+    128,
+    472,
+    622,
+    500
+   ]
+  }
+ ]
+}

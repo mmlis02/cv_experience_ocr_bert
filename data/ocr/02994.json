@@ -1,0 +1,173 @@
+{
+ "id": "02994",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.486,
+ "n_lines": 16,
+ "mean_score": 0.991,
+ "lines": [
+  {
+   "text": "FRANCISCO COPELAND",
+   "score": 0.9999,
+   "box": [
+    117,
+    90,
+    512,
+    121
+   ]
+  },
+  {
+   "text": "CA, USA | +1-821-830-5265 | francisco.copeland@example.com",
+   "score": 0.9926,
+   "box": [
+    118,
+    152,
+    714,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.999,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, FairBooks Accounting, 2020.04—2023.01",
+   "score": 0.9837,
+   "box": [
+    116,
+    289,
+    701,
+    314
+   ]
+  },
+  {
+   "text": "- Established financial quality controls",
+   "score": 0.9861,
+   "box": [
+    127,
+    315,
+    476,
+    341
+   ]
+  },
+  {
+   "text": "- Managed financial governance",
+   "score": 0.9994,
+   "box": [
+    128,
+    340,
+    427,
+    367
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Integrity Count Financial, 2017.06—2020.04",
+   "score": 0.9866,
+   "box": [
+    115,
+    380,
+    726,
+    408
+   ]
+  },
+  {
+   "text": "- Conducted internal audits",
+   "score": 0.9817,
+   "box": [
+    125,
+    407,
+    379,
+    432
+   ]
+  },
+  {
+   "text": "- Reviewed journal entries",
+   "score": 0.9993,
+   "box": [
+    125,
+    430,
+    372,
+    460
+   ]
+  },
+  {
+   "text": "Accountants Auditors, EverCount Group, 2013.032016.01",
+   "score": 0.9906,
+   "box": [
+    117,
+    473,
+    660,
+    497
+   ]
+  },
+  {
+   "text": "- Reviewed account balances",
+   "score": 0.9966,
+   "box": [
+    126,
+    497,
+    403,
+    523
+   ]
+  },
+  {
+   "text": "- Prepared audit confirmations",
+   "score": 0.9829,
+   "box": [
+    127,
+    520,
+    410,
+    550
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    118,
+    588,
+    266,
+    612
+   ]
+  },
+  {
+   "text": "Bachelor's, Quantitative Finance, Forest Ridge University, 2003",
+   "score": 0.997,
+   "box": [
+    116,
+    629,
+    704,
+    660
+   ]
+  },
+  {
+   "text": "Completed coursework in audit reporting",
+   "score": 0.9712,
+   "box": [
+    129,
+    656,
+    524,
+    686
+   ]
+  },
+  {
+   "text": "•Studied principles of revenue recognition",
+   "score": 0.9898,
+   "box": [
+    131,
+    681,
+    526,
+    709
+   ]
+  }
+ ]
+}

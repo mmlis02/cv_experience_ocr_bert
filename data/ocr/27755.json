@@ -1,0 +1,113 @@
+{
+ "id": "27755",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.794,
+ "n_lines": 10,
+ "mean_score": 0.9881,
+ "lines": [
+  {
+   "text": "JENNIFER SHANNON",
+   "score": 0.9999,
+   "box": [
+    116,
+    91,
+    461,
+    122
+   ]
+  },
+  {
+   "text": "MI, USA | +1-834-834-1982 | jennifer.shannon@example.com",
+   "score": 0.9846,
+   "box": [
+    115,
+    149,
+    689,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Registered Nurses, LifeSpring Medical Services, 2020.12—2023.01",
+   "score": 0.9874,
+   "box": [
+    116,
+    289,
+    732,
+    316
+   ]
+  },
+  {
+   "text": "- Updated patient medical records",
+   "score": 0.9944,
+   "box": [
+    127,
+    316,
+    442,
+    340
+   ]
+  },
+  {
+   "text": "- Collected laboratory specimens",
+   "score": 0.9767,
+   "box": [
+    127,
+    338,
+    433,
+    369
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Health Systems, Fairmont University, 2019",
+   "score": 0.9875,
+   "box": [
+    116,
+    448,
+    622,
+    475
+   ]
+  },
+  {
+   "text": "• Completed coursework in clinical audits basics",
+   "score": 0.988,
+   "box": [
+    132,
+    473,
+    579,
+    499
+   ]
+  },
+  {
+   "text": "•Completed coursework in home health nursing basics",
+   "score": 0.9624,
+   "box": [
+    133,
+    497,
+    642,
+    525
+   ]
+  }
+ ]
+}

@@ -1,0 +1,213 @@
+{
+ "id": "02243",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 9.43,
+ "n_lines": 20,
+ "mean_score": 0.9923,
+ "lines": [
+  {
+   "text": "JERAMIE LIM",
+   "score": 0.9874,
+   "box": [
+    117,
+    92,
+    333,
+    120
+   ]
+  },
+  {
+   "text": "AR, USA | +1-925-459-7824 | jeramie.lim@example.com",
+   "score": 0.9747,
+   "box": [
+    117,
+    152,
+    640,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9929,
+   "box": [
+    117,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Registered Nurses, Compassion Life Medical, 2019.072023.01",
+   "score": 0.9971,
+   "box": [
+    118,
+    291,
+    707,
+    315
+   ]
+  },
+  {
+   "text": "- Led nursing audit programs",
+   "score": 0.9749,
+   "box": [
+    126,
+    314,
+    398,
+    344
+   ]
+  },
+  {
+   "text": "- Managed clinical compliance programs",
+   "score": 0.9934,
+   "box": [
+    126,
+    339,
+    503,
+    369
+   ]
+  },
+  {
+   "text": "Registered Nurses, Compassion Path Medical, 2016.012019.07",
+   "score": 0.9863,
+   "box": [
+    117,
+    382,
+    719,
+    409
+   ]
+  },
+  {
+   "text": "- Developed nursing training programs",
+   "score": 0.9998,
+   "box": [
+    125,
+    406,
+    485,
+    436
+   ]
+  },
+  {
+   "text": "- Directed care coordination strategies",
+   "score": 0.9922,
+   "box": [
+    125,
+    430,
+    482,
+    459
+   ]
+  },
+  {
+   "text": "Registered Nurses, LifeWay Health Services, 2012.072016.01",
+   "score": 0.9901,
+   "box": [
+    116,
+    471,
+    702,
+    499
+   ]
+  },
+  {
+   "text": "- Managed patient referrals",
+   "score": 0.9983,
+   "box": [
+    126,
+    498,
+    383,
+    525
+   ]
+  },
+  {
+   "text": "- Reviewed diagnostic imaging results",
+   "score": 0.9844,
+   "box": [
+    127,
+    521,
+    480,
+    550
+   ]
+  },
+  {
+   "text": "Registered Nurses, ClearBridge Nursing Services, 2007.062011.01",
+   "score": 0.9966,
+   "box": [
+    118,
+    565,
+    747,
+    589
+   ]
+  },
+  {
+   "text": "- Assisted with surgical prep",
+   "score": 0.9984,
+   "box": [
+    125,
+    589,
+    392,
+    619
+   ]
+  },
+  {
+   "text": "- Assisted with respiratory treatments",
+   "score": 0.9988,
+   "box": [
+    125,
+    614,
+    473,
+    643
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Master's, Public Health, Sunrise University, 2005",
+   "score": 0.9982,
+   "box": [
+    115,
+    724,
+    570,
+    750
+   ]
+  },
+  {
+   "text": "Bachelor's, Health Care Operations, Brightwood University, 2003",
+   "score": 0.9998,
+   "box": [
+    114,
+    746,
+    718,
+    777
+   ]
+  },
+  {
+   "text": "•Completed coursework in perioperative care",
+   "score": 0.9869,
+   "box": [
+    130,
+    775,
+    558,
+    800
+   ]
+  },
+  {
+   "text": "Studied principles of health screening",
+   "score": 0.9961,
+   "box": [
+    131,
+    798,
+    495,
+    827
+   ]
+  }
+ ]
+}

@@ -1,0 +1,213 @@
+{
+ "id": "58738",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 10.466,
+ "n_lines": 20,
+ "mean_score": 0.9891,
+ "lines": [
+  {
+   "text": "ELIZABETH LAWSON",
+   "score": 0.9717,
+   "box": [
+    118,
+    91,
+    463,
+    122
+   ]
+  },
+  {
+   "text": "WA, USA | +1-367-851-8937 | elizabeth.lawson@example.com",
+   "score": 0.9975,
+   "box": [
+    115,
+    150,
+    700,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9994,
+   "box": [
+    116,
+    242,
+    316,
+    271
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Bright Oaks School, 2020.02—2023.01",
+   "score": 0.9917,
+   "box": [
+    116,
+    289,
+    816,
+    319
+   ]
+  },
+  {
+   "text": "- Directed program effectiveness studies",
+   "score": 0.9923,
+   "box": [
+    127,
+    317,
+    503,
+    341
+   ]
+  },
+  {
+   "text": "- Designed instructional quality standards",
+   "score": 0.9688,
+   "box": [
+    128,
+    341,
+    511,
+    368
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Bright Hills Academy, 2017.032020.02",
+   "score": 0.9909,
+   "box": [
+    115,
+    380,
+    832,
+    411
+   ]
+  },
+  {
+   "text": "- Designed learning analytics frameworks",
+   "score": 0.9889,
+   "box": [
+    126,
+    408,
+    510,
+    433
+   ]
+  },
+  {
+   "text": "- Led academic improvement programs",
+   "score": 0.9917,
+   "box": [
+    127,
+    432,
+    492,
+    459
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Little Horizons School, 2012.12—2015.12",
+   "score": 0.9956,
+   "box": [
+    117,
+    471,
+    841,
+    499
+   ]
+  },
+  {
+   "text": "- Organized instructional schedules",
+   "score": 0.9925,
+   "box": [
+    126,
+    497,
+    456,
+    525
+   ]
+  },
+  {
+   "text": "- Created instructional units",
+   "score": 0.9966,
+   "box": [
+    128,
+    522,
+    383,
+    548
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Caring Field School, 2008.112011.11",
+   "score": 0.9932,
+   "box": [
+    117,
+    565,
+    820,
+    592
+   ]
+  },
+  {
+   "text": "- Maintained classroom attendance and grading records",
+   "score": 0.9795,
+   "box": [
+    126,
+    589,
+    646,
+    617
+   ]
+  },
+  {
+   "text": "- Implemented basic literacy lessons",
+   "score": 0.9879,
+   "box": [
+    127,
+    614,
+    467,
+    644
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Master's, Education and Development, Cedarview University, 2004",
+   "score": 0.9921,
+   "box": [
+    115,
+    723,
+    736,
+    750
+   ]
+  },
+  {
+   "text": "Bachelor's, Child Studies, Goldenwood University, 2002",
+   "score": 0.9873,
+   "box": [
+    116,
+    749,
+    634,
+    776
+   ]
+  },
+  {
+   "text": "• Studied principles of teaching effectiveness",
+   "score": 0.9778,
+   "box": [
+    131,
+    776,
+    549,
+    800
+   ]
+  },
+  {
+   "text": "• Completed coursework in academic differentiation basics",
+   "score": 0.9867,
+   "box": [
+    132,
+    798,
+    675,
+    826
+   ]
+  }
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "id": "57817",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.81,
+ "n_lines": 11,
+ "mean_score": 0.9885,
+ "lines": [
+  {
+   "text": "BRITTANY GROSS",
+   "score": 0.9981,
+   "box": [
+    118,
+    91,
+    416,
+    122
+   ]
+  },
+  {
+   "text": "VA, USA | +1-500-940-1816 | brittany.gross@example.com",
+   "score": 0.9755,
+   "box": [
+    118,
+    152,
+    664,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Open Horizons Academy, 2020.04—2023.01",
+   "score": 0.9774,
+   "box": [
+    115,
+    286,
+    869,
+    318
+   ]
+  },
+  {
+   "text": "- Recorded test results",
+   "score": 0.9923,
+   "box": [
+    126,
+    314,
+    339,
+    340
+   ]
+  },
+  {
+   "text": "- Administered learning games",
+   "score": 0.9756,
+   "box": [
+    125,
+    338,
+    414,
+    369
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Master's, General Learning Studies, Sunnyside University, 2019",
+   "score": 0.9927,
+   "box": [
+    115,
+    447,
+    710,
+    475
+   ]
+  },
+  {
+   "text": "Bachelor's, Learning and Teaching Studies, Greenfield Ridge University, 2017",
+   "score": 0.9908,
+   "box": [
+    115,
+    472,
+    838,
+    501
+   ]
+  },
+  {
+   "text": "•Studied principles of student assessment",
+   "score": 0.9906,
+   "box": [
+    130,
+    500,
+    529,
+    524
+   ]
+  },
+  {
+   "text": "•Studied principles of classroom learning outcomes",
+   "score": 0.9805,
+   "box": [
+    131,
+    522,
+    614,
+    551
+   ]
+  }
+ ]
+}

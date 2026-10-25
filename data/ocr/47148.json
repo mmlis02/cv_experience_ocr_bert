@@ -1,0 +1,173 @@
+{
+ "id": "47148",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.553,
+ "n_lines": 16,
+ "mean_score": 0.9881,
+ "lines": [
+  {
+   "text": "MICHELLE BISHOP",
+   "score": 0.9825,
+   "box": [
+    117,
+    89,
+    426,
+    122
+   ]
+  },
+  {
+   "text": "RI, USA | +1-853-618-4995 | michelle.bishop@example.com",
+   "score": 0.9883,
+   "box": [
+    116,
+    150,
+    676,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Registered Nurses, LifePath Nursing Services, 2020.09—2023.01",
+   "score": 0.9846,
+   "box": [
+    115,
+    287,
+    716,
+    318
+   ]
+  },
+  {
+   "text": "- Managed clinical risk assessments",
+   "score": 0.9867,
+   "box": [
+    125,
+    313,
+    463,
+    344
+   ]
+  },
+  {
+   "text": "- Developed nursing training programs",
+   "score": 0.9746,
+   "box": [
+    127,
+    340,
+    484,
+    369
+   ]
+  },
+  {
+   "text": "Registered Nurses, LifeSpring Medical Services, 2018.042020.09",
+   "score": 0.9901,
+   "box": [
+    116,
+    381,
+    735,
+    411
+   ]
+  },
+  {
+   "text": "- Managed isolation procedures",
+   "score": 0.994,
+   "box": [
+    125,
+    406,
+    423,
+    436
+   ]
+  },
+  {
+   "text": "- Implemented infection prevention protocols",
+   "score": 0.9928,
+   "box": [
+    128,
+    433,
+    540,
+    459
+   ]
+  },
+  {
+   "text": "Registered Nurses, GentleBridge Nursing, 2012.112015.04",
+   "score": 0.9857,
+   "box": [
+    118,
+    474,
+    675,
+    498
+   ]
+  },
+  {
+   "text": "- Prepared patients for examinations",
+   "score": 0.9702,
+   "box": [
+    127,
+    497,
+    466,
+    525
+   ]
+  },
+  {
+   "text": "- Prepared medical equipment for use",
+   "score": 0.9991,
+   "box": [
+    128,
+    521,
+    478,
+    551
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Bachelor's, Health Care Management, Summit University, 2012",
+   "score": 0.9987,
+   "box": [
+    117,
+    632,
+    704,
+    659
+   ]
+  },
+  {
+   "text": "•Completed coursework in enteral feeding basics",
+   "score": 0.9634,
+   "box": [
+    130,
+    657,
+    594,
+    685
+   ]
+  },
+  {
+   "text": "Completed coursework in home health nursing basics",
+   "score": 0.9996,
+   "box": [
+    132,
+    681,
+    643,
+    709
+   ]
+  }
+ ]
+}

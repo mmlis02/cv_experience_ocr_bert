@@ -1,0 +1,183 @@
+{
+ "id": "56760",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.021,
+ "n_lines": 17,
+ "mean_score": 0.9933,
+ "lines": [
+  {
+   "text": "ALVIN KERR",
+   "score": 0.9996,
+   "box": [
+    116,
+    89,
+    323,
+    122
+   ]
+  },
+  {
+   "text": "VA, USA | +1-246-861-7698 | alvin.kerr@example.com",
+   "score": 0.9877,
+   "box": [
+    116,
+    149,
+    625,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9992,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, SolidLedger Group, 2020.08—2023.01",
+   "score": 0.9939,
+   "box": [
+    115,
+    288,
+    673,
+    317
+   ]
+  },
+  {
+   "text": "- Directed revenue recognition policies",
+   "score": 0.9856,
+   "box": [
+    125,
+    314,
+    485,
+    343
+   ]
+  },
+  {
+   "text": "- Established cost management systems",
+   "score": 0.9854,
+   "box": [
+    126,
+    339,
+    504,
+    368
+   ]
+  },
+  {
+   "text": "Accountants Auditors, AccuCount Financial, 2018.032020.08",
+   "score": 0.999,
+   "box": [
+    118,
+    383,
+    691,
+    407
+   ]
+  },
+  {
+   "text": "- Managed general ledger maintenance",
+   "score": 0.9995,
+   "box": [
+    125,
+    406,
+    494,
+    436
+   ]
+  },
+  {
+   "text": "- Prepared statutory filings",
+   "score": 0.9885,
+   "box": [
+    127,
+    430,
+    375,
+    461
+   ]
+  },
+  {
+   "text": "Accountants Auditors, CoreBooks Advisors, 2013.06—2015.12",
+   "score": 0.9862,
+   "box": [
+    118,
+    473,
+    690,
+    497
+   ]
+  },
+  {
+   "text": "- Assisted with tax form preparation",
+   "score": 0.9994,
+   "box": [
+    126,
+    497,
+    457,
+    523
+   ]
+  },
+  {
+   "text": "- Processed accounts receivable transactions",
+   "score": 0.9949,
+   "box": [
+    127,
+    520,
+    550,
+    549
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    118,
+    588,
+    266,
+    612
+   ]
+  },
+  {
+   "text": "Master's, Financial Analysis, Stonegate University, 2011",
+   "score": 0.9918,
+   "box": [
+    116,
+    631,
+    634,
+    658
+   ]
+  },
+  {
+   "text": "Bachelor's, Taxation, Stonehaven University, 2009",
+   "score": 0.9943,
+   "box": [
+    117,
+    658,
+    584,
+    682
+   ]
+  },
+  {
+   "text": "• Studied fundamentals of financial reporting",
+   "score": 0.9863,
+   "box": [
+    131,
+    684,
+    544,
+    708
+   ]
+  },
+  {
+   "text": "• Studied fundamentals of management reporting",
+   "score": 0.9955,
+   "box": [
+    132,
+    707,
+    588,
+    734
+   ]
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "id": "06560",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.414,
+ "n_lines": 14,
+ "mean_score": 0.9904,
+ "lines": [
+  {
+   "text": "JORDAN CASTANEDA",
+   "score": 0.9996,
+   "box": [
+    116,
+    91,
+    477,
+    121
+   ]
+  },
+  {
+   "text": "CA, USA | +1-434-364-2752 | jordan.castaneda@example.com",
+   "score": 0.9859,
+   "box": [
+    118,
+    152,
+    700,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, FairBalance Accounting, 2021.06—2023.01",
+   "score": 0.9867,
+   "box": [
+    115,
+    288,
+    719,
+    316
+   ]
+  },
+  {
+   "text": "- Directed strategic accounting initiatives",
+   "score": 0.9974,
+   "box": [
+    126,
+    315,
+    502,
+    341
+   ]
+  },
+  {
+   "text": "- Led internal audit functions",
+   "score": 0.9712,
+   "box": [
+    128,
+    339,
+    392,
+    365
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Balanced Books Advisors, 2019.112021.06",
+   "score": 0.9991,
+   "box": [
+    118,
+    383,
+    736,
+    407
+   ]
+  },
+  {
+   "text": "- Prepared audit confirmations",
+   "score": 0.9894,
+   "box": [
+    125,
+    407,
+    410,
+    432
+   ]
+  },
+  {
+   "text": "- Reconciled subsidiary ledgers",
+   "score": 0.9835,
+   "box": [
+    126,
+    430,
+    419,
+    459
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    268,
+    521
+   ]
+  },
+  {
+   "text": "Master's, Quantitative Finance, Summit University, 2023",
+   "score": 0.9985,
+   "box": [
+    114,
+    539,
+    636,
+    567
+   ]
+  },
+  {
+   "text": "Bachelor's, Accounting and Auditing, Silverfield University, 2021",
+   "score": 0.979,
+   "box": [
+    117,
+    567,
+    706,
+    591
+   ]
+  },
+  {
+   "text": "• Completed coursework in financial data interpretation",
+   "score": 0.9874,
+   "box": [
+    131,
+    593,
+    640,
+    617
+   ]
+  },
+  {
+   "text": "Completed coursework in accounting information systems",
+   "score": 0.9896,
+   "box": [
+    131,
+    613,
+    681,
+    645
+   ]
+  }
+ ]
+}

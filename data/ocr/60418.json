@@ -1,0 +1,143 @@
+{
+ "id": "60418",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.425,
+ "n_lines": 13,
+ "mean_score": 0.9886,
+ "lines": [
+  {
+   "text": "ABIGAIL MCBRIDE",
+   "score": 0.9998,
+   "box": [
+    118,
+    91,
+    421,
+    122
+   ]
+  },
+  {
+   "text": "WI, USA | +1-611-796-6306 | abigail.mcbride@example.com",
+   "score": 0.9767,
+   "box": [
+    118,
+    152,
+    677,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Registered Nurses, EverWell Health Services, 2021.06—2023.01",
+   "score": 0.9909,
+   "box": [
+    116,
+    288,
+    710,
+    316
+   ]
+  },
+  {
+   "text": "- Directed interdisciplinary workflow alignment",
+   "score": 0.9863,
+   "box": [
+    125,
+    313,
+    555,
+    342
+   ]
+  },
+  {
+   "text": "- Developed patient care algorithms",
+   "score": 0.9815,
+   "box": [
+    127,
+    339,
+    459,
+    367
+   ]
+  },
+  {
+   "text": "Registered Nurses, EverWay Health Services, 2019.112021.06",
+   "score": 0.9923,
+   "box": [
+    116,
+    380,
+    713,
+    408
+   ]
+  },
+  {
+   "text": "- Provided catheter care",
+   "score": 0.9979,
+   "box": [
+    125,
+    406,
+    353,
+    433
+   ]
+  },
+  {
+   "text": "- Assisted with diagnostic procedures",
+   "score": 0.9909,
+   "box": [
+    127,
+    430,
+    473,
+    459
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Some college (no degree), Health Services, Fairway University, 2021",
+   "score": 0.9934,
+   "box": [
+    115,
+    538,
+    753,
+    569
+   ]
+  },
+  {
+   "text": "•Studied principles of oxygen therapy",
+   "score": 0.9777,
+   "box": [
+    129,
+    564,
+    486,
+    595
+   ]
+  },
+  {
+   "text": "Completed coursework in dosage calculations",
+   "score": 0.9653,
+   "box": [
+    130,
+    590,
+    573,
+    618
+   ]
+  }
+ ]
+}

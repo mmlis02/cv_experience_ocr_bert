@@ -1,0 +1,113 @@
+{
+ "id": "08560",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.269,
+ "n_lines": 10,
+ "mean_score": 0.9913,
+ "lines": [
+  {
+   "text": "TARIA LIN",
+   "score": 0.9998,
+   "box": [
+    115,
+    89,
+    285,
+    123
+   ]
+  },
+  {
+   "text": "CA, USA | +1-341-401-4439 | taria.lin@example.com",
+   "score": 0.977,
+   "box": [
+    116,
+    149,
+    609,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9995,
+   "box": [
+    116,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Precise Ledger Services, 2020.03—2021.01",
+   "score": 0.9874,
+   "box": [
+    114,
+    287,
+    725,
+    315
+   ]
+  },
+  {
+   "text": "- Updated general ledger records",
+   "score": 0.9993,
+   "box": [
+    126,
+    315,
+    435,
+    339
+   ]
+  },
+  {
+   "text": "- Processed accounts payable invoices",
+   "score": 0.986,
+   "box": [
+    128,
+    338,
+    490,
+    367
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Auditing, Willowstone University, 2005",
+   "score": 0.985,
+   "box": [
+    115,
+    446,
+    582,
+    476
+   ]
+  },
+  {
+   "text": "• Completed coursework in trial balance preparation",
+   "score": 0.9799,
+   "box": [
+    132,
+    473,
+    613,
+    498
+   ]
+  },
+  {
+   "text": "Completed coursework in internal auditing",
+   "score": 0.9993,
+   "box": [
+    132,
+    496,
+    538,
+    526
+   ]
+  }
+ ]
+}

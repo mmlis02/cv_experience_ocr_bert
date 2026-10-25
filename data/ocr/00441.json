@@ -1,0 +1,143 @@
+{
+ "id": "00441",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.545,
+ "n_lines": 13,
+ "mean_score": 0.9938,
+ "lines": [
+  {
+   "text": "ELIZABETH BARRON",
+   "score": 0.9998,
+   "box": [
+    117,
+    90,
+    461,
+    122
+   ]
+  },
+  {
+   "text": "AL, USA | +1-981-746-2142 | elizabeth.barron@example.com",
+   "score": 0.9984,
+   "box": [
+    116,
+    150,
+    688,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9988,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Registered Nurses, NewHope Care Center, 2021.02—2023.01",
+   "score": 0.9702,
+   "box": [
+    115,
+    287,
+    687,
+    318
+   ]
+  },
+  {
+   "text": "- Designed clinical documentation standards",
+   "score": 0.9993,
+   "box": [
+    129,
+    316,
+    538,
+    340
+   ]
+  },
+  {
+   "text": "- Led patient experience improvement programs",
+   "score": 0.9981,
+   "box": [
+    128,
+    340,
+    574,
+    369
+   ]
+  },
+  {
+   "text": "Registered Nurses, OpenBridge Care Services, 2016.102018.09",
+   "score": 0.9998,
+   "box": [
+    117,
+    382,
+    725,
+    409
+   ]
+  },
+  {
+   "text": "- Checked medication dosages",
+   "score": 0.997,
+   "box": [
+    125,
+    405,
+    417,
+    435
+   ]
+  },
+  {
+   "text": "- Recorded medication administration times",
+   "score": 0.9888,
+   "box": [
+    127,
+    431,
+    530,
+    457
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Health Care Management, Stonehaven University, 2008",
+   "score": 0.9974,
+   "box": [
+    114,
+    538,
+    745,
+    569
+   ]
+  },
+  {
+   "text": "•Studied principles of ostomy care",
+   "score": 0.9875,
+   "box": [
+    130,
+    568,
+    456,
+    592
+   ]
+  },
+  {
+   "text": "Studied fundamentals of pediatric nursing",
+   "score": 0.984,
+   "box": [
+    130,
+    588,
+    532,
+    620
+   ]
+  }
+ ]
+}

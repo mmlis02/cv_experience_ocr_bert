@@ -1,0 +1,173 @@
+{
+ "id": "25674",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.19,
+ "n_lines": 16,
+ "mean_score": 0.9881,
+ "lines": [
+  {
+   "text": "NICKOLIS CHAPMAN",
+   "score": 0.9797,
+   "box": [
+    117,
+    91,
+    457,
+    121
+   ]
+  },
+  {
+   "text": "MA, USA | +1-344-554-6975 | nickolis.chapman@example.com",
+   "score": 0.9942,
+   "box": [
+    115,
+    149,
+    703,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9983,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Software Developers, Stonegrid Tech, 2019.12—2023.01",
+   "score": 0.9811,
+   "box": [
+    117,
+    291,
+    636,
+    315
+   ]
+  },
+  {
+   "text": "- Implemented data pipeline architectures",
+   "score": 0.9969,
+   "box": [
+    127,
+    316,
+    512,
+    340
+   ]
+  },
+  {
+   "text": "- Defined API standards",
+   "score": 0.9922,
+   "box": [
+    128,
+    339,
+    351,
+    366
+   ]
+  },
+  {
+   "text": "Software Developers, Cloudpath Digital, 2016.112019.12",
+   "score": 0.9991,
+   "box": [
+    115,
+    381,
+    657,
+    409
+   ]
+  },
+  {
+   "text": "- Built data visualization tools",
+   "score": 0.9411,
+   "box": [
+    125,
+    407,
+    399,
+    433
+   ]
+  },
+  {
+   "text": "- Improved system reliability",
+   "score": 0.9985,
+   "box": [
+    127,
+    431,
+    388,
+    460
+   ]
+  },
+  {
+   "text": "Software Developers, Flowstack Solutions, 2013.092016.11",
+   "score": 0.9902,
+   "box": [
+    117,
+    472,
+    680,
+    499
+   ]
+  },
+  {
+   "text": "- Refactored simple functions for readability",
+   "score": 0.9995,
+   "box": [
+    125,
+    497,
+    531,
+    525
+   ]
+  },
+  {
+   "text": "- Debugged runtime errors",
+   "score": 0.974,
+   "box": [
+    127,
+    521,
+    376,
+    551
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    118,
+    588,
+    266,
+    612
+   ]
+  },
+  {
+   "text": "Bachelor's, Rockland University, 2011",
+   "score": 0.9865,
+   "box": [
+    117,
+    630,
+    466,
+    658
+   ]
+  },
+  {
+   "text": "Completed coursework in inversion of control",
+   "score": 0.9895,
+   "box": [
+    131,
+    657,
+    566,
+    684
+   ]
+  },
+  {
+   "text": "•Completed coursework in configuration management",
+   "score": 0.9897,
+   "box": [
+    132,
+    680,
+    637,
+    709
+   ]
+  }
+ ]
+}

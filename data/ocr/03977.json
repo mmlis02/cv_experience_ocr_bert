@@ -1,0 +1,143 @@
+{
+ "id": "03977",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.313,
+ "n_lines": 13,
+ "mean_score": 0.9908,
+ "lines": [
+  {
+   "text": "YVETTE ROBINSON",
+   "score": 0.9933,
+   "box": [
+    118,
+    91,
+    437,
+    121
+   ]
+  },
+  {
+   "text": "CA, USA | +1-229-867-9912 | yvette.robinson@example.com",
+   "score": 0.9786,
+   "box": [
+    118,
+    152,
+    682,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Learning Roots Academy, 2020.03—2023.01",
+   "score": 0.9908,
+   "box": [
+    115,
+    287,
+    872,
+    319
+   ]
+  },
+  {
+   "text": "- Implemented assessment policy frameworks",
+   "score": 0.9894,
+   "box": [
+    125,
+    314,
+    553,
+    342
+   ]
+  },
+  {
+   "text": "- Designed instructional quality standards",
+   "score": 0.998,
+   "box": [
+    127,
+    339,
+    511,
+    368
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Golden Steps School, 2015.032018.01",
+   "score": 0.9968,
+   "box": [
+    116,
+    381,
+    834,
+    411
+   ]
+  },
+  {
+   "text": "- Distributed assessment rubrics",
+   "score": 0.9899,
+   "box": [
+    125,
+    406,
+    429,
+    435
+   ]
+  },
+  {
+   "text": "- Implemented classroom seating plans",
+   "score": 0.9882,
+   "box": [
+    127,
+    431,
+    493,
+    459
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, General Academic Studies, Willowgate University, 2013",
+   "score": 0.9839,
+   "box": [
+    115,
+    539,
+    741,
+    568
+   ]
+  },
+  {
+   "text": "•Completed coursework in basic curriculum planning",
+   "score": 0.9877,
+   "box": [
+    131,
+    564,
+    626,
+    594
+   ]
+  },
+  {
+   "text": "•Completed coursework in reading instruction",
+   "score": 0.9853,
+   "box": [
+    131,
+    590,
+    561,
+    618
+   ]
+  }
+ ]
+}

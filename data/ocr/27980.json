@@ -1,0 +1,113 @@
+{
+ "id": "27980",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.424,
+ "n_lines": 10,
+ "mean_score": 0.9941,
+ "lines": [
+  {
+   "text": "JACOB FOSTER",
+   "score": 0.9995,
+   "box": [
+    115,
+    89,
+    380,
+    123
+   ]
+  },
+  {
+   "text": "MI, USA | +1-837-502-3473 | jacob.foster@example.com",
+   "score": 0.9918,
+   "box": [
+    115,
+    149,
+    643,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9994,
+   "box": [
+    116,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Software Developers, Softpath Labs, 2019.112022.06",
+   "score": 0.9991,
+   "box": [
+    115,
+    287,
+    625,
+    315
+   ]
+  },
+  {
+   "text": "- Wrote command-line tools",
+   "score": 0.9947,
+   "box": [
+    126,
+    314,
+    386,
+    339
+   ]
+  },
+  {
+   "text": "- Updated documentation for implemented features",
+   "score": 0.9844,
+   "box": [
+    128,
+    340,
+    599,
+    364
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Horizon University, 2008",
+   "score": 0.9958,
+   "box": [
+    115,
+    446,
+    452,
+    474
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of hardware-software integration",
+   "score": 0.9913,
+   "box": [
+    130,
+    474,
+    654,
+    498
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of normalization",
+   "score": 0.9853,
+   "box": [
+    131,
+    497,
+    504,
+    523
+   ]
+  }
+ ]
+}

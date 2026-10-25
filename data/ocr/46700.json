@@ -1,0 +1,173 @@
+{
+ "id": "46700",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.21,
+ "n_lines": 16,
+ "mean_score": 0.99,
+ "lines": [
+  {
+   "text": "CHRISTINE HUBER",
+   "score": 0.995,
+   "box": [
+    118,
+    92,
+    426,
+    122
+   ]
+  },
+  {
+   "text": "PA, USA|+1-755-581-7562 |christine.huber@example.com",
+   "score": 0.9863,
+   "box": [
+    117,
+    151,
+    675,
+    175
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9992,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Registered Nurses, EverBridge Health Group, 2020.10—2023.01",
+   "score": 0.981,
+   "box": [
+    115,
+    287,
+    709,
+    319
+   ]
+  },
+  {
+   "text": "- Designed clinical documentation standards",
+   "score": 0.995,
+   "box": [
+    125,
+    314,
+    539,
+    342
+   ]
+  },
+  {
+   "text": "- Developed nursing training programs",
+   "score": 0.9825,
+   "box": [
+    127,
+    340,
+    485,
+    370
+   ]
+  },
+  {
+   "text": "Registered Nurses, Harmony Care Center, 2017.112020.02",
+   "score": 0.9894,
+   "box": [
+    116,
+    381,
+    681,
+    409
+   ]
+  },
+  {
+   "text": "- Provided wound care management",
+   "score": 0.9894,
+   "box": [
+    126,
+    407,
+    467,
+    433
+   ]
+  },
+  {
+   "text": "- Conducted quality assurance checks",
+   "score": 0.9952,
+   "box": [
+    127,
+    431,
+    482,
+    459
+   ]
+  },
+  {
+   "text": "Registered Nurses, EverBridge Health Group, 2014.122017.03",
+   "score": 0.9905,
+   "box": [
+    118,
+    474,
+    708,
+    498
+   ]
+  },
+  {
+   "text": "- Checked patient identification",
+   "score": 0.9931,
+   "box": [
+    127,
+    498,
+    415,
+    524
+   ]
+  },
+  {
+   "text": "- Monitored patient skin condition",
+   "score": 0.9985,
+   "box": [
+    127,
+    521,
+    436,
+    549
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Associate's degree, Health Systems, Forestfield University, 2011",
+   "score": 0.9832,
+   "box": [
+    117,
+    632,
+    714,
+    659
+   ]
+  },
+  {
+   "text": "•Completed coursework in basic nursing principles",
+   "score": 0.976,
+   "box": [
+    129,
+    657,
+    608,
+    685
+   ]
+  },
+  {
+   "text": "•Studied principles of safety protocols",
+   "score": 0.9865,
+   "box": [
+    131,
+    681,
+    490,
+    709
+   ]
+  }
+ ]
+}

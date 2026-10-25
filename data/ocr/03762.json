@@ -1,0 +1,203 @@
+{
+ "id": "03762",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.725,
+ "n_lines": 19,
+ "mean_score": 0.9902,
+ "lines": [
+  {
+   "text": "BRITTANY VU",
+   "score": 0.9975,
+   "box": [
+    116,
+    89,
+    343,
+    122
+   ]
+  },
+  {
+   "text": "CA, USA | +1-792-413-8945 | brittany.vu@example.com",
+   "score": 0.9786,
+   "box": [
+    116,
+    150,
+    637,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, ClearBalance Services, 2020.05—2023.01",
+   "score": 0.9905,
+   "box": [
+    117,
+    291,
+    709,
+    315
+   ]
+  },
+  {
+   "text": "- Managed financial compliance programs",
+   "score": 0.9845,
+   "box": [
+    126,
+    315,
+    517,
+    343
+   ]
+  },
+  {
+   "text": "- Directed accounting leadership initiatives",
+   "score": 0.9974,
+   "box": [
+    128,
+    341,
+    520,
+    367
+   ]
+  },
+  {
+   "text": "Accountants Auditors, ClearBalance Services, 2017.092020.05",
+   "score": 0.9932,
+   "box": [
+    118,
+    383,
+    712,
+    407
+   ]
+  },
+  {
+   "text": "- Established reporting automation systems",
+   "score": 0.9867,
+   "box": [
+    126,
+    408,
+    529,
+    434
+   ]
+  },
+  {
+   "text": "- Led financial forecasting initiatives",
+   "score": 0.9833,
+   "box": [
+    128,
+    432,
+    458,
+    458
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Integrity Books Financial Group, 2014.12—2017.09",
+   "score": 0.9844,
+   "box": [
+    115,
+    471,
+    792,
+    499
+   ]
+  },
+  {
+   "text": "- Conducted variance investigations",
+   "score": 0.9887,
+   "box": [
+    126,
+    498,
+    460,
+    524
+   ]
+  },
+  {
+   "text": "- Managed accounts payable cycles",
+   "score": 0.9884,
+   "box": [
+    127,
+    521,
+    461,
+    550
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Reliable Accounts Advisors, 2010.112013.08",
+   "score": 0.995,
+   "box": [
+    117,
+    566,
+    753,
+    590
+   ]
+  },
+  {
+   "text": "- Assisted with audit fieldwork",
+   "score": 0.9965,
+   "box": [
+    126,
+    590,
+    405,
+    613
+   ]
+  },
+  {
+   "text": "- Maintained chart of accounts",
+   "score": 0.9861,
+   "box": [
+    126,
+    614,
+    410,
+    640
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Bachelor's, Business Studies, Harvest University, 2009",
+   "score": 0.9954,
+   "box": [
+    116,
+    724,
+    624,
+    749
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of assurance services",
+   "score": 0.9909,
+   "box": [
+    130,
+    749,
+    559,
+    774
+   ]
+  },
+  {
+   "text": "• Studied fundamentals of audit evidence evaluation",
+   "score": 0.9775,
+   "box": [
+    132,
+    773,
+    615,
+    798
+   ]
+  }
+ ]
+}

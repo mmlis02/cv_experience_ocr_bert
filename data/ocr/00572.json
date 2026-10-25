@@ -1,0 +1,113 @@
+{
+ "id": "00572",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.19,
+ "n_lines": 10,
+ "mean_score": 0.9882,
+ "lines": [
+  {
+   "text": "SIERA HART",
+   "score": 0.9611,
+   "box": [
+    116,
+    89,
+    324,
+    123
+   ]
+  },
+  {
+   "text": "AL, USA | +1-654-659-9788 | siera.hart@example.com",
+   "score": 0.99,
+   "box": [
+    116,
+    149,
+    624,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9994,
+   "box": [
+    116,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Registered Nurses, EverBridge Health Services, 2020.06—2023.01",
+   "score": 0.9895,
+   "box": [
+    114,
+    286,
+    731,
+    317
+   ]
+  },
+  {
+   "text": "- Prepared treatment rooms",
+   "score": 0.9995,
+   "box": [
+    125,
+    312,
+    388,
+    343
+   ]
+  },
+  {
+   "text": "- Prepared medical equipment for use",
+   "score": 0.983,
+   "box": [
+    126,
+    338,
+    479,
+    367
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Health and Human Services, Clear Ridge University, 2023",
+   "score": 0.9732,
+   "box": [
+    115,
+    446,
+    763,
+    474
+   ]
+  },
+  {
+   "text": "•Completed coursework in integumentary system care",
+   "score": 0.9869,
+   "box": [
+    130,
+    473,
+    640,
+    499
+   ]
+  },
+  {
+   "text": "Studied principles of ostomy care",
+   "score": 0.9994,
+   "box": [
+    132,
+    497,
+    457,
+    526
+   ]
+  }
+ ]
+}

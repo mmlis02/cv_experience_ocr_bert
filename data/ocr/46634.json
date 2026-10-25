@@ -1,0 +1,163 @@
+{
+ "id": "46634",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.781,
+ "n_lines": 15,
+ "mean_score": 0.99,
+ "lines": [
+  {
+   "text": "JORDAN BRADFORD",
+   "score": 0.9999,
+   "box": [
+    116,
+    91,
+    457,
+    121
+   ]
+  },
+  {
+   "text": "PA, USA |+1-337-427-6653 | jordan.bradford@example.com",
+   "score": 0.9772,
+   "box": [
+    117,
+    151,
+    679,
+    175
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9992,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Construction Laborers, Allied Track Co., 2020.09—2023.01",
+   "score": 0.9879,
+   "box": [
+    118,
+    290,
+    653,
+    314
+   ]
+  },
+  {
+   "text": "- Directed site construction operations",
+   "score": 0.9921,
+   "box": [
+    126,
+    315,
+    479,
+    341
+   ]
+  },
+  {
+   "text": "- Supervised high-risk operations",
+   "score": 0.9865,
+   "box": [
+    127,
+    339,
+    435,
+    369
+   ]
+  },
+  {
+   "text": "Construction Laborers, NextBuild Contractors, 2017.09—2020.02",
+   "score": 0.9817,
+   "box": [
+    118,
+    383,
+    711,
+    407
+   ]
+  },
+  {
+   "text": "- Supervised demolition tasks",
+   "score": 0.9833,
+   "box": [
+    125,
+    409,
+    401,
+    432
+   ]
+  },
+  {
+   "text": "- Constructed temporary structures",
+   "score": 0.9981,
+   "box": [
+    128,
+    432,
+    452,
+    458
+   ]
+  },
+  {
+   "text": "Construction Laborers, PrimeBuild Services, 2014.052016.10",
+   "score": 0.9927,
+   "box": [
+    118,
+    473,
+    695,
+    497
+   ]
+  },
+  {
+   "text": "- Maintained cleanliness of work areas",
+   "score": 0.9836,
+   "box": [
+    126,
+    498,
+    485,
+    523
+   ]
+  },
+  {
+   "text": "- Stacked and organized construction supplies",
+   "score": 0.9787,
+   "box": [
+    127,
+    521,
+    557,
+    550
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    118,
+    588,
+    266,
+    612
+   ]
+  },
+  {
+   "text": "High school graduate/GED, HVAC Technology, Highland High School, 2009",
+   "score": 0.9917,
+   "box": [
+    117,
+    631,
+    817,
+    658
+   ]
+  },
+  {
+   "text": "• Completed coursework in construction materials storage",
+   "score": 0.9969,
+   "box": [
+    132,
+    658,
+    668,
+    683
+   ]
+  }
+ ]
+}

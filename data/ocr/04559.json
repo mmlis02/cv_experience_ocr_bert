@@ -1,0 +1,163 @@
+{
+ "id": "04559",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.19,
+ "n_lines": 15,
+ "mean_score": 0.9883,
+ "lines": [
+  {
+   "text": "SHELLY PAUL",
+   "score": 0.9999,
+   "box": [
+    117,
+    91,
+    350,
+    122
+   ]
+  },
+  {
+   "text": "CA, USA | +1-258-239-2182 | shelly.paul@example.com",
+   "score": 0.9934,
+   "box": [
+    116,
+    150,
+    640,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Balanced Books Co., 2020.08—2023.01",
+   "score": 0.993,
+   "box": [
+    116,
+    289,
+    687,
+    314
+   ]
+  },
+  {
+   "text": "- Established compliance monitoring systems",
+   "score": 0.9942,
+   "box": [
+    126,
+    315,
+    546,
+    341
+   ]
+  },
+  {
+   "text": "- Established tax compliance frameworks",
+   "score": 0.9803,
+   "box": [
+    127,
+    340,
+    509,
+    365
+   ]
+  },
+  {
+   "text": "Accountants Auditors, TrueLedger Advisors, 2016.112019.04",
+   "score": 0.9708,
+   "box": [
+    116,
+    380,
+    695,
+    409
+   ]
+  },
+  {
+   "text": "- Updated fixed asset registers",
+   "score": 0.9906,
+   "box": [
+    127,
+    409,
+    413,
+    433
+   ]
+  },
+  {
+   "text": "- Verified transaction accuracy",
+   "score": 0.9874,
+   "box": [
+    127,
+    431,
+    409,
+    460
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    268,
+    521
+   ]
+  },
+  {
+   "text": "Doctorate, Managerial Accounting, Riverdale University, 2011",
+   "score": 0.9825,
+   "box": [
+    118,
+    542,
+    685,
+    566
+   ]
+  },
+  {
+   "text": "Bachelor's, Risk Management, Brookway University, 2006",
+   "score": 0.987,
+   "box": [
+    117,
+    567,
+    652,
+    591
+   ]
+  },
+  {
+   "text": "• Completed coursework in business communication",
+   "score": 0.9872,
+   "box": [
+    130,
+    593,
+    618,
+    617
+   ]
+  },
+  {
+   "text": "Completed coursework in accounting case analysis",
+   "score": 0.9795,
+   "box": [
+    128,
+    613,
+    623,
+    646
+   ]
+  },
+  {
+   "text": "Studied principles of taxation",
+   "score": 0.9803,
+   "box": [
+    131,
+    640,
+    416,
+    670
+   ]
+  }
+ ]
+}

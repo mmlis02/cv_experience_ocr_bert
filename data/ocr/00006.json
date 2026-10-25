@@ -1,0 +1,113 @@
+{
+ "id": "00006",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.445,
+ "n_lines": 10,
+ "mean_score": 0.9879,
+ "lines": [
+  {
+   "text": "EVAN CLAYTON",
+   "score": 0.9897,
+   "box": [
+    118,
+    90,
+    381,
+    121
+   ]
+  },
+  {
+   "text": "AL, USA | +1-362-559-8513 | evan.clayton@example.com",
+   "score": 0.9946,
+   "box": [
+    116,
+    149,
+    655,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9994,
+   "box": [
+    116,
+    243,
+    317,
+    270
+   ]
+  },
+  {
+   "text": "Construction Laborers, CraftLine Builders, 2018.05—2020.04",
+   "score": 0.9894,
+   "box": [
+    118,
+    289,
+    673,
+    313
+   ]
+  },
+  {
+   "text": "- Assisted with concrete pouring",
+   "score": 0.9932,
+   "box": [
+    124,
+    312,
+    426,
+    342
+   ]
+  },
+  {
+   "text": "- Performed basic sanding and painting",
+   "score": 0.9833,
+   "box": [
+    126,
+    336,
+    493,
+    369
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Some college (no degree), Industrial Technology, Aspen Grove University, 2012",
+   "score": 0.9634,
+   "box": [
+    116,
+    446,
+    857,
+    476
+   ]
+  },
+  {
+   "text": "•Completed coursework in basic HVAC concepts",
+   "score": 0.9779,
+   "box": [
+    130,
+    472,
+    592,
+    500
+   ]
+  },
+  {
+   "text": "Studied principles of emergency procedures",
+   "score": 0.9882,
+   "box": [
+    132,
+    497,
+    557,
+    526
+   ]
+  }
+ ]
+}

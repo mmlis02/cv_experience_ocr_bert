@@ -1,0 +1,103 @@
+{
+ "id": "47595",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.659,
+ "n_lines": 9,
+ "mean_score": 0.985,
+ "lines": [
+  {
+   "text": "JAKE DAVIS",
+   "score": 0.9535,
+   "box": [
+    115,
+    89,
+    319,
+    123
+   ]
+  },
+  {
+   "text": "SC, USA | +1-635-582-6484 | jake.davis@example.com",
+   "score": 0.9862,
+   "box": [
+    116,
+    149,
+    634,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9994,
+   "box": [
+    116,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Construction Laborers, FirmRise Construction, 2018.10—2021.04",
+   "score": 0.9885,
+   "box": [
+    118,
+    289,
+    715,
+    313
+   ]
+  },
+  {
+   "text": "- Installed temporary site barriers",
+   "score": 0.9948,
+   "box": [
+    125,
+    313,
+    436,
+    342
+   ]
+  },
+  {
+   "text": "- Installed simple fixtures",
+   "score": 0.9527,
+   "box": [
+    126,
+    338,
+    360,
+    367
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "High school graduate/GED, Construction Management, Ridgeway High School, 2006",
+   "score": 0.999,
+   "box": [
+    116,
+    446,
+    901,
+    475
+   ]
+  },
+  {
+   "text": "• Completed coursework in concrete curing methods",
+   "score": 0.9905,
+   "box": [
+    133,
+    474,
+    618,
+    498
+   ]
+  }
+ ]
+}

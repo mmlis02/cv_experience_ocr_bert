@@ -1,0 +1,143 @@
+{
+ "id": "44423",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.312,
+ "n_lines": 13,
+ "mean_score": 0.9944,
+ "lines": [
+  {
+   "text": "KRISTI RAYMOND",
+   "score": 0.9983,
+   "box": [
+    118,
+    91,
+    409,
+    121
+   ]
+  },
+  {
+   "text": "OR, USA | +1-399-348-6468 | kristi.raymond@example.com",
+   "score": 0.9949,
+   "box": [
+    116,
+    150,
+    673,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9992,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Accurate Balance Financial, 2020.112023.01",
+   "score": 0.9895,
+   "box": [
+    117,
+    290,
+    752,
+    314
+   ]
+  },
+  {
+   "text": "- Designed financial documentation standards",
+   "score": 0.9989,
+   "box": [
+    129,
+    316,
+    553,
+    340
+   ]
+  },
+  {
+   "text": "- Managed financial governance",
+   "score": 0.9992,
+   "box": [
+    128,
+    340,
+    426,
+    367
+   ]
+  },
+  {
+   "text": "Accountants Auditors, CoreBooks Financial Group, 2016.09—2018.11",
+   "score": 0.9895,
+   "box": [
+    115,
+    379,
+    757,
+    410
+   ]
+  },
+  {
+   "text": "- Prepared trial balances",
+   "score": 0.9987,
+   "box": [
+    125,
+    406,
+    358,
+    433
+   ]
+  },
+  {
+   "text": "- Matched invoices to purchase orders",
+   "score": 0.9931,
+   "box": [
+    126,
+    430,
+    483,
+    459
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    494,
+    268,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Investment Management, Sagewood University, 2007",
+   "score": 0.9871,
+   "box": [
+    116,
+    540,
+    721,
+    567
+   ]
+  },
+  {
+   "text": "•Studied principles of forecast modeling",
+   "score": 0.9859,
+   "box": [
+    130,
+    566,
+    506,
+    592
+   ]
+  },
+  {
+   "text": "Completed coursework in budgeting techniques",
+   "score": 0.9929,
+   "box": [
+    131,
+    590,
+    589,
+    618
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "id": "15907",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 9.227,
+ "n_lines": 17,
+ "mean_score": 0.9913,
+ "lines": [
+  {
+   "text": "ANGELICA PRATT",
+   "score": 0.9983,
+   "box": [
+    117,
+    89,
+    412,
+    122
+   ]
+  },
+  {
+   "text": "GA, USA | +1-815-376-4792 | angelica.pratt@example.com",
+   "score": 0.9881,
+   "box": [
+    116,
+    150,
+    667,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9992,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Discovery Path Academy, 2020.12—2023.01",
+   "score": 0.9948,
+   "box": [
+    115,
+    287,
+    871,
+    318
+   ]
+  },
+  {
+   "text": "- Designed instructional governance models",
+   "score": 0.9893,
+   "box": [
+    125,
+    314,
+    537,
+    342
+   ]
+  },
+  {
+   "text": "- Directed cross-grade curriculum alignment",
+   "score": 0.9899,
+   "box": [
+    126,
+    339,
+    536,
+    368
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Little Meadow School, 2017.012019.02",
+   "score": 0.9996,
+   "box": [
+    117,
+    382,
+    837,
+    409
+   ]
+  },
+  {
+   "text": "- Implemented formative assessment strategies",
+   "score": 0.9998,
+   "box": [
+    125,
+    407,
+    569,
+    435
+   ]
+  },
+  {
+   "text": "- Prepared unit assessments",
+   "score": 0.9823,
+   "box": [
+    127,
+    432,
+    396,
+    458
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Friendly Grove School, 2014.042016.06",
+   "score": 0.9903,
+   "box": [
+    118,
+    472,
+    845,
+    499
+   ]
+  },
+  {
+   "text": "- Recorded test results",
+   "score": 0.9986,
+   "box": [
+    126,
+    497,
+    340,
+    523
+   ]
+  },
+  {
+   "text": "- Distributed instructional handouts",
+   "score": 0.9995,
+   "box": [
+    127,
+    521,
+    451,
+    547
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Master's, Learning Skills, Morningstar University, 2013",
+   "score": 0.9857,
+   "box": [
+    116,
+    631,
+    622,
+    659
+   ]
+  },
+  {
+   "text": "Bachelor's, Teaching Studies, Evergreen University, 2011",
+   "score": 0.9788,
+   "box": [
+    115,
+    656,
+    650,
+    684
+   ]
+  },
+  {
+   "text": "•Completed coursework in introductory child psychology",
+   "score": 0.978,
+   "box": [
+    130,
+    681,
+    656,
+    711
+   ]
+  },
+  {
+   "text": "• Studied fundamentals of learning environments",
+   "score": 0.9804,
+   "box": [
+    131,
+    705,
+    586,
+    736
+   ]
+  }
+ ]
+}

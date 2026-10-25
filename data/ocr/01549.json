@@ -1,0 +1,113 @@
+{
+ "id": "01549",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.208,
+ "n_lines": 10,
+ "mean_score": 0.9906,
+ "lines": [
+  {
+   "text": "KRISTIN TERRY",
+   "score": 0.9996,
+   "box": [
+    115,
+    88,
+    375,
+    123
+   ]
+  },
+  {
+   "text": "AZ, USA | +1-725-296-4705 | kristin.terry@example.com",
+   "score": 0.975,
+   "box": [
+    116,
+    149,
+    640,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9995,
+   "box": [
+    116,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Registered Nurses, ClearSpring Health Group, 2022.02—2022.05",
+   "score": 0.9804,
+   "box": [
+    116,
+    288,
+    715,
+    315
+   ]
+  },
+  {
+   "text": "- Assisted with patient mobility",
+   "score": 0.9862,
+   "box": [
+    124,
+    312,
+    409,
+    342
+   ]
+  },
+  {
+   "text": "- Recorded patient vital signs",
+   "score": 0.9963,
+   "box": [
+    125,
+    338,
+    400,
+    368
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Health Management, Clearwater University, 2003",
+   "score": 0.9888,
+   "box": [
+    115,
+    446,
+    683,
+    476
+   ]
+  },
+  {
+   "text": "Studied principles of mental health nursing",
+   "score": 0.9888,
+   "box": [
+    128,
+    472,
+    542,
+    501
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of infection diseases nursing",
+   "score": 0.9915,
+   "box": [
+    131,
+    497,
+    619,
+    525
+   ]
+  }
+ ]
+}

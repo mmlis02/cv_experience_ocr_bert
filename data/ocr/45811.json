@@ -1,0 +1,183 @@
+{
+ "id": "45811",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 9.786,
+ "n_lines": 17,
+ "mean_score": 0.9892,
+ "lines": [
+  {
+   "text": "LAURA BERNARD",
+   "score": 0.9998,
+   "box": [
+    117,
+    91,
+    410,
+    121
+   ]
+  },
+  {
+   "text": "PA, USA | +1-409-361-4214 | laura.bernard@example.com",
+   "score": 0.9859,
+   "box": [
+    116,
+    150,
+    663,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Growing Futures Academy, 2020.03—2023.01",
+   "score": 0.9897,
+   "box": [
+    117,
+    290,
+    883,
+    317
+   ]
+  },
+  {
+   "text": "- Designed instructional governance models",
+   "score": 0.9765,
+   "box": [
+    126,
+    314,
+    536,
+    343
+   ]
+  },
+  {
+   "text": "- Developed student performance metrics",
+   "score": 0.9802,
+   "box": [
+    127,
+    340,
+    513,
+    369
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Golden Horizons Academy, 2017.052020.03",
+   "score": 0.9841,
+   "box": [
+    116,
+    381,
+    887,
+    411
+   ]
+  },
+  {
+   "text": "- Developed math enrichment lessons",
+   "score": 0.996,
+   "box": [
+    126,
+    408,
+    480,
+    433
+   ]
+  },
+  {
+   "text": "- Analyzed assessment trends",
+   "score": 0.9865,
+   "box": [
+    126,
+    430,
+    410,
+    461
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Future Minds Academy, 2014.072017.05",
+   "score": 0.9966,
+   "box": [
+    118,
+    472,
+    853,
+    499
+   ]
+  },
+  {
+   "text": "- Implemented classroom seating plans",
+   "score": 0.9865,
+   "box": [
+    125,
+    497,
+    494,
+    526
+   ]
+  },
+  {
+   "text": "- Maintained lesson documentation",
+   "score": 0.9984,
+   "box": [
+    127,
+    520,
+    454,
+    550
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Master's, General Learning Studies, Briar Ridge University, 2012",
+   "score": 0.9805,
+   "box": [
+    115,
+    631,
+    716,
+    659
+   ]
+  },
+  {
+   "text": "Bachelor's, Education Basics, Brookhaven University, 2010",
+   "score": 0.9837,
+   "box": [
+    117,
+    659,
+    665,
+    683
+   ]
+  },
+  {
+   "text": "• Studied fundamentals of concept-based instruction",
+   "score": 0.9894,
+   "box": [
+    132,
+    684,
+    616,
+    708
+   ]
+  },
+  {
+   "text": "Completed coursework in classroom organization",
+   "score": 0.9843,
+   "box": [
+    131,
+    704,
+    606,
+    737
+   ]
+  }
+ ]
+}

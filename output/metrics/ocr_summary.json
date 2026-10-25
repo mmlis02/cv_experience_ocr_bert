@@ -1,0 +1,33 @@
+{
+  "n_images": 4000,
+  "n_ok": 4000,
+  "n_failed": 0,
+  "failed_ids": [],
+  "det_model": "PP-OCRv5_mobile_det",
+  "rec_model": "en_PP-OCRv5_mobile_rec",
+  "workers": 4,
+  "cpu_threads": 2,
+  "seconds_per_cv_mean": 7.35,
+  "seconds_per_cv_median": 7.29,
+  "wall_seconds_last_run": null,
+  "wall_seconds_per_cv_last_run": null,
+  "wall_hours_from_file_times": 2.18,
+  "mean_line_confidence": 0.9906,
+  "mean_cv_confidence": 0.9907,
+  "share_lines_below_0.9": 0.0,
+  "mean_lines_per_cv": 14.4,
+  "layouts": {
+    "one_column": 4000
+  },
+  "hardware": {
+    "machine": "arm64",
+    "os": "Darwin 26.3",
+    "cpu": "Apple M2",
+    "cpu_cores": 8,
+    "ram_gb": 8.0,
+    "device": "cpu",
+    "python": "3.11.17",
+    "paddlepaddle": "3.3.1",
+    "paddleocr": "3.7.0"
+  }
+}

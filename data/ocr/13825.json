@@ -1,0 +1,143 @@
+{
+ "id": "13825",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.636,
+ "n_lines": 13,
+ "mean_score": 0.9931,
+ "lines": [
+  {
+   "text": "JASMINE BURKE",
+   "score": 0.9934,
+   "box": [
+    116,
+    91,
+    394,
+    121
+   ]
+  },
+  {
+   "text": "FL, USA | +1-281-672-2310 | jasmine.burke@example.com",
+   "score": 0.9827,
+   "box": [
+    118,
+    152,
+    665,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.999,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Golden Steps School, 2018.07—2021.02",
+   "score": 0.9902,
+   "box": [
+    115,
+    287,
+    836,
+    318
+   ]
+  },
+  {
+   "text": "- Implemented curriculum governance structures",
+   "score": 0.9985,
+   "box": [
+    126,
+    315,
+    577,
+    341
+   ]
+  },
+  {
+   "text": "- Developed learning progression models",
+   "score": 0.9951,
+   "box": [
+    127,
+    339,
+    510,
+    367
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Caring Path School, 2015.04—2017.12",
+   "score": 0.9916,
+   "box": [
+    115,
+    379,
+    821,
+    410
+   ]
+  },
+  {
+   "text": "- Recorded student feedback",
+   "score": 0.993,
+   "box": [
+    125,
+    407,
+    399,
+    432
+   ]
+  },
+  {
+   "text": "- Delivered structured lessons in reading and mathematics",
+   "score": 0.9924,
+   "box": [
+    125,
+    429,
+    667,
+    458
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    117,
+    494,
+    268,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Basic Child Development, Willowview University, 2011",
+   "score": 0.9838,
+   "box": [
+    115,
+    539,
+    728,
+    567
+   ]
+  },
+  {
+   "text": "• Completed coursework in educational communication skills",
+   "score": 0.997,
+   "box": [
+    132,
+    566,
+    693,
+    591
+   ]
+  },
+  {
+   "text": "Completed coursework in academic content planning",
+   "score": 0.9932,
+   "box": [
+    131,
+    589,
+    638,
+    619
+   ]
+  }
+ ]
+}

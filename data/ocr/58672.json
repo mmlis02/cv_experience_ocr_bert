@@ -1,0 +1,143 @@
+{
+ "id": "58672",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.555,
+ "n_lines": 13,
+ "mean_score": 0.9909,
+ "lines": [
+  {
+   "text": "KAITLYNN HARRELL",
+   "score": 0.9952,
+   "box": [
+    117,
+    92,
+    453,
+    122
+   ]
+  },
+  {
+   "text": "WA, USA | +1-945-207-5175 | kaitlynn.harrell@example.com",
+   "score": 0.9909,
+   "box": [
+    116,
+    150,
+    680,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9992,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Registered Nurses, OpenSpring Care Services, 2020.09—2023.01",
+   "score": 0.9895,
+   "box": [
+    115,
+    287,
+    725,
+    320
+   ]
+  },
+  {
+   "text": "- Directed nursing operations planning",
+   "score": 0.9944,
+   "box": [
+    125,
+    313,
+    482,
+    344
+   ]
+  },
+  {
+   "text": "- Implemented care standardization",
+   "score": 0.9935,
+   "box": [
+    126,
+    338,
+    458,
+    369
+   ]
+  },
+  {
+   "text": "Registered Nurses, WellWay Nursing Services, 2018.052020.09",
+   "score": 0.9814,
+   "box": [
+    117,
+    382,
+    722,
+    409
+   ]
+  },
+  {
+   "text": "- Monitored patient skin condition",
+   "score": 0.9922,
+   "box": [
+    126,
+    407,
+    436,
+    432
+   ]
+  },
+  {
+   "text": "- Assisted with hygiene care",
+   "score": 0.9902,
+   "box": [
+    127,
+    430,
+    391,
+    461
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Associate's degree, Allied Health, Elmwood Ridge University, 2016",
+   "score": 0.9747,
+   "box": [
+    117,
+    540,
+    736,
+    567
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of trauma care",
+   "score": 0.9845,
+   "box": [
+    129,
+    566,
+    491,
+    592
+   ]
+  },
+  {
+   "text": "• Studied principles of hydration management",
+   "score": 0.9962,
+   "box": [
+    132,
+    593,
+    556,
+    617
+   ]
+  }
+ ]
+}

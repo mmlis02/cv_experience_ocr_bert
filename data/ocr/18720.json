@@ -1,0 +1,173 @@
+{
+ "id": "18720",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.347,
+ "n_lines": 16,
+ "mean_score": 0.9866,
+ "lines": [
+  {
+   "text": "LEE CALHOUN",
+   "score": 0.9995,
+   "box": [
+    117,
+    91,
+    359,
+    122
+   ]
+  },
+  {
+   "text": "IL, USA | +1-527-285-4403 | lee.calhoun@example.com",
+   "score": 0.9816,
+   "box": [
+    118,
+    152,
+    635,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, FairBalance Accounting, 2020.02—2023.01",
+   "score": 0.9858,
+   "box": [
+    115,
+    288,
+    719,
+    316
+   ]
+  },
+  {
+   "text": "- Developed financial performance metrics",
+   "score": 0.9923,
+   "box": [
+    128,
+    315,
+    520,
+    341
+   ]
+  },
+  {
+   "text": "- Led accounting transformation projects",
+   "score": 0.9727,
+   "box": [
+    129,
+    341,
+    501,
+    367
+   ]
+  },
+  {
+   "text": "Accountants Auditors, EverCount Accounting, 2017.02—2020.02",
+   "score": 0.9929,
+   "box": [
+    117,
+    383,
+    707,
+    407
+   ]
+  },
+  {
+   "text": "- Reviewed contract accounting",
+   "score": 0.9773,
+   "box": [
+    125,
+    407,
+    421,
+    434
+   ]
+  },
+  {
+   "text": "- Reviewed journal entries",
+   "score": 0.9995,
+   "box": [
+    125,
+    430,
+    372,
+    460
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Reliable Ledger Group, 2014.02—2017.02",
+   "score": 0.9811,
+   "box": [
+    117,
+    473,
+    710,
+    497
+   ]
+  },
+  {
+   "text": "- Maintained chart of accounts",
+   "score": 0.9878,
+   "box": [
+    126,
+    497,
+    410,
+    522
+   ]
+  },
+  {
+   "text": "- Reviewed account balances",
+   "score": 0.9825,
+   "box": [
+    127,
+    521,
+    403,
+    548
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    118,
+    588,
+    266,
+    612
+   ]
+  },
+  {
+   "text": "Bachelor's, Public Accounting, Westbrook University, 2016",
+   "score": 0.9882,
+   "box": [
+    118,
+    633,
+    658,
+    657
+   ]
+  },
+  {
+   "text": "•Studied principles of audit sampling",
+   "score": 0.9567,
+   "box": [
+    130,
+    658,
+    478,
+    685
+   ]
+  },
+  {
+   "text": "•Completed coursework in accounting research methods",
+   "score": 0.988,
+   "box": [
+    131,
+    681,
+    662,
+    709
+   ]
+  }
+ ]
+}

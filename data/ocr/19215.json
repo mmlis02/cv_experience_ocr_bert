@@ -1,0 +1,203 @@
+{
+ "id": "19215",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.62,
+ "n_lines": 19,
+ "mean_score": 0.9898,
+ "lines": [
+  {
+   "text": "CHRISTOPHER MERRITT",
+   "score": 0.9997,
+   "box": [
+    117,
+    90,
+    517,
+    122
+   ]
+  },
+  {
+   "text": "IL, USA | +1-531-221-2820 | christopher.merritt@example.com",
+   "score": 0.9878,
+   "box": [
+    116,
+    150,
+    697,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, EverCount Services, 2020.07—2023.01",
+   "score": 0.9924,
+   "box": [
+    115,
+    288,
+    683,
+    316
+   ]
+  },
+  {
+   "text": "- Established financial quality controls",
+   "score": 0.9934,
+   "box": [
+    127,
+    315,
+    477,
+    341
+   ]
+  },
+  {
+   "text": "- Designed financial policy frameworks",
+   "score": 0.9772,
+   "box": [
+    128,
+    341,
+    485,
+    368
+   ]
+  },
+  {
+   "text": "Accountants Auditors, BrightPath Accounting Services, 2018.012020.07",
+   "score": 0.99,
+   "box": [
+    115,
+    380,
+    794,
+    411
+   ]
+  },
+  {
+   "text": "- Managed financial governance",
+   "score": 0.9884,
+   "box": [
+    127,
+    409,
+    427,
+    433
+   ]
+  },
+  {
+   "text": "- Designed financial control environments",
+   "score": 0.9814,
+   "box": [
+    128,
+    432,
+    512,
+    457
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Accurate Balance Group, 2015.062018.01",
+   "score": 0.9918,
+   "box": [
+    118,
+    474,
+    724,
+    498
+   ]
+  },
+  {
+   "text": "- Conducted compliance reviews",
+   "score": 0.9986,
+   "box": [
+    129,
+    500,
+    432,
+    524
+   ]
+  },
+  {
+   "text": "- Reviewed financial systems data",
+   "score": 0.9594,
+   "box": [
+    127,
+    521,
+    446,
+    550
+   ]
+  },
+  {
+   "text": "Accountants Auditors, ClearBooks Group, 2012.112015.06",
+   "score": 0.9941,
+   "box": [
+    118,
+    566,
+    671,
+    590
+   ]
+  },
+  {
+   "text": "- Prepared basic financial reports",
+   "score": 0.9993,
+   "box": [
+    125,
+    590,
+    437,
+    618
+   ]
+  },
+  {
+   "text": "- Assisted with forecasting data",
+   "score": 0.9981,
+   "box": [
+    127,
+    614,
+    420,
+    644
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Bachelor's, Accounting and Finance, Sunfield University, 2011",
+   "score": 0.9875,
+   "box": [
+    117,
+    726,
+    691,
+    749
+   ]
+  },
+  {
+   "text": "•Completed coursework in financial accounting",
+   "score": 0.9811,
+   "box": [
+    131,
+    748,
+    574,
+    777
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of portfolio management",
+   "score": 0.987,
+   "box": [
+    132,
+    772,
+    582,
+    801
+   ]
+  }
+ ]
+}

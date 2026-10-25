@@ -1,0 +1,123 @@
+{
+ "id": "45999",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.475,
+ "n_lines": 11,
+ "mean_score": 0.9937,
+ "lines": [
+  {
+   "text": "CHELSEA MURPHY",
+   "score": 0.9996,
+   "box": [
+    118,
+    91,
+    431,
+    122
+   ]
+  },
+  {
+   "text": "PA, USA | +1-622-748-4524 | chelsea.murphy@example.com",
+   "score": 0.9851,
+   "box": [
+    117,
+    152,
+    687,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9998,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Little Grove School, 2021.032022.04",
+   "score": 0.9959,
+   "box": [
+    117,
+    289,
+    815,
+    316
+   ]
+  },
+  {
+   "text": "- Administered learning games",
+   "score": 0.9864,
+   "box": [
+    126,
+    315,
+    414,
+    341
+   ]
+  },
+  {
+   "text": "- Implemented classroom seating plans",
+   "score": 0.9897,
+   "box": [
+    127,
+    339,
+    493,
+    368
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Master's, Education Preparation, Pebble Creek University, 2016",
+   "score": 0.9994,
+   "box": [
+    116,
+    448,
+    708,
+    475
+   ]
+  },
+  {
+   "text": "Bachelor's, Family and Child Studies, Summit Ridge University, 2014",
+   "score": 0.9907,
+   "box": [
+    115,
+    472,
+    756,
+    500
+   ]
+  },
+  {
+   "text": "• Completed coursework in classroom collaboration",
+   "score": 0.9892,
+   "box": [
+    131,
+    500,
+    609,
+    524
+   ]
+  },
+  {
+   "text": "Studied principles of lesson planning",
+   "score": 0.9951,
+   "box": [
+    132,
+    522,
+    487,
+    552
+   ]
+  }
+ ]
+}

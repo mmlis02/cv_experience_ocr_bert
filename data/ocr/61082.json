@@ -1,0 +1,113 @@
+{
+ "id": "61082",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.566,
+ "n_lines": 10,
+ "mean_score": 0.9926,
+ "lines": [
+  {
+   "text": "JESSICA HARDY",
+   "score": 0.9999,
+   "box": [
+    115,
+    89,
+    391,
+    123
+   ]
+  },
+  {
+   "text": "WI, USA | +1-960-267-9317 | jessica.hardy@example.com",
+   "score": 0.9894,
+   "box": [
+    116,
+    149,
+    659,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9995,
+   "box": [
+    116,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Registered Nurses, ClearHands Nursing Group, 2019.12—2020.02",
+   "score": 0.982,
+   "box": [
+    115,
+    288,
+    728,
+    316
+   ]
+  },
+  {
+   "text": "- Assisted with hygiene care",
+   "score": 0.9906,
+   "box": [
+    125,
+    314,
+    391,
+    341
+   ]
+  },
+  {
+   "text": "- Monitored intravenous lines",
+   "score": 0.9957,
+   "box": [
+    126,
+    339,
+    398,
+    365
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Health Promotion, Elmwood Ridge University, 2009",
+   "score": 0.9871,
+   "box": [
+    115,
+    446,
+    700,
+    474
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of infection diseases nursing",
+   "score": 0.985,
+   "box": [
+    129,
+    471,
+    620,
+    501
+   ]
+  },
+  {
+   "text": "Completed coursework in delegation principles",
+   "score": 0.9967,
+   "box": [
+    132,
+    497,
+    581,
+    526
+   ]
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "id": "03611",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.444,
+ "n_lines": 10,
+ "mean_score": 0.9941,
+ "lines": [
+  {
+   "text": "CHELCEY HUFF",
+   "score": 0.9998,
+   "box": [
+    118,
+    91,
+    376,
+    122
+   ]
+  },
+  {
+   "text": "CA, USA | +1-693-653-4949 | chelcey.huff@example.com",
+   "score": 0.9826,
+   "box": [
+    118,
+    152,
+    651,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Little Field School, 2020.10—2023.01",
+   "score": 0.9893,
+   "box": [
+    116,
+    287,
+    801,
+    315
+   ]
+  },
+  {
+   "text": "- Administered quizzes and short assessments",
+   "score": 0.9987,
+   "box": [
+    125,
+    315,
+    560,
+    338
+   ]
+  },
+  {
+   "text": "- Recorded test results",
+   "score": 0.9984,
+   "box": [
+    126,
+    339,
+    339,
+    365
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Learning Foundations, Seabreeze University, 2022",
+   "score": 0.982,
+   "box": [
+    116,
+    448,
+    696,
+    475
+   ]
+  },
+  {
+   "text": "Completed coursework in instructional sequencing",
+   "score": 0.9915,
+   "box": [
+    129,
+    472,
+    614,
+    501
+   ]
+  },
+  {
+   "text": "Studied foundational teaching methods",
+   "score": 0.9992,
+   "box": [
+    131,
+    496,
+    509,
+    525
+   ]
+  }
+ ]
+}

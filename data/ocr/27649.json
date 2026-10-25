@@ -1,0 +1,143 @@
+{
+ "id": "27649",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.187,
+ "n_lines": 13,
+ "mean_score": 0.99,
+ "lines": [
+  {
+   "text": "RUSSELL TERRELL",
+   "score": 0.9996,
+   "box": [
+    117,
+    89,
+    438,
+    122
+   ]
+  },
+  {
+   "text": "MI, USA | +1-813-748-8171 | russell.terrell@example.com",
+   "score": 0.9882,
+   "box": [
+    117,
+    151,
+    651,
+    175
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9992,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Software Developers, Corewave Labs, 2019.03—2021.01",
+   "score": 0.9863,
+   "box": [
+    116,
+    289,
+    641,
+    316
+   ]
+  },
+  {
+   "text": "- Designed system architectures",
+   "score": 0.9774,
+   "box": [
+    126,
+    314,
+    429,
+    342
+   ]
+  },
+  {
+   "text": "- Designed configuration management systems",
+   "score": 0.9953,
+   "box": [
+    128,
+    339,
+    565,
+    368
+   ]
+  },
+  {
+   "text": "Software Developers, Netline Solutions, 2016.072018.05",
+   "score": 0.9936,
+   "box": [
+    115,
+    380,
+    654,
+    408
+   ]
+  },
+  {
+   "text": "- Updated application dependencies",
+   "score": 0.9858,
+   "box": [
+    125,
+    406,
+    463,
+    435
+   ]
+  },
+  {
+   "text": "- Updated configuration files",
+   "score": 0.9934,
+   "box": [
+    130,
+    434,
+    390,
+    457
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Some college (no degree), Greenway University, 2016",
+   "score": 0.9821,
+   "box": [
+    116,
+    539,
+    621,
+    567
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of programming paradigms",
+   "score": 0.9923,
+   "box": [
+    128,
+    565,
+    606,
+    594
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of data analysis",
+   "score": 0.9775,
+   "box": [
+    131,
+    589,
+    500,
+    618
+   ]
+  }
+ ]
+}

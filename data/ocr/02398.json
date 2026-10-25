@@ -1,0 +1,183 @@
+{
+ "id": "02398",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 9.058,
+ "n_lines": 17,
+ "mean_score": 0.9904,
+ "lines": [
+  {
+   "text": "AMY GALLAGHER",
+   "score": 0.9995,
+   "box": [
+    118,
+    91,
+    413,
+    122
+   ]
+  },
+  {
+   "text": "AR, USA | +1-313-356-6221 | amy.gallagher@example.com",
+   "score": 0.973,
+   "box": [
+    116,
+    150,
+    672,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9992,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Discovery Futures School, 2020.09—2023.01",
+   "score": 0.9881,
+   "box": [
+    116,
+    288,
+    875,
+    318
+   ]
+  },
+  {
+   "text": "- Developed student performance metrics",
+   "score": 0.9858,
+   "box": [
+    125,
+    314,
+    513,
+    343
+   ]
+  },
+  {
+   "text": "- Directed academic intervention strategies",
+   "score": 0.9765,
+   "box": [
+    126,
+    339,
+    525,
+    368
+   ]
+  },
+  {
+   "text": "Elementary Midle School Teachers, Future Bridge Academy, 2018.042020.09",
+   "score": 0.9786,
+   "box": [
+    115,
+    380,
+    858,
+    413
+   ]
+  },
+  {
+   "text": "- Designed math assessments",
+   "score": 0.9968,
+   "box": [
+    126,
+    408,
+    411,
+    434
+   ]
+  },
+  {
+   "text": "- Implemented formative assessment strategies",
+   "score": 0.9861,
+   "box": [
+    127,
+    432,
+    569,
+    459
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, BrightWay School, 2015.112018.04",
+   "score": 0.9982,
+   "box": [
+    116,
+    471,
+    804,
+    499
+   ]
+  },
+  {
+   "text": "- Collected permission forms",
+   "score": 0.9847,
+   "box": [
+    125,
+    497,
+    396,
+    526
+   ]
+  },
+  {
+   "text": "- Implemented classroom seating plans",
+   "score": 0.9977,
+   "box": [
+    128,
+    521,
+    493,
+    551
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Master's, Developmental Studies, Brookside University, 2019",
+   "score": 0.99,
+   "box": [
+    115,
+    631,
+    684,
+    659
+   ]
+  },
+  {
+   "text": "Bachelor's, Introductory Education, Clearway University, 2017",
+   "score": 0.9956,
+   "box": [
+    114,
+    655,
+    690,
+    686
+   ]
+  },
+  {
+   "text": "• Completed coursework in classroom routines",
+   "score": 0.9945,
+   "box": [
+    133,
+    684,
+    565,
+    708
+   ]
+  },
+  {
+   "text": "•Studied principles of early childhood education",
+   "score": 0.993,
+   "box": [
+    132,
+    706,
+    579,
+    735
+   ]
+  }
+ ]
+}

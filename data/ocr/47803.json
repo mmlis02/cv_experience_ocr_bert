@@ -1,0 +1,203 @@
+{
+ "id": "47803",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 10.278,
+ "n_lines": 19,
+ "mean_score": 0.9913,
+ "lines": [
+  {
+   "text": "PATRICK ROLLINS",
+   "score": 0.9999,
+   "box": [
+    117,
+    91,
+    422,
+    122
+   ]
+  },
+  {
+   "text": "SC, USA | +1-929-841-2908 | patrick.rollins@example.com",
+   "score": 0.9849,
+   "box": [
+    116,
+    150,
+    663,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Learning Roots Academy, 2020.02—2023.01",
+   "score": 0.9944,
+   "box": [
+    116,
+    288,
+    871,
+    318
+   ]
+  },
+  {
+   "text": "- Developed long-term instructional strategies",
+   "score": 0.9772,
+   "box": [
+    126,
+    316,
+    549,
+    342
+   ]
+  },
+  {
+   "text": "- Led curriculum integration projects",
+   "score": 0.9993,
+   "box": [
+    127,
+    340,
+    461,
+    369
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Bright Hills Academy, 2017.032020.02",
+   "score": 0.9832,
+   "box": [
+    116,
+    381,
+    832,
+    411
+   ]
+  },
+  {
+   "text": "- Directed assessment development efforts",
+   "score": 0.9977,
+   "box": [
+    126,
+    408,
+    526,
+    433
+   ]
+  },
+  {
+   "text": "- Developed district-aligned lesson frameworks",
+   "score": 0.9945,
+   "box": [
+    126,
+    431,
+    562,
+    459
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Harmony Learning Center, 2012.06—2015.06",
+   "score": 0.9934,
+   "box": [
+    118,
+    473,
+    879,
+    500
+   ]
+  },
+  {
+   "text": "- Evaluated instructional effectiveness",
+   "score": 0.9865,
+   "box": [
+    126,
+    498,
+    480,
+    524
+   ]
+  },
+  {
+   "text": "- Prepared remediation materials",
+   "score": 0.9985,
+   "box": [
+    128,
+    521,
+    433,
+    550
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, New Beginnings School, 2008.082011.08",
+   "score": 0.9964,
+   "box": [
+    116,
+    564,
+    859,
+    592
+   ]
+  },
+  {
+   "text": "- Prepared daily lesson plans aligned with curriculum guidelines",
+   "score": 0.9952,
+   "box": [
+    126,
+    591,
+    717,
+    618
+   ]
+  },
+  {
+   "text": "- Prepared visual teaching aids",
+   "score": 0.9899,
+   "box": [
+    127,
+    614,
+    418,
+    645
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Associate's degree, Education Preparation, Clearview University, 2001",
+   "score": 0.9724,
+   "box": [
+    118,
+    726,
+    767,
+    749
+   ]
+  },
+  {
+   "text": "• Studied principles of instructional materials development",
+   "score": 0.9891,
+   "box": [
+    131,
+    750,
+    670,
+    774
+   ]
+  },
+  {
+   "text": "•Studied principles of academic progress tracking",
+   "score": 0.9824,
+   "box": [
+    131,
+    774,
+    597,
+    800
+   ]
+  }
+ ]
+}
