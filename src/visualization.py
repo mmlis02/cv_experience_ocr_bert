@@ -188,7 +188,8 @@ def _model_colors(models) -> dict:
 def plot_pred_vs_true(preds: dict, path=None):
     """Predicted vs true years per model, with the 45-degree line and a fitted slope."""
     fig, axes = plt.subplots(1, len(preds), figsize=(4 * len(preds), 4.3), layout="constrained",
-                             sharex=True, sharey=True)
+                             sharex=True, sharey=True, squeeze=False)
+    axes = axes[0]
     for ax, (name, p) in zip(axes, preds.items()):
         ax.plot([0, utils.EXP_CAP], [0, utils.EXP_CAP], color=TEXT_SECONDARY, linestyle="--", linewidth=1)
         ax.scatter(p["y_true"], p["y_pred"], s=9, color=SERIES_1, alpha=0.45, edgecolors="none")
@@ -239,7 +240,8 @@ def plot_band_confusion(preds: dict, path=None):
     from sklearn.metrics import confusion_matrix
 
     cmap = LinearSegmentedColormap.from_list("seq", [SURFACE, SERIES_1])
-    fig, axes = plt.subplots(1, len(preds), figsize=(3.6 * len(preds), 3.8), layout="constrained")
+    fig, axes = plt.subplots(1, len(preds), figsize=(3.6 * len(preds), 3.8), layout="constrained", squeeze=False)
+    axes = axes[0]
     for ax, (name, p) in zip(axes, preds.items()):
         cm = confusion_matrix(utils.to_band(p["y_true"]), utils.to_band(p["y_pred"]), labels=utils.BAND_LABELS)
         pct = cm / cm.sum(axis=1, keepdims=True)
