@@ -1,0 +1,7 @@
+occupation,n,cer_mean,cer_median,cer_p90,wer_mean,wer_median,wer_p90,cer_after_date_fix_mean,pct_years_correct,pct_years_correct_after_date_fix,pct_cvs_all_years_correct_after_date_fix
+all,4000,0.0021,0.0021,0.0041,0.019,0.0189,0.038,0.0001,79.7781,99.9959,99.975
+accountants_auditors,800,0.0018,0.0018,0.0038,0.017,0.0164,0.0366,0.0,82.1728,100.0,100.0
+construction_laborers,800,0.0017,0.0018,0.0041,0.0162,0.0167,0.0377,0.0,81.2085,100.0,100.0
+elementary_middle_school_teachers,800,0.0015,0.0016,0.0033,0.0134,0.0143,0.0278,0.0001,84.6243,99.9806,99.875
+registered_nurses,800,0.0025,0.0027,0.0041,0.0219,0.0238,0.0366,0.0,75.3705,100.0,100.0
+software_developers,800,0.0029,0.0029,0.0053,0.0263,0.027,0.0484,0.0002,75.1131,100.0,100.0

@@ -1,0 +1,28 @@
+{
+  "n_cvs": 4000,
+  "cvs_with_direct_answer_masked": 0,
+  "masked_phrases_by_type": {
+    "total_experience": 0,
+    "age": 0,
+    "date_of_birth": 0
+  },
+  "reference_cvs_with_direct_answer_masked": 0,
+  "cvs_with_pii_removed": {
+    "name": 4000,
+    "email": 4000,
+    "phone": 4000,
+    "address": 4000
+  },
+  "cvs_with_glued_date_ranges_repaired": 2861,
+  "glued_date_ranges_repaired": 4939,
+  "low_conf_threshold": 0.97,
+  "lowconf_lines_dropped": 1227,
+  "lowconf_share_of_lines": 0.0213,
+  "cvs_with_lowconf_lines": 1059,
+  "mean_chars": {
+    "raw": 507.2,
+    "clean": 509.2,
+    "clean_dropped_lowconf": 500.5,
+    "reference_clean": 510.2
+  }
+}
