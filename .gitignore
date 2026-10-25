@@ -55,3 +55,6 @@ paddleocr_cache/
 .DS_Store
 .vscode/
 .idea/
+
+# --- Quick BERT test runs (subsampled train)
+output/metrics/bert_tests/
