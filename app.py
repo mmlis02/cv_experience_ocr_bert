@@ -209,6 +209,9 @@ model uses the same split. Tuning uses validation only, and the test set was use
 
 def tab_ocr_eda():
     st.header("OCR & Exploratory Analysis")
+    st.info("All CV images, OCR boxes and texts shown here come from **PopResume**, a **synthetic** dataset "
+            "(CC BY 4.0) generated from aggregate U.S. population statistics. The names, phone numbers, emails "
+            "and employers on these CVs are invented and do not belong to real people.")
     meta = targets()
     dist = table("exp_year_distribution.csv")
 
@@ -262,7 +265,8 @@ def tab_ocr_eda():
                                         "two_column_check"])
         st.image(str(F / f"ocr_reading_order_{name}.png"), width="stretch")
     why("Each number is one step of the rebuilt reading order. Boxes on the same visual line share a number, so a "
-        "job title and its dates are read together. Colours mark full-width, left and right columns.")
+        "job title and its dates are read together. Colours mark full-width, left and right columns. "
+        "The CV is synthetic (PopResume): its name and contact details are not those of a real person.")
 
 
 # ------------------------------------------------------------------ tab 3
