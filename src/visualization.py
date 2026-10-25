@@ -149,6 +149,34 @@ def plot_confidence(lines: pd.DataFrame, threshold: float, path=None):
     return fig
 
 
+def plot_training_curve(history: pd.DataFrame, best_epoch: int, baselines: dict | None = None, title="", path=None):
+    """Training loss and validation MAE per epoch (two panels: different units, no dual axis)."""
+    fig, axes = plt.subplots(1, 2, figsize=(11, 3.8), layout="constrained")
+    ax = axes[0]
+    ax.plot(history["epoch"], history["train_loss"], color=SERIES_1, linewidth=2, marker="o", markersize=6)
+    ax.set_title("Training loss (scaled target)", loc="left")
+    ax.set_xlabel("Epoch")
+    ax = axes[1]
+    ax.plot(history["epoch"], history["val_mae"], color=SERIES_1, linewidth=2, marker="o", markersize=6, label="BERT")
+    best = history.loc[history["epoch"] == best_epoch, "val_mae"].iloc[0]
+    ax.annotate(f"best: epoch {best_epoch}\n{best:.3f} years", xy=(best_epoch, best), xytext=(8, 12),
+                textcoords="offset points", fontsize=9, color=TEXT_PRIMARY)
+    for name, value in (baselines or {}).items():
+        ax.axhline(value, color=TEXT_SECONDARY, linestyle="--", linewidth=1)
+        ax.annotate(f"{name} {value:.2f}", xy=(1, value), xycoords=("axes fraction", "data"), xytext=(-4, 3),
+                    textcoords="offset points", ha="right", fontsize=8, color=TEXT_SECONDARY)
+    ax.set_title("Validation MAE (years)", loc="left")
+    ax.set_xlabel("Epoch")
+    ax.set_ylim(bottom=0)
+    for ax in axes:
+        ax.xaxis.set_major_locator(MaxNLocator(integer=True))
+    if title:
+        fig.suptitle(title, x=0.01, ha="left", fontsize=11)
+    if path is not None:
+        fig.savefig(path, dpi=150)
+    return fig
+
+
 # Box colour per reading-order column: categorical slots 1-3 of the reference palette
 COLUMN_COLORS = {"full": SERIES_1, "left": "#eb6834", "right": "#1baf7a"}
 
