@@ -1,0 +1,58 @@
+{
+  "n_test": 600,
+  "n_bootstrap": 2000,
+  "seed": 42,
+  "test_mae": {
+    "Median": 3.5019295797428587,
+    "TF-IDF + Ridge": 0.8360471075640225,
+    "Embeddings + Ridge": 1.2592712715852175,
+    "Fine-tuned BERT": 0.25076714499188135,
+    "Date rules (bonus)": 0.022888220989162805
+  },
+  "bert_gain": [
+    {
+      "baseline": "Median",
+      "baseline_mae": 3.5019,
+      "bert_mae": 0.2508,
+      "mae_reduction": 3.2512,
+      "relative_reduction": 0.9284,
+      "ci95_low": 3.0266,
+      "ci95_high": 3.4733,
+      "significant": true,
+      "conclusion": "BERT significantly better"
+    },
+    {
+      "baseline": "TF-IDF + Ridge",
+      "baseline_mae": 0.836,
+      "bert_mae": 0.2508,
+      "mae_reduction": 0.5853,
+      "relative_reduction": 0.7001,
+      "ci95_low": 0.5306,
+      "ci95_high": 0.6394,
+      "significant": true,
+      "conclusion": "BERT significantly better"
+    },
+    {
+      "baseline": "Embeddings + Ridge",
+      "baseline_mae": 1.2593,
+      "bert_mae": 0.2508,
+      "mae_reduction": 1.0085,
+      "relative_reduction": 0.8009,
+      "ci95_low": 0.9275,
+      "ci95_high": 1.0871,
+      "significant": true,
+      "conclusion": "BERT significantly better"
+    },
+    {
+      "baseline": "Date rules (bonus)",
+      "baseline_mae": 0.0229,
+      "bert_mae": 0.2508,
+      "mae_reduction": -0.2279,
+      "relative_reduction": -9.9562,
+      "ci95_low": -0.2468,
+      "ci95_high": -0.2096,
+      "significant": true,
+      "conclusion": "BERT significantly worse"
+    }
+  ]
+}

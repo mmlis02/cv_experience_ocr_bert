@@ -1,0 +1,6 @@
+model,mae_ocr_text,mae_reference_text,gap_ocr_minus_reference,ci95_low,ci95_high,significant
+Median,3.5019,3.5019,0.0,0.0,0.0,False
+TF-IDF + Ridge,0.836,0.8343,0.0017,-0.0009,0.0043,False
+Embeddings + Ridge,1.2593,1.2454,0.0139,-0.0047,0.0326,False
+Fine-tuned BERT,0.2508,0.2575,-0.0067,-0.0092,-0.0042,True
+Date rules (bonus),0.0229,0.0217,0.0012,0.0,0.0029,False

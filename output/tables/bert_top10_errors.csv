@@ -1,0 +1,117 @@
+id,occupation,y_true,bert_pred,rules_pred,error,n_jobs,cause,explanation,text
+61082,registered_nurses,0.207,1.801,0.167,1.594,1,career gap,"The last job ended 2.9 years before the data snapshot (2023.01) and graduation was in 2009; BERT overestimates, as if part of the time since then counted as experience.","WORK HISTORY
+Registered Nurses, ClearHands Nursing Group, 2019.12-2020.02
+- Assisted with hygiene care
+- Monitored intravenous lines
+EDUCATION
+Bachelor's, Health Promotion, Elmwood Ridge University, 2009
+- Studied fundamentals of infection diseases nursing
+Completed coursework in delegation principles"
+31093,software_developers,0.214,1.602,0.25,1.389,1,career gap,"The last job ended 2.9 years before the data snapshot (2023.01) and graduation was in 2008; BERT overestimates, as if part of the time since then counted as experience.","WORK HISTORY
+Software Developers, Cloudfield Digital, 2019.11-2020.02
+- Implemented logging features
+- Updated monitoring dashboards
+EDUCATION
+Master's, Fairfield University, 2010
+Bachelor's, Crossfield University, 2008
+- Studied fundamentals of client-side development
+- Studied fundamentals of error handling"
+06678,accountants_auditors,16.623,17.953,16.583,1.33,4,career gap,"A 2.0-year gap between jobs; BERT overestimates, as if it counted part of the span from first start to last end.","WORK HISTORY
+Accountants Auditors, SolidCount Financial, 2018.12-2023.01
+- Designed tax strategies
+- Developed financial analytics frameworks
+Accountants Auditors, SolidBooks Accounting, 2014.10-2018.12
+- Directed accounting leadership initiatives
+- Designed financial oversight systems
+Accountants Auditors, CoreCount Services, 2008.08-2012.10
+- Analyzed financial trends
+- Reviewed financial disclosures
+Accountants Auditors, SteadyLedger Group, 2003.06-2007.08
+- Assisted with inventory counts
+- Matched invoices to purchase orders
+EDUCATION
+Bachelor's, Accounting Practice, Clear Spring University, 2003
+- Completed coursework in accounting project management
+Studied principles of business strategy"
+04004,software_developers,0.764,1.887,0.75,1.123,1,career gap,"The last job ended 2.8 years before the data snapshot (2023.01) and graduation was in 2016; BERT overestimates, as if part of the time since then counted as experience.","WORK HISTORY
+Software Developers, Brightline Systems, 2019.06-2020.03
+- Assisted with container setup
+- Assisted with system documentation
+EDUCATION
+Bachelor's, Blue Ridge University, 2016
+- Studied fundamentals of collaborative development
+- Completed coursework in server-side development"
+61179,registered_nurses,18.461,19.574,18.5,1.113,4,career gap,"A 0.8-year gap between jobs; BERT overestimates, as if it counted part of the span from first start to last end.","WORK HISTORY
+Registered Nurses, ClearBridge Nursing Services, 2018.06-2023.01
+- Managed patient outcome evaluation systems
+- Developed clinical performance dashboards
+Registered Nurses, KindHeart Medical Services, 2013.11-2018.06
+- Established care delivery standards
+- Directed care coordination strategies
+Registered Nurses, LifeBridge Nursing Services, 2008.05-2013.01
+- Managed patient referrals
+- Coordinated patient follow-ups
+Registered Nurses, GentleBridge Nursing, 2003.03-2007.11
+- Assisted with diagnostic procedures
+- Monitored intravenous lines
+EDUCATION
+Associate's degree, Patient Care, Brookside University, 2001
+- Completed coursework in cardiovascular nursing basics
+- Completed coursework in medical-surgical nursing"
+00508,registered_nurses,3.163,4.258,3.167,1.095,2,career gap,"A 0.9-year gap between jobs; BERT overestimates, as if it counted part of the span from first start to last end.","WORK HISTORY
+Registered Nurses, GentleBridge Health, 2020.08-2022.03
+- Managed clinical compliance programs
+- Led nursing process audits
+Registered Nurses, SunWell Nursing Services, 2018.02-2019.09
+- Administered prescribed medications
+- Monitored patient intake and output
+EDUCATION
+Bachelor's, Clinical Health, Riverway University, 2015
+- Studied principles of emergency nursing
+- Studied principles of infection control"
+26017,software_developers,3.093,4.174,3.083,1.081,2,career gap,"A 0.8-year gap between jobs; BERT overestimates, as if it counted part of the span from first start to last end.","WORK HISTORY
+Software Developers, Codecrest Systems, 2019.12-2021.06
+- Implemented data pipeline architectures
+- Led performance tuning initiatives
+Software Developers, Brightstack Systems, 2017.07-2019.02
+- Handled file uploads
+- Implemented UI components based on design specs
+EDUCATION
+Bachelor's, Westview University, 2014
+- Completed coursework in code quality analysis
+Studied principles of database design"
+59706,accountants_auditors,3.699,4.74,3.667,1.042,2,career gap,"A 0.9-year gap between jobs; BERT overestimates, as if it counted part of the span from first start to last end.","WORK HISTORY
+Accountants Auditors, OpenBooks Accounting, 2020.06-2022.04
+- Established audit governance structures
+- Led accounting process optimization
+Accountants Auditors, SteadyCount Financial, 2017.09-2019.07
+- Assisted with tax form preparation
+- Prepared trial balances
+EDUCATION
+Master's, Organizational Management, Greenfield University, 2016
+Bachelor's, Professional Accounting, Springdale University, 2014
+Completed coursework in payroll accounting
+Studied fundamentals of variance analysis"
+59496,construction_laborers,14.689,15.693,14.667,1.004,4,career gap,"A 2.5-year gap between jobs; BERT overestimates, as if it counted part of the span from first start to last end.","WORK HISTORY
+Construction Laborers, ClearStone Builders, 2019.05-2023.01
+- Established construction benchmarks
+- Directed project execution strategies
+Construction Laborers, NextBuild Contractors, 2015.09-2019.05
+- Supervised large structural repairs
+- Led cross-functional coordination
+Construction Laborers, Reliable Stone Co., 2009.07-2013.03
+- Managed waste disposal operations
+- Supervised demolition tasks
+Construction Laborers, SolidBuild Services, 2005.05-2009.01
+- Supported crew leaders during tasks
+- Installed temporary site barriers
+EDUCATION
+High school graduate/GED, Construction Coordination, Harborview High School, 2004
+Completed coursework in basic waterproofing"
+53786,construction_laborers,1.542,2.511,1.583,0.969,1,career gap,"The last job ended 3.0 years before the data snapshot (2023.01) and graduation was in 2011; BERT overestimates, as if part of the time since then counted as experience.","WORK HISTORY
+Construction Laborers, Pillar Construction, 2018.06-2020.01
+- Stacked and organized construction supplies
+- Monitored material usage
+EDUCATION
+High school graduate/GED, Masonry, Maplewood High School, 2011
+Completed coursework in basic site surveying"

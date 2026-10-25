@@ -1,0 +1,11 @@
+experiment,model,mean_expected_change,mean_model_change,mean_abs_deviation_from_expected,corr_with_expected,share_moving_right_direction
+delete_one_job,Median,-2.65,0.0,2.65,,0.0
+delete_one_job,TF-IDF + Ridge,-2.65,-1.1477,1.5238,-0.0731,0.95
+delete_one_job,Embeddings + Ridge,-2.65,-1.7212,1.1892,0.1416,0.9
+delete_one_job,Fine-tuned BERT,-2.65,-1.7915,0.9676,-0.072,1.0
+delete_one_job,Date rules (bonus),-2.65,-2.65,0.0,1.0,1.0
+shift_plus_5_years,Median,0.0,0.0,0.0,,
+shift_plus_5_years,TF-IDF + Ridge,0.0,-0.576,2.0173,,
+shift_plus_5_years,Embeddings + Ridge,0.0,-0.5407,2.3637,,
+shift_plus_5_years,Fine-tuned BERT,0.0,-1.4486,1.6875,,
+shift_plus_5_years,Date rules (bonus),0.0,0.0,0.0,,
