@@ -1,0 +1,203 @@
+{
+ "id": "08557",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.845,
+ "n_lines": 19,
+ "mean_score": 0.9892,
+ "lines": [
+  {
+   "text": "CHARLES HUYNH",
+   "score": 0.9747,
+   "box": [
+    118,
+    92,
+    408,
+    122
+   ]
+  },
+  {
+   "text": "CA, USA | +1-292-291-2694 | charles.huynh@example.com",
+   "score": 0.9915,
+   "box": [
+    116,
+    150,
+    670,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9995,
+   "box": [
+    116,
+    242,
+    316,
+    271
+   ]
+  },
+  {
+   "text": "Software Developers, Stonefield Software, 2020.06—2023.01",
+   "score": 0.9954,
+   "box": [
+    116,
+    290,
+    676,
+    317
+   ]
+  },
+  {
+   "text": "- Implemented access control frameworks",
+   "score": 0.9691,
+   "box": [
+    127,
+    317,
+    515,
+    340
+   ]
+  },
+  {
+   "text": "- Led architectural reviews",
+   "score": 0.9857,
+   "box": [
+    128,
+    339,
+    374,
+    367
+   ]
+  },
+  {
+   "text": "Software Developers, Brightscale Labs, 2017.102020.06",
+   "score": 0.9949,
+   "box": [
+    117,
+    384,
+    650,
+    408
+   ]
+  },
+  {
+   "text": "- Implemented infrastructure automation",
+   "score": 0.985,
+   "box": [
+    127,
+    408,
+    500,
+    434
+   ]
+  },
+  {
+   "text": "- Implemented release management strategies",
+   "score": 0.9966,
+   "box": [
+    127,
+    432,
+    561,
+    460
+   ]
+  },
+  {
+   "text": "Software Developers, Dataframe Solutions, 2013.102016.06",
+   "score": 0.9892,
+   "box": [
+    116,
+    471,
+    686,
+    499
+   ]
+  },
+  {
+   "text": "- Implemented error handling frameworks",
+   "score": 0.9959,
+   "box": [
+    126,
+    497,
+    511,
+    525
+   ]
+  },
+  {
+   "text": "- Integrated messaging systems",
+   "score": 0.9883,
+   "box": [
+    128,
+    521,
+    427,
+    553
+   ]
+  },
+  {
+   "text": "Software Developers, Codefield Software, 2009.112012.07",
+   "score": 0.9999,
+   "box": [
+    116,
+    565,
+    673,
+    592
+   ]
+  },
+  {
+   "text": "- Debugged runtime errors",
+   "score": 0.9852,
+   "box": [
+    126,
+    590,
+    376,
+    619
+   ]
+  },
+  {
+   "text": "- Assisted with database queries",
+   "score": 0.9792,
+   "box": [
+    127,
+    614,
+    431,
+    643
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Bachelor's, Brightfield University, 2009",
+   "score": 0.9896,
+   "box": [
+    117,
+    726,
+    474,
+    749
+   ]
+  },
+  {
+   "text": "• Completed coursework in microprocessor programming",
+   "score": 0.9805,
+   "box": [
+    131,
+    749,
+    661,
+    778
+   ]
+  },
+  {
+   "text": "Studied principles of database design",
+   "score": 0.9953,
+   "box": [
+    131,
+    772,
+    495,
+    802
+   ]
+  }
+ ]
+}

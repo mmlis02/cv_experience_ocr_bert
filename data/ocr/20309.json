@@ -1,0 +1,143 @@
+{
+ "id": "20309",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.303,
+ "n_lines": 13,
+ "mean_score": 0.9922,
+ "lines": [
+  {
+   "text": "JASON CALHOUN",
+   "score": 0.9997,
+   "box": [
+    116,
+    91,
+    410,
+    122
+   ]
+  },
+  {
+   "text": "IN, USA | +1-672-999-9048 | jason.calhoun@example.com",
+   "score": 0.9801,
+   "box": [
+    118,
+    152,
+    661,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, CoreCount Services, 2018.08—2020.12",
+   "score": 0.9975,
+   "box": [
+    116,
+    289,
+    688,
+    314
+   ]
+  },
+  {
+   "text": "- Managed financial compliance programs",
+   "score": 0.9906,
+   "box": [
+    125,
+    314,
+    518,
+    343
+   ]
+  },
+  {
+   "text": "- Developed internal control systems",
+   "score": 0.9991,
+   "box": [
+    128,
+    339,
+    467,
+    368
+   ]
+  },
+  {
+   "text": "Accountants Auditors, ClearBooks Advisors, 2015.082018.01",
+   "score": 0.985,
+   "box": [
+    116,
+    380,
+    693,
+    408
+   ]
+  },
+  {
+   "text": "- Matched invoices to purchase orders",
+   "score": 0.9974,
+   "box": [
+    125,
+    405,
+    484,
+    435
+   ]
+  },
+  {
+   "text": "- Prepared expense reports",
+   "score": 0.9854,
+   "box": [
+    127,
+    431,
+    385,
+    460
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Investment Management, Clearfield University, 2014",
+   "score": 0.9907,
+   "box": [
+    115,
+    539,
+    712,
+    567
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of audit evidence evaluation",
+   "score": 0.9781,
+   "box": [
+    129,
+    566,
+    615,
+    591
+   ]
+  },
+  {
+   "text": "Studied principles of nonprofit accounting",
+   "score": 0.9963,
+   "box": [
+    130,
+    589,
+    530,
+    619
+   ]
+  }
+ ]
+}

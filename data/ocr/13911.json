@@ -1,0 +1,173 @@
+{
+ "id": "13911",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.584,
+ "n_lines": 16,
+ "mean_score": 0.9918,
+ "lines": [
+  {
+   "text": "TIMOTEO WATERS",
+   "score": 0.9998,
+   "box": [
+    116,
+    89,
+    424,
+    122
+   ]
+  },
+  {
+   "text": "FL, USA | +1-369-763-7707 | timoteo.waters@example.com",
+   "score": 0.9887,
+   "box": [
+    116,
+    150,
+    672,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Bright Start Academy, 2020.05—2023.01",
+   "score": 0.9906,
+   "box": [
+    116,
+    289,
+    835,
+    319
+   ]
+  },
+  {
+   "text": "- Designed instructional accountability systems",
+   "score": 0.9924,
+   "box": [
+    126,
+    316,
+    562,
+    342
+   ]
+  },
+  {
+   "text": "- Directed instructional planning processes",
+   "score": 0.9737,
+   "box": [
+    126,
+    339,
+    523,
+    369
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Growing Path Academy, 2017.092020.05",
+   "score": 0.9817,
+   "box": [
+    115,
+    380,
+    859,
+    413
+   ]
+  },
+  {
+   "text": "- Supervised student projects",
+   "score": 0.9993,
+   "box": [
+    126,
+    408,
+    400,
+    434
+   ]
+  },
+  {
+   "text": "- Developed classroom assessment tools",
+   "score": 0.9913,
+   "box": [
+    126,
+    433,
+    510,
+    459
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Little Steps Academy, 2015.01-2017.09",
+   "score": 0.9892,
+   "box": [
+    116,
+    470,
+    835,
+    501
+   ]
+  },
+  {
+   "text": "- Recorded test results",
+   "score": 0.9997,
+   "box": [
+    126,
+    497,
+    339,
+    524
+   ]
+  },
+  {
+   "text": "- Implemented classroom seating plans",
+   "score": 0.9876,
+   "box": [
+    127,
+    521,
+    493,
+    551
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Bachelor's, Learning and Development, Briarwood University, 2015",
+   "score": 0.9983,
+   "box": [
+    116,
+    631,
+    738,
+    659
+   ]
+  },
+  {
+   "text": "•Completed coursework in social-emotional learning basics",
+   "score": 0.9852,
+   "box": [
+    130,
+    657,
+    685,
+    685
+   ]
+  },
+  {
+   "text": "•Studied principles of learning outcomes assessment",
+   "score": 0.9921,
+   "box": [
+    130,
+    681,
+    631,
+    710
+   ]
+  }
+ ]
+}

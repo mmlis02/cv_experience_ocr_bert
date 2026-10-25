@@ -1,0 +1,143 @@
+{
+ "id": "55759",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.999,
+ "n_lines": 13,
+ "mean_score": 0.9916,
+ "lines": [
+  {
+   "text": "MINERVA STANTON",
+   "score": 0.9997,
+   "box": [
+    118,
+    91,
+    441,
+    121
+   ]
+  },
+  {
+   "text": "UT, USA | +1-617-456-4780 | minerva.stanton@example.com",
+   "score": 0.9924,
+   "box": [
+    116,
+    150,
+    688,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.999,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Caring Hills School, 2021.06—2023.01",
+   "score": 0.9902,
+   "box": [
+    116,
+    288,
+    814,
+    318
+   ]
+  },
+  {
+   "text": "- Established instructional leadership protocols",
+   "score": 0.9875,
+   "box": [
+    125,
+    314,
+    561,
+    342
+   ]
+  },
+  {
+   "text": "- Developed district-aligned lesson frameworks",
+   "score": 0.9973,
+   "box": [
+    128,
+    340,
+    561,
+    366
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Learning Horizons School, 2019.10—2021.06",
+   "score": 0.9783,
+   "box": [
+    116,
+    381,
+    878,
+    411
+   ]
+  },
+  {
+   "text": "- Reviewed curriculum content",
+   "score": 0.9989,
+   "box": [
+    125,
+    407,
+    412,
+    432
+   ]
+  },
+  {
+   "text": "- Assisted with small group instruction activities",
+   "score": 0.989,
+   "box": [
+    128,
+    431,
+    564,
+    457
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    117,
+    494,
+    268,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Instructional Studies, Hawthorne University, 2022",
+   "score": 0.9851,
+   "box": [
+    116,
+    540,
+    681,
+    566
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of instructional objectives",
+   "score": 0.9786,
+   "box": [
+    129,
+    565,
+    588,
+    591
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of lesson goal alignment",
+   "score": 0.9954,
+   "box": [
+    131,
+    591,
+    581,
+    616
+   ]
+  }
+ ]
+}

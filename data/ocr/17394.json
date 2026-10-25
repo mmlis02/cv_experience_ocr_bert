@@ -1,0 +1,203 @@
+{
+ "id": "17394",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.27,
+ "n_lines": 19,
+ "mean_score": 0.9904,
+ "lines": [
+  {
+   "text": "MARQUITA LLOYD",
+   "score": 0.9998,
+   "box": [
+    118,
+    91,
+    420,
+    122
+   ]
+  },
+  {
+   "text": "IL, USA | +1-652-751-9101 | marquita.lloyd@example.com",
+   "score": 0.9844,
+   "box": [
+    116,
+    150,
+    659,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9982,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, SolidLedger Advisors, 2020.04—2023.01",
+   "score": 0.9906,
+   "box": [
+    115,
+    288,
+    696,
+    316
+   ]
+  },
+  {
+   "text": "- Developed financial analytics frameworks",
+   "score": 0.9886,
+   "box": [
+    126,
+    315,
+    525,
+    341
+   ]
+  },
+  {
+   "text": "- Established compliance monitoring systems",
+   "score": 0.9904,
+   "box": [
+    128,
+    340,
+    546,
+    368
+   ]
+  },
+  {
+   "text": "Accountants Auditors, SteadyLedger Advisors, 2017.072020.04",
+   "score": 0.9966,
+   "box": [
+    117,
+    382,
+    716,
+    409
+   ]
+  },
+  {
+   "text": "- Established cost management systems",
+   "score": 0.9988,
+   "box": [
+    126,
+    408,
+    503,
+    434
+   ]
+  },
+  {
+   "text": "- Led audit planning governance",
+   "score": 0.9862,
+   "box": [
+    126,
+    431,
+    429,
+    462
+   ]
+  },
+  {
+   "text": "Accountants Auditors, FairBooks Advisors, 2012.09—2015.06",
+   "score": 0.989,
+   "box": [
+    116,
+    472,
+    680,
+    497
+   ]
+  },
+  {
+   "text": "- Reviewed journal entries",
+   "score": 0.9997,
+   "box": [
+    125,
+    497,
+    373,
+    526
+   ]
+  },
+  {
+   "text": "- Reviewed contract accounting",
+   "score": 0.9922,
+   "box": [
+    127,
+    522,
+    421,
+    549
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Reliable Ledger Services, 2009.03—2012.01",
+   "score": 0.9893,
+   "box": [
+    117,
+    566,
+    731,
+    590
+   ]
+  },
+  {
+   "text": "- Recorded payroll entries",
+   "score": 0.9797,
+   "box": [
+    127,
+    592,
+    369,
+    616
+   ]
+  },
+  {
+   "text": "- Prepared variance reports",
+   "score": 0.9648,
+   "box": [
+    126,
+    614,
+    384,
+    644
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Bachelor's, Commerce, Autumn Ridge University, 2006",
+   "score": 0.9907,
+   "box": [
+    116,
+    725,
+    626,
+    751
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of enterprise systems",
+   "score": 0.9904,
+   "box": [
+    130,
+    749,
+    554,
+    775
+   ]
+  },
+  {
+   "text": "•Studied principles of revenue recognition",
+   "score": 0.9875,
+   "box": [
+    131,
+    773,
+    526,
+    801
+   ]
+  }
+ ]
+}

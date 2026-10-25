@@ -1,0 +1,173 @@
+{
+ "id": "01479",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.98,
+ "n_lines": 16,
+ "mean_score": 0.9921,
+ "lines": [
+  {
+   "text": "PAISHA PARKS",
+   "score": 0.983,
+   "box": [
+    117,
+    91,
+    370,
+    122
+   ]
+  },
+  {
+   "text": "AZ, USA | +1-551-627-3841 | paisha.parks@example.com",
+   "score": 0.9982,
+   "box": [
+    116,
+    150,
+    656,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9992,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Early Horizons Academy, 2020.11—2023.01",
+   "score": 0.9899,
+   "box": [
+    115,
+    287,
+    865,
+    318
+   ]
+  },
+  {
+   "text": "- Developed instructional innovation plans",
+   "score": 0.9998,
+   "box": [
+    125,
+    314,
+    516,
+    343
+   ]
+  },
+  {
+   "text": "- Designed instructional quality standards",
+   "score": 0.9982,
+   "box": [
+    127,
+    339,
+    511,
+    367
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Bright Bridge School, 2018.082020.11",
+   "score": 0.9904,
+   "box": [
+    116,
+    381,
+    829,
+    411
+   ]
+  },
+  {
+   "text": "- Integrated educational technology tools",
+   "score": 0.9874,
+   "box": [
+    127,
+    409,
+    505,
+    433
+   ]
+  },
+  {
+   "text": "- Planned interdisciplinary lessons",
+   "score": 0.9959,
+   "box": [
+    126,
+    432,
+    446,
+    458
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Kind Minds School, 2016.05—2018.08",
+   "score": 0.9792,
+   "box": [
+    119,
+    473,
+    810,
+    497
+   ]
+  },
+  {
+   "text": "- Recorded test results",
+   "score": 0.9985,
+   "box": [
+    126,
+    497,
+    340,
+    523
+   ]
+  },
+  {
+   "text": "- Supervised classroom activities",
+   "score": 0.9916,
+   "box": [
+    126,
+    520,
+    435,
+    549
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Bachelor's, Learning and Development, Brightfield University, 2015",
+   "score": 0.9868,
+   "box": [
+    117,
+    632,
+    737,
+    659
+   ]
+  },
+  {
+   "text": "•Completed coursework in student progress monitoring",
+   "score": 0.9765,
+   "box": [
+    130,
+    657,
+    648,
+    685
+   ]
+  },
+  {
+   "text": "Completed coursework in classroom discipline strategies",
+   "score": 0.9987,
+   "box": [
+    132,
+    680,
+    672,
+    710
+   ]
+  }
+ ]
+}

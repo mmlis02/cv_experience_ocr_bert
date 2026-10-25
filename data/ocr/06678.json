@@ -1,0 +1,203 @@
+{
+ "id": "06678",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.019,
+ "n_lines": 19,
+ "mean_score": 0.992,
+ "lines": [
+  {
+   "text": "GINA YU",
+   "score": 0.9994,
+   "box": [
+    117,
+    91,
+    260,
+    122
+   ]
+  },
+  {
+   "text": "CA, USA | +1-498-743-1716 | gina.yu@example.com",
+   "score": 0.9801,
+   "box": [
+    116,
+    150,
+    609,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, SolidCount Financial, 2018.12—2023.01",
+   "score": 0.9942,
+   "box": [
+    116,
+    289,
+    689,
+    314
+   ]
+  },
+  {
+   "text": "- Designed tax strategies",
+   "score": 0.9961,
+   "box": [
+    126,
+    315,
+    361,
+    342
+   ]
+  },
+  {
+   "text": "- Developed financial analytics frameworks",
+   "score": 0.9972,
+   "box": [
+    127,
+    339,
+    525,
+    367
+   ]
+  },
+  {
+   "text": "Accountants Auditors, SolidBooks Accounting, 2014.102018.12",
+   "score": 0.9892,
+   "box": [
+    116,
+    381,
+    715,
+    409
+   ]
+  },
+  {
+   "text": "- Directed accounting leadership initiatives",
+   "score": 0.9994,
+   "box": [
+    125,
+    406,
+    521,
+    435
+   ]
+  },
+  {
+   "text": "- Designed financial oversight systems",
+   "score": 0.9855,
+   "box": [
+    127,
+    431,
+    485,
+    459
+   ]
+  },
+  {
+   "text": "Accountants Auditors, CoreCount Services, 2008.082012.10",
+   "score": 0.9966,
+   "box": [
+    116,
+    472,
+    688,
+    499
+   ]
+  },
+  {
+   "text": "- Analyzed financial trends",
+   "score": 0.9824,
+   "box": [
+    125,
+    496,
+    376,
+    525
+   ]
+  },
+  {
+   "text": "- Reviewed financial disclosures",
+   "score": 0.9898,
+   "box": [
+    128,
+    522,
+    427,
+    548
+   ]
+  },
+  {
+   "text": "Accountants Auditors, SteadyLedger Group, 2003.06—2007.08",
+   "score": 0.9904,
+   "box": [
+    117,
+    566,
+    693,
+    590
+   ]
+  },
+  {
+   "text": "- Assisted with inventory counts",
+   "score": 0.9943,
+   "box": [
+    128,
+    590,
+    422,
+    616
+   ]
+  },
+  {
+   "text": "- Matched invoices to purchase orders",
+   "score": 0.9774,
+   "box": [
+    127,
+    613,
+    484,
+    643
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Bachelor's, Accounting Practice, Clear Spring University, 2003",
+   "score": 0.9947,
+   "box": [
+    116,
+    724,
+    693,
+    750
+   ]
+  },
+  {
+   "text": "• Completed coursework in accounting project management",
+   "score": 0.9832,
+   "box": [
+    132,
+    749,
+    688,
+    776
+   ]
+  },
+  {
+   "text": "Studied principles of business strategy",
+   "score": 0.9986,
+   "box": [
+    132,
+    772,
+    505,
+    802
+   ]
+  }
+ ]
+}

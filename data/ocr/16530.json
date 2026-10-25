@@ -1,0 +1,143 @@
+{
+ "id": "16530",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.502,
+ "n_lines": 13,
+ "mean_score": 0.9915,
+ "lines": [
+  {
+   "text": "AMANDA MCCARTY",
+   "score": 0.9999,
+   "box": [
+    118,
+    91,
+    441,
+    122
+   ]
+  },
+  {
+   "text": "GA, USA | +1-908-988-4123 | amanda.mccarty@example.com",
+   "score": 0.997,
+   "box": [
+    116,
+    150,
+    696,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Registered Nurses, LifeSpring Medical Services, 2021.042023.01",
+   "score": 0.9926,
+   "box": [
+    116,
+    288,
+    733,
+    318
+   ]
+  },
+  {
+   "text": "- Directed interdisciplinary workflow alignment",
+   "score": 0.9892,
+   "box": [
+    124,
+    311,
+    556,
+    344
+   ]
+  },
+  {
+   "text": "- Implemented evidence-based practice models",
+   "score": 0.9918,
+   "box": [
+    126,
+    338,
+    569,
+    368
+   ]
+  },
+  {
+   "text": "Registered Nurses, ClearBridge Health Group, 2016.122018.10",
+   "score": 0.9912,
+   "box": [
+    115,
+    379,
+    718,
+    410
+   ]
+  },
+  {
+   "text": "- Recorded shift handoff notes",
+   "score": 0.9864,
+   "box": [
+    125,
+    407,
+    410,
+    433
+   ]
+  },
+  {
+   "text": "- Monitored patient intake and output",
+   "score": 0.9791,
+   "box": [
+    126,
+    430,
+    470,
+    459
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Health Services, Greenway University, 2015",
+   "score": 0.9915,
+   "box": [
+    115,
+    539,
+    634,
+    568
+   ]
+  },
+  {
+   "text": "•Studied principles of hospice care",
+   "score": 0.9888,
+   "box": [
+    129,
+    566,
+    460,
+    592
+   ]
+  },
+  {
+   "text": "• Studied principles of teamwork in healthcare",
+   "score": 0.983,
+   "box": [
+    132,
+    592,
+    557,
+    616
+   ]
+  }
+ ]
+}

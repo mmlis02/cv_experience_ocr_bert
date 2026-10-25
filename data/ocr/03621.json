@@ -1,0 +1,143 @@
+{
+ "id": "03621",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.86,
+ "n_lines": 13,
+ "mean_score": 0.9936,
+ "lines": [
+  {
+   "text": "MONIQUE HESS",
+   "score": 0.9768,
+   "box": [
+    117,
+    91,
+    377,
+    122
+   ]
+  },
+  {
+   "text": "CA, USA | +1-870-490-7233 | monique.hess@example.com",
+   "score": 0.9945,
+   "box": [
+    118,
+    152,
+    670,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Software Developers, Corelink Software, 2021.012023.01",
+   "score": 0.9921,
+   "box": [
+    116,
+    289,
+    660,
+    316
+   ]
+  },
+  {
+   "text": "- Led cross-team technical alignment",
+   "score": 0.9977,
+   "box": [
+    127,
+    316,
+    471,
+    340
+   ]
+  },
+  {
+   "text": "- Built core libraries",
+   "score": 0.9978,
+   "box": [
+    126,
+    339,
+    309,
+    365
+   ]
+  },
+  {
+   "text": "Software Developers, Flowfield Labs, 2017.012019.01",
+   "score": 0.9921,
+   "box": [
+    115,
+    380,
+    629,
+    408
+   ]
+  },
+  {
+   "text": "- Assisted with build automation",
+   "score": 0.9974,
+   "box": [
+    126,
+    408,
+    424,
+    431
+   ]
+  },
+  {
+   "text": "- Updated localization files",
+   "score": 0.9992,
+   "box": [
+    130,
+    433,
+    374,
+    456
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Greenwood University, 2004",
+   "score": 0.9871,
+   "box": [
+    116,
+    540,
+    488,
+    566
+   ]
+  },
+  {
+   "text": "• Completed coursework in probability and statistics",
+   "score": 0.9862,
+   "box": [
+    131,
+    567,
+    610,
+    591
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of artificial intelligence",
+   "score": 0.9957,
+   "box": [
+    132,
+    589,
+    561,
+    617
+   ]
+  }
+ ]
+}

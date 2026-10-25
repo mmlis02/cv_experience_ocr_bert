@@ -1,0 +1,143 @@
+{
+ "id": "11592",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.61,
+ "n_lines": 13,
+ "mean_score": 0.988,
+ "lines": [
+  {
+   "text": "CHRISTOPHER ADAMS",
+   "score": 0.9971,
+   "box": [
+    118,
+    91,
+    492,
+    122
+   ]
+  },
+  {
+   "text": "DE, USA | +1-587-520-7543 | christopher.adams@example.com",
+   "score": 0.9875,
+   "box": [
+    118,
+    152,
+    711,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9681,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Construction Laborers, ClearForm Builders, 2020.04—2023.01",
+   "score": 0.993,
+   "box": [
+    118,
+    290,
+    686,
+    314
+   ]
+  },
+  {
+   "text": "- Designed site logistics frameworks",
+   "score": 0.9836,
+   "box": [
+    126,
+    315,
+    461,
+    340
+   ]
+  },
+  {
+   "text": "- Directed installation methodologies",
+   "score": 0.987,
+   "box": [
+    127,
+    339,
+    464,
+    367
+   ]
+  },
+  {
+   "text": "Construction Laborers, SteadyWorks Construction, 2014.08—2017.06",
+   "score": 0.9874,
+   "box": [
+    116,
+    380,
+    756,
+    408
+   ]
+  },
+  {
+   "text": "- Installed basic formwork",
+   "score": 0.9875,
+   "box": [
+    126,
+    409,
+    365,
+    430
+   ]
+  },
+  {
+   "text": "- Moved equipment between work zones",
+   "score": 0.9811,
+   "box": [
+    127,
+    431,
+    505,
+    458
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    494,
+    266,
+    521
+   ]
+  },
+  {
+   "text": "Associate's degree, Construction Infrastructure, Elmwood University, 2009",
+   "score": 0.9904,
+   "box": [
+    117,
+    541,
+    803,
+    568
+   ]
+  },
+  {
+   "text": "•Completed coursework in construction waste management",
+   "score": 0.9937,
+   "box": [
+    131,
+    566,
+    690,
+    591
+   ]
+  },
+  {
+   "text": "•Completed coursework in basic plumbing concepts",
+   "score": 0.9879,
+   "box": [
+    132,
+    590,
+    618,
+    618
+   ]
+  }
+ ]
+}

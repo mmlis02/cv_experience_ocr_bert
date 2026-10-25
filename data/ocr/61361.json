@@ -1,0 +1,203 @@
+{
+ "id": "61361",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.334,
+ "n_lines": 19,
+ "mean_score": 0.9885,
+ "lines": [
+  {
+   "text": "MELISSA CLEMENTS",
+   "score": 0.9993,
+   "box": [
+    117,
+    92,
+    458,
+    122
+   ]
+  },
+  {
+   "text": "WI, USA | +1-886-759-1303 | melissa.clements@example.com",
+   "score": 0.9953,
+   "box": [
+    116,
+    150,
+    697,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9989,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, AccuCount Advisors, 2019.082023.01",
+   "score": 0.9967,
+   "box": [
+    117,
+    291,
+    686,
+    315
+   ]
+  },
+  {
+   "text": "- Developed regulatory reporting strategies",
+   "score": 0.9784,
+   "box": [
+    127,
+    315,
+    525,
+    344
+   ]
+  },
+  {
+   "text": "- Designed audit methodologies",
+   "score": 0.9848,
+   "box": [
+    127,
+    340,
+    424,
+    369
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Reliable Path Advisors, 2016.032019.08",
+   "score": 0.9984,
+   "box": [
+    118,
+    383,
+    710,
+    407
+   ]
+  },
+  {
+   "text": "- Established compliance monitoring systems",
+   "score": 0.9952,
+   "box": [
+    125,
+    407,
+    546,
+    435
+   ]
+  },
+  {
+   "text": "- Directed revenue recognition policies",
+   "score": 0.9833,
+   "box": [
+    125,
+    431,
+    485,
+    459
+   ]
+  },
+  {
+   "text": "Accountants Auditors, CoreLedger Services, 2012.102016.03",
+   "score": 0.9932,
+   "box": [
+    118,
+    474,
+    696,
+    498
+   ]
+  },
+  {
+   "text": "- Reviewed contract accounting",
+   "score": 0.9983,
+   "box": [
+    125,
+    496,
+    422,
+    526
+   ]
+  },
+  {
+   "text": "- Reviewed budget performance",
+   "score": 0.9971,
+   "box": [
+    127,
+    521,
+    426,
+    551
+   ]
+  },
+  {
+   "text": "Accountants Auditors, EverBalance Accounting, 2007.08—2011.02",
+   "score": 0.9848,
+   "box": [
+    116,
+    564,
+    728,
+    592
+   ]
+  },
+  {
+   "text": "- Processed journal corrections",
+   "score": 0.9873,
+   "box": [
+    127,
+    592,
+    418,
+    616
+   ]
+  },
+  {
+   "text": "- Prepared audit confirmations",
+   "score": 0.96,
+   "box": [
+    126,
+    614,
+    410,
+    642
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Associate's degree, Organizational Management, Larkspur University, 2003",
+   "score": 0.9875,
+   "box": [
+    118,
+    726,
+    814,
+    749
+   ]
+  },
+  {
+   "text": "• Completed coursework in governmental accounting basics",
+   "score": 0.9776,
+   "box": [
+    131,
+    750,
+    687,
+    774
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of enterprise systems",
+   "score": 0.9651,
+   "box": [
+    131,
+    772,
+    556,
+    802
+   ]
+  }
+ ]
+}

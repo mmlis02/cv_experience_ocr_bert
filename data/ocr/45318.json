@@ -1,0 +1,203 @@
+{
+ "id": "45318",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.787,
+ "n_lines": 19,
+ "mean_score": 0.9906,
+ "lines": [
+  {
+   "text": "DERREK VANCE",
+   "score": 0.9644,
+   "box": [
+    117,
+    91,
+    384,
+    121
+   ]
+  },
+  {
+   "text": "PA, USA | +1-331-972-5127 | derrek.vance@example.com",
+   "score": 0.9871,
+   "box": [
+    116,
+    151,
+    659,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9988,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Software Developers, Openwave Solutions, 2019.112023.01",
+   "score": 0.9995,
+   "box": [
+    116,
+    290,
+    687,
+    317
+   ]
+  },
+  {
+   "text": "- Led system reliability programs",
+   "score": 0.987,
+   "box": [
+    128,
+    316,
+    430,
+    341
+   ]
+  },
+  {
+   "text": "- Led backend platform development",
+   "score": 0.9986,
+   "box": [
+    128,
+    339,
+    469,
+    367
+   ]
+  },
+  {
+   "text": "Software Developers, Stonebyte Labs, 2016.092019.11",
+   "score": 0.9911,
+   "box": [
+    117,
+    383,
+    640,
+    407
+   ]
+  },
+  {
+   "text": "- Led refactoring initiatives",
+   "score": 0.994,
+   "box": [
+    128,
+    409,
+    373,
+    433
+   ]
+  },
+  {
+   "text": "- Implemented access control frameworks",
+   "score": 0.9953,
+   "box": [
+    129,
+    434,
+    515,
+    457
+   ]
+  },
+  {
+   "text": "Software Developers, Cloudcrest Systems, 2013.072016.09",
+   "score": 0.9983,
+   "box": [
+    115,
+    471,
+    683,
+    499
+   ]
+  },
+  {
+   "text": "- Designed UI workflows",
+   "score": 0.9806,
+   "box": [
+    127,
+    499,
+    355,
+    523
+   ]
+  },
+  {
+   "text": "- Developed data processing pipelines",
+   "score": 0.9983,
+   "box": [
+    127,
+    521,
+    484,
+    551
+   ]
+  },
+  {
+   "text": "Software Developers, Brightsoft Solutions, 2010.042013.07",
+   "score": 0.9964,
+   "box": [
+    117,
+    566,
+    676,
+    590
+   ]
+  },
+  {
+   "text": "- Wrote command-line tools",
+   "score": 0.9856,
+   "box": [
+    127,
+    590,
+    388,
+    615
+   ]
+  },
+  {
+   "text": "- Implemented validation logic",
+   "score": 0.994,
+   "box": [
+    127,
+    613,
+    407,
+    643
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Bachelor's, Aspen Grove University, 2009",
+   "score": 0.9826,
+   "box": [
+    116,
+    724,
+    503,
+    750
+   ]
+  },
+  {
+   "text": "• Studied principles of big data systems",
+   "score": 0.9749,
+   "box": [
+    132,
+    750,
+    497,
+    774
+   ]
+  },
+  {
+   "text": "Completed coursework in full-stack development",
+   "score": 0.9957,
+   "box": [
+    132,
+    772,
+    598,
+    800
+   ]
+  }
+ ]
+}

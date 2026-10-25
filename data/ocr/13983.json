@@ -1,0 +1,203 @@
+{
+ "id": "13983",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 10.241,
+ "n_lines": 19,
+ "mean_score": 0.9863,
+ "lines": [
+  {
+   "text": "AMANDA WALL",
+   "score": 0.9995,
+   "box": [
+    117,
+    92,
+    371,
+    122
+   ]
+  },
+  {
+   "text": "FL, USA | +1-637-677-8191 | amanda.wall@example.com",
+   "score": 0.9893,
+   "box": [
+    116,
+    150,
+    653,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9613,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Open Path School, 2018.05—2023.01",
+   "score": 0.9818,
+   "box": [
+    116,
+    288,
+    806,
+    317
+   ]
+  },
+  {
+   "text": "- Developed instructional evaluation metrics",
+   "score": 0.9918,
+   "box": [
+    127,
+    317,
+    533,
+    341
+   ]
+  },
+  {
+   "text": "- Led academic improvement programs",
+   "score": 0.966,
+   "box": [
+    128,
+    341,
+    492,
+    368
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Little Futures School, 2013.09—2018.05",
+   "score": 0.9838,
+   "box": [
+    117,
+    382,
+    827,
+    409
+   ]
+  },
+  {
+   "text": "- Implemented assessment policy frameworks",
+   "score": 0.99,
+   "box": [
+    127,
+    409,
+    553,
+    433
+   ]
+  },
+  {
+   "text": "- Led professional development planning",
+   "score": 0.9883,
+   "box": [
+    127,
+    431,
+    505,
+    460
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Bright Learning School, 2008.12—2013.09",
+   "score": 0.9905,
+   "box": [
+    117,
+    471,
+    849,
+    499
+   ]
+  },
+  {
+   "text": "- Designed lesson plans aligned with curriculum standards",
+   "score": 0.9871,
+   "box": [
+    126,
+    498,
+    669,
+    525
+   ]
+  },
+  {
+   "text": "- Created instructional units",
+   "score": 0.9732,
+   "box": [
+    127,
+    522,
+    384,
+    548
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, BrightWay School, 2004.03—2008.12",
+   "score": 0.9876,
+   "box": [
+    116,
+    564,
+    805,
+    592
+   ]
+  },
+  {
+   "text": "- Delivered structured lessons in reading and mathematics",
+   "score": 0.9854,
+   "box": [
+    125,
+    589,
+    668,
+    617
+   ]
+  },
+  {
+   "text": "- Maintained student folders",
+   "score": 0.9976,
+   "box": [
+    126,
+    614,
+    388,
+    642
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Bachelor's, Elementary Education Preparation, Greenwood University, 2006",
+   "score": 0.9943,
+   "box": [
+    115,
+    723,
+    819,
+    750
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of language arts education",
+   "score": 0.9809,
+   "box": [
+    129,
+    748,
+    603,
+    776
+   ]
+  },
+  {
+   "text": "Studied principles of student comprehension",
+   "score": 0.992,
+   "box": [
+    130,
+    772,
+    561,
+    801
+   ]
+  }
+ ]
+}

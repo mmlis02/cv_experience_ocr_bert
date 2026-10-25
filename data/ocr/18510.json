@@ -1,0 +1,183 @@
+{
+ "id": "18510",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.971,
+ "n_lines": 17,
+ "mean_score": 0.9922,
+ "lines": [
+  {
+   "text": "KAREN SHAH",
+   "score": 0.9998,
+   "box": [
+    116,
+    89,
+    341,
+    122
+   ]
+  },
+  {
+   "text": "IL, USA | +1-479-691-3647 | karen.shah@example.com",
+   "score": 0.9824,
+   "box": [
+    118,
+    152,
+    631,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.999,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, OpenBalance Financial, 2019.112023.01",
+   "score": 0.9995,
+   "box": [
+    115,
+    288,
+    715,
+    316
+   ]
+  },
+  {
+   "text": "- Directed budget planning cycles",
+   "score": 0.9996,
+   "box": [
+    128,
+    315,
+    438,
+    342
+   ]
+  },
+  {
+   "text": "- Led accounting transformation projects",
+   "score": 0.9846,
+   "box": [
+    129,
+    341,
+    500,
+    367
+   ]
+  },
+  {
+   "text": "Accountants Auditors, SteadyCount Financial, 2016.082019.11",
+   "score": 0.9969,
+   "box": [
+    117,
+    383,
+    709,
+    407
+   ]
+  },
+  {
+   "text": "- Conducted internal audits",
+   "score": 0.9818,
+   "box": [
+    125,
+    407,
+    380,
+    432
+   ]
+  },
+  {
+   "text": "- Reviewed revenue forecasts",
+   "score": 0.999,
+   "box": [
+    126,
+    431,
+    406,
+    456
+   ]
+  },
+  {
+   "text": "Accountants Auditors, SteadyLedger Financial Group, 2011.092014.12",
+   "score": 0.9955,
+   "box": [
+    116,
+    472,
+    785,
+    499
+   ]
+  },
+  {
+   "text": "- Compiled financial schedules",
+   "score": 0.9998,
+   "box": [
+    126,
+    499,
+    412,
+    523
+   ]
+  },
+  {
+   "text": "- Assisted with inventory counts",
+   "score": 0.9845,
+   "box": [
+    128,
+    522,
+    421,
+    549
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    118,
+    588,
+    266,
+    612
+   ]
+  },
+  {
+   "text": "Master's, Risk Management, Silverwood University, 2008",
+   "score": 0.9937,
+   "box": [
+    117,
+    633,
+    644,
+    657
+   ]
+  },
+  {
+   "text": "Bachelor's, Business Studies, Greenwood University, 2006",
+   "score": 0.9893,
+   "box": [
+    115,
+    656,
+    661,
+    684
+   ]
+  },
+  {
+   "text": "• Completed coursework in professional standards",
+   "score": 0.9879,
+   "box": [
+    133,
+    684,
+    600,
+    708
+   ]
+  },
+  {
+   "text": "•Completed coursework in financial modeling basics",
+   "score": 0.9746,
+   "box": [
+    132,
+    705,
+    622,
+    735
+   ]
+  }
+ ]
+}

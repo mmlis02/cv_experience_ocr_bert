@@ -1,0 +1,113 @@
+{
+ "id": "16736",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.981,
+ "n_lines": 10,
+ "mean_score": 0.9915,
+ "lines": [
+  {
+   "text": "HEATHER LIU",
+   "score": 0.9997,
+   "box": [
+    116,
+    91,
+    342,
+    122
+   ]
+  },
+  {
+   "text": "HI, USA | +1-244-884-6058 | heather.liu@example.com",
+   "score": 0.997,
+   "box": [
+    115,
+    149,
+    631,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9994,
+   "box": [
+    116,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Accountants Auditors, FairLedger Services, 2021.06—2021.09",
+   "score": 0.9873,
+   "box": [
+    115,
+    287,
+    687,
+    315
+   ]
+  },
+  {
+   "text": "- Assisted with regulatory filings",
+   "score": 0.9815,
+   "box": [
+    125,
+    312,
+    424,
+    342
+   ]
+  },
+  {
+   "text": "- Updated general ledger records",
+   "score": 0.9865,
+   "box": [
+    129,
+    340,
+    436,
+    367
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Operations Management, Clearfield Ridge University, 2010",
+   "score": 0.9904,
+   "box": [
+    115,
+    446,
+    772,
+    474
+   ]
+  },
+  {
+   "text": "•Completed coursework in accounts receivable",
+   "score": 0.9903,
+   "box": [
+    132,
+    473,
+    574,
+    498
+   ]
+  },
+  {
+   "text": "• Completed coursework in cost allocation methods",
+   "score": 0.9834,
+   "box": [
+    134,
+    499,
+    608,
+    523
+   ]
+  }
+ ]
+}

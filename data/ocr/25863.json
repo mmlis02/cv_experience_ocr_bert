@@ -1,0 +1,203 @@
+{
+ "id": "25863",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.81,
+ "n_lines": 19,
+ "mean_score": 0.9928,
+ "lines": [
+  {
+   "text": "CHRISTOPHER VANG",
+   "score": 0.9967,
+   "box": [
+    118,
+    91,
+    464,
+    122
+   ]
+  },
+  {
+   "text": "MA, USA | +1-901-244-3645 | christopher.vang@example.com",
+   "score": 0.9754,
+   "box": [
+    115,
+    150,
+    697,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9989,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Software Developers, Opencrest Solutions, 2020.06—2023.01",
+   "score": 0.9898,
+   "box": [
+    116,
+    290,
+    683,
+    317
+   ]
+  },
+  {
+   "text": "- Designed caching infrastructures",
+   "score": 0.9992,
+   "box": [
+    127,
+    315,
+    447,
+    343
+   ]
+  },
+  {
+   "text": "- Designed high-availability systems",
+   "score": 0.997,
+   "box": [
+    127,
+    340,
+    461,
+    368
+   ]
+  },
+  {
+   "text": "Software Developers, Clearfield Labs, 2017.102020.06",
+   "score": 0.9929,
+   "box": [
+    117,
+    382,
+    636,
+    409
+   ]
+  },
+  {
+   "text": "- Reviewed system design documents",
+   "score": 0.991,
+   "box": [
+    127,
+    409,
+    480,
+    433
+   ]
+  },
+  {
+   "text": "- Implemented core frameworks",
+   "score": 0.9964,
+   "box": [
+    130,
+    434,
+    423,
+    457
+   ]
+  },
+  {
+   "text": "Software Developers, Netline Technologies, 2015.02—2017.10",
+   "score": 0.9867,
+   "box": [
+    116,
+    471,
+    692,
+    499
+   ]
+  },
+  {
+   "text": "- Developed CI/CD scripts",
+   "score": 0.9947,
+   "box": [
+    126,
+    498,
+    372,
+    525
+   ]
+  },
+  {
+   "text": "- Developed background jobs",
+   "score": 0.9903,
+   "box": [
+    127,
+    521,
+    402,
+    551
+   ]
+  },
+  {
+   "text": "Software Developers, Openwave Solutions, 2009.122012.08",
+   "score": 0.9991,
+   "box": [
+    116,
+    565,
+    689,
+    592
+   ]
+  },
+  {
+   "text": "- Implemented error handling logic",
+   "score": 0.9815,
+   "box": [
+    127,
+    590,
+    447,
+    618
+   ]
+  },
+  {
+   "text": "- Updated application dependencies",
+   "score": 0.9995,
+   "box": [
+    128,
+    614,
+    462,
+    645
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Bachelor's, Brookside University, 2003",
+   "score": 0.9867,
+   "box": [
+    116,
+    724,
+    475,
+    750
+   ]
+  },
+  {
+   "text": "•Completed coursework in software lifecycle models",
+   "score": 0.989,
+   "box": [
+    132,
+    748,
+    622,
+    776
+   ]
+  },
+  {
+   "text": "Completed coursework in database systems",
+   "score": 0.9994,
+   "box": [
+    132,
+    772,
+    559,
+    801
+   ]
+  }
+ ]
+}

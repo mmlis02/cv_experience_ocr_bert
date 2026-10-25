@@ -1,0 +1,183 @@
+{
+ "id": "16910",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 9.335,
+ "n_lines": 17,
+ "mean_score": 0.9931,
+ "lines": [
+  {
+   "text": "LATISHA MATHEWS",
+   "score": 0.9988,
+   "box": [
+    118,
+    92,
+    443,
+    122
+   ]
+  },
+  {
+   "text": "ID, USA | +1-208-764-1099 |latisha.mathews@example.com",
+   "score": 0.9974,
+   "box": [
+    116,
+    150,
+    683,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Riverside Learning Center, 2020.11—2023.01",
+   "score": 0.9918,
+   "box": [
+    117,
+    289,
+    878,
+    316
+   ]
+  },
+  {
+   "text": "- Implemented curriculum governance structures",
+   "score": 0.9988,
+   "box": [
+    126,
+    316,
+    577,
+    342
+   ]
+  },
+  {
+   "text": "- Led instructional leadership initiatives",
+   "score": 0.9923,
+   "box": [
+    126,
+    338,
+    489,
+    369
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Little Start School, 2018.09—2020.11",
+   "score": 0.9918,
+   "box": [
+    117,
+    382,
+    801,
+    409
+   ]
+  },
+  {
+   "text": "- Evaluated student portfolios",
+   "score": 0.9914,
+   "box": [
+    126,
+    408,
+    400,
+    433
+   ]
+  },
+  {
+   "text": "- Prepared test review sessions",
+   "score": 0.9923,
+   "box": [
+    125,
+    431,
+    422,
+    459
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Caring Horizons School, 2015.03—2017.06",
+   "score": 0.9845,
+   "box": [
+    117,
+    471,
+    857,
+    499
+   ]
+  },
+  {
+   "text": "- Reviewed homework assignments",
+   "score": 0.9991,
+   "box": [
+    126,
+    498,
+    457,
+    524
+   ]
+  },
+  {
+   "text": "- Conducted spelling practice",
+   "score": 0.979,
+   "box": [
+    127,
+    521,
+    400,
+    552
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Master's, Academic Support Studies, Ironwood University, 2011",
+   "score": 0.9894,
+   "box": [
+    116,
+    632,
+    705,
+    659
+   ]
+  },
+  {
+   "text": "Bachelor's, Social Science Studies, Pebble Creek University, 2009",
+   "score": 0.9881,
+   "box": [
+    117,
+    658,
+    731,
+    682
+   ]
+  },
+  {
+   "text": "• Studied fundamentals of academic support strategies",
+   "score": 0.9901,
+   "box": [
+    130,
+    683,
+    640,
+    709
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of instructional feedback",
+   "score": 0.9982,
+   "box": [
+    131,
+    707,
+    582,
+    732
+   ]
+  }
+ ]
+}

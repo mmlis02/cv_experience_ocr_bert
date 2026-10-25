@@ -1,0 +1,203 @@
+{
+ "id": "24752",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 10.465,
+ "n_lines": 19,
+ "mean_score": 0.9911,
+ "lines": [
+  {
+   "text": "JENNIFER MICHAEL",
+   "score": 0.9738,
+   "box": [
+    116,
+    92,
+    443,
+    122
+   ]
+  },
+  {
+   "text": "MD, USA | +1-309-454-5760 | jennifer.michael@example.com",
+   "score": 0.9855,
+   "box": [
+    115,
+    150,
+    691,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Discovery Path School, 2019.04—2023.01",
+   "score": 0.9864,
+   "box": [
+    116,
+    289,
+    848,
+    319
+   ]
+  },
+  {
+   "text": "- Designed learning analytics frameworks",
+   "score": 0.9935,
+   "box": [
+    127,
+    317,
+    510,
+    341
+   ]
+  },
+  {
+   "text": "- Developed district-aligned lesson frameworks",
+   "score": 0.985,
+   "box": [
+    129,
+    342,
+    561,
+    366
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Bright Minds School, 2015.062019.04",
+   "score": 0.9995,
+   "box": [
+    117,
+    382,
+    824,
+    409
+   ]
+  },
+  {
+   "text": "- Directed instructional benchmarking",
+   "score": 0.9936,
+   "box": [
+    126,
+    408,
+    473,
+    434
+   ]
+  },
+  {
+   "text": "- Developed data-driven teaching models",
+   "score": 0.9977,
+   "box": [
+    127,
+    433,
+    510,
+    459
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Golden Grove Academy, 2011.082015.06",
+   "score": 0.9979,
+   "box": [
+    116,
+    470,
+    862,
+    501
+   ]
+  },
+  {
+   "text": "- Reviewed and updated curriculum materials",
+   "score": 0.9865,
+   "box": [
+    125,
+    497,
+    550,
+    525
+   ]
+  },
+  {
+   "text": "- Developed science lesson plans",
+   "score": 0.9949,
+   "box": [
+    128,
+    523,
+    441,
+    549
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Harmony Path Academy, 2007.10—2011.08",
+   "score": 0.9844,
+   "box": [
+    116,
+    564,
+    864,
+    592
+   ]
+  },
+  {
+   "text": "- Updated student performance logs",
+   "score": 0.9989,
+   "box": [
+    127,
+    590,
+    463,
+    618
+   ]
+  },
+  {
+   "text": "- Supervised classroom activities",
+   "score": 0.9916,
+   "box": [
+    127,
+    614,
+    435,
+    642
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Bachelor's, Education Basics, Springfield University, 2005",
+   "score": 0.9933,
+   "box": [
+    117,
+    725,
+    650,
+    748
+   ]
+  },
+  {
+   "text": "•Studied principles of early childhood education",
+   "score": 0.9835,
+   "box": [
+    130,
+    750,
+    579,
+    774
+   ]
+  },
+  {
+   "text": "• Studied principles of academic scaffolding",
+   "score": 0.9867,
+   "box": [
+    132,
+    774,
+    536,
+    800
+   ]
+  }
+ ]
+}

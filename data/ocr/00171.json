@@ -1,0 +1,173 @@
+{
+ "id": "00171",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.783,
+ "n_lines": 16,
+ "mean_score": 0.9914,
+ "lines": [
+  {
+   "text": "ZACHARY SHAW",
+   "score": 0.9997,
+   "box": [
+    116,
+    89,
+    392,
+    122
+   ]
+  },
+  {
+   "text": "AL, USA | +1-677-380-2899 | zachary.shaw@example.com",
+   "score": 0.9973,
+   "box": [
+    116,
+    150,
+    665,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.999,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, SunnySteps School, 2020.112023.01",
+   "score": 0.9938,
+   "box": [
+    115,
+    287,
+    820,
+    318
+   ]
+  },
+  {
+   "text": "- Established data reporting standards",
+   "score": 0.9919,
+   "box": [
+    125,
+    314,
+    483,
+    342
+   ]
+  },
+  {
+   "text": "- Developed student performance metrics",
+   "score": 0.9979,
+   "box": [
+    127,
+    339,
+    512,
+    368
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Golden Grove Academy, 2018.09—2020.11",
+   "score": 0.9707,
+   "box": [
+    117,
+    382,
+    860,
+    409
+   ]
+  },
+  {
+   "text": "- Aligned lesson objectives with standards",
+   "score": 0.9867,
+   "box": [
+    127,
+    409,
+    516,
+    433
+   ]
+  },
+  {
+   "text": "- Prepared unit assessments",
+   "score": 0.9992,
+   "box": [
+    126,
+    432,
+    396,
+    458
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Learning Way Academy, 2016.06—2018.09",
+   "score": 0.9833,
+   "box": [
+    118,
+    472,
+    859,
+    499
+   ]
+  },
+  {
+   "text": "- Prepared visual teaching aids",
+   "score": 0.9893,
+   "box": [
+    125,
+    497,
+    417,
+    525
+   ]
+  },
+  {
+   "text": "- Provided math drill exercises",
+   "score": 0.9925,
+   "box": [
+    127,
+    520,
+    409,
+    550
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Bachelor's, Educational Assistance, Meadowridge University, 2019",
+   "score": 0.9904,
+   "box": [
+    116,
+    630,
+    735,
+    659
+   ]
+  },
+  {
+   "text": "•Completed coursework in reading fluency strategies",
+   "score": 0.9882,
+   "box": [
+    130,
+    658,
+    627,
+    684
+   ]
+  },
+  {
+   "text": "•Studied foundational pedagogy concepts",
+   "score": 0.9832,
+   "box": [
+    130,
+    680,
+    526,
+    710
+   ]
+  }
+ ]
+}

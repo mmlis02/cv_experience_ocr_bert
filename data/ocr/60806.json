@@ -1,0 +1,143 @@
+{
+ "id": "60806",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.927,
+ "n_lines": 13,
+ "mean_score": 0.9948,
+ "lines": [
+  {
+   "text": "HAKEEN MARSH",
+   "score": 0.9998,
+   "box": [
+    117,
+    91,
+    391,
+    122
+   ]
+  },
+  {
+   "text": "WI, USA | +1-386-806-9701 | hakeen.marsh@example.com",
+   "score": 0.9976,
+   "box": [
+    116,
+    149,
+    669,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Software Developers, Corefield Software, 2021.06—2023.01",
+   "score": 0.9909,
+   "box": [
+    116,
+    289,
+    667,
+    316
+   ]
+  },
+  {
+   "text": "- Built core libraries",
+   "score": 0.9967,
+   "box": [
+    126,
+    314,
+    309,
+    340
+   ]
+  },
+  {
+   "text": "- Designed data storage strategies",
+   "score": 0.9983,
+   "box": [
+    127,
+    339,
+    450,
+    368
+   ]
+  },
+  {
+   "text": "Software Developers, Softpeak Technologies, 2018.08—2020.04",
+   "score": 0.9827,
+   "box": [
+    116,
+    380,
+    709,
+    408
+   ]
+  },
+  {
+   "text": "- Configured development environments",
+   "score": 0.995,
+   "box": [
+    125,
+    407,
+    500,
+    433
+   ]
+  },
+  {
+   "text": "- Handled file uploads",
+   "score": 0.9888,
+   "box": [
+    126,
+    430,
+    332,
+    459
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    494,
+    266,
+    521
+   ]
+  },
+  {
+   "text": "Associate's degree, Oakwood University, 2012",
+   "score": 0.9943,
+   "box": [
+    116,
+    539,
+    551,
+    567
+   ]
+  },
+  {
+   "text": "• Completed coursework in software architecture",
+   "score": 0.994,
+   "box": [
+    132,
+    567,
+    584,
+    591
+   ]
+  },
+  {
+   "text": "Completed coursework in software engineering",
+   "score": 0.9946,
+   "box": [
+    131,
+    589,
+    583,
+    619
+   ]
+  }
+ ]
+}

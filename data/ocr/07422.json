@@ -1,0 +1,203 @@
+{
+ "id": "07422",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.482,
+ "n_lines": 19,
+ "mean_score": 0.9877,
+ "lines": [
+  {
+   "text": "ASHLEY XIONG",
+   "score": 0.9834,
+   "box": [
+    117,
+    91,
+    370,
+    122
+   ]
+  },
+  {
+   "text": "CA, USA | +1-230-627-9876 | ashley.xiong@example.com",
+   "score": 0.9873,
+   "box": [
+    116,
+    149,
+    656,
+    179
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Accurate Balance Services, 2018.12—2023.01",
+   "score": 0.9899,
+   "box": [
+    117,
+    290,
+    747,
+    314
+   ]
+  },
+  {
+   "text": "- Led accounting process optimization",
+   "score": 0.9957,
+   "box": [
+    129,
+    317,
+    479,
+    341
+   ]
+  },
+  {
+   "text": "- Developed regulatory reporting strategies",
+   "score": 0.9786,
+   "box": [
+    127,
+    340,
+    525,
+    368
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Reliable Ledger Group, 2014.112018.12",
+   "score": 0.9865,
+   "box": [
+    116,
+    381,
+    712,
+    409
+   ]
+  },
+  {
+   "text": "- Established financial reporting standards",
+   "score": 0.999,
+   "box": [
+    125,
+    407,
+    518,
+    434
+   ]
+  },
+  {
+   "text": "- Developed internal control systems",
+   "score": 0.981,
+   "box": [
+    126,
+    431,
+    467,
+    459
+   ]
+  },
+  {
+   "text": "Accountants Auditors, TrustCount Group, 2010.102014.11",
+   "score": 0.9857,
+   "box": [
+    116,
+    471,
+    666,
+    499
+   ]
+  },
+  {
+   "text": "- Implemented accounting procedures",
+   "score": 0.9729,
+   "box": [
+    125,
+    497,
+    481,
+    526
+   ]
+  },
+  {
+   "text": "- Managed fixed asset accounting",
+   "score": 0.983,
+   "box": [
+    127,
+    521,
+    442,
+    551
+   ]
+  },
+  {
+   "text": "Accountants Auditors, EverBalance Financial, 2006.09—2010.10",
+   "score": 0.9947,
+   "box": [
+    118,
+    566,
+    708,
+    590
+   ]
+  },
+  {
+   "text": "- Entered financial data into accounting systems",
+   "score": 0.9915,
+   "box": [
+    125,
+    589,
+    574,
+    617
+   ]
+  },
+  {
+   "text": "- Reviewed timesheets for payroll",
+   "score": 0.9923,
+   "box": [
+    125,
+    613,
+    439,
+    642
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Bachelor's, Professional Accounting, Sunset Ridge University, 2006",
+   "score": 0.9845,
+   "box": [
+    115,
+    723,
+    742,
+    750
+   ]
+  },
+  {
+   "text": "• Completed coursework in investment analysis basics",
+   "score": 0.9733,
+   "box": [
+    131,
+    748,
+    637,
+    776
+   ]
+  },
+  {
+   "text": "Studied principles of fixed asset accounting",
+   "score": 0.9885,
+   "box": [
+    132,
+    772,
+    549,
+    802
+   ]
+  }
+ ]
+}

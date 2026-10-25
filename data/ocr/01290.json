@@ -1,0 +1,213 @@
+{
+ "id": "01290",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 11.013,
+ "n_lines": 20,
+ "mean_score": 0.9891,
+ "lines": [
+  {
+   "text": "JAMIE SHEPHERD",
+   "score": 0.9996,
+   "box": [
+    116,
+    92,
+    414,
+    122
+   ]
+  },
+  {
+   "text": "AZ, USA | +1-545-811-3295 | jamie.shepherd@example.com",
+   "score": 0.9865,
+   "box": [
+    116,
+    150,
+    681,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9994,
+   "box": [
+    116,
+    242,
+    316,
+    271
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Sunny Horizons School, 2019.10—2023.01",
+   "score": 0.9891,
+   "box": [
+    117,
+    290,
+    853,
+    317
+   ]
+  },
+  {
+   "text": "- Established instructional best practices",
+   "score": 0.9967,
+   "box": [
+    126,
+    316,
+    501,
+    341
+   ]
+  },
+  {
+   "text": "- Designed instructional governance models",
+   "score": 0.9986,
+   "box": [
+    127,
+    341,
+    536,
+    368
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Future Futures Academy, 2016.072019.10",
+   "score": 0.9879,
+   "box": [
+    116,
+    381,
+    869,
+    411
+   ]
+  },
+  {
+   "text": "- Led curriculum alignment initiatives",
+   "score": 0.9696,
+   "box": [
+    129,
+    409,
+    467,
+    433
+   ]
+  },
+  {
+   "text": "- Designed curriculum frameworks for grade-level instruction",
+   "score": 0.9939,
+   "box": [
+    128,
+    433,
+    686,
+    459
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Kind Minds Academy, 2013.042016.07",
+   "score": 0.9992,
+   "box": [
+    119,
+    474,
+    833,
+    498
+   ]
+  },
+  {
+   "text": "- Reviewed and updated curriculum materials",
+   "score": 0.977,
+   "box": [
+    126,
+    500,
+    548,
+    524
+   ]
+  },
+  {
+   "text": "- Coordinated group learning activities",
+   "score": 0.9925,
+   "box": [
+    127,
+    522,
+    481,
+    550
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Bright Steps Academy, 2009.12—2013.04",
+   "score": 0.9834,
+   "box": [
+    117,
+    565,
+    844,
+    592
+   ]
+  },
+  {
+   "text": "- Prepared daily instructional agendas",
+   "score": 0.9952,
+   "box": [
+    125,
+    590,
+    481,
+    618
+   ]
+  },
+  {
+   "text": "- Distributed assessment rubrics",
+   "score": 0.9716,
+   "box": [
+    126,
+    614,
+    429,
+    644
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Master's, Applied Education, Woodview University, 2007",
+   "score": 0.9981,
+   "box": [
+    115,
+    723,
+    639,
+    750
+   ]
+  },
+  {
+   "text": "Bachelor's, Educational Foundations, Hillside University, 2005",
+   "score": 0.9706,
+   "box": [
+    117,
+    749,
+    688,
+    773
+   ]
+  },
+  {
+   "text": "• Studied fundamentals of science education",
+   "score": 0.9815,
+   "box": [
+    130,
+    776,
+    547,
+    799
+   ]
+  },
+  {
+   "text": "• Studied fundamentals of group learning dynamics",
+   "score": 0.9907,
+   "box": [
+    132,
+    801,
+    605,
+    825
+   ]
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "id": "03035",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.815,
+ "n_lines": 13,
+ "mean_score": 0.9901,
+ "lines": [
+  {
+   "text": "AMBER ONEILL",
+   "score": 0.9996,
+   "box": [
+    117,
+    91,
+    372,
+    122
+   ]
+  },
+  {
+   "text": "CA, USA | +1-762-596-6322 | amber.oneill@example.com",
+   "score": 0.9718,
+   "box": [
+    118,
+    152,
+    654,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9988,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Registered Nurses, KindHands Health Services, 2020.06—2023.01",
+   "score": 0.9935,
+   "box": [
+    118,
+    290,
+    728,
+    314
+   ]
+  },
+  {
+   "text": "- Implemented care standardization",
+   "score": 0.981,
+   "box": [
+    126,
+    313,
+    457,
+    342
+   ]
+  },
+  {
+   "text": "- Implemented patient monitoring systems",
+   "score": 0.9943,
+   "box": [
+    127,
+    339,
+    517,
+    368
+   ]
+  },
+  {
+   "text": "Registered Nurses, WellSpring Nursing Services, 2017.102020.06",
+   "score": 0.9937,
+   "box": [
+    117,
+    382,
+    741,
+    409
+   ]
+  },
+  {
+   "text": "- Checked laboratory results",
+   "score": 0.9964,
+   "box": [
+    125,
+    407,
+    391,
+    432
+   ]
+  },
+  {
+   "text": "- Performed basic life support procedures",
+   "score": 0.9748,
+   "box": [
+    126,
+    429,
+    513,
+    459
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    268,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Health Administration, Pinehaven University, 2016",
+   "score": 0.9827,
+   "box": [
+    116,
+    540,
+    689,
+    566
+   ]
+  },
+  {
+   "text": "• Completed coursework in home health nursing basics",
+   "score": 0.9901,
+   "box": [
+    132,
+    566,
+    643,
+    592
+   ]
+  },
+  {
+   "text": "• Completed coursework in nursing informatics basics",
+   "score": 0.9944,
+   "box": [
+    132,
+    591,
+    628,
+    617
+   ]
+  }
+ ]
+}

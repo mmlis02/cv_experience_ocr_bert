@@ -1,0 +1,213 @@
+{
+ "id": "27339",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 10.269,
+ "n_lines": 20,
+ "mean_score": 0.9911,
+ "lines": [
+  {
+   "text": "SHIRLEY GRAY",
+   "score": 0.9901,
+   "box": [
+    117,
+    91,
+    369,
+    122
+   ]
+  },
+  {
+   "text": "MI, USA | +1-576-574-4080 | shirley.gray@example.com",
+   "score": 0.9871,
+   "box": [
+    115,
+    150,
+    641,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9956,
+   "box": [
+    117,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Registered Nurses, NewSpring Health Services, 2020.05—2023.01",
+   "score": 0.9849,
+   "box": [
+    115,
+    287,
+    730,
+    318
+   ]
+  },
+  {
+   "text": "- Established nursing performance metrics",
+   "score": 0.9996,
+   "box": [
+    125,
+    314,
+    521,
+    343
+   ]
+  },
+  {
+   "text": "- Managed patient outcome evaluation systems",
+   "score": 0.9844,
+   "box": [
+    126,
+    339,
+    566,
+    369
+   ]
+  },
+  {
+   "text": "Registered Nurses, TrueLife Nursing, 2017.082020.05",
+   "score": 0.9968,
+   "box": [
+    116,
+    381,
+    630,
+    409
+   ]
+  },
+  {
+   "text": "- Developed patient safety metrics",
+   "score": 0.9911,
+   "box": [
+    124,
+    406,
+    446,
+    434
+   ]
+  },
+  {
+   "text": "- Directed care coordination strategies",
+   "score": 0.9911,
+   "box": [
+    125,
+    430,
+    482,
+    459
+   ]
+  },
+  {
+   "text": "Registered Nurses, ClearSpring Health Group, 2014.112017.08",
+   "score": 0.9963,
+   "box": [
+    118,
+    474,
+    715,
+    498
+   ]
+  },
+  {
+   "text": "- Conducted post-operative assessments",
+   "score": 0.9895,
+   "box": [
+    127,
+    497,
+    510,
+    526
+   ]
+  },
+  {
+   "text": "- Provided pediatric nursing care",
+   "score": 0.9954,
+   "box": [
+    127,
+    521,
+    431,
+    551
+   ]
+  },
+  {
+   "text": "Registered Nurses, Compassion Health Group, 2010.072013.04",
+   "score": 0.9973,
+   "box": [
+    118,
+    566,
+    721,
+    590
+   ]
+  },
+  {
+   "text": "- Recorded patient weight and height",
+   "score": 0.9868,
+   "box": [
+    125,
+    589,
+    473,
+    617
+   ]
+  },
+  {
+   "text": "- Assisted with patient positioning",
+   "score": 0.997,
+   "box": [
+    125,
+    614,
+    438,
+    644
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Master's, Health Technology, Meadowridge University, 2004",
+   "score": 0.9916,
+   "box": [
+    115,
+    723,
+    673,
+    750
+   ]
+  },
+  {
+   "text": "Bachelor's, Patient Services, Crestwood University, 2002",
+   "score": 0.9959,
+   "box": [
+    117,
+    750,
+    643,
+    774
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of sleep management in care",
+   "score": 0.9738,
+   "box": [
+    129,
+    773,
+    626,
+    801
+   ]
+  },
+  {
+   "text": "• Studied principles of infection control",
+   "score": 0.9779,
+   "box": [
+    133,
+    801,
+    488,
+    825
+   ]
+  }
+ ]
+}

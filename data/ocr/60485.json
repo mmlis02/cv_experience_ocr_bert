@@ -1,0 +1,113 @@
+{
+ "id": "60485",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.821,
+ "n_lines": 10,
+ "mean_score": 0.9933,
+ "lines": [
+  {
+   "text": "JADEN SEXTON",
+   "score": 0.9998,
+   "box": [
+    116,
+    90,
+    377,
+    121
+   ]
+  },
+  {
+   "text": "WI, USA | +1-724-524-3591 | jaden.sexton@example.com",
+   "score": 0.9982,
+   "box": [
+    116,
+    149,
+    656,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9993,
+   "box": [
+    116,
+    243,
+    317,
+    270
+   ]
+  },
+  {
+   "text": "Construction Laborers, Precision Build Co., 2020.11-2023.01",
+   "score": 0.9799,
+   "box": [
+    116,
+    287,
+    683,
+    315
+   ]
+  },
+  {
+   "text": "- Assisted with roofing material handling",
+   "score": 0.9939,
+   "box": [
+    125,
+    313,
+    498,
+    341
+   ]
+  },
+  {
+   "text": "- Prepared surfaces for construction work",
+   "score": 0.9954,
+   "box": [
+    128,
+    341,
+    512,
+    364
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Associate's degree, Construction Inspection, Sunset Ridge University, 2023",
+   "score": 0.9941,
+   "box": [
+    116,
+    446,
+    816,
+    476
+   ]
+  },
+  {
+   "text": "• Studied principles of construction workflow analysis",
+   "score": 0.9758,
+   "box": [
+    131,
+    475,
+    621,
+    499
+   ]
+  },
+  {
+   "text": "•Completed coursework in basic metalwork",
+   "score": 0.9964,
+   "box": [
+    134,
+    499,
+    541,
+    523
+   ]
+  }
+ ]
+}

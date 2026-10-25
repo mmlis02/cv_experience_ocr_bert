@@ -1,0 +1,143 @@
+{
+ "id": "14818",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.417,
+ "n_lines": 13,
+ "mean_score": 0.9937,
+ "lines": [
+  {
+   "text": "TOMAKA TYLER",
+   "score": 0.9999,
+   "box": [
+    117,
+    90,
+    382,
+    121
+   ]
+  },
+  {
+   "text": "GA, USA | +1-292-880-9543 | tomaka.tyler@example.com",
+   "score": 0.9969,
+   "box": [
+    116,
+    149,
+    656,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Open Fields School, 2019.102022.02",
+   "score": 0.9967,
+   "box": [
+    117,
+    289,
+    820,
+    316
+   ]
+  },
+  {
+   "text": "- Directed instructional planning processes",
+   "score": 0.9905,
+   "box": [
+    126,
+    315,
+    523,
+    342
+   ]
+  },
+  {
+   "text": "- Led academic improvement programs",
+   "score": 0.9904,
+   "box": [
+    128,
+    339,
+    492,
+    369
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Evergreen Academy, 2016.10—2019.02",
+   "score": 0.9889,
+   "box": [
+    115,
+    379,
+    828,
+    411
+   ]
+  },
+  {
+   "text": "- Tracked student participation",
+   "score": 0.9909,
+   "box": [
+    126,
+    407,
+    411,
+    433
+   ]
+  },
+  {
+   "text": "- Implemented classroom seating plans",
+   "score": 0.9883,
+   "box": [
+    127,
+    431,
+    493,
+    458
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Developmental Studies, Lakewood University, 2002",
+   "score": 0.9948,
+   "box": [
+    116,
+    540,
+    702,
+    567
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of instructional clarity",
+   "score": 0.9846,
+   "box": [
+    130,
+    565,
+    550,
+    592
+   ]
+  },
+  {
+   "text": "• Completed coursework in social studies education",
+   "score": 0.9978,
+   "box": [
+    132,
+    592,
+    611,
+    615
+   ]
+  }
+ ]
+}

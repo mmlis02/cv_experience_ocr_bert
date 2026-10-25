@@ -1,0 +1,173 @@
+{
+ "id": "16343",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.409,
+ "n_lines": 16,
+ "mean_score": 0.9853,
+ "lines": [
+  {
+   "text": "RIVKA DAY",
+   "score": 0.9687,
+   "box": [
+    117,
+    90,
+    301,
+    121
+   ]
+  },
+  {
+   "text": "GA, USA | +1-892-996-1802 | rivka.day@example.com",
+   "score": 0.9887,
+   "box": [
+    117,
+    150,
+    625,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9604,
+   "box": [
+    118,
+    245,
+    314,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Integrity Books Financial, 2019.12—2023.01",
+   "score": 0.9726,
+   "box": [
+    116,
+    289,
+    727,
+    316
+   ]
+  },
+  {
+   "text": "- Designed tax strategies",
+   "score": 0.973,
+   "box": [
+    127,
+    315,
+    361,
+    342
+   ]
+  },
+  {
+   "text": "- Designed financial accountability systems",
+   "score": 0.9958,
+   "box": [
+    127,
+    339,
+    528,
+    368
+   ]
+  },
+  {
+   "text": "Accountants Auditors, ClearBalance Services, 2015.042018.06",
+   "score": 0.9999,
+   "box": [
+    116,
+    380,
+    713,
+    408
+   ]
+  },
+  {
+   "text": "- Conducted inventory valuation",
+   "score": 0.9897,
+   "box": [
+    127,
+    409,
+    424,
+    433
+   ]
+  },
+  {
+   "text": "- Prepared tax returns",
+   "score": 0.981,
+   "box": [
+    127,
+    431,
+    333,
+    460
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Integrity Ledger Services Group, 2010.12—2014.02",
+   "score": 0.9737,
+   "box": [
+    116,
+    472,
+    796,
+    499
+   ]
+  },
+  {
+   "text": "- Assisted with forecasting data",
+   "score": 0.9988,
+   "box": [
+    126,
+    499,
+    418,
+    523
+   ]
+  },
+  {
+   "text": "- Verified transaction accuracy",
+   "score": 0.986,
+   "box": [
+    127,
+    519,
+    411,
+    551
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    586,
+    267,
+    613
+   ]
+  },
+  {
+   "text": "Bachelor's, Professional Accounting, Skyview University, 2008",
+   "score": 0.9909,
+   "box": [
+    116,
+    630,
+    693,
+    658
+   ]
+  },
+  {
+   "text": "•Completed coursework in accounts receivable",
+   "score": 0.992,
+   "box": [
+    131,
+    657,
+    575,
+    682
+   ]
+  },
+  {
+   "text": "Completed coursework in financial data interpretation",
+   "score": 0.9935,
+   "box": [
+    132,
+    680,
+    640,
+    709
+   ]
+  }
+ ]
+}

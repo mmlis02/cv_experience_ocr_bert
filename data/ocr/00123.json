@@ -1,0 +1,113 @@
+{
+ "id": "00123",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.565,
+ "n_lines": 10,
+ "mean_score": 0.9931,
+ "lines": [
+  {
+   "text": "AMANDA MORTON",
+   "score": 0.9999,
+   "box": [
+    118,
+    91,
+    425,
+    122
+   ]
+  },
+  {
+   "text": "AL, USA | +1-297-761-3265 | amanda.morton@example.com",
+   "score": 0.9951,
+   "box": [
+    116,
+    149,
+    684,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9994,
+   "box": [
+    116,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Registered Nurses, EverCare Health Services, 2022.09—2023.01",
+   "score": 0.9892,
+   "box": [
+    116,
+    288,
+    715,
+    315
+   ]
+  },
+  {
+   "text": "- Checked medication dosages",
+   "score": 0.9836,
+   "box": [
+    125,
+    313,
+    416,
+    341
+   ]
+  },
+  {
+   "text": "- Provided catheter care",
+   "score": 0.9995,
+   "box": [
+    126,
+    338,
+    354,
+    365
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Clinical Studies, Oakridge Valley University, 2021",
+   "score": 0.9921,
+   "box": [
+    115,
+    446,
+    681,
+    475
+   ]
+  },
+  {
+   "text": "•Completed coursework in medication administration",
+   "score": 0.9896,
+   "box": [
+    130,
+    474,
+    625,
+    499
+   ]
+  },
+  {
+   "text": "Studied fundamentals of quality assurance in care",
+   "score": 0.9828,
+   "box": [
+    131,
+    496,
+    611,
+    527
+   ]
+  }
+ ]
+}

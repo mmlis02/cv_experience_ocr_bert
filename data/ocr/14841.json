@@ -1,0 +1,143 @@
+{
+ "id": "14841",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.209,
+ "n_lines": 13,
+ "mean_score": 0.9908,
+ "lines": [
+  {
+   "text": "TRACY WEBB",
+   "score": 0.9984,
+   "box": [
+    117,
+    91,
+    344,
+    121
+   ]
+  },
+  {
+   "text": "GA, USA | +1-827-211-1947 | tracy.webb@example.com",
+   "score": 0.9811,
+   "box": [
+    117,
+    151,
+    642,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9998,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Accountants Auditors, SteadyCount Advisors, 2020.042023.01",
+   "score": 0.9909,
+   "box": [
+    116,
+    289,
+    705,
+    316
+   ]
+  },
+  {
+   "text": "- Designed financial accountability systems",
+   "score": 0.9874,
+   "box": [
+    126,
+    314,
+    527,
+    342
+   ]
+  },
+  {
+   "text": "- Developed financial risk models",
+   "score": 0.9938,
+   "box": [
+    128,
+    340,
+    436,
+    365
+   ]
+  },
+  {
+   "text": "Accountants Auditors, CoreBooks Advisors, 2017.072020.04",
+   "score": 0.98,
+   "box": [
+    117,
+    381,
+    689,
+    406
+   ]
+  },
+  {
+   "text": "- Reviewed timesheets for payroll",
+   "score": 0.9967,
+   "box": [
+    126,
+    408,
+    440,
+    432
+   ]
+  },
+  {
+   "text": "- Compiled audit evidence",
+   "score": 0.9954,
+   "box": [
+    128,
+    430,
+    371,
+    458
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    494,
+    266,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Supply Chain Management, Oakridge Valley University, 2017",
+   "score": 0.9917,
+   "box": [
+    116,
+    540,
+    792,
+    567
+   ]
+  },
+  {
+   "text": "•Completed coursework in business law basics",
+   "score": 0.9762,
+   "box": [
+    130,
+    566,
+    575,
+    591
+   ]
+  },
+  {
+   "text": "Studied fundamentals of business performance analysis",
+   "score": 0.9897,
+   "box": [
+    131,
+    589,
+    665,
+    618
+   ]
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "id": "15534",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 9.749,
+ "n_lines": 16,
+ "mean_score": 0.9934,
+ "lines": [
+  {
+   "text": "GREGORY ATKINS",
+   "score": 0.9879,
+   "box": [
+    118,
+    91,
+    422,
+    122
+   ]
+  },
+  {
+   "text": "GA, USA | +1-883-828-7883 | gregory.atkins@example.com",
+   "score": 0.9838,
+   "box": [
+    118,
+    152,
+    672,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Registered Nurses, NewSpring Care Center, 2020.01—2023.01",
+   "score": 0.9851,
+   "box": [
+    115,
+    287,
+    697,
+    318
+   ]
+  },
+  {
+   "text": "- Developed nursing training programs",
+   "score": 0.9798,
+   "box": [
+    126,
+    313,
+    485,
+    345
+   ]
+  },
+  {
+   "text": "- Implemented patient monitoring systems",
+   "score": 0.9952,
+   "box": [
+    127,
+    339,
+    517,
+    369
+   ]
+  },
+  {
+   "text": "Registered Nurses, ClearWay Health Group, 2016.072019.07",
+   "score": 0.9933,
+   "box": [
+    117,
+    382,
+    698,
+    409
+   ]
+  },
+  {
+   "text": "- Managed patient nutritional support",
+   "score": 0.996,
+   "box": [
+    124,
+    406,
+    470,
+    435
+   ]
+  },
+  {
+   "text": "- Managed intravenous therapy",
+   "score": 0.9934,
+   "box": [
+    126,
+    430,
+    419,
+    461
+   ]
+  },
+  {
+   "text": "Registered Nurses, WellWay Medical Group, 2012.062015.06",
+   "score": 0.9959,
+   "box": [
+    117,
+    472,
+    699,
+    499
+   ]
+  },
+  {
+   "text": "- Monitored patient alarms",
+   "score": 0.9986,
+   "box": [
+    127,
+    496,
+    373,
+    526
+   ]
+  },
+  {
+   "text": "- Performed basic life support procedures",
+   "score": 0.9995,
+   "box": [
+    128,
+    520,
+    513,
+    550
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Associate's degree, Health Systems, Ironwood University, 2008",
+   "score": 0.9951,
+   "box": [
+    117,
+    632,
+    704,
+    659
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of vital signs monitoring",
+   "score": 0.992,
+   "box": [
+    128,
+    655,
+    574,
+    686
+   ]
+  },
+  {
+   "text": "Completed coursework in dosage calculations",
+   "score": 0.9996,
+   "box": [
+    132,
+    681,
+    573,
+    709
+   ]
+  }
+ ]
+}

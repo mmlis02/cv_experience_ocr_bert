@@ -1,0 +1,113 @@
+{
+ "id": "09237",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.323,
+ "n_lines": 10,
+ "mean_score": 0.9921,
+ "lines": [
+  {
+   "text": "AYZHA BROCK",
+   "score": 0.9999,
+   "box": [
+    116,
+    89,
+    366,
+    123
+   ]
+  },
+  {
+   "text": "CA, USA | +1-408-413-5221 | ayzha.brock@example.com",
+   "score": 0.9744,
+   "box": [
+    116,
+    149,
+    654,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9994,
+   "box": [
+    116,
+    243,
+    317,
+    270
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Accurate Path Accounting, 2021.04—2023.01",
+   "score": 0.9933,
+   "box": [
+    115,
+    287,
+    740,
+    315
+   ]
+  },
+  {
+   "text": "- Maintained chart of accounts",
+   "score": 0.9849,
+   "box": [
+    126,
+    314,
+    410,
+    339
+   ]
+  },
+  {
+   "text": "- Assisted with regulatory filings",
+   "score": 0.9995,
+   "box": [
+    128,
+    339,
+    422,
+    368
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Financial Accounting, Ridgeway University, 2020",
+   "score": 0.9912,
+   "box": [
+    115,
+    446,
+    676,
+    475
+   ]
+  },
+  {
+   "text": "Completed coursework in audit reporting",
+   "score": 0.9975,
+   "box": [
+    131,
+    471,
+    523,
+    501
+   ]
+  },
+  {
+   "text": "• Completed coursework in financial disclosure",
+   "score": 0.981,
+   "box": [
+    133,
+    499,
+    564,
+    523
+   ]
+  }
+ ]
+}

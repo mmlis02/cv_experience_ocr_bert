@@ -1,0 +1,143 @@
+{
+ "id": "24539",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.233,
+ "n_lines": 13,
+ "mean_score": 0.9881,
+ "lines": [
+  {
+   "text": "ROBERTO GOOD",
+   "score": 0.9998,
+   "box": [
+    117,
+    90,
+    396,
+    121
+   ]
+  },
+  {
+   "text": "MD, USA | +1-551-791-4893 | roberto.good@example.com",
+   "score": 0.975,
+   "box": [
+    115,
+    149,
+    662,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9998,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Registered Nurses, KindWay Nursing Services, 2020.072023.01",
+   "score": 0.9849,
+   "box": [
+    116,
+    288,
+    722,
+    318
+   ]
+  },
+  {
+   "text": "- Managed clinical risk assessments",
+   "score": 0.9908,
+   "box": [
+    125,
+    313,
+    464,
+    341
+   ]
+  },
+  {
+   "text": "- Developed medication management policies",
+   "score": 0.9726,
+   "box": [
+    127,
+    339,
+    552,
+    367
+   ]
+  },
+  {
+   "text": "Registered Nurses, ClearPath Nursing Group, 2018.012020.07",
+   "score": 0.9841,
+   "box": [
+    116,
+    379,
+    710,
+    410
+   ]
+  },
+  {
+   "text": "- Prepared medical equipment for use",
+   "score": 0.9909,
+   "box": [
+    126,
+    406,
+    478,
+    434
+   ]
+  },
+  {
+   "text": "- Assisted with patient positioning",
+   "score": 0.9899,
+   "box": [
+    128,
+    430,
+    438,
+    461
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Health and Human Services, Brightfield Ridge University, 2021",
+   "score": 0.9967,
+   "box": [
+    115,
+    539,
+    803,
+    567
+   ]
+  },
+  {
+   "text": "•Completed coursework in delegation principles",
+   "score": 0.9866,
+   "box": [
+    130,
+    566,
+    580,
+    592
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of stress management in care",
+   "score": 0.9741,
+   "box": [
+    131,
+    588,
+    631,
+    619
+   ]
+  }
+ ]
+}

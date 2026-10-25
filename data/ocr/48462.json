@@ -1,0 +1,173 @@
+{
+ "id": "48462",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 10.261,
+ "n_lines": 16,
+ "mean_score": 0.9904,
+ "lines": [
+  {
+   "text": "TIFFINY JACOBSON",
+   "score": 0.9997,
+   "box": [
+    117,
+    91,
+    442,
+    121
+   ]
+  },
+  {
+   "text": "TN, USA | +1-247-380-9310 | tiffiny.jacobson@example.com",
+   "score": 0.9789,
+   "box": [
+    118,
+    152,
+    676,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Registered Nurses, KindCare Medical Services, 2020.06—2023.01",
+   "score": 0.9884,
+   "box": [
+    117,
+    289,
+    725,
+    316
+   ]
+  },
+  {
+   "text": "- Led nursing workflow optimization",
+   "score": 0.9768,
+   "box": [
+    127,
+    314,
+    455,
+    343
+   ]
+  },
+  {
+   "text": "- Implemented care standardization",
+   "score": 0.9749,
+   "box": [
+    127,
+    340,
+    456,
+    365
+   ]
+  },
+  {
+   "text": "Registered Nurses, EverWay Nursing Services, 2016.042018.12",
+   "score": 0.9877,
+   "box": [
+    117,
+    382,
+    725,
+    409
+   ]
+  },
+  {
+   "text": "- Supervised clinical documentation",
+   "score": 0.9974,
+   "box": [
+    126,
+    409,
+    458,
+    432
+   ]
+  },
+  {
+   "text": "- Performed patient triage",
+   "score": 0.9928,
+   "box": [
+    126,
+    430,
+    366,
+    461
+   ]
+  },
+  {
+   "text": "Registered Nurses, BrightCare Clinics, 2012.022014.10",
+   "score": 0.9999,
+   "box": [
+    116,
+    471,
+    644,
+    499
+   ]
+  },
+  {
+   "text": "- Assisted with patient transfers",
+   "score": 0.9862,
+   "box": [
+    127,
+    498,
+    421,
+    523
+   ]
+  },
+  {
+   "text": "- Prepared medical equipment for use",
+   "score": 0.9927,
+   "box": [
+    128,
+    521,
+    479,
+    551
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Bachelor's, Health Information Management, Prairie Ridge University, 2010",
+   "score": 0.9952,
+   "box": [
+    116,
+    631,
+    811,
+    659
+   ]
+  },
+  {
+   "text": "•Completed coursework in human anatomy and physiology",
+   "score": 0.9773,
+   "box": [
+    130,
+    656,
+    684,
+    686
+   ]
+  },
+  {
+   "text": "Completed coursework in patient discharge planning",
+   "score": 0.9998,
+   "box": [
+    132,
+    680,
+    633,
+    710
+   ]
+  }
+ ]
+}

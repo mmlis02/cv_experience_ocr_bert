@@ -1,0 +1,113 @@
+{
+ "id": "16552",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.085,
+ "n_lines": 10,
+ "mean_score": 0.9915,
+ "lines": [
+  {
+   "text": "LINDSEY OSBORNE",
+   "score": 0.9981,
+   "box": [
+    116,
+    87,
+    442,
+    123
+   ]
+  },
+  {
+   "text": "GA, USA | +1-219-482-6262 | lindsey.osborne@example.com",
+   "score": 0.9869,
+   "box": [
+    116,
+    149,
+    688,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9993,
+   "box": [
+    116,
+    243,
+    317,
+    270
+   ]
+  },
+  {
+   "text": "Registered Nurses, SunLife Care Group, 2018.03—2020.09",
+   "score": 0.9873,
+   "box": [
+    114,
+    286,
+    662,
+    317
+   ]
+  },
+  {
+   "text": "- Provided catheter care",
+   "score": 0.9969,
+   "box": [
+    125,
+    313,
+    354,
+    340
+   ]
+  },
+  {
+   "text": "- Documented patient observations",
+   "score": 0.9984,
+   "box": [
+    129,
+    341,
+    452,
+    365
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Some college (no degree), Pediatric Care, Amber Hills University, 2004",
+   "score": 0.9815,
+   "box": [
+    116,
+    446,
+    777,
+    476
+   ]
+  },
+  {
+   "text": "•Completed coursework in disaster nursing basics",
+   "score": 0.9836,
+   "box": [
+    131,
+    473,
+    601,
+    499
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of clinical supervision",
+   "score": 0.9827,
+   "box": [
+    132,
+    497,
+    553,
+    524
+   ]
+  }
+ ]
+}

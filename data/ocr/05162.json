@@ -1,0 +1,113 @@
+{
+ "id": "05162",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.549,
+ "n_lines": 10,
+ "mean_score": 0.9953,
+ "lines": [
+  {
+   "text": "TESS VU",
+   "score": 0.999,
+   "box": [
+    116,
+    90,
+    263,
+    122
+   ]
+  },
+  {
+   "text": "CA, USA | +1-585-527-4624 | tess.vu@example.com",
+   "score": 0.9899,
+   "box": [
+    118,
+    152,
+    607,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9995,
+   "box": [
+    116,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Accountants Auditors, CoreBooks Advisors, 2021.01—2023.01",
+   "score": 0.9883,
+   "box": [
+    114,
+    287,
+    689,
+    315
+   ]
+  },
+  {
+   "text": "- Updated accounting policies documentation",
+   "score": 0.9952,
+   "box": [
+    127,
+    316,
+    545,
+    340
+   ]
+  },
+  {
+   "text": "- Reviewed account balances",
+   "score": 0.995,
+   "box": [
+    128,
+    339,
+    403,
+    365
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Corporate Finance, Bright Ridge University, 2023",
+   "score": 0.9981,
+   "box": [
+    116,
+    448,
+    679,
+    475
+   ]
+  },
+  {
+   "text": "Studied fundamentals of business performance analysis",
+   "score": 0.9963,
+   "box": [
+    128,
+    472,
+    666,
+    500
+   ]
+  },
+  {
+   "text": "Studied principles of accounting policy analysis",
+   "score": 0.9916,
+   "box": [
+    131,
+    497,
+    584,
+    526
+   ]
+  }
+ ]
+}

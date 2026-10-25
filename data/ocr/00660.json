@@ -1,0 +1,123 @@
+{
+ "id": "00660",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.29,
+ "n_lines": 11,
+ "mean_score": 0.9933,
+ "lines": [
+  {
+   "text": "LARRY REID",
+   "score": 0.9997,
+   "box": [
+    116,
+    87,
+    322,
+    123
+   ]
+  },
+  {
+   "text": "AL, USA | +1-671-908-7849 | larry.reid@example.com",
+   "score": 0.9895,
+   "box": [
+    116,
+    149,
+    619,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9873,
+   "box": [
+    116,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Integrity Books Co., 2020.04—2023.01",
+   "score": 0.9949,
+   "box": [
+    115,
+    287,
+    675,
+    315
+   ]
+  },
+  {
+   "text": "- Maintained vendor records",
+   "score": 0.9992,
+   "box": [
+    126,
+    314,
+    390,
+    339
+   ]
+  },
+  {
+   "text": "- Prepared variance reports",
+   "score": 0.985,
+   "box": [
+    126,
+    338,
+    385,
+    368
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Master's, Administrative Studies, Lakeview University, 2023",
+   "score": 0.9946,
+   "box": [
+    114,
+    446,
+    668,
+    474
+   ]
+  },
+  {
+   "text": "Bachelor's, International Business, Northwood University, 2022",
+   "score": 0.9873,
+   "box": [
+    116,
+    474,
+    699,
+    498
+   ]
+  },
+  {
+   "text": "• Completed coursework in financial disclosure",
+   "score": 0.9932,
+   "box": [
+    131,
+    500,
+    566,
+    523
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of financial management",
+   "score": 0.9951,
+   "box": [
+    132,
+    522,
+    584,
+    548
+   ]
+  }
+ ]
+}

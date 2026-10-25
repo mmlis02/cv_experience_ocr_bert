@@ -1,0 +1,113 @@
+{
+ "id": "15149",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.736,
+ "n_lines": 10,
+ "mean_score": 0.9897,
+ "lines": [
+  {
+   "text": "ALEXIS WALTON",
+   "score": 0.979,
+   "box": [
+    117,
+    90,
+    395,
+    122
+   ]
+  },
+  {
+   "text": "GA, USA | +1-531-842-7445 |alexis.walton@example.com",
+   "score": 0.976,
+   "box": [
+    118,
+    152,
+    661,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Golden Steps Academy, 2020.032023.01",
+   "score": 0.999,
+   "box": [
+    117,
+    289,
+    855,
+    316
+   ]
+  },
+  {
+   "text": "- Reviewed curriculum content",
+   "score": 0.9965,
+   "box": [
+    126,
+    314,
+    412,
+    340
+   ]
+  },
+  {
+   "text": "- Prepared daily lesson plans aligned with curriculum guidelines",
+   "score": 0.9922,
+   "box": [
+    128,
+    340,
+    716,
+    367
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Student Learning Studies, Horizon University, 2021",
+   "score": 0.9916,
+   "box": [
+    116,
+    447,
+    697,
+    474
+   ]
+  },
+  {
+   "text": "• Studied principles of lesson coherence",
+   "score": 0.9805,
+   "box": [
+    130,
+    474,
+    506,
+    499
+   ]
+  },
+  {
+   "text": "Completed coursework in lesson effectiveness analysis",
+   "score": 0.9827,
+   "box": [
+    132,
+    497,
+    658,
+    525
+   ]
+  }
+ ]
+}

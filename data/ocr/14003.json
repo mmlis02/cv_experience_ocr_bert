@@ -1,0 +1,143 @@
+{
+ "id": "14003",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.183,
+ "n_lines": 13,
+ "mean_score": 0.9897,
+ "lines": [
+  {
+   "text": "KATHARINE SLOAN",
+   "score": 0.9998,
+   "box": [
+    116,
+    89,
+    441,
+    122
+   ]
+  },
+  {
+   "text": "FL, USA | +1-892-245-7845 | katharine.sloan@example.com",
+   "score": 0.9875,
+   "box": [
+    118,
+    152,
+    677,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9848,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Registered Nurses, Caring Life Nursing, 2020.02—2023.01",
+   "score": 0.9858,
+   "box": [
+    116,
+    288,
+    653,
+    317
+   ]
+  },
+  {
+   "text": "- Developed care quality benchmarks",
+   "score": 0.9994,
+   "box": [
+    125,
+    313,
+    475,
+    343
+   ]
+  },
+  {
+   "text": "- Developed interdisciplinary care strategies",
+   "score": 0.9925,
+   "box": [
+    127,
+    339,
+    534,
+    368
+   ]
+  },
+  {
+   "text": "Registered Nurses, Caring Nest Nursing, 2015.092018.08",
+   "score": 0.9989,
+   "box": [
+    117,
+    382,
+    664,
+    409
+   ]
+  },
+  {
+   "text": "- Monitored patient intake and output",
+   "score": 0.9903,
+   "box": [
+    125,
+    407,
+    470,
+    433
+   ]
+  },
+  {
+   "text": "- Maintained infection control protocols",
+   "score": 0.9982,
+   "box": [
+    126,
+    431,
+    486,
+    458
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    494,
+    268,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Geriatric Care, Fairmont University, 2013",
+   "score": 0.9798,
+   "box": [
+    116,
+    540,
+    605,
+    566
+   ]
+  },
+  {
+   "text": "Studied principles of continuity of care",
+   "score": 0.9685,
+   "box": [
+    130,
+    565,
+    501,
+    593
+   ]
+  },
+  {
+   "text": "Completed coursework in patient monitoring technologies",
+   "score": 0.9808,
+   "box": [
+    131,
+    590,
+    677,
+    618
+   ]
+  }
+ ]
+}

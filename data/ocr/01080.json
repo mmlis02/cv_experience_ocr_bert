@@ -1,0 +1,143 @@
+{
+ "id": "01080",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.3,
+ "n_lines": 13,
+ "mean_score": 0.9922,
+ "lines": [
+  {
+   "text": "KAYLA WANG",
+   "score": 0.9998,
+   "box": [
+    117,
+    91,
+    348,
+    122
+   ]
+  },
+  {
+   "text": "AZ, USA | +1-726-356-8169 | kayla.wang@example.com",
+   "score": 0.9947,
+   "box": [
+    118,
+    152,
+    642,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9995,
+   "box": [
+    116,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Registered Nurses, WellHands Health Group, 2020.102022.05",
+   "score": 0.999,
+   "box": [
+    116,
+    288,
+    707,
+    316
+   ]
+  },
+  {
+   "text": "- Established quality assurance systems",
+   "score": 0.9957,
+   "box": [
+    126,
+    314,
+    501,
+    342
+   ]
+  },
+  {
+   "text": "- Established clinical best practices",
+   "score": 0.9996,
+   "box": [
+    126,
+    339,
+    453,
+    367
+   ]
+  },
+  {
+   "text": "Registered Nurses, Helping Life Nursing, 2018.04—2019.12",
+   "score": 0.987,
+   "box": [
+    116,
+    380,
+    665,
+    408
+   ]
+  },
+  {
+   "text": "- Recorded shift handoff notes",
+   "score": 0.9807,
+   "box": [
+    125,
+    406,
+    410,
+    432
+   ]
+  },
+  {
+   "text": "- Assisted with physical therapy exercises",
+   "score": 0.991,
+   "box": [
+    127,
+    431,
+    514,
+    458
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Medical Assisting, Elmwood University, 2016",
+   "score": 0.9797,
+   "box": [
+    116,
+    539,
+    640,
+    567
+   ]
+  },
+  {
+   "text": "• Completed coursework in maternal health nursing",
+   "score": 0.9848,
+   "box": [
+    132,
+    566,
+    608,
+    592
+   ]
+  },
+  {
+   "text": "• Completed coursework in electronic health records",
+   "score": 0.9871,
+   "box": [
+    133,
+    592,
+    617,
+    615
+   ]
+  }
+ ]
+}

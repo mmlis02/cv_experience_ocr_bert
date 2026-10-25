@@ -1,0 +1,143 @@
+{
+ "id": "09829",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.148,
+ "n_lines": 13,
+ "mean_score": 0.9937,
+ "lines": [
+  {
+   "text": "JAZZ FREDERICK",
+   "score": 0.9996,
+   "box": [
+    116,
+    91,
+    406,
+    122
+   ]
+  },
+  {
+   "text": "CO, USA | +1-931-456-8705 | jazz.frederick@example.com",
+   "score": 0.9909,
+   "box": [
+    118,
+    152,
+    665,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9992,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Software Developers, Cloudstack Digital, 2020.112023.01",
+   "score": 0.9992,
+   "box": [
+    115,
+    288,
+    662,
+    316
+   ]
+  },
+  {
+   "text": "- Defined technical documentation standards",
+   "score": 0.9997,
+   "box": [
+    127,
+    315,
+    541,
+    340
+   ]
+  },
+  {
+   "text": "- Implemented long-term maintenance plans",
+   "score": 0.9958,
+   "box": [
+    129,
+    340,
+    537,
+    367
+   ]
+  },
+  {
+   "text": "Software Developers, Flowpath Digital, 2018.092020.11",
+   "score": 0.9909,
+   "box": [
+    116,
+    380,
+    645,
+    409
+   ]
+  },
+  {
+   "text": "- Implemented basic features in existing codebases",
+   "score": 0.9954,
+   "box": [
+    125,
+    406,
+    605,
+    435
+   ]
+  },
+  {
+   "text": "- Performed basic API integrations",
+   "score": 0.9739,
+   "box": [
+    128,
+    431,
+    447,
+    459
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    268,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Rosewood University, 2020",
+   "score": 0.9923,
+   "box": [
+    115,
+    539,
+    481,
+    567
+   ]
+  },
+  {
+   "text": "•Studied principles of big data systems",
+   "score": 0.9839,
+   "box": [
+    129,
+    566,
+    498,
+    593
+   ]
+  },
+  {
+   "text": "Studied principles of static analysis",
+   "score": 0.9979,
+   "box": [
+    130,
+    590,
+    472,
+    618
+   ]
+  }
+ ]
+}

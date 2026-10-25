@@ -1,0 +1,163 @@
+{
+ "id": "08361",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 7.751,
+ "n_lines": 15,
+ "mean_score": 0.9919,
+ "lines": [
+  {
+   "text": "ABRAHAM PATTON",
+   "score": 0.9999,
+   "box": [
+    118,
+    92,
+    437,
+    122
+   ]
+  },
+  {
+   "text": "CA, USA | +1-426-337-1546 | abraham.patton@example.com",
+   "score": 0.9849,
+   "box": [
+    116,
+    150,
+    687,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9989,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Construction Laborers, BuildRight Contractors, 2020.012023.01",
+   "score": 0.9939,
+   "box": [
+    116,
+    288,
+    716,
+    316
+   ]
+  },
+  {
+   "text": "- Supervised large structural repairs",
+   "score": 0.9721,
+   "box": [
+    126,
+    314,
+    461,
+    342
+   ]
+  },
+  {
+   "text": "- Led complex demolition projects",
+   "score": 0.999,
+   "box": [
+    127,
+    339,
+    441,
+    368
+   ]
+  },
+  {
+   "text": "Construction Laborers, ClearBuild Construction, 2017.01—2020.01",
+   "score": 0.9821,
+   "box": [
+    118,
+    383,
+    725,
+    407
+   ]
+  },
+  {
+   "text": "- Installed support beams",
+   "score": 0.9902,
+   "box": [
+    127,
+    409,
+    365,
+    433
+   ]
+  },
+  {
+   "text": "- Prepared structural joints",
+   "score": 0.9924,
+   "box": [
+    127,
+    433,
+    373,
+    459
+   ]
+  },
+  {
+   "text": "Construction Laborers, IronStone Builders, 2011.03—2014.04",
+   "score": 0.9913,
+   "box": [
+    118,
+    473,
+    679,
+    496
+   ]
+  },
+  {
+   "text": "- Performed basic demolition tasks",
+   "score": 0.9917,
+   "box": [
+    127,
+    497,
+    449,
+    522
+   ]
+  },
+  {
+   "text": "- Loaded and unloaded construction materials",
+   "score": 0.9894,
+   "box": [
+    129,
+    521,
+    553,
+    547
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    586,
+    267,
+    613
+   ]
+  },
+  {
+   "text": "High school graduate/GED, Construction Field Operations, Greenridge High School, 1998",
+   "score": 0.998,
+   "box": [
+    118,
+    633,
+    944,
+    657
+   ]
+  },
+  {
+   "text": "•Studied principles of building permits overview",
+   "score": 0.9954,
+   "box": [
+    130,
+    658,
+    577,
+    683
+   ]
+  }
+ ]
+}

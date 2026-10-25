@@ -1,0 +1,203 @@
+{
+ "id": "42508",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.158,
+ "n_lines": 19,
+ "mean_score": 0.9919,
+ "lines": [
+  {
+   "text": "JOHN MANNING",
+   "score": 0.9999,
+   "box": [
+    116,
+    91,
+    378,
+    122
+   ]
+  },
+  {
+   "text": "OH, USA | +1-435-727-7975 | john.manning@example.com",
+   "score": 0.9897,
+   "box": [
+    116,
+    150,
+    668,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9989,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Integrity Ledger Services Group, 2019.07—2023.01",
+   "score": 0.9847,
+   "box": [
+    114,
+    287,
+    794,
+    318
+   ]
+  },
+  {
+   "text": "- Led audit programs",
+   "score": 0.9995,
+   "box": [
+    126,
+    315,
+    323,
+    342
+   ]
+  },
+  {
+   "text": "- Managed consolidation processes",
+   "score": 0.998,
+   "box": [
+    127,
+    339,
+    458,
+    368
+   ]
+  },
+  {
+   "text": "Accountants Auditors, BlueLine Accounting, 2016.01—2019.07",
+   "score": 0.9854,
+   "box": [
+    117,
+    382,
+    690,
+    407
+   ]
+  },
+  {
+   "text": "- Established cost management systems",
+   "score": 0.9976,
+   "box": [
+    125,
+    408,
+    504,
+    433
+   ]
+  },
+  {
+   "text": "- Established compliance monitoring systems",
+   "score": 0.993,
+   "box": [
+    126,
+    432,
+    546,
+    458
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Integrity Count Group, 2012.07—2016.01",
+   "score": 0.989,
+   "box": [
+    116,
+    471,
+    698,
+    499
+   ]
+  },
+  {
+   "text": "- Prepared management reports",
+   "score": 0.9906,
+   "box": [
+    125,
+    497,
+    428,
+    527
+   ]
+  },
+  {
+   "text": "- Reviewed contract accounting",
+   "score": 0.9896,
+   "box": [
+    127,
+    522,
+    421,
+    549
+   ]
+  },
+  {
+   "text": "Accountants Auditors, TrustCount Group, 2009.012012.07",
+   "score": 0.9857,
+   "box": [
+    118,
+    566,
+    667,
+    590
+   ]
+  },
+  {
+   "text": "- Performed data validation checks",
+   "score": 0.9996,
+   "box": [
+    127,
+    591,
+    450,
+    614
+   ]
+  },
+  {
+   "text": "- Assisted with budget tracking",
+   "score": 0.9939,
+   "box": [
+    128,
+    614,
+    413,
+    643
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Bachelor's, Taxation, Silverview University, 2011",
+   "score": 0.9911,
+   "box": [
+    116,
+    724,
+    567,
+    750
+   ]
+  },
+  {
+   "text": "• Studied fundamentals of audit documentation",
+   "score": 0.9715,
+   "box": [
+    132,
+    749,
+    567,
+    772
+   ]
+  },
+  {
+   "text": "Completed coursework in audit risk modeling",
+   "score": 0.989,
+   "box": [
+    132,
+    772,
+    565,
+    801
+   ]
+  }
+ ]
+}

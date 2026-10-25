@@ -1,0 +1,143 @@
+{
+ "id": "30493",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.568,
+ "n_lines": 13,
+ "mean_score": 0.9898,
+ "lines": [
+  {
+   "text": "NOEL MELTON",
+   "score": 0.9988,
+   "box": [
+    116,
+    91,
+    362,
+    121
+   ]
+  },
+  {
+   "text": "MO, USA | +1-406-564-6127 | noel.melton@example.com",
+   "score": 0.9885,
+   "box": [
+    115,
+    149,
+    653,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9996,
+   "box": [
+    116,
+    241,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Construction Laborers, Precision Build Services, 2021.05—2023.01",
+   "score": 0.9876,
+   "box": [
+    118,
+    290,
+    730,
+    314
+   ]
+  },
+  {
+   "text": "- Managed construction schedules",
+   "score": 0.9918,
+   "box": [
+    125,
+    313,
+    448,
+    341
+   ]
+  },
+  {
+   "text": "- Directed site construction operations",
+   "score": 0.988,
+   "box": [
+    127,
+    339,
+    479,
+    366
+   ]
+  },
+  {
+   "text": "Construction Laborers, PrimeRise Builders, 2017.032018.12",
+   "score": 0.9904,
+   "box": [
+    118,
+    382,
+    687,
+    406
+   ]
+  },
+  {
+   "text": "- Installed temporary site barriers",
+   "score": 0.9875,
+   "box": [
+    126,
+    408,
+    436,
+    432
+   ]
+  },
+  {
+   "text": "- Operated hand tools for assembly tasks",
+   "score": 0.9971,
+   "box": [
+    129,
+    432,
+    509,
+    458
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9905,
+   "box": [
+    118,
+    495,
+    267,
+    519
+   ]
+  },
+  {
+   "text": "Some college (no degree), Structural Technology, Evergreen University, 2010",
+   "score": 0.9797,
+   "box": [
+    116,
+    539,
+    836,
+    569
+   ]
+  },
+  {
+   "text": "• Completed coursework in construction lighting basics",
+   "score": 0.9783,
+   "box": [
+    132,
+    566,
+    638,
+    591
+   ]
+  },
+  {
+   "text": "• Completed coursework in building codes overview",
+   "score": 0.9895,
+   "box": [
+    132,
+    591,
+    611,
+    617
+   ]
+  }
+ ]
+}

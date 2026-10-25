@@ -1,0 +1,143 @@
+{
+ "id": "25562",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.629,
+ "n_lines": 13,
+ "mean_score": 0.9882,
+ "lines": [
+  {
+   "text": "JULIUS LAM",
+   "score": 0.9999,
+   "box": [
+    116,
+    91,
+    319,
+    122
+   ]
+  },
+  {
+   "text": "MA, USA | +1-909-598-7977 | julius.lam@example.com",
+   "score": 0.9761,
+   "box": [
+    114,
+    149,
+    630,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Software Developers, Clearwave Systems, 2021.042023.01",
+   "score": 0.9997,
+   "box": [
+    116,
+    289,
+    680,
+    316
+   ]
+  },
+  {
+   "text": "- Designed scalable services",
+   "score": 0.9838,
+   "box": [
+    126,
+    314,
+    396,
+    341
+   ]
+  },
+  {
+   "text": "- Defined scalability roadmaps",
+   "score": 0.9554,
+   "box": [
+    127,
+    338,
+    410,
+    369
+   ]
+  },
+  {
+   "text": "Software Developers, Stonegrid Tech, 2016.072018.05",
+   "score": 0.9997,
+   "box": [
+    115,
+    380,
+    639,
+    408
+   ]
+  },
+  {
+   "text": "- Wrote integration tests",
+   "score": 0.9908,
+   "box": [
+    123,
+    405,
+    353,
+    434
+   ]
+  },
+  {
+   "text": "- Debugged runtime errors",
+   "score": 0.9965,
+   "box": [
+    125,
+    430,
+    375,
+    460
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Sunset Ridge University, 2006",
+   "score": 0.9904,
+   "box": [
+    117,
+    541,
+    506,
+    565
+   ]
+  },
+  {
+   "text": "•Studied principles of static analysis",
+   "score": 0.9736,
+   "box": [
+    131,
+    567,
+    472,
+    591
+   ]
+  },
+  {
+   "text": "• Completed coursework in cloud services integration",
+   "score": 0.9807,
+   "box": [
+    132,
+    592,
+    623,
+    616
+   ]
+  }
+ ]
+}

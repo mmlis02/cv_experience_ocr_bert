@@ -1,0 +1,193 @@
+{
+ "id": "13987",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.557,
+ "n_lines": 18,
+ "mean_score": 0.9884,
+ "lines": [
+  {
+   "text": "ARNOLD SUMMERS",
+   "score": 0.9999,
+   "box": [
+    118,
+    92,
+    440,
+    122
+   ]
+  },
+  {
+   "text": "FL, USA | +1-786-242-9599 | arnold.summers@example.com",
+   "score": 0.9845,
+   "box": [
+    118,
+    152,
+    685,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9937,
+   "box": [
+    117,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Construction Laborers, FirmLine Builders, 2019.112023.01",
+   "score": 0.9878,
+   "box": [
+    118,
+    291,
+    668,
+    315
+   ]
+  },
+  {
+   "text": "- Led operational planning",
+   "score": 0.9995,
+   "box": [
+    126,
+    315,
+    372,
+    342
+   ]
+  },
+  {
+   "text": "- Reviewed material specifications",
+   "score": 0.9848,
+   "box": [
+    127,
+    340,
+    445,
+    367
+   ]
+  },
+  {
+   "text": "Construction Laborers, FirmTrack Construction, 2016.092019.11",
+   "score": 0.9837,
+   "box": [
+    118,
+    383,
+    724,
+    407
+   ]
+  },
+  {
+   "text": "- Led structural installation projects",
+   "score": 0.9931,
+   "box": [
+    126,
+    408,
+    452,
+    433
+   ]
+  },
+  {
+   "text": "- Coordinated large-scale material logistics",
+   "score": 0.9826,
+   "box": [
+    128,
+    433,
+    524,
+    459
+   ]
+  },
+  {
+   "text": "Construction Laborers, LevelLine Builders, 2011.112015.02",
+   "score": 0.9918,
+   "box": [
+    116,
+    471,
+    680,
+    499
+   ]
+  },
+  {
+   "text": "- Installed roofing materials",
+   "score": 0.9943,
+   "box": [
+    127,
+    500,
+    381,
+    524
+   ]
+  },
+  {
+   "text": "- Laid flooring materials",
+   "score": 0.9767,
+   "box": [
+    127,
+    522,
+    346,
+    549
+   ]
+  },
+  {
+   "text": "Construction Laborers, IronFrame Contractors, 2007.072010.10",
+   "score": 0.9973,
+   "box": [
+    118,
+    566,
+    719,
+    590
+   ]
+  },
+  {
+   "text": "- Set up workstations for crews",
+   "score": 0.9645,
+   "box": [
+    125,
+    590,
+    417,
+    617
+   ]
+  },
+  {
+   "text": "- Stacked and organized construction supplies",
+   "score": 0.9803,
+   "box": [
+    125,
+    613,
+    557,
+    643
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "High school graduate/GED, Building Trades, Harborview High School, 1999",
+   "score": 0.9904,
+   "box": [
+    115,
+    723,
+    815,
+    750
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of construction planning",
+   "score": 0.9863,
+   "box": [
+    130,
+    748,
+    577,
+    775
+   ]
+  }
+ ]
+}

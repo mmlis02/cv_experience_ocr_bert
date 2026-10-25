@@ -1,0 +1,143 @@
+{
+ "id": "31462",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.056,
+ "n_lines": 13,
+ "mean_score": 0.9915,
+ "lines": [
+  {
+   "text": "ANDREW MELTON",
+   "score": 0.9791,
+   "box": [
+    117,
+    91,
+    419,
+    121
+   ]
+  },
+  {
+   "text": "MT, USA | +1-304-478-3384 | andrew.melton@example.com",
+   "score": 0.993,
+   "box": [
+    115,
+    149,
+    679,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9998,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Software Developers, Stonegrid Tech, 2021.012023.01",
+   "score": 0.9999,
+   "box": [
+    116,
+    289,
+    637,
+    316
+   ]
+  },
+  {
+   "text": "- Defined data governance policies",
+   "score": 0.9993,
+   "box": [
+    126,
+    315,
+    450,
+    340
+   ]
+  },
+  {
+   "text": "- Defined API standards",
+   "score": 0.9895,
+   "box": [
+    127,
+    339,
+    351,
+    364
+   ]
+  },
+  {
+   "text": "Software Developers, Flowpath Systems, 2018.122021.01",
+   "score": 0.9996,
+   "box": [
+    114,
+    379,
+    667,
+    410
+   ]
+  },
+  {
+   "text": "- Implemented basic authentication logic",
+   "score": 0.9987,
+   "box": [
+    126,
+    407,
+    502,
+    433
+   ]
+  },
+  {
+   "text": "- Updated application dependencies",
+   "score": 0.9906,
+   "box": [
+    130,
+    434,
+    461,
+    457
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Harborview University, 2019",
+   "score": 0.9876,
+   "box": [
+    116,
+    540,
+    487,
+    566
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of build systems",
+   "score": 0.959,
+   "box": [
+    130,
+    565,
+    506,
+    591
+   ]
+  },
+  {
+   "text": "• Completed coursework in project documentation",
+   "score": 0.9941,
+   "box": [
+    133,
+    592,
+    595,
+    616
+   ]
+  }
+ ]
+}

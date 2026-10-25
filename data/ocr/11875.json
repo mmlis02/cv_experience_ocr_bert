@@ -1,0 +1,153 @@
+{
+ "id": "11875",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.587,
+ "n_lines": 14,
+ "mean_score": 0.9879,
+ "lines": [
+  {
+   "text": "KATELIN BARRY",
+   "score": 0.9714,
+   "box": [
+    117,
+    91,
+    391,
+    122
+   ]
+  },
+  {
+   "text": "FL, USA | +1-538-584-7901 | katelin.barry@example.com",
+   "score": 0.9751,
+   "box": [
+    116,
+    149,
+    649,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9992,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Integrity Accounts, 2020.04—2023.01",
+   "score": 0.9829,
+   "box": [
+    115,
+    288,
+    666,
+    318
+   ]
+  },
+  {
+   "text": "- Designed financial policy frameworks",
+   "score": 0.9862,
+   "box": [
+    126,
+    314,
+    486,
+    342
+   ]
+  },
+  {
+   "text": "- Developed risk management frameworks",
+   "score": 0.9856,
+   "box": [
+    127,
+    339,
+    521,
+    367
+   ]
+  },
+  {
+   "text": "Accountants Auditors, CoreLedger Group, 2017.072020.04",
+   "score": 0.9907,
+   "box": [
+    116,
+    380,
+    674,
+    408
+   ]
+  },
+  {
+   "text": "- Assisted with budget tracking",
+   "score": 0.9951,
+   "box": [
+    124,
+    402,
+    414,
+    436
+   ]
+  },
+  {
+   "text": "- Processed journal corrections",
+   "score": 0.9831,
+   "box": [
+    127,
+    431,
+    417,
+    457
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Master's, Public Accounting, Bayside University, 2022",
+   "score": 0.9846,
+   "box": [
+    115,
+    539,
+    615,
+    568
+   ]
+  },
+  {
+   "text": "Bachelor's, Applied Accounting, Clearwater University, 2020",
+   "score": 0.9991,
+   "box": [
+    116,
+    566,
+    672,
+    593
+   ]
+  },
+  {
+   "text": "•Completed coursework in economics for accounting",
+   "score": 0.9891,
+   "box": [
+    128,
+    590,
+    627,
+    619
+   ]
+  },
+  {
+   "text": "Studied fundamentals of break-even analysis",
+   "score": 0.9889,
+   "box": [
+    130,
+    614,
+    565,
+    643
+   ]
+  }
+ ]
+}

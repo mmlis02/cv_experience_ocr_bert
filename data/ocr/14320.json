@@ -1,0 +1,183 @@
+{
+ "id": "14320",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.243,
+ "n_lines": 17,
+ "mean_score": 0.9926,
+ "lines": [
+  {
+   "text": "LAURA HANSON",
+   "score": 0.9999,
+   "box": [
+    118,
+    91,
+    390,
+    122
+   ]
+  },
+  {
+   "text": "FL, USA | +1-223-846-5125 | laura.hanson@example.com",
+   "score": 0.9907,
+   "box": [
+    116,
+    150,
+    656,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9992,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Learning Field School, 2019.09—2023.01",
+   "score": 0.9911,
+   "box": [
+    115,
+    287,
+    840,
+    319
+   ]
+  },
+  {
+   "text": "- Designed assessment systems",
+   "score": 0.9931,
+   "box": [
+    125,
+    315,
+    431,
+    343
+   ]
+  },
+  {
+   "text": "- Designed curriculum frameworks for grade-level instruction",
+   "score": 0.9971,
+   "box": [
+    128,
+    341,
+    686,
+    368
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Learning Grove Academy, 2015.08—2018.12",
+   "score": 0.9871,
+   "box": [
+    115,
+    380,
+    876,
+    411
+   ]
+  },
+  {
+   "text": "- Implemented classroom routines",
+   "score": 0.9921,
+   "box": [
+    127,
+    409,
+    444,
+    433
+   ]
+  },
+  {
+   "text": "- Implemented literacy development plans",
+   "score": 0.9991,
+   "box": [
+    127,
+    431,
+    515,
+    459
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Bright Star School, 2011.082014.12",
+   "score": 0.9968,
+   "box": [
+    117,
+    472,
+    807,
+    499
+   ]
+  },
+  {
+   "text": "- Implemented basic literacy lessons",
+   "score": 0.9995,
+   "box": [
+    125,
+    497,
+    467,
+    526
+   ]
+  },
+  {
+   "text": "- Recorded student feedback",
+   "score": 0.9854,
+   "box": [
+    127,
+    520,
+    399,
+    550
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Master's, Child Development, Meadowway University, 2008",
+   "score": 0.9877,
+   "box": [
+    115,
+    631,
+    668,
+    659
+   ]
+  },
+  {
+   "text": "Bachelor's, Student Development, Valley View University, 2006",
+   "score": 0.9821,
+   "box": [
+    117,
+    659,
+    700,
+    683
+   ]
+  },
+  {
+   "text": "•Completed coursework in classroom organization",
+   "score": 0.988,
+   "box": [
+    133,
+    682,
+    605,
+    710
+   ]
+  },
+  {
+   "text": "Completed coursework in academic monitoring strategies",
+   "score": 0.9861,
+   "box": [
+    131,
+    705,
+    678,
+    738
+   ]
+  }
+ ]
+}

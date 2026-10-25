@@ -1,0 +1,123 @@
+{
+ "id": "43527",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.325,
+ "n_lines": 11,
+ "mean_score": 0.9904,
+ "lines": [
+  {
+   "text": "REBECCA COCHRAN",
+   "score": 0.9996,
+   "box": [
+    118,
+    90,
+    462,
+    121
+   ]
+  },
+  {
+   "text": "OK, USA | +1-801-960-1010 | rebecca.cochran@example.com",
+   "score": 0.9776,
+   "box": [
+    118,
+    152,
+    696,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Reliable Ledger Services, 2022.05—2022.06",
+   "score": 0.9944,
+   "box": [
+    115,
+    287,
+    733,
+    315
+   ]
+  },
+  {
+   "text": "- Processed accounts receivable transactions",
+   "score": 0.9986,
+   "box": [
+    126,
+    314,
+    550,
+    340
+   ]
+  },
+  {
+   "text": "- Assisted with internal control testing",
+   "score": 0.9738,
+   "box": [
+    126,
+    336,
+    474,
+    368
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Master's, Accounting and Auditing, Windermere University, 2014",
+   "score": 0.9869,
+   "box": [
+    115,
+    448,
+    714,
+    475
+   ]
+  },
+  {
+   "text": "Bachelor's, Business Law, Pioneer University, 2012",
+   "score": 0.9725,
+   "box": [
+    116,
+    473,
+    595,
+    498
+   ]
+  },
+  {
+   "text": "• Completed coursework in cash flow analysis",
+   "score": 0.9916,
+   "box": [
+    131,
+    500,
+    559,
+    523
+   ]
+  },
+  {
+   "text": "Studied principles of financial regulations",
+   "score": 0.9997,
+   "box": [
+    132,
+    522,
+    527,
+    550
+   ]
+  }
+ ]
+}

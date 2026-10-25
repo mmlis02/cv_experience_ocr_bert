@@ -1,0 +1,103 @@
+{
+ "id": "21080",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.505,
+ "n_lines": 9,
+ "mean_score": 0.9938,
+ "lines": [
+  {
+   "text": "CHASE BOWEN",
+   "score": 0.9997,
+   "box": [
+    116,
+    87,
+    374,
+    123
+   ]
+  },
+  {
+   "text": "IA, USA | +1-820-983-9490 | chase.bowen@example.com",
+   "score": 0.9875,
+   "box": [
+    116,
+    150,
+    655,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9993,
+   "box": [
+    116,
+    243,
+    317,
+    270
+   ]
+  },
+  {
+   "text": "Construction Laborers, Ironclad Builders, 2022.07—2023.01",
+   "score": 0.9861,
+   "box": [
+    116,
+    287,
+    663,
+    315
+   ]
+  },
+  {
+   "text": "- Marked measurements on materials",
+   "score": 0.9964,
+   "box": [
+    126,
+    314,
+    475,
+    339
+   ]
+  },
+  {
+   "text": "- Performed basic demolition tasks",
+   "score": 0.991,
+   "box": [
+    127,
+    339,
+    449,
+    364
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "High school graduate/GED, Masonry, Silverwood High School, 2023",
+   "score": 0.9957,
+   "box": [
+    115,
+    446,
+    748,
+    475
+   ]
+  },
+  {
+   "text": "Studied fundamentals of structural framing techniques",
+   "score": 0.9884,
+   "box": [
+    128,
+    471,
+    647,
+    501
+   ]
+  }
+ ]
+}

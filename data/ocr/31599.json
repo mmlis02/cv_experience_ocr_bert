@@ -1,0 +1,113 @@
+{
+ "id": "31599",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.643,
+ "n_lines": 10,
+ "mean_score": 0.9922,
+ "lines": [
+  {
+   "text": "PAUL BAILEY",
+   "score": 0.9989,
+   "box": [
+    116,
+    91,
+    341,
+    122
+   ]
+  },
+  {
+   "text": "NE, USA | +1-814-939-7072 | paul.bailey@example.com",
+   "score": 0.9872,
+   "box": [
+    115,
+    149,
+    640,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9993,
+   "box": [
+    116,
+    243,
+    317,
+    270
+   ]
+  },
+  {
+   "text": "Construction Laborers, WorkForce Builders, 2020.05—2023.01",
+   "score": 0.9961,
+   "box": [
+    118,
+    289,
+    689,
+    313
+   ]
+  },
+  {
+   "text": "- Handled delivery documentation",
+   "score": 0.9994,
+   "box": [
+    126,
+    314,
+    441,
+    339
+   ]
+  },
+  {
+   "text": "- Assisted with concrete pouring",
+   "score": 0.9841,
+   "box": [
+    126,
+    337,
+    427,
+    368
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Some college (no degree), Construction Supervision, Windcrest University, 2023",
+   "score": 0.99,
+   "box": [
+    116,
+    446,
+    861,
+    476
+   ]
+  },
+  {
+   "text": "Completed coursework in material handling",
+   "score": 0.9859,
+   "box": [
+    130,
+    471,
+    549,
+    501
+   ]
+  },
+  {
+   "text": "Studied principles of insulation techniques",
+   "score": 0.9817,
+   "box": [
+    132,
+    497,
+    538,
+    525
+   ]
+  }
+ ]
+}

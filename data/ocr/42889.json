@@ -1,0 +1,103 @@
+{
+ "id": "42889",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.116,
+ "n_lines": 9,
+ "mean_score": 0.9924,
+ "lines": [
+  {
+   "text": "JARED BAXTER",
+   "score": 0.9947,
+   "box": [
+    115,
+    89,
+    379,
+    123
+   ]
+  },
+  {
+   "text": "OH, USA | +1-278-461-2122 | jared.baxter@example.com",
+   "score": 0.9933,
+   "box": [
+    116,
+    149,
+    654,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9993,
+   "box": [
+    116,
+    243,
+    317,
+    270
+   ]
+  },
+  {
+   "text": "Construction Laborers, TrueForce Construction, 2018.06—2021.01",
+   "score": 0.9889,
+   "box": [
+    118,
+    289,
+    725,
+    313
+   ]
+  },
+  {
+   "text": "- Assisted with drywall installation",
+   "score": 0.9952,
+   "box": [
+    126,
+    316,
+    439,
+    340
+   ]
+  },
+  {
+   "text": "- Sorted building materials",
+   "score": 0.9808,
+   "box": [
+    128,
+    340,
+    373,
+    367
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "High school graduate/GED, Construction Engineering Technology, Riverhaven High School, 2017",
+   "score": 0.9995,
+   "box": [
+    116,
+    447,
+    1018,
+    474
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of job site communication",
+   "score": 0.9802,
+   "box": [
+    129,
+    473,
+    592,
+    498
+   ]
+  }
+ ]
+}

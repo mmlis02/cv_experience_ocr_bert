@@ -1,0 +1,113 @@
+{
+ "id": "58576",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.701,
+ "n_lines": 10,
+ "mean_score": 0.9914,
+ "lines": [
+  {
+   "text": "DEENA SANFORD",
+   "score": 0.9996,
+   "box": [
+    118,
+    91,
+    410,
+    121
+   ]
+  },
+  {
+   "text": "WA, USA | +1-803-533-7910 | deena.sanford@example.com",
+   "score": 0.9908,
+   "box": [
+    116,
+    149,
+    679,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9995,
+   "box": [
+    116,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Registered Nurses, LifeWay Nursing Services, 2020.05—2023.01",
+   "score": 0.9924,
+   "box": [
+    114,
+    286,
+    714,
+    317
+   ]
+  },
+  {
+   "text": "- Administered prescribed medications",
+   "score": 0.9783,
+   "box": [
+    125,
+    314,
+    484,
+    340
+   ]
+  },
+  {
+   "text": "- Checked patient identification",
+   "score": 0.9948,
+   "box": [
+    128,
+    340,
+    415,
+    365
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Associate's degree, Clinical Studies, Fairview University, 2021",
+   "score": 0.9971,
+   "box": [
+    118,
+    449,
+    690,
+    473
+   ]
+  },
+  {
+   "text": "Completed coursework in patient positioning",
+   "score": 0.9908,
+   "box": [
+    129,
+    472,
+    558,
+    501
+   ]
+  },
+  {
+   "text": "• Studied fundamentals of sleep management in care",
+   "score": 0.9706,
+   "box": [
+    131,
+    496,
+    626,
+    527
+   ]
+  }
+ ]
+}

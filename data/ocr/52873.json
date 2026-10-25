@@ -1,0 +1,193 @@
+{
+ "id": "52873",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 9.289,
+ "n_lines": 18,
+ "mean_score": 0.9894,
+ "lines": [
+  {
+   "text": "NORMAN BRANDT",
+   "score": 0.9998,
+   "box": [
+    117,
+    91,
+    418,
+    121
+   ]
+  },
+  {
+   "text": "TX, USA | +1-968-727-6635 | norman.brandt@example.com",
+   "score": 0.9894,
+   "box": [
+    117,
+    150,
+    674,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9991,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Construction Laborers, Crafted Structures, 2019.06—2023.01",
+   "score": 0.9904,
+   "box": [
+    118,
+    290,
+    675,
+    314
+   ]
+  },
+  {
+   "text": "- Developed project risk assessments",
+   "score": 0.9833,
+   "box": [
+    126,
+    315,
+    475,
+    341
+   ]
+  },
+  {
+   "text": "- Developed cost estimation models",
+   "score": 0.9774,
+   "box": [
+    128,
+    341,
+    460,
+    366
+   ]
+  },
+  {
+   "text": "Construction Laborers, Allied Craft Co., 2015.112019.06",
+   "score": 0.9971,
+   "box": [
+    118,
+    383,
+    647,
+    407
+   ]
+  },
+  {
+   "text": "- Reviewed material quality standards",
+   "score": 0.9984,
+   "box": [
+    125,
+    407,
+    476,
+    432
+   ]
+  },
+  {
+   "text": "- Directed construction audits",
+   "score": 0.9846,
+   "box": [
+    127,
+    434,
+    400,
+    456
+   ]
+  },
+  {
+   "text": "Construction Laborers, Allied Frame Co., 2012.04—2015.11",
+   "score": 0.9706,
+   "box": [
+    116,
+    471,
+    663,
+    499
+   ]
+  },
+  {
+   "text": "- Performed quality checks on installations",
+   "score": 0.992,
+   "box": [
+    127,
+    500,
+    521,
+    524
+   ]
+  },
+  {
+   "text": "- Coordinated material deliveries",
+   "score": 0.9816,
+   "box": [
+    127,
+    522,
+    431,
+    548
+   ]
+  },
+  {
+   "text": "Construction Laborers, MasterFrame Builders, 2007.012010.09",
+   "score": 0.9935,
+   "box": [
+    118,
+    566,
+    714,
+    590
+   ]
+  },
+  {
+   "text": "- Supported crew leaders during tasks",
+   "score": 0.9884,
+   "box": [
+    127,
+    592,
+    481,
+    616
+   ]
+  },
+  {
+   "text": "- Assembled prefabricated components",
+   "score": 0.9959,
+   "box": [
+    127,
+    613,
+    493,
+    645
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "High school graduate/GED, Building Construction, Clearwood High School, 2005",
+   "score": 0.9879,
+   "box": [
+    116,
+    724,
+    862,
+    750
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of temporary structures",
+   "score": 0.9806,
+   "box": [
+    129,
+    748,
+    572,
+    776
+   ]
+  }
+ ]
+}

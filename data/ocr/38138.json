@@ -1,0 +1,143 @@
+{
+ "id": "38138",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.281,
+ "n_lines": 13,
+ "mean_score": 0.9894,
+ "lines": [
+  {
+   "text": "BRYCE WILLIAMSON",
+   "score": 0.9998,
+   "box": [
+    118,
+    91,
+    459,
+    121
+   ]
+  },
+  {
+   "text": "NY, USA | +1-730-724-5558 |bryce.williamson@example.com",
+   "score": 0.9843,
+   "box": [
+    117,
+    152,
+    693,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9992,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Accountants Auditors, SteadyLedger Group, 2020.06—2023.01",
+   "score": 0.9944,
+   "box": [
+    115,
+    288,
+    692,
+    316
+   ]
+  },
+  {
+   "text": "- Managed consolidation processes",
+   "score": 0.9995,
+   "box": [
+    126,
+    315,
+    458,
+    342
+   ]
+  },
+  {
+   "text": "- Led cross-functional financial integration",
+   "score": 0.9867,
+   "box": [
+    128,
+    339,
+    514,
+    367
+   ]
+  },
+  {
+   "text": "Accountants Auditors, Balanced Books Group, 2017.102020.06",
+   "score": 0.9883,
+   "box": [
+    116,
+    380,
+    716,
+    409
+   ]
+  },
+  {
+   "text": "- Assisted with financial statement preparation",
+   "score": 0.9766,
+   "box": [
+    124,
+    406,
+    556,
+    434
+   ]
+  },
+  {
+   "text": "- Maintained vendor records",
+   "score": 0.9971,
+   "box": [
+    127,
+    433,
+    390,
+    455
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    268,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Administrative Studies, Hillside University, 2021",
+   "score": 0.9913,
+   "box": [
+    116,
+    540,
+    664,
+    567
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of auditing",
+   "score": 0.9728,
+   "box": [
+    129,
+    565,
+    453,
+    592
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of operations management",
+   "score": 0.9717,
+   "box": [
+    131,
+    590,
+    604,
+    618
+   ]
+  }
+ ]
+}

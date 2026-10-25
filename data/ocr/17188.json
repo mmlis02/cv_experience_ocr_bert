@@ -1,0 +1,173 @@
+{
+ "id": "17188",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.183,
+ "n_lines": 16,
+ "mean_score": 0.9911,
+ "lines": [
+  {
+   "text": "GERALD PETERS",
+   "score": 0.9777,
+   "box": [
+    118,
+    91,
+    401,
+    122
+   ]
+  },
+  {
+   "text": "IL, USA | +1-456-901-7393 | gerald.peters@example.com",
+   "score": 0.9861,
+   "box": [
+    118,
+    152,
+    650,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.999,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Construction Laborers, Precision Build Co., 2020.112023.01",
+   "score": 0.9904,
+   "box": [
+    118,
+    290,
+    682,
+    314
+   ]
+  },
+  {
+   "text": "- Designed site logistics frameworks",
+   "score": 0.9792,
+   "box": [
+    126,
+    315,
+    461,
+    340
+   ]
+  },
+  {
+   "text": "- Supervised large structural repairs",
+   "score": 0.9818,
+   "box": [
+    128,
+    341,
+    459,
+    366
+   ]
+  },
+  {
+   "text": "Construction Laborers, Unified Track Builders, 2018.092020.11",
+   "score": 0.9879,
+   "box": [
+    118,
+    383,
+    712,
+    407
+   ]
+  },
+  {
+   "text": "- Monitored project timelines",
+   "score": 0.9976,
+   "box": [
+    124,
+    406,
+    393,
+    435
+   ]
+  },
+  {
+   "text": "- Set up scaffolding systems",
+   "score": 0.9951,
+   "box": [
+    127,
+    430,
+    391,
+    461
+   ]
+  },
+  {
+   "text": "Construction Laborers, SolidForm Contractors, 2015.022017.04",
+   "score": 0.9969,
+   "box": [
+    118,
+    473,
+    717,
+    497
+   ]
+  },
+  {
+   "text": "- Installed insulation materials",
+   "score": 0.9878,
+   "box": [
+    126,
+    497,
+    406,
+    522
+   ]
+  },
+  {
+   "text": "- Applied basic sealants and adhesives",
+   "score": 0.9948,
+   "box": [
+    130,
+    523,
+    490,
+    547
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    586,
+    267,
+    613
+   ]
+  },
+  {
+   "text": "Some college (no degree), Concrete Technology, Aspen Grove University, 2002",
+   "score": 0.9942,
+   "box": [
+    118,
+    632,
+    854,
+    656
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of job site communication",
+   "score": 0.9888,
+   "box": [
+    130,
+    659,
+    593,
+    683
+   ]
+  },
+  {
+   "text": "Completed coursework in construction waste management",
+   "score": 0.9997,
+   "box": [
+    132,
+    680,
+    692,
+    709
+   ]
+  }
+ ]
+}

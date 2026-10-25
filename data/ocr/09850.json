@@ -1,0 +1,143 @@
+{
+ "id": "09850",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.074,
+ "n_lines": 13,
+ "mean_score": 0.9926,
+ "lines": [
+  {
+   "text": "BRENDA MACK",
+   "score": 0.9997,
+   "box": [
+    118,
+    91,
+    371,
+    121
+   ]
+  },
+  {
+   "text": "CO, USA | +1-204-324-6421 | brenda.mack@example.com",
+   "score": 0.9899,
+   "box": [
+    118,
+    152,
+    663,
+    176
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Software Developers, Codefield Software, 2021.062023.01",
+   "score": 0.9999,
+   "box": [
+    116,
+    289,
+    672,
+    316
+   ]
+  },
+  {
+   "text": "- Developed system monitoring strategies",
+   "score": 0.9938,
+   "box": [
+    125,
+    314,
+    513,
+    343
+   ]
+  },
+  {
+   "text": "- Defined coding standards",
+   "score": 0.9947,
+   "box": [
+    127,
+    339,
+    380,
+    369
+   ]
+  },
+  {
+   "text": "Software Developers, Flowline Systems, 2017.02—2018.09",
+   "score": 0.9833,
+   "box": [
+    115,
+    380,
+    659,
+    408
+   ]
+  },
+  {
+   "text": "- Resolved merge conflicts",
+   "score": 0.983,
+   "box": [
+    125,
+    406,
+    377,
+    435
+   ]
+  },
+  {
+   "text": "- Configured development environments",
+   "score": 0.985,
+   "box": [
+    127,
+    430,
+    501,
+    459
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    494,
+    268,
+    521
+   ]
+  },
+  {
+   "text": "Bachelor's, Fieldview University, 2005",
+   "score": 0.9895,
+   "box": [
+    115,
+    539,
+    469,
+    567
+   ]
+  },
+  {
+   "text": "Studied principles of graph algorithms",
+   "score": 0.9993,
+   "box": [
+    129,
+    566,
+    498,
+    593
+   ]
+  },
+  {
+   "text": "•Studied principles of algorithm complexity",
+   "score": 0.9862,
+   "box": [
+    130,
+    590,
+    531,
+    619
+   ]
+  }
+ ]
+}

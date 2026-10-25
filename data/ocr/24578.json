@@ -1,0 +1,113 @@
+{
+ "id": "24578",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.248,
+ "n_lines": 10,
+ "mean_score": 0.9935,
+ "lines": [
+  {
+   "text": "ROWAN XIONG",
+   "score": 0.9999,
+   "box": [
+    115,
+    87,
+    366,
+    123
+   ]
+  },
+  {
+   "text": "MD, USA | +1-803-504-7266 | rowan.xiong@example.com",
+   "score": 0.9855,
+   "box": [
+    115,
+    149,
+    656,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9994,
+   "box": [
+    116,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Registered Nurses, KindHeart Medical Services, 2021.02—2023.01",
+   "score": 0.986,
+   "box": [
+    116,
+    288,
+    731,
+    315
+   ]
+  },
+  {
+   "text": "- Recorded nursing notes",
+   "score": 0.9938,
+   "box": [
+    124,
+    312,
+    366,
+    342
+   ]
+  },
+  {
+   "text": "- Monitored patient alarms",
+   "score": 0.994,
+   "box": [
+    125,
+    338,
+    372,
+    367
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Mental Health Studies, Aspen Grove University, 2023",
+   "score": 0.9887,
+   "box": [
+    115,
+    446,
+    719,
+    474
+   ]
+  },
+  {
+   "text": "•Completed coursework in enteral feeding basics",
+   "score": 0.9876,
+   "box": [
+    130,
+    473,
+    593,
+    499
+   ]
+  },
+  {
+   "text": "Studied principles of healthcare ethics",
+   "score": 0.9998,
+   "box": [
+    132,
+    497,
+    501,
+    525
+   ]
+  }
+ ]
+}

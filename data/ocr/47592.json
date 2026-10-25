@@ -1,0 +1,183 @@
+{
+ "id": "47592",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.869,
+ "n_lines": 17,
+ "mean_score": 0.9902,
+ "lines": [
+  {
+   "text": "KAITLYN PUGH",
+   "score": 0.963,
+   "box": [
+    117,
+    91,
+    370,
+    122
+   ]
+  },
+  {
+   "text": "SC, USA | +1-783-592-2449 | kaitlyn.pugh@example.com",
+   "score": 0.9823,
+   "box": [
+    116,
+    150,
+    652,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9983,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Growing Tree Academy, 2020.01—2023.01",
+   "score": 0.9942,
+   "box": [
+    115,
+    287,
+    856,
+    319
+   ]
+  },
+  {
+   "text": "- Designed assessment systems",
+   "score": 0.9949,
+   "box": [
+    125,
+    314,
+    431,
+    343
+   ]
+  },
+  {
+   "text": "- Developed instructional innovation plans",
+   "score": 0.991,
+   "box": [
+    127,
+    339,
+    516,
+    369
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Caring Path School, 2016.12—2020.01",
+   "score": 0.9899,
+   "box": [
+    116,
+    381,
+    816,
+    411
+   ]
+  },
+  {
+   "text": "- Created instructional units",
+   "score": 0.9968,
+   "box": [
+    126,
+    409,
+    383,
+    432
+   ]
+  },
+  {
+   "text": "- Organized instructional schedules",
+   "score": 0.9928,
+   "box": [
+    129,
+    434,
+    454,
+    457
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Bright Path School, 2013.112016.12",
+   "score": 0.994,
+   "box": [
+    117,
+    471,
+    812,
+    499
+   ]
+  },
+  {
+   "text": "- Conducted spelling practice",
+   "score": 0.9974,
+   "box": [
+    127,
+    497,
+    400,
+    526
+   ]
+  },
+  {
+   "text": "- Maintained classroom attendance and grading records",
+   "score": 0.998,
+   "box": [
+    127,
+    521,
+    645,
+    549
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Master's, Education Studies, Silver Ridge University, 2020",
+   "score": 0.9931,
+   "box": [
+    117,
+    633,
+    655,
+    657
+   ]
+  },
+  {
+   "text": "Bachelor's, Educational Practice, Sagewood University, 2018",
+   "score": 0.9865,
+   "box": [
+    115,
+    656,
+    683,
+    686
+   ]
+  },
+  {
+   "text": "• Completed coursework in educational technology basics",
+   "score": 0.9842,
+   "box": [
+    133,
+    684,
+    667,
+    708
+   ]
+  },
+  {
+   "text": "• Studied principles of learner diversity",
+   "score": 0.9775,
+   "box": [
+    132,
+    706,
+    489,
+    736
+   ]
+  }
+ ]
+}

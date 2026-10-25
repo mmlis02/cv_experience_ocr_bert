@@ -1,0 +1,193 @@
+{
+ "id": "30652",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 9.776,
+ "n_lines": 18,
+ "mean_score": 0.9913,
+ "lines": [
+  {
+   "text": "BRANDON CUNNINGHAM",
+   "score": 0.9998,
+   "box": [
+    118,
+    92,
+    529,
+    122
+   ]
+  },
+  {
+   "text": "MO, USA | +1-719-521-5058 | brandon.cunningham@example.com",
+   "score": 0.9952,
+   "box": [
+    115,
+    150,
+    741,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9992,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Construction Laborers, PrimeTrack Builders, 2019.11—2023.01",
+   "score": 0.98,
+   "box": [
+    116,
+    288,
+    695,
+    316
+   ]
+  },
+  {
+   "text": "- Developed structural reinforcement plans",
+   "score": 0.9938,
+   "box": [
+    126,
+    315,
+    522,
+    341
+   ]
+  },
+  {
+   "text": "- Directed training programs for crews",
+   "score": 0.9933,
+   "box": [
+    127,
+    340,
+    478,
+    369
+   ]
+  },
+  {
+   "text": "Construction Laborers, Bluebeam Construction, 2016.092019.11",
+   "score": 0.9873,
+   "box": [
+    118,
+    383,
+    724,
+    407
+   ]
+  },
+  {
+   "text": "- Supervised high-risk operations",
+   "score": 0.9846,
+   "box": [
+    127,
+    409,
+    435,
+    433
+   ]
+  },
+  {
+   "text": "- Developed long-term construction strategies",
+   "score": 0.9807,
+   "box": [
+    127,
+    432,
+    550,
+    459
+   ]
+  },
+  {
+   "text": "Construction Laborers, SolidWay Contractors, 2013.06—2016.09",
+   "score": 0.9866,
+   "box": [
+    116,
+    471,
+    711,
+    499
+   ]
+  },
+  {
+   "text": "- Supervised junior laborers",
+   "score": 0.9994,
+   "box": [
+    125,
+    497,
+    387,
+    526
+   ]
+  },
+  {
+   "text": "- Monitored project timelines",
+   "score": 0.9886,
+   "box": [
+    126,
+    521,
+    392,
+    551
+   ]
+  },
+  {
+   "text": "Construction Laborers, MasterWorks Construction, 2008.122012.03",
+   "score": 0.996,
+   "box": [
+    118,
+    566,
+    754,
+    590
+   ]
+  },
+  {
+   "text": "- Loaded and unloaded construction materials",
+   "score": 0.9901,
+   "box": [
+    126,
+    590,
+    553,
+    615
+   ]
+  },
+  {
+   "text": "- Supported crew leaders during tasks",
+   "score": 0.9921,
+   "box": [
+    126,
+    613,
+    482,
+    643
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "High school graduate/GED, Construction Engineering Technology, Goldenbrook High School, 1998",
+   "score": 0.9977,
+   "box": [
+    116,
+    724,
+    1032,
+    750
+   ]
+  },
+  {
+   "text": "•Studied principles of site safety protocols",
+   "score": 0.9785,
+   "box": [
+    131,
+    750,
+    526,
+    774
+   ]
+  }
+ ]
+}

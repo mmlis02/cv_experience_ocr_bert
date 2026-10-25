@@ -1,0 +1,113 @@
+{
+ "id": "45453",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.587,
+ "n_lines": 10,
+ "mean_score": 0.9871,
+ "lines": [
+  {
+   "text": "CHASE ROY",
+   "score": 0.997,
+   "box": [
+    116,
+    89,
+    317,
+    123
+   ]
+  },
+  {
+   "text": "PA, USA | +1-548-727-7921 | chase.roy@example.com",
+   "score": 0.9649,
+   "box": [
+    115,
+    149,
+    630,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    317,
+    270
+   ]
+  },
+  {
+   "text": "Software Developers, Flowfield Labs, 2020.11-2023.01",
+   "score": 0.9828,
+   "box": [
+    115,
+    287,
+    629,
+    315
+   ]
+  },
+  {
+   "text": "- Assisted with Cl pipeline tasks",
+   "score": 0.9634,
+   "box": [
+    126,
+    314,
+    424,
+    340
+   ]
+  },
+  {
+   "text": "- Implemented basic features in existing codebases",
+   "score": 0.9875,
+   "box": [
+    127,
+    338,
+    605,
+    366
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Brightwater University, 2023",
+   "score": 0.9967,
+   "box": [
+    116,
+    447,
+    486,
+    474
+   ]
+  },
+  {
+   "text": "Completed coursework in sorting and searching algorithms",
+   "score": 0.9941,
+   "box": [
+    129,
+    472,
+    691,
+    500
+   ]
+  },
+  {
+   "text": "• Studied fundamentals of recursion techniques",
+   "score": 0.9848,
+   "box": [
+    132,
+    497,
+    573,
+    524
+   ]
+  }
+ ]
+}

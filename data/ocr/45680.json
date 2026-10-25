@@ -1,0 +1,113 @@
+{
+ "id": "45680",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.06,
+ "n_lines": 10,
+ "mean_score": 0.9887,
+ "lines": [
+  {
+   "text": "NESTOR PERKINS",
+   "score": 0.9803,
+   "box": [
+    117,
+    91,
+    414,
+    122
+   ]
+  },
+  {
+   "text": "PA, USA | +1-612-737-4471 | nestor.perkins@example.com",
+   "score": 0.9832,
+   "box": [
+    115,
+    149,
+    671,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9998,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Software Developers, Datacore Labs, 2020.05—2023.01",
+   "score": 0.9964,
+   "box": [
+    116,
+    288,
+    630,
+    315
+   ]
+  },
+  {
+   "text": "- Updated frontend stylesheets",
+   "score": 0.9973,
+   "box": [
+    128,
+    316,
+    414,
+    340
+   ]
+  },
+  {
+   "text": "- Updated monitoring dashboards",
+   "score": 0.9809,
+   "box": [
+    129,
+    340,
+    439,
+    367
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Larkspur University, 2023",
+   "score": 0.9989,
+   "box": [
+    116,
+    448,
+    462,
+    475
+   ]
+  },
+  {
+   "text": "•Studied principles of mutexes and semaphores",
+   "score": 0.9745,
+   "box": [
+    131,
+    475,
+    582,
+    499
+   ]
+  },
+  {
+   "text": "• Completed coursework in memory management",
+   "score": 0.9755,
+   "box": [
+    132,
+    497,
+    593,
+    526
+   ]
+  }
+ ]
+}

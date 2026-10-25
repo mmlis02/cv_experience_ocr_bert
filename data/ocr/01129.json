@@ -1,0 +1,203 @@
+{
+ "id": "01129",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.065,
+ "n_lines": 19,
+ "mean_score": 0.9908,
+ "lines": [
+  {
+   "text": "TIMOTHY LAMB",
+   "score": 0.9879,
+   "box": [
+    117,
+    91,
+    373,
+    121
+   ]
+  },
+  {
+   "text": "AZ, USA | +1-884-963-4550 | timothy.lamb@example.com",
+   "score": 0.993,
+   "box": [
+    116,
+    150,
+    656,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9988,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Software Developers, Clearpath Digital, 2019.12—2023.01",
+   "score": 0.9896,
+   "box": [
+    116,
+    290,
+    650,
+    317
+   ]
+  },
+  {
+   "text": "- Implemented access control frameworks",
+   "score": 0.9916,
+   "box": [
+    126,
+    315,
+    515,
+    341
+   ]
+  },
+  {
+   "text": "- Defined quality assurance frameworks",
+   "score": 0.9966,
+   "box": [
+    128,
+    340,
+    496,
+    368
+   ]
+  },
+  {
+   "text": "Software Developers, Skyfield Software, 2016.112019.12",
+   "score": 0.9841,
+   "box": [
+    116,
+    381,
+    660,
+    409
+   ]
+  },
+  {
+   "text": "- Developed system monitoring strategies",
+   "score": 0.9924,
+   "box": [
+    126,
+    408,
+    513,
+    434
+   ]
+  },
+  {
+   "text": "- Defined code review processes",
+   "score": 0.9827,
+   "box": [
+    127,
+    432,
+    433,
+    460
+   ]
+  },
+  {
+   "text": "Software Developers, Stoneframe Tech, 2013.09—2016.11",
+   "score": 0.9847,
+   "box": [
+    116,
+    471,
+    657,
+    499
+   ]
+  },
+  {
+   "text": "- Integrated payment gateways",
+   "score": 0.9998,
+   "box": [
+    125,
+    498,
+    417,
+    527
+   ]
+  },
+  {
+   "text": "- Handled concurrency issues",
+   "score": 0.9804,
+   "box": [
+    128,
+    522,
+    405,
+    551
+   ]
+  },
+  {
+   "text": "Software Developers, Corewave Labs, 2010.072013.09",
+   "score": 0.9996,
+   "box": [
+    118,
+    566,
+    641,
+    590
+   ]
+  },
+  {
+   "text": "- Wrote configuration parsers",
+   "score": 0.9994,
+   "box": [
+    125,
+    589,
+    401,
+    619
+   ]
+  },
+  {
+   "text": "- Wrote command-line tools",
+   "score": 0.9979,
+   "box": [
+    125,
+    613,
+    387,
+    643
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Bachelor's, Evergreen University, 2009",
+   "score": 0.9867,
+   "box": [
+    117,
+    726,
+    477,
+    749
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of hardware-software integration",
+   "score": 0.9854,
+   "box": [
+    130,
+    749,
+    656,
+    776
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of game development",
+   "score": 0.9756,
+   "box": [
+    131,
+    773,
+    558,
+    799
+   ]
+  }
+ ]
+}

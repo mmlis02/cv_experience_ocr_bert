@@ -1,0 +1,113 @@
+{
+ "id": "13563",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.018,
+ "n_lines": 10,
+ "mean_score": 0.9893,
+ "lines": [
+  {
+   "text": "JONATHAN HURST",
+   "score": 0.9758,
+   "box": [
+    116,
+    91,
+    428,
+    122
+   ]
+  },
+  {
+   "text": "FL, USA | +1-681-747-9798 | jonathan.hurst@example.com",
+   "score": 0.9909,
+   "box": [
+    116,
+    149,
+    669,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    317,
+    270
+   ]
+  },
+  {
+   "text": "Construction Laborers, WorkForce Builders, 2020.02—2023.01",
+   "score": 0.9947,
+   "box": [
+    118,
+    290,
+    689,
+    314
+   ]
+  },
+  {
+   "text": "- Operated hand tools for assembly tasks",
+   "score": 0.9879,
+   "box": [
+    126,
+    315,
+    509,
+    340
+   ]
+  },
+  {
+   "text": "- Installed temporary supports",
+   "score": 0.9773,
+   "box": [
+    127,
+    339,
+    406,
+    368
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Some college (no degree), Building Trades, Oakridge Valley University, 2023",
+   "score": 0.9921,
+   "box": [
+    115,
+    445,
+    828,
+    476
+   ]
+  },
+  {
+   "text": "•Studied principles of equipment calibration",
+   "score": 0.9809,
+   "box": [
+    130,
+    475,
+    540,
+    499
+   ]
+  },
+  {
+   "text": "Studied fundamentals of job site layout",
+   "score": 0.9937,
+   "box": [
+    130,
+    496,
+    509,
+    526
+   ]
+  }
+ ]
+}

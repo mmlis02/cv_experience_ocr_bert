@@ -71,3 +71,37 @@ def plot_exp_year_distribution(meta: pd.DataFrame, path=None, cap: int = utils.E
         fig.savefig(path, dpi=150)
     return fig
 
+
+# Box colour per reading-order column: categorical slots 1-3 of the reference palette
+COLUMN_COLORS = {"full": SERIES_1, "left": "#eb6834", "right": "#1baf7a"}
+
+
+def plot_reading_order(record: dict, order: dict, image, ax=None, title=None, crop=True):
+    """CV image with its OCR boxes, numbered in reading order and coloured by column.
+
+    Every box of the same visual line shares one number, so a job title and its
+    dates on the same line read as a single step.
+    """
+    from matplotlib.patches import Rectangle
+
+    if ax is None:
+        _, ax = plt.subplots(figsize=(8, 11))
+    ax.imshow(image)
+    ax.grid(False)
+    ax.axis("off")
+    boxes = [line["box"] for line in record["lines"]]
+    for n, line in enumerate(order["lines"], 1):
+        color = COLUMN_COLORS[line["column"]]
+        for i in line["box_ids"]:
+            x1, y1, x2, y2 = boxes[i]
+            ax.add_patch(Rectangle((x1, y1), x2 - x1, y2 - y1, fill=False, edgecolor=color, linewidth=1.2))
+        x1, y1, _, y2 = boxes[line["box_ids"][0]]
+        ax.text(x1 - 6, (y1 + y2) / 2, str(n), ha="right", va="center", fontsize=7, color="white",
+                bbox={"boxstyle": "round,pad=0.2", "facecolor": color, "edgecolor": "none"})
+    if order["split_x"] is not None:
+        ax.axvline(order["split_x"], color=TEXT_SECONDARY, linestyle="--", linewidth=1)
+    if crop and boxes:
+        ax.set_ylim(min(max(b[3] for b in boxes) + 40, record["height"]), 0)
+    if title:
+        ax.set_title(title, loc="left", fontsize=10)
+    return ax

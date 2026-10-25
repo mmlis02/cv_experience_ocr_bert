@@ -1,0 +1,183 @@
+{
+ "id": "59500",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 9.311,
+ "n_lines": 17,
+ "mean_score": 0.9874,
+ "lines": [
+  {
+   "text": "CORRINE MOORE",
+   "score": 0.9971,
+   "box": [
+    117,
+    89,
+    408,
+    122
+   ]
+  },
+  {
+   "text": "WA, USA | +1-673-647-9449 | corrine.moore@example.com",
+   "score": 0.9804,
+   "box": [
+    116,
+    150,
+    674,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9992,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Open Fields School, 2020.05—2023.01",
+   "score": 0.9855,
+   "box": [
+    116,
+    288,
+    820,
+    318
+   ]
+  },
+  {
+   "text": "- Established instructional leadership protocols",
+   "score": 0.9939,
+   "box": [
+    126,
+    315,
+    559,
+    341
+   ]
+  },
+  {
+   "text": "- Directed curriculum revision cycles",
+   "score": 0.9752,
+   "box": [
+    126,
+    339,
+    464,
+    368
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, New Beginnings School, 2017.082020.05",
+   "score": 0.9968,
+   "box": [
+    116,
+    381,
+    860,
+    411
+   ]
+  },
+  {
+   "text": "- Implemented instructional modifications",
+   "score": 0.9874,
+   "box": [
+    127,
+    409,
+    507,
+    433
+   ]
+  },
+  {
+   "text": "- Designed student support plans",
+   "score": 0.9723,
+   "box": [
+    126,
+    431,
+    436,
+    459
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Learning Meadow Academy, 2012.012014.10",
+   "score": 0.9979,
+   "box": [
+    118,
+    472,
+    897,
+    499
+   ]
+  },
+  {
+   "text": "- Prepared visual teaching aids",
+   "score": 0.9792,
+   "box": [
+    125,
+    497,
+    418,
+    525
+   ]
+  },
+  {
+   "text": "- Conducted reading practice sessions",
+   "score": 0.9773,
+   "box": [
+    127,
+    521,
+    485,
+    551
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    587,
+    267,
+    614
+   ]
+  },
+  {
+   "text": "Master's, Community Education, Sunfield University, 2007",
+   "score": 0.9925,
+   "box": [
+    116,
+    632,
+    653,
+    659
+   ]
+  },
+  {
+   "text": "Bachelor's, Educational Readiness, Meadowway University, 2005",
+   "score": 0.9844,
+   "box": [
+    116,
+    657,
+    723,
+    684
+   ]
+  },
+  {
+   "text": "•Completed coursework in instructional modeling",
+   "score": 0.9769,
+   "box": [
+    130,
+    681,
+    593,
+    710
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of academic support strategies",
+   "score": 0.9901,
+   "box": [
+    131,
+    705,
+    640,
+    736
+   ]
+  }
+ ]
+}

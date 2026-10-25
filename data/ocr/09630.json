@@ -1,0 +1,113 @@
+{
+ "id": "09630",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.609,
+ "n_lines": 10,
+ "mean_score": 0.9902,
+ "lines": [
+  {
+   "text": "ERIK ROBERTS",
+   "score": 0.9839,
+   "box": [
+    117,
+    89,
+    371,
+    123
+   ]
+  },
+  {
+   "text": "CO, USA | +1-420-287-1084 | erik.roberts@example.com",
+   "score": 0.9863,
+   "box": [
+    117,
+    150,
+    648,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    317,
+    270
+   ]
+  },
+  {
+   "text": "Construction Laborers, ClearWay Construction, 2021.08—2023.01",
+   "score": 0.9909,
+   "box": [
+    116,
+    287,
+    722,
+    315
+   ]
+  },
+  {
+   "text": "- Mixed concrete and mortar",
+   "score": 0.9965,
+   "box": [
+    125,
+    314,
+    391,
+    339
+   ]
+  },
+  {
+   "text": "- Assisted with roofing material handling",
+   "score": 0.9855,
+   "box": [
+    127,
+    336,
+    498,
+    368
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Some college (no degree), Construction Services, Skyview University, 2023",
+   "score": 0.9854,
+   "box": [
+    117,
+    447,
+    815,
+    474
+   ]
+  },
+  {
+   "text": "• Completed coursework in basic structural demolition",
+   "score": 0.9808,
+   "box": [
+    132,
+    474,
+    631,
+    498
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of job site inspections",
+   "score": 0.9926,
+   "box": [
+    132,
+    497,
+    556,
+    524
+   ]
+  }
+ ]
+}

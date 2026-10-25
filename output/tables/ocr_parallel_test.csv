@@ -1,0 +1,5 @@
+model,workers,threads_per_worker,n,wall_seconds,wall_seconds_per_cv,failed,speedup_vs_1x8
+mobile,1,8,20,110.5,5.52,0,1.0
+mobile,1,4,20,109.1,5.45,0,1.01
+mobile,2,4,20,70.0,3.5,0,1.58
+mobile,4,2,20,51.5,2.58,0,2.15

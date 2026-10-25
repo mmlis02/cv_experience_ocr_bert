@@ -1,0 +1,213 @@
+{
+ "id": "15714",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 9.396,
+ "n_lines": 20,
+ "mean_score": 0.9858,
+ "lines": [
+  {
+   "text": "KIMBERLY CROSS",
+   "score": 0.9973,
+   "box": [
+    117,
+    91,
+    420,
+    122
+   ]
+  },
+  {
+   "text": "GA, USA | +1-690-627-3173 | kimberly.cross@example.com",
+   "score": 0.9937,
+   "box": [
+    116,
+    150,
+    675,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.999,
+   "box": [
+    118,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Bright Start Academy, 2019.09—2023.01",
+   "score": 0.9928,
+   "box": [
+    117,
+    290,
+    834,
+    317
+   ]
+  },
+  {
+   "text": "- Implemented long-term academic plans",
+   "score": 0.9849,
+   "box": [
+    127,
+    316,
+    507,
+    342
+   ]
+  },
+  {
+   "text": "- Implemented learning system upgrades",
+   "score": 0.9927,
+   "box": [
+    126,
+    339,
+    508,
+    369
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Learning Grove Academy, 2016.042019.09",
+   "score": 0.9875,
+   "box": [
+    116,
+    381,
+    875,
+    411
+   ]
+  },
+  {
+   "text": "- Led curriculum integration projects",
+   "score": 0.989,
+   "box": [
+    126,
+    408,
+    460,
+    433
+   ]
+  },
+  {
+   "text": "- Directed instructional planning processes",
+   "score": 0.9881,
+   "box": [
+    126,
+    432,
+    522,
+    458
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Discovery Grove School, 2012.112016.04",
+   "score": 0.9819,
+   "box": [
+    117,
+    471,
+    863,
+    500
+   ]
+  },
+  {
+   "text": "- Designed learning activities",
+   "score": 0.9692,
+   "box": [
+    125,
+    497,
+    398,
+    526
+   ]
+  },
+  {
+   "text": "- Prepared differentiated worksheets",
+   "score": 0.9741,
+   "box": [
+    127,
+    521,
+    465,
+    550
+   ]
+  },
+  {
+   "text": "Elementary Middle School Teachers, Learning Start Academy, 2009.06—2012.11",
+   "score": 0.9908,
+   "box": [
+    117,
+    565,
+    861,
+    592
+   ]
+  },
+  {
+   "text": "- Provided math drill exercises",
+   "score": 0.9765,
+   "box": [
+    126,
+    587,
+    411,
+    617
+   ]
+  },
+  {
+   "text": "- Scheduled instructional activities",
+   "score": 0.9815,
+   "box": [
+    126,
+    613,
+    444,
+    642
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Master's, Foundational Education, Northview University, 2008",
+   "score": 0.9905,
+   "box": [
+    115,
+    723,
+    686,
+    750
+   ]
+  },
+  {
+   "text": "Bachelor's, Child Studies, Riverhaven University, 2006",
+   "score": 0.965,
+   "box": [
+    117,
+    750,
+    621,
+    774
+   ]
+  },
+  {
+   "text": "•Completed coursework in classroom collaboration",
+   "score": 0.9794,
+   "box": [
+    129,
+    773,
+    610,
+    801
+   ]
+  },
+  {
+   "text": "•Completed coursework in student motivation concepts",
+   "score": 0.9822,
+   "box": [
+    131,
+    798,
+    648,
+    826
+   ]
+  }
+ ]
+}

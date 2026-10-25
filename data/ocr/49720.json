@@ -1,0 +1,103 @@
+{
+ "id": "49720",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 5.692,
+ "n_lines": 9,
+ "mean_score": 0.9926,
+ "lines": [
+  {
+   "text": "JOSEPH BELL",
+   "score": 0.9999,
+   "box": [
+    116,
+    91,
+    350,
+    122
+   ]
+  },
+  {
+   "text": "TX, USA | +1-497-238-7806 | joseph.bell@example.com",
+   "score": 0.9971,
+   "box": [
+    116,
+    149,
+    638,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9997,
+   "box": [
+    117,
+    243,
+    317,
+    270
+   ]
+  },
+  {
+   "text": "Construction Laborers, Unified Craft Builders, 2021.12—2023.01",
+   "score": 0.9857,
+   "box": [
+    118,
+    289,
+    703,
+    313
+   ]
+  },
+  {
+   "text": "- Secured materials with fasteners",
+   "score": 0.9957,
+   "box": [
+    125,
+    314,
+    446,
+    340
+   ]
+  },
+  {
+   "text": "- Installed simple fixtures",
+   "score": 0.9772,
+   "box": [
+    126,
+    338,
+    361,
+    367
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "High school graduate/GED, HVAC Technology, North Ridge High School, 2021",
+   "score": 0.9906,
+   "box": [
+    115,
+    446,
+    846,
+    474
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of foundation systems",
+   "score": 0.9878,
+   "box": [
+    129,
+    473,
+    559,
+    499
+   ]
+  }
+ ]
+}

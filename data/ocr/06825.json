@@ -1,0 +1,113 @@
+{
+ "id": "06825",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.055,
+ "n_lines": 10,
+ "mean_score": 0.9902,
+ "lines": [
+  {
+   "text": "ZARED TRAN",
+   "score": 0.9998,
+   "box": [
+    114,
+    87,
+    336,
+    123
+   ]
+  },
+  {
+   "text": "CA, USA | +1-349-875-9697 | zared.tran@example.com",
+   "score": 0.9789,
+   "box": [
+    116,
+    149,
+    635,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9994,
+   "box": [
+    116,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Accountants Auditors, FairBalance Advisors, 2018.04—2020.12",
+   "score": 0.9939,
+   "box": [
+    115,
+    288,
+    698,
+    313
+   ]
+  },
+  {
+   "text": "- Updated fixed asset registers",
+   "score": 0.9908,
+   "box": [
+    125,
+    313,
+    414,
+    342
+   ]
+  },
+  {
+   "text": "- Recorded cash receipts",
+   "score": 0.9835,
+   "box": [
+    128,
+    338,
+    362,
+    367
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 1.0,
+   "box": [
+    116,
+    404,
+    268,
+    431
+   ]
+  },
+  {
+   "text": "Bachelor's, Financial Management, Clear Ridge University, 2014",
+   "score": 0.989,
+   "box": [
+    115,
+    446,
+    716,
+    475
+   ]
+  },
+  {
+   "text": "•Completed coursework in pension accounting basics",
+   "score": 0.9863,
+   "box": [
+    130,
+    472,
+    633,
+    500
+   ]
+  },
+  {
+   "text": "•Studied fundamentals of sustainability accounting basics",
+   "score": 0.9807,
+   "box": [
+    131,
+    496,
+    669,
+    525
+   ]
+  }
+ ]
+}

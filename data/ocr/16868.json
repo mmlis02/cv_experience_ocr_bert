@@ -1,0 +1,143 @@
+{
+ "id": "16868",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 6.62,
+ "n_lines": 13,
+ "mean_score": 0.9934,
+ "lines": [
+  {
+   "text": "EMILY MOYER",
+   "score": 0.9993,
+   "box": [
+    118,
+    91,
+    351,
+    121
+   ]
+  },
+  {
+   "text": "ID, USA | +1-473-663-1899 | emily.moyer@example.com",
+   "score": 0.9903,
+   "box": [
+    116,
+    149,
+    645,
+    177
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.9998,
+   "box": [
+    117,
+    243,
+    316,
+    270
+   ]
+  },
+  {
+   "text": "Registered Nurses, SunSpring Nursing, 2019.09—2022.06",
+   "score": 0.9837,
+   "box": [
+    115,
+    287,
+    652,
+    318
+   ]
+  },
+  {
+   "text": "- Established care delivery standards",
+   "score": 0.9981,
+   "box": [
+    126,
+    314,
+    471,
+    341
+   ]
+  },
+  {
+   "text": "- Led clinical governance efforts",
+   "score": 0.9842,
+   "box": [
+    127,
+    339,
+    426,
+    367
+   ]
+  },
+  {
+   "text": "Registered Nurses, GentleLife Nursing, 2016.052019.02",
+   "score": 0.9995,
+   "box": [
+    116,
+    381,
+    649,
+    409
+   ]
+  },
+  {
+   "text": "- Monitored patient intake and output",
+   "score": 0.9901,
+   "box": [
+    125,
+    407,
+    470,
+    433
+   ]
+  },
+  {
+   "text": "- Performed wound dressing changes",
+   "score": 0.9962,
+   "box": [
+    127,
+    429,
+    475,
+    459
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    494,
+    267,
+    521
+   ]
+  },
+  {
+   "text": "Associate's degree, Geriatric Care, Amber Hills University, 2004",
+   "score": 0.9913,
+   "box": [
+    116,
+    539,
+    708,
+    567
+   ]
+  },
+  {
+   "text": "• Completed coursework in medication safety",
+   "score": 0.9875,
+   "box": [
+    131,
+    566,
+    551,
+    592
+   ]
+  },
+  {
+   "text": "• Completed coursework in patient-centered care",
+   "score": 0.9949,
+   "box": [
+    132,
+    591,
+    586,
+    617
+   ]
+  }
+ ]
+}

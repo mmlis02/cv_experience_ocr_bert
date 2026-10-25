@@ -1,0 +1,203 @@
+{
+ "id": "26610",
+ "model": "mobile",
+ "det_model": "PP-OCRv5_mobile_det",
+ "rec_model": "en_PP-OCRv5_mobile_rec",
+ "width": 1241,
+ "height": 1754,
+ "seconds": 8.381,
+ "n_lines": 19,
+ "mean_score": 0.9929,
+ "lines": [
+  {
+   "text": "LINDA SWANSON",
+   "score": 0.9999,
+   "box": [
+    118,
+    91,
+    404,
+    121
+   ]
+  },
+  {
+   "text": "MA, USA | +1-596-326-9787 | linda.swanson@example.com",
+   "score": 0.9852,
+   "box": [
+    115,
+    150,
+    675,
+    178
+   ]
+  },
+  {
+   "text": "WORK HISTORY",
+   "score": 0.996,
+   "box": [
+    117,
+    245,
+    315,
+    269
+   ]
+  },
+  {
+   "text": "Registered Nurses, EverHands Health Group, 2020.04-2023.01",
+   "score": 0.9833,
+   "box": [
+    115,
+    287,
+    709,
+    318
+   ]
+  },
+  {
+   "text": "- Directed care coordination strategies",
+   "score": 0.9993,
+   "box": [
+    125,
+    312,
+    482,
+    344
+   ]
+  },
+  {
+   "text": "- Developed patient care algorithms",
+   "score": 0.9746,
+   "box": [
+    127,
+    339,
+    458,
+    370
+   ]
+  },
+  {
+   "text": "Registered Nurses, WellPath Medical Group, 2017.072020.04",
+   "score": 0.9909,
+   "box": [
+    117,
+    382,
+    701,
+    409
+   ]
+  },
+  {
+   "text": "- Managed clinical risk assessments",
+   "score": 0.9865,
+   "box": [
+    126,
+    407,
+    463,
+    433
+   ]
+  },
+  {
+   "text": "- Developed clinical performance dashboards",
+   "score": 0.9963,
+   "box": [
+    129,
+    434,
+    548,
+    457
+   ]
+  },
+  {
+   "text": "Registered Nurses, Harmony Bridge Health, 2014.092017.07",
+   "score": 0.9956,
+   "box": [
+    116,
+    471,
+    693,
+    499
+   ]
+  },
+  {
+   "text": "- Provided catheter and ostomy care",
+   "score": 0.9994,
+   "box": [
+    125,
+    496,
+    467,
+    526
+   ]
+  },
+  {
+   "text": "- Monitored infusion pump settings",
+   "score": 0.9873,
+   "box": [
+    126,
+    521,
+    449,
+    551
+   ]
+  },
+  {
+   "text": "Registered Nurses, OpenPath Nursing Services, 2010.072013.05",
+   "score": 0.9963,
+   "box": [
+    118,
+    566,
+    733,
+    590
+   ]
+  },
+  {
+   "text": "- Assisted with patient mobility",
+   "score": 0.9985,
+   "box": [
+    125,
+    589,
+    410,
+    618
+   ]
+  },
+  {
+   "text": "- Assisted with respiratory treatments",
+   "score": 0.9983,
+   "box": [
+    125,
+    614,
+    473,
+    643
+   ]
+  },
+  {
+   "text": "EDUCATION",
+   "score": 0.9999,
+   "box": [
+    117,
+    681,
+    266,
+    705
+   ]
+  },
+  {
+   "text": "Bachelor's, Health Services Administration, Pine Valley University, 2005",
+   "score": 0.9887,
+   "box": [
+    116,
+    724,
+    782,
+    750
+   ]
+  },
+  {
+   "text": "• Completed coursework in nutrition for health",
+   "score": 0.9951,
+   "box": [
+    133,
+    750,
+    557,
+    774
+   ]
+  },
+  {
+   "text": "Studied principles of evidence-based practice",
+   "score": 0.9947,
+   "box": [
+    132,
+    772,
+    569,
+    801
+   ]
+  }
+ ]
+}
