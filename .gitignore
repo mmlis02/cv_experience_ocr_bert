@@ -1,0 +1,48 @@
+# --- Raw data (sampled CV images + metadata): regenerate with `python -m src.download_data`
+data/raw/*
+!data/raw/.gitkeep
+
+# --- Model weights: regenerate with the training scripts
+models/**
+!models/**/
+!models/**/.gitkeep
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+*.pdparams
+*.pdiparams
+*.pdmodel
+
+# --- Images (CV images must never be pushed). Result figures are the exception.
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.bmp
+*.webp
+*.gif
+!output/figures/**
+
+# --- Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.huggingface/
+.paddlex/
+paddleocr_cache/
+.streamlit/secrets.toml
+
+# --- OS / editor
+.DS_Store
+.vscode/
+.idea/
