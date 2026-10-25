@@ -1,0 +1,6 @@
+model,raw,clean,clean_dropped_lowconf
+Median,3.5019,3.5019,3.5019
+TF-IDF + Ridge,0.847,0.836,0.861
+Embeddings + Ridge,1.3345,1.2593,1.2685
+Fine-tuned BERT,0.4216,0.2508,
+Date rules (bonus),0.0229,0.0229,0.0381

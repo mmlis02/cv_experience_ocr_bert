@@ -177,6 +177,129 @@ def plot_training_curve(history: pd.DataFrame, best_epoch: int, baselines: dict 
     return fig
 
 
+# Categorical slots 1-5 of the reference palette, one fixed colour per model (never cycled)
+MODEL_COLORS = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4"]
+
+
+def _model_colors(models) -> dict:
+    return dict(zip(models, MODEL_COLORS))
+
+
+def plot_pred_vs_true(preds: dict, path=None):
+    """Predicted vs true years per model, with the 45-degree line and a fitted slope."""
+    fig, axes = plt.subplots(1, len(preds), figsize=(4 * len(preds), 4.3), layout="constrained",
+                             sharex=True, sharey=True)
+    for ax, (name, p) in zip(axes, preds.items()):
+        ax.plot([0, utils.EXP_CAP], [0, utils.EXP_CAP], color=TEXT_SECONDARY, linestyle="--", linewidth=1)
+        ax.scatter(p["y_true"], p["y_pred"], s=9, color=SERIES_1, alpha=0.45, edgecolors="none")
+        slope, intercept = np.polyfit(p["y_true"], p["y_pred"], 1)
+        xs = np.array([0, utils.EXP_CAP])
+        ax.plot(xs, intercept + slope * xs, color=SERIES_2, linewidth=1.5)
+        mae = np.abs(p["y_pred"] - p["y_true"]).mean()
+        ax.set_title(f"{name}\nMAE {mae:.2f} · slope {slope:.2f}", loc="left", fontsize=10)
+        ax.set_xlabel("True years")
+        ax.set_aspect("equal")
+        ax.grid(axis="x", visible=True)
+    axes[0].set_ylabel("Predicted years")
+    axes[0].set_xlim(-0.5, utils.EXP_CAP + 0.5)
+    axes[0].set_ylim(-0.5, utils.EXP_CAP + 0.5)
+    fig.text(0.01, -0.09, "Dashed: perfect prediction (45°). Orange: least-squares fit; a slope below 1 means "
+             "predictions are pulled toward the middle.", fontsize=8, color=TEXT_SECONDARY)
+    if path is not None:
+        fig.savefig(path, dpi=150, bbox_inches="tight")
+    return fig
+
+
+def plot_mae_by_group(table: pd.DataFrame, group: str, order, path=None):
+    """Grouped bars: MAE of every model per experience band or occupation."""
+    models = list(dict.fromkeys(table["model"]))
+    colors = _model_colors(models)
+    fig, ax = plt.subplots(figsize=(12, 4.5), layout="constrained")
+    width = 0.8 / len(models)
+    x = np.arange(len(order))
+    for k, model in enumerate(models):
+        t = table[table["model"] == model].set_index(group).reindex(order)
+        bars = ax.bar(x + (k - (len(models) - 1) / 2) * width, t["mae"], width=width * 0.92,
+                      color=colors[model], label=model)
+        ax.bar_label(bars, fmt="%.2f", fontsize=6.5, color=TEXT_SECONDARY, padding=1)
+    labels = [f"{o} years" for o in order] if group == "band" else [_short(o) for o in order]
+    ns = table.drop_duplicates(group).set_index(group)["n"].reindex(order)
+    ax.set_xticks(x, [f"{l}\n(n={n})" for l, n in zip(labels, ns)])
+    ax.set_ylabel("Test MAE (years)")
+    ax.set_title(f"Test MAE by {'true experience band' if group == 'band' else 'occupation'}", loc="left")
+    ax.legend(frameon=False, ncol=len(models), loc="upper center", bbox_to_anchor=(0.5, -0.16), fontsize=9)
+    if path is not None:
+        fig.savefig(path, dpi=150, bbox_inches="tight")
+    return fig
+
+
+def plot_band_confusion(preds: dict, path=None):
+    """Band confusion matrix per model, as row percentages (true band -> predicted band)."""
+    from matplotlib.colors import LinearSegmentedColormap
+    from sklearn.metrics import confusion_matrix
+
+    cmap = LinearSegmentedColormap.from_list("seq", [SURFACE, SERIES_1])
+    fig, axes = plt.subplots(1, len(preds), figsize=(3.6 * len(preds), 3.8), layout="constrained")
+    for ax, (name, p) in zip(axes, preds.items()):
+        cm = confusion_matrix(utils.to_band(p["y_true"]), utils.to_band(p["y_pred"]), labels=utils.BAND_LABELS)
+        pct = cm / cm.sum(axis=1, keepdims=True)
+        ax.imshow(pct, cmap=cmap, vmin=0, vmax=1)
+        for i in range(len(utils.BAND_LABELS)):
+            for j in range(len(utils.BAND_LABELS)):
+                ax.text(j, i, f"{100 * pct[i, j]:.0f}%\n{cm[i, j]}", ha="center", va="center", fontsize=7.5,
+                        color="white" if pct[i, j] > 0.6 else TEXT_PRIMARY)
+        ax.set_xticks(range(4), utils.BAND_LABELS, fontsize=8)
+        ax.set_yticks(range(4), utils.BAND_LABELS, fontsize=8)
+        ax.set_xlabel("Predicted band")
+        ax.set_title(name, loc="left", fontsize=10)
+        ax.grid(False)
+    axes[0].set_ylabel("True band")
+    if path is not None:
+        fig.savefig(path, dpi=150, bbox_inches="tight")
+    return fig
+
+
+def plot_bert_gain(gain: pd.DataFrame, path=None):
+    """MAE reduction of BERT vs each model with its 95% paired-bootstrap CI (dot + whisker)."""
+    fig, ax = plt.subplots(figsize=(8, 0.6 * len(gain) + 1.2), layout="constrained")
+    y = np.arange(len(gain))[::-1]
+    ax.errorbar(gain["mae_reduction"], y, xerr=[gain["mae_reduction"] - gain["ci95_low"],
+                                                  gain["ci95_high"] - gain["mae_reduction"]],
+                fmt="o", color=SERIES_1, ecolor=SERIES_1, elinewidth=2, capsize=4, markersize=8)
+    for yi, (_, r) in zip(y, gain.iterrows()):
+        ax.annotate(f"{r['mae_reduction']:+.2f} [{r['ci95_low']:+.2f}, {r['ci95_high']:+.2f}]", (r["ci95_high"], yi),
+                    xytext=(8, 0), textcoords="offset points", va="center", fontsize=8, color=TEXT_SECONDARY)
+    ax.axvline(0, color=TEXT_SECONDARY, linewidth=1)
+    ax.set_yticks(y, [f"vs {b}" for b in gain["baseline"]])
+    ax.set_xlabel("MAE reduction by BERT (years); > 0 means BERT is better")
+    ax.set_title("BERT's test MAE gain, 95% paired bootstrap CI", loc="left")
+    ax.grid(axis="x", visible=True)
+    ax.grid(axis="y", visible=False)
+    ax.margins(x=0.25)
+    if path is not None:
+        fig.savefig(path, dpi=150, bbox_inches="tight")
+    return fig
+
+
+def plot_fairness(table: pd.DataFrame, path=None):
+    """BERT's mean signed error (predicted - true) per sex and race group, with 95% bootstrap CIs."""
+    t = table[table["model"] == table["model"].iloc[0]]
+    fig, ax = plt.subplots(figsize=(8, 0.5 * len(t) + 1.2), layout="constrained")
+    y = np.arange(len(t))[::-1]
+    ax.errorbar(t["mean_error"], y, xerr=[t["mean_error"] - t["mean_error_ci95_low"],
+                                          t["mean_error_ci95_high"] - t["mean_error"]],
+                fmt="o", color=SERIES_1, ecolor=SERIES_1, elinewidth=2, capsize=4, markersize=7)
+    ax.axvline(0, color=TEXT_SECONDARY, linewidth=1)
+    ax.set_yticks(y, [f"{a}: {g} (n={n})" for a, g, n in zip(t["attribute"], t["group"], t["n"])])
+    ax.set_xlabel("Mean error, predicted - true (years); < 0 = underestimates")
+    ax.set_title(f"{t['model'].iloc[0]}: mean error by group, 95% bootstrap CI", loc="left")
+    ax.grid(axis="x", visible=True)
+    ax.grid(axis="y", visible=False)
+    if path is not None:
+        fig.savefig(path, dpi=150, bbox_inches="tight")
+    return fig
+
+
 # Box colour per reading-order column: categorical slots 1-3 of the reference palette
 COLUMN_COLORS = {"full": SERIES_1, "left": "#eb6834", "right": "#1baf7a"}
 

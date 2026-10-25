@@ -1,0 +1,5 @@
+baseline,baseline_mae,bert_mae,mae_reduction,relative_reduction,ci95_low,ci95_high,significant,conclusion
+Median,3.5019,0.2508,3.2512,0.9284,3.0266,3.4733,True,BERT significantly better
+TF-IDF + Ridge,0.836,0.2508,0.5853,0.7001,0.5306,0.6394,True,BERT significantly better
+Embeddings + Ridge,1.2593,0.2508,1.0085,0.8009,0.9275,1.0871,True,BERT significantly better
+Date rules (bonus),0.0229,0.2508,-0.2279,-9.9562,-0.2468,-0.2096,True,BERT significantly worse

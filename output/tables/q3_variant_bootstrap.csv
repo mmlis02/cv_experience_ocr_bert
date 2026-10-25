@@ -1,0 +1,10 @@
+model,comparison,mae_variant,mae_clean,diff,ci95_low,ci95_high,significant
+Median,raw - clean,3.5019,3.5019,0.0,0.0,0.0,False
+Median,clean_dropped_lowconf - clean,3.5019,3.5019,0.0,0.0,0.0,False
+TF-IDF + Ridge,raw - clean,0.847,0.836,0.011,-0.0136,0.0367,False
+TF-IDF + Ridge,clean_dropped_lowconf - clean,0.861,0.836,0.0249,0.001,0.0481,True
+Embeddings + Ridge,raw - clean,1.3345,1.2593,0.0752,0.0309,0.12,True
+Embeddings + Ridge,clean_dropped_lowconf - clean,1.2685,1.2593,0.0093,-0.02,0.0388,False
+Fine-tuned BERT,raw - clean,0.4216,0.2508,0.1709,0.1428,0.2008,True
+Date rules (bonus),raw - clean,0.0229,0.0229,0.0,0.0,0.0,False
+Date rules (bonus),clean_dropped_lowconf - clean,0.0381,0.0229,0.0152,0.0033,0.0322,True

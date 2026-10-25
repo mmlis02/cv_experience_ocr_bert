@@ -1,0 +1,21 @@
+model,pattern,present,n,mae,mean_error
+Median,gap_between_jobs,False,364,3.7281,-0.105
+Median,gap_between_jobs,True,236,3.1531,-2.3364
+Median,last_job_ended_before_snapshot,False,490,3.6755,-1.8083
+Median,last_job_ended_before_snapshot,True,110,2.7289,2.6955
+TF-IDF + Ridge,gap_between_jobs,False,364,0.8045,-0.3058
+TF-IDF + Ridge,gap_between_jobs,True,236,0.8847,0.4953
+TF-IDF + Ridge,last_job_ended_before_snapshot,False,490,0.8268,-0.0209
+TF-IDF + Ridge,last_job_ended_before_snapshot,True,110,0.8771,0.1441
+Embeddings + Ridge,gap_between_jobs,False,364,1.31,-0.3572
+Embeddings + Ridge,gap_between_jobs,True,236,1.181,0.5077
+Embeddings + Ridge,last_job_ended_before_snapshot,False,490,1.2421,-0.1067
+Embeddings + Ridge,last_job_ended_before_snapshot,True,110,1.3357,0.3823
+Fine-tuned BERT,gap_between_jobs,False,364,0.2191,0.1193
+Fine-tuned BERT,gap_between_jobs,True,236,0.2996,0.096
+Fine-tuned BERT,last_job_ended_before_snapshot,False,490,0.2107,0.0797
+Fine-tuned BERT,last_job_ended_before_snapshot,True,110,0.429,0.2456
+Date rules (bonus),gap_between_jobs,False,364,0.0228,-0.0018
+Date rules (bonus),gap_between_jobs,True,236,0.0231,-0.003
+Date rules (bonus),last_job_ended_before_snapshot,False,490,0.0219,-0.0009
+Date rules (bonus),last_job_ended_before_snapshot,True,110,0.0274,-0.0085
