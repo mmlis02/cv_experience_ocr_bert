@@ -1,0 +1,19 @@
+{
+  "model": "rules",
+  "variant": "raw",
+  "train_seconds": 0.0,
+  "inference_seconds_per_cv": 9.165416704490781e-06,
+  "reference_date": "2023.01",
+  "val_cvs_without_ranges": 0,
+  "val_mean_ranges_per_cv": 2.415,
+  "val": {
+    "mae": 0.0209398163387997,
+    "rmse": 0.024403922789595217,
+    "acc_1": 1.0,
+    "acc_2": 1.0,
+    "acc_3": 1.0,
+    "band_accuracy": 0.9833333333333333,
+    "band_macro_f1": 0.9847987663539127,
+    "r2": 0.9999700064971768
+  }
+}

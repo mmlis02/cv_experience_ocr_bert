@@ -17,6 +17,7 @@ exp_year is clipped to [0, EXP_CAP].
 
 Usage:
     python -m src.preprocessing
+    python -m src.preprocessing --token-lengths     # DistilBERT tokens per CV
 """
 
 import json
@@ -225,6 +226,24 @@ def confidence_table(lines: pd.DataFrame) -> pd.DataFrame:
     return table.reset_index().assign(bin=lambda d: d["bin"].astype(str)).round(4)
 
 
+def token_lengths(tokenizer_name: str = "distilbert-base-uncased") -> pd.DataFrame:
+    """Tokens per CV (with [CLS]/[SEP]) for every text variant, and how many exceed 512."""
+    from transformers import AutoTokenizer
+
+    tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
+    rows = []
+    for variant in utils.VARIANTS:
+        df = pd.read_csv(utils.PROCESSED_DIR / f"{variant}.csv", dtype={"id": str})
+        n = np.array([len(ids) for ids in tokenizer(df["text"].tolist())["input_ids"]])
+        rows.append({"variant": variant, "tokenizer": tokenizer_name, "mean": n.mean(), "median": np.median(n),
+                     "p95": np.percentile(n, 95), "p99": np.percentile(n, 99), "max": int(n.max()),
+                     "n_over_128": int((n > 128).sum()), "n_over_256": int((n > 256).sum()),
+                     "n_over_512": int((n > 512).sum())})
+    table = pd.DataFrame(rows).round(1)
+    table.to_csv(utils.TABLES_DIR / "token_lengths.csv", index=False)
+    return table
+
+
 def main() -> None:
     from src.visualization import plot_confidence
 
@@ -268,4 +287,11 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--token-lengths", action="store_true", help="only measure DistilBERT tokens per CV")
+    if parser.parse_args().token_lengths:
+        print(token_lengths().to_string(index=False))
+    else:
+        main()

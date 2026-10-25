@@ -1,0 +1,49 @@
+{
+  "model": "tfidf",
+  "variant": "clean_dropped_lowconf",
+  "best": {
+    "features": "word+char",
+    "keep_numbers": true,
+    "alpha": 0.1
+  },
+  "best_val_mae_by_setting": [
+    {
+      "features": "word",
+      "keep_numbers": false,
+      "alpha": 1.0,
+      "val_mae": 1.6835
+    },
+    {
+      "features": "word",
+      "keep_numbers": true,
+      "alpha": 0.1,
+      "val_mae": 1.0262
+    },
+    {
+      "features": "word+char",
+      "keep_numbers": false,
+      "alpha": 3.1623,
+      "val_mae": 1.6738
+    },
+    {
+      "features": "word+char",
+      "keep_numbers": true,
+      "alpha": 0.1,
+      "val_mae": 0.8688
+    }
+  ],
+  "n_features": 26976,
+  "tuning_seconds": 29.097683417028747,
+  "train_seconds": 1.4132052499917336,
+  "inference_seconds_per_cv": 0.00037138819500493505,
+  "val": {
+    "mae": 0.8687663085247535,
+    "rmse": 1.128566310336422,
+    "acc_1": 0.6566666666666666,
+    "acc_2": 0.935,
+    "acc_3": 0.9816666666666667,
+    "band_accuracy": 0.8633333333333333,
+    "band_macro_f1": 0.870903080439248,
+    "r2": 0.935855109651374
+  }
+}
