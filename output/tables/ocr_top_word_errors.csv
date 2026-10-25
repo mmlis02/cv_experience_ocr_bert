@@ -1,0 +1,26 @@
+reference (digits as #),ocr (digits as #),count
+####.##-####.##,####.######.##,4939
+api,apl,31
+####.##-####.##,####.##-####.#,22
+####.##-####.##,####.##-####.,13
+ci,cl,13
+ui,ul,11
+middle,midle,8
+ci/cd,cl/cd,4
+usa,,3
+"ny,","ny,usa",2
+jill.vega@example.com,jll.vega@example.com,1
+####.##-####.##,####.######.#,1
+ci/cd,cil/cd,1
+joshua.osborne@example.com,joshua.#sborne@example.com,1
+jonathan.lloyd@example.com,jonathan.iloyd@example.com,1
+rest,restendpoints,1
+endpoints,,1
+jenny.olson@example.com,jenny.#lson@example.com,1
+britney.osborne@example.com,britney.#sborne@example.com,1
+jillian.vaughan@example.com,jllian.vaughan@example.com,1
+elizabeth.lloyd@example.com,elizabeth.iloyd@example.com,1
+willow,wilow,1
+asa.lloyd@example.com,asa.iloyd@example.com,1
+derek.dillon@example.com,derek.dilon@example.com,1
+scaffolding,scaffoldinginspections,1

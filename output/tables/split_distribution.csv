@@ -1,0 +1,4 @@
+split,n,share,exp_year_mean,exp_year_median,band_0-2,band_3-5,band_6-10,band_11-20,registered_nurses,elementary_middle_school_teachers,software_developers,accountants_auditors,construction_laborers
+train,2800,0.7,6.508,5.544,0.25,0.286,0.304,0.16,560,561,560,560,559
+val,600,0.15,6.54,5.683,0.252,0.285,0.303,0.16,120,120,120,120,120
+test,600,0.15,6.527,5.624,0.248,0.288,0.303,0.16,120,119,120,120,121

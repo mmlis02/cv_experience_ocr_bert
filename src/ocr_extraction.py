@@ -340,13 +340,15 @@ def compare_models(ids, models=("mobile", "server"), cpu_threads=DEFAULT_THREADS
             ok_fixed, _ = year_recall(repair_date_ranges(text), ref[cv_id])
             rows.append({"model": model, "id": cv_id, "seconds": record["seconds"],
                          "mean_score": record["mean_score"], "cer": cer(text, ref[cv_id]),
-                         "wer": wer(text, ref[cv_id]), "years_ok": ok, "years_ok_after_date_fix": ok_fixed,
+                         "wer": wer(text, ref[cv_id]), "cer_after_date_fix": cer(repair_date_ranges(text), ref[cv_id]),
+                         "wer_after_date_fix": wer(repair_date_ranges(text), ref[cv_id]), "years_ok": ok, "years_ok_after_date_fix": ok_fixed,
                          "years_total": total})
     per_cv = pd.DataFrame(rows)
     per_cv.to_csv(utils.TABLES_DIR / "ocr_model_comparison_per_cv.csv", index=False)
     table = per_cv.groupby("model").agg(
         n=("id", "size"), seconds_per_cv=("seconds", "mean"), mean_confidence=("mean_score", "mean"),
-        cer=("cer", "mean"), wer=("wer", "mean"), years_ok=("years_ok", "sum"),
+        cer=("cer", "mean"), wer=("wer", "mean"), cer_after_date_fix=("cer_after_date_fix", "mean"),
+        wer_after_date_fix=("wer_after_date_fix", "mean"), years_ok=("years_ok", "sum"),
         years_ok_after_date_fix=("years_ok_after_date_fix", "sum"), years_total=("years_total", "sum"))
     table["pct_years_correct"] = 100 * table["years_ok"] / table["years_total"]
     table["pct_years_correct_after_date_fix"] = 100 * table["years_ok_after_date_fix"] / table["years_total"]
