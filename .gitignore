@@ -42,6 +42,9 @@ __pycache__/
 paddleocr_cache/
 .streamlit/secrets.toml
 
+# --- Personal Claude Code settings
+.claude/settings.local.json
+
 # --- OS / editor
 .DS_Store
 .vscode/

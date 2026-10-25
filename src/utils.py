@@ -9,6 +9,22 @@ import torch
 
 SEED = 42
 
+# Target cap: exp_year and predictions are clipped to [0, EXP_CAP]
+EXP_CAP = 20
+
+# Experience bands as gap-free intervals on the continuous (clipped) target:
+# [0, 3), [3, 6), [6, 11), [11, EXP_CAP] -- the assignment's 0-2, 3-5, 6-10, 11-20
+BAND_EDGES = [0, 3, 6, 11]
+BAND_LABELS = ["0-2", "3-5", "6-10", "11-20"]
+
+OCCUPATIONS = [
+    "registered_nurses",
+    "elementary_middle_school_teachers",
+    "software_developers",
+    "accountants_auditors",
+    "construction_laborers",
+]
+
 # Project paths (all relative to the repository root)
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -37,6 +53,13 @@ def set_seed(seed: int = SEED) -> None:
     torch.manual_seed(seed)
     if torch.backends.mps.is_available():
         torch.mps.manual_seed(seed)
+
+
+def to_band(years) -> np.ndarray:
+    """Map years of experience (scalar or array) to band labels; values are clipped to [0, EXP_CAP] first."""
+    clipped = np.clip(np.asarray(years, dtype=float), 0, EXP_CAP)
+    idx = np.searchsorted(BAND_EDGES, clipped, side="right") - 1
+    return np.asarray(BAND_LABELS)[idx]
 
 
 def get_device() -> str:

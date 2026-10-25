@@ -1,0 +1,45 @@
+{
+  "n_per_occupation": 800,
+  "buffer_size": 5000,
+  "seed": 42,
+  "total_seconds": 564.0,
+  "mean_image_kb": 170.3,
+  "total_images_mb": 665.3,
+  "occupations": [
+    {
+      "occupation": "registered_nurses",
+      "n": 800,
+      "new_images": 795,
+      "seconds": 82.7,
+      "skipped": false
+    },
+    {
+      "occupation": "elementary_middle_school_teachers",
+      "n": 800,
+      "new_images": 795,
+      "seconds": 230.8,
+      "skipped": false
+    },
+    {
+      "occupation": "software_developers",
+      "n": 800,
+      "new_images": 795,
+      "seconds": 90.5,
+      "skipped": false
+    },
+    {
+      "occupation": "accountants_auditors",
+      "n": 800,
+      "new_images": 795,
+      "seconds": 81.5,
+      "skipped": false
+    },
+    {
+      "occupation": "construction_laborers",
+      "n": 800,
+      "new_images": 795,
+      "seconds": 72.6,
+      "skipped": false
+    }
+  ]
+}
