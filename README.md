@@ -18,6 +18,7 @@ Contents:
 11. [Limitations and business applications](#11-limitations-and-business-applications)
 12. [How to reproduce](#12-how-to-reproduce)
 13. [How to run the app](#13-how-to-run-the-streamlit-app)
+14. [Video](#video)
 
 ---
 
@@ -379,6 +380,12 @@ The app has four tabs:
 | **Interactive Estimator** | upload a CV image or PDF; browse test CVs; good and bad predictions |
 
 The app reads results from `output/` and never retrains. Tab 4 needs the trained models in `models/` (step 5–6 above). Tab 2 shows any CV with its boxes if `data/raw/images/` is present, otherwise the saved figures.
+
+---
+
+## Video
+
+The presentation video, a pitch of the system in under 5 minutes, is at **https://youtu.be/1-TVtnyfHmA**. The link is also in `video/link.txt`.
 
 ---
 
