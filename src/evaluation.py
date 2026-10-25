@@ -376,6 +376,23 @@ def variant_sensitivity() -> tuple[pd.DataFrame, pd.DataFrame]:
     return table.round(4).reset_index(), pd.DataFrame(boots).round(4)
 
 
+def threshold_errors(preds: dict, thresholds=(3, 5, 10)) -> pd.DataFrame:
+    """What errors cost in practice: large misses, over- vs underestimates, and wrong decisions at
+    "N+ years required" thresholds (wrongly rejected = true >= N but predicted < N)."""
+    rows = []
+    for model in MODELS:
+        p = preds[model]
+        err = p["y_pred"] - p["y_true"]
+        row = {"model": LABELS[model], "n": len(p), "errors_over_2y": int((err.abs() > 2).sum()),
+               "errors_over_5y": int((err.abs() > 5).sum()), "max_abs_error": err.abs().max(),
+               "share_overestimated": (err > 0).mean(), "share_underestimated": (err < 0).mean()}
+        for t in thresholds:
+            row[f"wrongly_rejected_{t}y"] = int(((p["y_true"] >= t) & (p["y_pred"] < t)).sum())
+            row[f"wrongly_passed_{t}y"] = int(((p["y_true"] < t) & (p["y_pred"] >= t)).sum())
+        rows.append(row)
+    return pd.DataFrame(rows).round(4)
+
+
 def fairness(preds: dict) -> pd.DataFrame:
     meta = pd.read_csv(utils.RAW_DIR / "metadata.csv", dtype={"id": str})[["id", "sex", "race"]]
     rows = []
@@ -430,6 +447,7 @@ def main() -> None:
     q3_boot.to_csv(T / "q3_variant_bootstrap.csv", index=False)
     q4 = fairness(preds)
     q4.to_csv(T / "q4_fairness.csv", index=False)
+    threshold_errors(preds).to_csv(T / "q4_error_costs.csv", index=False)
 
     labelled = {LABELS[m]: preds[m] for m in MODELS}
     viz.plot_pred_vs_true(labelled, F / "pred_vs_true.png")

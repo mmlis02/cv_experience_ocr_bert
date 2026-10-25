@@ -1,0 +1,6 @@
+model,n,errors_over_2y,errors_over_5y,max_abs_error,share_overestimated,share_underestimated,wrongly_rejected_3y,wrongly_passed_3y,wrongly_rejected_5y,wrongly_passed_5y,wrongly_rejected_10y,wrongly_passed_10y
+Median,600,396,128,14.4559,0.4967,0.5033,0,149,0,262,121,0
+TF-IDF + Ridge,600,35,1,5.732,0.505,0.495,7,17,24,33,7,9
+Embeddings + Ridge,600,108,9,6.1815,0.535,0.465,26,30,30,43,2,12
+Fine-tuned BERT,600,0,0,1.5944,0.6317,0.3633,0,12,2,13,1,1
+Date rules (bonus),600,0,0,0.388,0.4733,0.52,0,4,0,3,0,0

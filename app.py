@@ -302,40 +302,176 @@ def tab_results():
         "extremes (seniors 1.16 → 0.29 years), where the baselines are pulled toward the middle, and it is uniform "
         "across occupations.")
 
-    st.subheader("Question 1 · BERT's gain and what it learns")
-    gain = table("bert_gain_bootstrap.csv")
-    figure(viz.plot_bert_gain(gain))
-    st.dataframe(gain, hide_index=True, width="stretch")
-    why("Paired bootstrap, 2,000 resamples of the same test CVs, 95% CI. BERT's reduction is significant against every "
-        "learned baseline (−0.59 years vs TF-IDF); against the date rules it is significantly worse (+0.23).")
-    st.markdown("**Probe on 20 test CVs.** The expected change comes from the date rules: delete one job → minus its "
-                "duration; shift every date +5 years → 0 (durations do not change).")
-    st.dataframe(table("q1_probe_summary.csv"), hide_index=True, width="stretch")
-    st.markdown("BERT moves in the right direction when a job is deleted (20/20), but by less than the job's length "
-                "and uncorrelated with it. Shifting dates into the future makes it drop 1.45 years. It relies partly "
-                "on absolute years and on the number of jobs; only the rules read dates like a recruiter.")
+    question_1()
+    question_2()
+    question_3()
+    question_4()
 
+
+PROBE_VERDICTS = {
+    "Median": "Ignores the text: never moves. Reads nothing.",
+    "TF-IDF + Ridge": "Moves on deletion (fewer job lines) but not by the job's length, and drops when years "
+                      "shift: reads **vocabulary**, including year tokens as words.",
+    "Embeddings + Ridge": "Same pattern: reacts to having less text, not to the dates' arithmetic: **vocabulary / "
+                          "meaning**, not dates.",
+    "Fine-tuned BERT": "Right direction on every deletion but only ~2/3 of the size and uncorrelated with the job's "
+                       "length; drops ~1.5 years when dates shift: **partly dates, partly absolute-year and "
+                       "job-count cues**. It has not learned the arithmetic.",
+    "Date rules (bonus)": "Moves exactly as expected in both edits: **reads dates** like a recruiter.",
+}
+
+
+def question_1():
+    st.subheader("Question 1 · What does BERT learn that the baselines cannot?")
+    gain = table("bert_gain_bootstrap.csv").set_index("baseline")
+    st.markdown("**How much does BERT reduce MAE, and is it significant?** Paired bootstrap, 2,000 resamples of the "
+                "same 600 test CVs, 95% CI:")
+    st.markdown("\n".join(
+        f"- vs **{b}**: {r['mae_reduction']:+.2f} years [{r['ci95_low']:+.2f}, {r['ci95_high']:+.2f}]: {r['conclusion']}"
+        for b, r in gain.iterrows()))
+    figure(viz.plot_bert_gain(gain.reset_index()))
+
+    st.markdown("**Where does the gain come from?** Test MAE by true experience band:")
+    band = table("mae_by_band.csv").pivot(index="model", columns="band", values="mae")
+    band = band.reindex(list(LABELS.values()))[utils.BAND_LABELS]
+    st.dataframe(band.round(2), width="stretch")
+    st.markdown(f"BERT's gain over TF-IDF is largest for **seniors** ({band.loc['TF-IDF + Ridge', '11-20']:.2f} → "
+                f"{band.loc['Fine-tuned BERT', '11-20']:.2f} years) and **juniors** "
+                f"({band.loc['TF-IDF + Ridge', '0-2']:.2f} → {band.loc['Fine-tuned BERT', '0-2']:.2f}). Those are the "
+                "extremes where the baselines are pulled toward the middle (fitted slope: embeddings 0.86, TF-IDF "
+                "0.92, BERT 0.99). Mid-career CVs gain too.")
+
+    st.markdown("**Probe on 20 test CVs: does each model move like a recruiter?** The expected change comes from "
+                "the date rules: delete one job → minus its duration; shift every date +5 years → 0 (durations do "
+                "not change, and there are no 'Present' end dates).")
+    probe = table("q1_probe_summary.csv")
+    wide = probe.pivot(index="model", columns="experiment", values="mean_model_change").reindex(list(LABELS.values()))
+    delete = probe[probe["experiment"] == "delete_one_job"].set_index("model")
+    view = pd.DataFrame({
+        "delete one job: expected": delete["mean_expected_change"],
+        "delete one job: model moves": wide["delete_one_job"],
+        "right direction": delete["share_moving_right_direction"],
+        "corr. with job length": delete["corr_with_expected"],
+        "shift +5 years: expected": 0.0,
+        "shift +5 years: model moves": wide["shift_plus_5_years"],
+        "verdict": pd.Series(PROBE_VERDICTS),
+    }).reindex(list(LABELS.values()))
+    st.dataframe(view.round(2), width="stretch")
+    st.markdown("**Conclusion.** Only the rules read dates the way a recruiter does. TF-IDF and the embeddings react "
+                "to vocabulary and text length. BERT is the best learned model, but its predictions also depend on "
+                "absolute years (later years look like a recent start, because the data ends in 2023.01) and on "
+                "the number of job lines, not on subtracting dates. That is why its 10 largest errors are all career "
+                "gaps, where the span of years and the sum of job durations differ.")
+
+
+def question_2():
+    st.subheader("Question 2 · How much does OCR noise cost?")
+    q = table("ocr_quality_by_occupation.csv").set_index("occupation").loc["all"]
+    st.markdown(f"""
+**How good is the OCR?** CER **{100 * q['cer_mean']:.2f}%**, WER **{100 * q['wer_mean']:.1f}%**. Only
+**{q['pct_years_correct']:.1f}%** of reference years appear as is, and **{q['pct_years_correct_after_date_fix']:.3f}%**
+after re-inserting the dash the OCR drops in date ranges (`2020.112023.01` → `2020.11-2023.01`). It fails almost
+only there (98.5% of character errors are on job title + date lines), plus `i`→`l` in acronyms and dates cut off
+in the image itself.
+""")
+    q2 = table("q2_ocr_vs_reference.csv")
+    st.markdown("**Each clean-trained model evaluated twice:** on the OCR test text and on the reference text of "
+                "the same CVs.")
+    st.dataframe(q2, hide_index=True, width="stretch")
+    q3 = table("q3_variant_mae.csv").set_index("model")
+    st.markdown(f"""
+**Which model is most robust, and why?** Among the learned models, **TF-IDF + Ridge** is the most robust.
+- Its OCR-vs-reference gap is +0.002 years (not significant).
+- On the unrepaired raw OCR it loses only {q3.loc['TF-IDF + Ridge', 'raw'] - q3.loc['TF-IDF + Ridge', 'clean']:+.3f}
+  years.
+- Its character n-grams are redundant: a misread or missing character changes a handful of n-grams out of hundreds,
+  and the pieces of a glued date (`2020.`, `.11`, `2023`) still match the training vocabulary.
+
+**BERT** is robust once dates are repaired (−0.007 years, slightly *better* on OCR text, which is what it was trained
+on), but it is the **least** robust to unrepaired noise: {q3.loc['Fine-tuned BERT', 'raw'] - q3.loc['Fine-tuned BERT', 'clean']:+.2f}
+years on raw text (Question 3). It needs well-separated dates to approximate the arithmetic. The **date rules** are
+equally robust by design: their regex accepts a missing separator.
+""")
+
+
+def question_3():
+    st.subheader("Question 3 · Methodological sensitivity: OCR cleaning")
+    st.markdown("Each model is trained **and** tested on raw OCR (no repair), cleaned OCR, and cleaned OCR without "
+                "lines below 0.97 confidence. BERT was trained on raw and clean only.")
     c1, c2 = st.columns(2)
     with c1:
-        st.subheader("Question 2 · OCR vs reference text")
-        st.dataframe(table("q2_ocr_vs_reference.csv"), hide_index=True, width="stretch")
-        why("Each clean-trained model scored on the OCR text and on the reference text of the same test CVs. "
-            "After the date repair, OCR noise costs less than 0.015 years for every model.")
-    with c2:
-        st.subheader("Question 3 · Text cleaning sensitivity")
         st.dataframe(table("q3_variant_mae.csv"), hide_index=True, width="stretch")
+    with c2:
         st.dataframe(table("q3_variant_bootstrap.csv"), hide_index=True, width="stretch")
-        why("Each model trained and tested on raw OCR, cleaned OCR, and cleaned OCR without low-confidence lines. "
-            "BERT loses 0.17 years on raw text (glued dates). That is significant against test noise, but each "
-            "variant was trained once, so the size should be confirmed with more seeds.")
+    st.markdown("""
+- **BERT** is the most sensitive model: 0.42 with raw vs 0.25 with clean (+0.17 years, CI [0.14, 0.20]).
+- **Embeddings** lose 0.08 years with raw (significant). **TF-IDF** loses only +0.01 (not significant).
+- **Dropping low-confidence lines** slightly hurts (TF-IDF +0.02, rules +0.015): those lines are correct, and some
+  carry job dates.
 
-    st.subheader("Question 4 · Fairness check")
+The bootstrap covers test noise only. Each variant was trained once, and BERT's validation MAE moved by 0.05–0.2
+years between epochs, so the size of the raw-vs-clean gap should be confirmed with more seeds.
+""")
+
+
+def question_4():
+    st.subheader("Question 4 · Business value, fairness and ethics")
+    cost = table("q4_error_costs.csv").set_index("model")
+    counts = [c for c in cost.columns if c.startswith(("wrongly_", "errors_"))]
+    # Plain dicts keep the counts as ints (a mixed-type row would turn them into floats)
+    b = {**cost.loc["Fine-tuned BERT"].to_dict(), **cost.loc["Fine-tuned BERT", counts].astype(int).to_dict()}
+    t = {**cost.loc["TF-IDF + Ridge"].to_dict(), **cost.loc["TF-IDF + Ridge", counts].astype(int).to_dict()}
+    st.markdown(f"""
+**Who could use it, and for what?**
+- **Recruiting agencies and job boards:** pre-fill the "years of experience" field of a profile from an uploaded CV,
+  for the candidate or a recruiter to confirm.
+- **Public employment services:** the same, during registration.
+- **HR teams screening thousands of CVs:** sort or route CVs for a human to read.
+
+Pre-filling a field is low risk. **Deciding who gets an interview is not**: a wrong number becomes a silent
+rejection.
+
+**What does an error of ±2 or ±5 years cost?** (600 test CVs)
+- **±2 years** hardly matters for a profile field, but it matters at hard requirements. At a **"5+ years required"**
+  cut-off, BERT puts **{b['wrongly_rejected_5y'] + b['wrongly_passed_5y']} CVs** on the wrong side
+  ({b['wrongly_passed_5y']} wrongly passed, {b['wrongly_rejected_5y']} wrongly rejected); TF-IDF puts
+  {t['wrongly_rejected_5y'] + t['wrongly_passed_5y']} ({t['wrongly_passed_5y']} passed, {t['wrongly_rejected_5y']} rejected).
+- BERT makes **{b['errors_over_2y']} errors above 2 years** (max {b['max_abs_error']:.1f}); TF-IDF makes {t['errors_over_2y']}.
+- **±5 years** misplaces a candidate by a whole seniority level (junior vs senior): wrong interviews, wrong salary
+  band. BERT makes {b['errors_over_5y']} such errors here, TF-IDF {t['errors_over_5y']},
+  embeddings {int(cost.loc['Embeddings + Ridge', 'errors_over_5y'])} and the median
+  {int(cost.loc['Median', 'errors_over_5y'])}. On messier real CVs they would be more frequent.
+
+**Which error is worse?** In screening, **underestimating** is worse for the candidate: the rejection is invisible
+and cannot be contested, and it falls hardest on people with career gaps or non-standard dates. **Overestimating**
+mostly costs the employer an unsuitable interview. BERT overestimates {100 * b['share_overestimated']:.0f}% of the time,
+so its threshold mistakes are mostly "wrongly passed", the less harmful kind. Any use should still show the
+extracted dates next to the number and let a person correct it.
+""")
+    st.markdown("**Fairness check.** Sex and race are never model inputs, and names are removed.")
     fair = table("q4_fairness.csv")
     figure(viz.plot_fairness(fair))
     st.dataframe(fair, hide_index=True, width="stretch")
-    why("BERT's mean error (predicted − true) per group, 95% bootstrap CI. MAE is the same in every group (0.24–0.26). "
-        "The mean error ranges from −0.02 (Black, n=47) to +0.15 years (Asian/Pacific Islander), about 2 months; "
-        "the date rules show no difference. Sex and race are not inputs, but career patterns correlate with them.")
+    st.markdown("""
+- **MAE is the same in every group** (0.24–0.26). BERT slightly **overestimates** most groups: women +0.08, men
+  +0.14, Asian/Pacific Islander +0.15, White +0.11. For Black candidates the mean error is −0.02, but n = 47.
+- The sex intervals overlap; the largest gap is about 0.18 years (≈ 2 months). The date rules show no group
+  difference.
+- **Why it can happen without the attributes:** BERT's bias depends on career patterns, which correlate with group
+  membership in this population-based data. It overestimates careers with a gap after the last job, and men have
+  that pattern more often (19.9% vs 16.7%). Mean experience also differs (Asian/PI 7.5 vs White 6.3 years).
+""")
+    st.markdown("""
+**Limitations, and why it must never decide on hiring.**
+- **Synthetic CVs from a single, single-column template.** The target is exactly the sum of the listed job
+  durations, so these numbers are an upper bound for real CVs (free-form dates, part-time and overlapping jobs,
+  multi-column layouts, scans).
+- **Narrow scope:** only **5 occupations**, generated from **U.S.** statistics, **English only**.
+- **One training run** per model and variant.
+- **Never a decision system.** Its errors concentrate on non-standard careers (gaps), the fairness check shows it
+  can treat groups slightly differently without seeing sex or race, and a candidate cannot see or contest an
+  automatic number. It may pre-fill or route; **a person must make every hiring decision**.
+""")
 
 
 # ------------------------------------------------------------------ tab 4
